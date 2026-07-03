@@ -1,0 +1,305 @@
+[
+  {
+    "strategy": "Fixed 10%SL / 8%TP / 30d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 47.1,
+    "avg_return_gross": 1.27,
+    "avg_return_net": 1.07,
+    "profit_factor": 1.25,
+    "avg_hold_days": 23.9,
+    "exit_breakdown": {
+      "time_exit": 427,
+      "stop_loss": 252
+    },
+    "final_equity": 2457491.0,
+    "total_return_pct": 145.7,
+    "cagr_pct": 240.3,
+    "max_drawdown_pct": -35.8,
+    "calmar": 6.71,
+    "winning_days_pct": 50.6,
+    "avg_sl_pct": 10.0,
+    "avg_tp_pct": 0,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 44.2,
+        "avg_return": 0.46,
+        "profit_factor": 1.1
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 57.2,
+        "avg_return": 3.2,
+        "profit_factor": 1.88
+      }
+    }
+  },
+  {
+    "strategy": "ATR 3\u00d7SL / 2\u00d7TP / 30d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 64.1,
+    "avg_return_gross": 1.01,
+    "avg_return_net": 0.82,
+    "profit_factor": 1.25,
+    "avg_hold_days": 12.7,
+    "exit_breakdown": {
+      "take_profit": 410,
+      "stop_loss": 194,
+      "time_exit": 75
+    },
+    "final_equity": 2112636.0,
+    "total_return_pct": 111.3,
+    "cagr_pct": 176.9,
+    "max_drawdown_pct": -28.6,
+    "calmar": 6.2,
+    "winning_days_pct": 60.8,
+    "avg_sl_pct": 10.4,
+    "avg_tp_pct": 6.9,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 62.2,
+        "avg_return": 0.52,
+        "profit_factor": 1.15
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 70.4,
+        "avg_return": 1.87,
+        "profit_factor": 1.69
+      }
+    }
+  },
+  {
+    "strategy": "ATR 2\u00d7SL / 2\u00d7TP / 30d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 55.5,
+    "avg_return_gross": 0.76,
+    "avg_return_net": 0.57,
+    "profit_factor": 1.19,
+    "avg_hold_days": 9.7,
+    "exit_breakdown": {
+      "take_profit": 361,
+      "stop_loss": 288,
+      "time_exit": 30
+    },
+    "final_equity": 1771983.0,
+    "total_return_pct": 77.2,
+    "cagr_pct": 118.0,
+    "max_drawdown_pct": -35.6,
+    "calmar": 3.31,
+    "winning_days_pct": 55.4,
+    "avg_sl_pct": 7.0,
+    "avg_tp_pct": 6.9,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 53.9,
+        "avg_return": 0.36,
+        "profit_factor": 1.12
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 61.2,
+        "avg_return": 1.28,
+        "profit_factor": 1.45
+      }
+    }
+  },
+  {
+    "strategy": "ATR 3\u00d7SL / 3\u00d7TP / 30d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 52.9,
+    "avg_return_gross": 0.57,
+    "avg_return_net": 0.38,
+    "profit_factor": 1.09,
+    "avg_hold_days": 16.5,
+    "exit_breakdown": {
+      "take_profit": 281,
+      "stop_loss": 240,
+      "time_exit": 158
+    },
+    "final_equity": 1514010.0,
+    "total_return_pct": 51.4,
+    "cagr_pct": 75.9,
+    "max_drawdown_pct": -41.9,
+    "calmar": 1.81,
+    "winning_days_pct": 53.0,
+    "avg_sl_pct": 10.4,
+    "avg_tp_pct": 10.4,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 49.7,
+        "avg_return": -0.15,
+        "profit_factor": 0.96
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 63.8,
+        "avg_return": 2.22,
+        "profit_factor": 1.69
+      }
+    }
+  },
+  {
+    "strategy": "ATR 3\u00d7SL / 2\u00d7TP + Trail / 30d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 43.9,
+    "avg_return_gross": -0.58,
+    "avg_return_net": -0.77,
+    "profit_factor": 0.72,
+    "avg_hold_days": 11.7,
+    "exit_breakdown": {
+      "trail_stop": 498,
+      "stop_loss": 129,
+      "time_exit": 52
+    },
+    "final_equity": -52105.0,
+    "total_return_pct": -105.2,
+    "cagr_pct": -100.0,
+    "max_drawdown_pct": -103.9,
+    "calmar": -0.96,
+    "winning_days_pct": 46.4,
+    "avg_sl_pct": 10.4,
+    "avg_tp_pct": 0,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 42.9,
+        "avg_return": -1.1,
+        "profit_factor": 0.62
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 47.4,
+        "avg_return": 0.36,
+        "profit_factor": 1.16
+      }
+    }
+  },
+  {
+    "strategy": "ATR 3\u00d7SL / Trail only / 30d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 49.8,
+    "avg_return_gross": -0.62,
+    "avg_return_net": -0.81,
+    "profit_factor": 0.73,
+    "avg_hold_days": 13.4,
+    "exit_breakdown": {
+      "trail_stop": 436,
+      "stop_loss": 171,
+      "time_exit": 72
+    },
+    "final_equity": -99185.0,
+    "total_return_pct": -109.9,
+    "cagr_pct": -100.0,
+    "max_drawdown_pct": -106.7,
+    "calmar": -0.94,
+    "winning_days_pct": 45.8,
+    "avg_sl_pct": 10.4,
+    "avg_tp_pct": 0,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 48.8,
+        "avg_return": -1.1,
+        "profit_factor": 0.65
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 53.3,
+        "avg_return": 0.2,
+        "profit_factor": 1.07
+      }
+    }
+  },
+  {
+    "strategy": "ATR 3\u00d7SL / 2\u00d7TP / 21d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 62.7,
+    "avg_return_gross": 0.96,
+    "avg_return_net": 0.76,
+    "profit_factor": 1.25,
+    "avg_hold_days": 11.2,
+    "exit_breakdown": {
+      "take_profit": 370,
+      "stop_loss": 161,
+      "time_exit": 148
+    },
+    "final_equity": 2036848.0,
+    "total_return_pct": 103.7,
+    "cagr_pct": 163.5,
+    "max_drawdown_pct": -35.2,
+    "calmar": 4.64,
+    "winning_days_pct": 58.4,
+    "avg_sl_pct": 10.4,
+    "avg_tp_pct": 6.9,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 60.9,
+        "avg_return": 0.44,
+        "profit_factor": 1.14
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 69.1,
+        "avg_return": 1.89,
+        "profit_factor": 1.78
+      }
+    }
+  },
+  {
+    "strategy": "ATR 2\u00d7SL / 1.5\u00d7TP / 21d",
+    "sizing": "Equal (always 100%)",
+    "costs": "0.193%",
+    "n_trades": 679,
+    "win_rate": 61.0,
+    "avg_return_gross": 0.48,
+    "avg_return_net": 0.29,
+    "profit_factor": 1.11,
+    "avg_hold_days": 7.6,
+    "exit_breakdown": {
+      "take_profit": 393,
+      "stop_loss": 243,
+      "time_exit": 43
+    },
+    "final_equity": 1390223.0,
+    "total_return_pct": 39.0,
+    "cagr_pct": 56.6,
+    "max_drawdown_pct": -34.7,
+    "calmar": 1.63,
+    "winning_days_pct": 54.2,
+    "avg_sl_pct": 7.0,
+    "avg_tp_pct": 5.2,
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 527,
+        "win_rate": 59.4,
+        "avg_return": 0.09,
+        "profit_factor": 1.03
+      },
+      "Gap Up Momentum Top": {
+        "n": 152,
+        "win_rate": 66.4,
+        "avg_return": 0.96,
+        "profit_factor": 1.42
+      }
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "features": "Baseline (3\u00d7SL/2\u00d7TP static)",
+    "n_trades": 943,
+    "win_rate": 58.0,
+    "avg_return_net": -0.02,
+    "profit_factor": 0.99,
+    "avg_hold_days": 12.7,
+    "final_equity": 965492.0,
+    "total_return_pct": -3.5,
+    "cagr_pct": -1.4,
+    "max_drawdown_pct": -75.8,
+    "calmar": -0.02,
+    "exit_breakdown": {
+      "take_profit": 512,
+      "stop_loss": 312,
+      "time_exit": 119
+    },
+    "by_trigger": {
+      "Gap Up Momentum Top": {
+        "n": 221,
+        "win_rate": 61.1,
+        "avg_return": 0.76,
+        "pf": 1.23
+      },
+      "Value-to-Cap Ratio Top": {
+        "n": 722,
+        "win_rate": 57.1,
+        "avg_return": -0.26,
+        "pf": 0.93
+      }
+    }
+  }
+]

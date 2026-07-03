@@ -1,0 +1,520 @@
+2026-05-21 16:17:37,488 - INFO - Loaded 499 trigger result files
+2026-05-21 16:17:37,500 - INFO - Extracted 1497 total picks across 364 dates
+2026-05-21 16:17:37,503 - INFO - Fetching prices for 143 unique tickers from 2023-12-02 to 2026-05-14
+2026-05-21 16:17:37,503 - INFO -   Downloading chunk 1/3 (50 tickers)
+2026-05-21 16:17:42,861 - INFO -   Downloading chunk 2/3 (50 tickers)
+2026-05-21 16:17:44,179 - INFO -   Downloading chunk 3/3 (43 tickers)
+2026-05-21 16:17:45,425 - INFO - Got price data for 143/143 tickers
+2026-05-21 16:17:46,540 - INFO - Forward returns computed for 1497/1497 picks
+C:\Users\kumagaura\source\repos\prism-insight\prism-in\backtest_engine.py:447: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  picks_df["alloc_weight"] = picks_df.groupby("trade_date", group_keys=False).apply(compute_quality_weights)
+C:\Users\kumagaura\source\repos\prism-insight\prism-in\backtest_engine.py:469: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  daily_pnl = sim_rets.groupby("trade_date").apply(
+
+======================================================================
+PRISM INDIA ΓÇö BACKTEST REPORT
+Period: 20240101 to 20260330
+Total picks: 1497 across 364 trading days
+======================================================================
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+OVERALL PERFORMANCE (7-day hold)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Trades:          1497 (1497 with price data)
+  Win Rate:        47.7%
+  Avg Return:      3d=0.08% | 7d=0.03% | 14d=0.73% | 30d=1.11%
+  Avg Win:         +4.48%
+  Avg Loss:        -4.02%
+  Expectancy:      0.03% per trade
+  Profit Factor:   1.01
+  Best/Worst:      +50.96% / -24.03%
+  Sharpe (ann):    0.04
+  Sortino (ann):   0.06
+  Avg MAE:         -9.08% (worst: -58.96%)
+  Avg MFE:         +10.55% (best: +96.17%)
+  SL Hit Rate:     66.7% (avg 9.3 days)
+  Target Hit Rate: 21.4% (avg 15.9 days)
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+SIMULATED TRADING (ATR-based SL/TP, 21-day max hold)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Trades:          1497
+  Win Rate:        57.4%
+  Avg Return:      +0.00% per trade
+  Profit Factor:   1.0
+  Avg Hold:        13.1 days
+  Exit Breakdown:
+    Stop-loss:     507 (34%)
+    Take-profit:   813 (54%)
+    Time exit:     177 (12%)
+
+  Estimated P&L (Γé╣10L capital):
+    Equal allocation (Γé╣2L each):      Γé╣+1,998 (+0.2%)
+    Quality-weighted (top-heavy 40%):  Γé╣+1,489,823 (+149.0%)
+    Improvement:                       Γé╣+1,487,824 (+74447.5%)
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+EQUITY CURVE & DRAWDOWN
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Starting Capital: Γé╣1,000,000
+  Final Equity:     Γé╣2,489,823
+  Total Return:     +149.0%
+  CAGR:             +50.2%
+  Max Drawdown:     -48.6% (on 20260310)
+  Drawdown Depth:   Γé╣3,762,277 ΓåÆ Γé╣1,933,580
+  Recovery:         N/A trading days
+  Calmar Ratio:     1.03 (CAGR/MaxDD, target: >1.0)
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+STREAK ANALYSIS
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Winning days:    193/364 (53%)
+  Losing days:     171/364 (47%)
+  Max win streak:  18 consecutive days
+  Max loss streak: 15 consecutive days
+  Best day P&L:    Γé╣+122,523
+  Worst day P&L:   Γé╣-119,507
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+SECTOR RISK (simulated trades)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  ≡ƒö┤ Financial Services         n=534  WR=56%  Avg=-0.48%  Total=-255.9%
+  ≡ƒƒó Basic Materials            n=202  WR=59%  Avg=+0.31%  Total=+62.5%
+  ≡ƒƒó Utilities                  n=157  WR=57%  Avg=+0.01%  Total=+1.4%
+  ≡ƒƒó Industrials                n=145  WR=59%  Avg=+0.91%  Total=+132.5%
+  ≡ƒö┤ Consumer Cyclical          n=144  WR=58%  Avg=-0.32%  Total=-46.0%
+  ≡ƒƒó Energy                     n=143  WR=59%  Avg=+0.24%  Total=+35.0%
+  ≡ƒƒó Technology                 n= 57  WR=65%  Avg=+0.56%  Total=+32.0%
+  ≡ƒƒó Communication Services     n= 52  WR=62%  Avg=+1.47%  Total=+76.4%
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+BY TRIGGER TYPE
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Gap Up Momentum Top             n=327  WR= 55.4%  Avg= +0.79%  E= +0.79%  PF=1.4
+  Value-to-Cap Ratio Top          n=1170  WR= 45.6%  Avg= -0.18%  E= -0.18%  PF=0.92
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+BY DATE (7-day return)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  20240101  n= 5  ≡ƒƒó avg= +5.61%  W=3/5  [BANDHANBNK, MOTHERSON, INDUSTOWER, HUDCO, RPOWER]
+  20240102  n= 5  ≡ƒƒó avg= +2.73%  W=3/5  [ETERNAL, NMDC, COALINDIA, ABCAPITAL, INDUSTOWER]
+  20240103  n= 5  ≡ƒƒó avg= +1.34%  W=4/5  [CANBK, RVNL, ENGINERSIN, BANDHANBNK, LTF]
+  20240104  n= 5  ≡ƒö┤ avg= -2.47%  W=2/5  [BAJFINANCE, ICICIBANK, NTPC, AXISBANK, BANDHANBNK]
+  20240105  n= 4  ≡ƒö┤ avg= -0.40%  W=2/4  [RPOWER, INDUSTOWER, CESC, TATAPOWER]
+  20240108  n= 5  ≡ƒƒó avg= +3.12%  W=4/5  [OLECTRA, GMRAIRPORT, CHAMBLFERT, MOTHERSON, HINDPETRO]
+  20240109  n= 5  ≡ƒƒó avg= +0.42%  W=3/5  [DLF, CESC, TATASTEEL, HINDPETRO, MOTHERSON]
+  20240110  n= 4  ≡ƒƒó avg= +2.87%  W=3/4  [SHYAMMETL, JSWENERGY, VEDL, NBCC]
+  20240111  n= 5  ≡ƒƒó avg= +8.71%  W=2/5  [IRFC, RELIANCE, UJJIVANSFB, TATAPOWER, JSWENERGY]
+  20240112  n= 5  ≡ƒƒó avg= +2.52%  W=3/5  [TCS, WIPRO, UNIONBANK, ONGC, CHAMBLFERT]
+  20240115  n= 5  ≡ƒƒó avg= +5.56%  W=4/5  [ONGC, INFY, TECHM, UNIONBANK, HUDCO]
+  20240116  n= 5  ≡ƒƒó avg= +2.88%  W=4/5  [HINDCOPPER, BPCL, IOC, J&KBANK, CENTRALBK]
+  20240117  n= 5  ≡ƒƒó avg= +8.20%  W=4/5  [IRFC, AXISBANK, HUDCO, SBIN, PNB]
+  20240118  n= 5  ≡ƒƒó avg= +6.16%  W=4/5  [ICICIPRULI, APOLLOTYRE, CASTROLIND, AXISBANK, POWERGRID]
+  20240119  n= 5  ≡ƒƒó avg= +5.68%  W=5/5  [NTPC, COALINDIA, UNIONBANK, ONGC, CENTRALBK]
+  20240122  n= 5  ≡ƒƒó avg= +5.68%  W=5/5  [NTPC, COALINDIA, UNIONBANK, ONGC, CENTRALBK]
+  20240124  n= 4  ≡ƒƒó avg= +1.95%  W=2/4  [INDUSTOWER, COALINDIA, HDFCBANK, AXISBANK]
+  20240125  n= 4  ≡ƒƒó avg= +9.10%  W=4/4  [COALINDIA, ICICIBANK, MOTHERSON, PNB]
+  20240129  n= 4  ≡ƒƒó avg= +4.40%  W=3/4  [TATAPOWER, GAIL, SBIN, HDFCBANK]
+  20240130  n= 4  ≡ƒƒó avg=+10.42%  W=4/4  [PETRONET, BPCL, CESC, HINDPETRO]
+  20240131  n= 4  ≡ƒƒó avg= +4.22%  W=2/4  [PNB, NBCC, HDFCBANK, ICICIBANK]
+  20240201  n= 4  ≡ƒƒó avg= +0.88%  W=1/4  [DABUR, J&KBANK, UCOBANK, INDUSTOWER]
+  20240202  n= 4  ≡ƒö┤ avg= -2.02%  W=1/4  [PNB, NMDC, CENTRALBK, CASTROLIND]
+  20240205  n= 4  ≡ƒƒó avg= +4.29%  W=3/4  [NMDC, BPCL, HINDPETRO, CENTRALBK]
+  20240206  n= 4  ≡ƒö┤ avg= -0.90%  W=2/4  [TATASTEEL, HINDPETRO, GAIL, HEG]
+  20240207  n= 4  ≡ƒƒó avg= +4.99%  W=3/4  [CANBK, INDUSTOWER, DLF, SBIN]
+  20240208  n= 4  ≡ƒƒó avg= +5.05%  W=4/4  [CANBK, ETERNAL, POWERGRID, SBIN]
+  20240209  n= 4  ≡ƒƒó avg= +3.26%  W=3/4  [ETERNAL, SBIN, CASTROLIND, ITC]
+  20240212  n= 2  ≡ƒƒó avg= +3.57%  W=2/2  [ETERNAL, WIPRO]
+  20240213  n= 4  ≡ƒƒó avg= +4.30%  W=2/4  [GMRAIRPORT, COALINDIA, NBCC, UPL]
+  20240214  n= 4  ≡ƒƒó avg= +1.53%  W=3/4  [HINDCOPPER, HDFCBANK, SBIN, AXISBANK]
+  20240215  n= 4  ≡ƒö┤ avg= -2.97%  W=1/4  [BPCL, PNB, UNIONBANK, HINDPETRO]
+  20240216  n= 4  ≡ƒö┤ avg= -0.56%  W=1/4  [M&M, CASTROLIND, PNB, WIPRO]
+  20240219  n= 4  ≡ƒö┤ avg= -7.93%  W=0/4  [RVNL, NIACL, GMRAIRPORT, CASTROLIND]
+  20240220  n= 5  ≡ƒö┤ avg= -2.46%  W=1/5  [ETERNAL, POWERGRID, JUBLFOOD, HDFCBANK, RBLBANK]
+  20240221  n= 2  ≡ƒƒó avg= +3.40%  W=2/2  [TATASTEEL, DLF]
+  20240222  n= 5  ≡ƒö┤ avg= -0.21%  W=4/5  [NBCC, COALINDIA, RBLBANK, INDHOTEL, RELIANCE]
+  20240223  n= 5  ≡ƒö┤ avg= -1.33%  W=2/5  [IRCTC, INDHOTEL, ABCAPITAL, RELIANCE, BANDHANBNK]
+  20240226  n= 5  ≡ƒö┤ avg= -2.37%  W=1/5  [INDUSTOWER, JSWENERGY, IRCTC, HUDCO, HINDPETRO]
+  20240227  n= 5  ≡ƒö┤ avg= -0.35%  W=3/5  [NIACL, POWERGRID, CASTROLIND, HDFCBANK, RELIANCE]
+  20240228  n= 3  ≡ƒƒó avg= +0.35%  W=2/3  [VGUARD, INDUSTOWER, MOTHERSON]
+  20240229  n= 5  ≡ƒö┤ avg= -0.83%  W=2/5  [NMDC, UNIONBANK, PNB, ETERNAL, DLF]
+  20240301  n= 5  ≡ƒö┤ avg= -7.34%  W=0/5  [CASTROLIND, RBLBANK, HINDALCO, INDUSTOWER, ICICIBANK]
+  20240304  n= 5  ≡ƒö┤ avg=-10.41%  W=0/5  [NTPC, NMDC, RBLBANK, GAIL, TATAPOWER]
+  20240305  n= 5  ≡ƒö┤ avg= -8.23%  W=1/5  [TATACHEM, ENGINERSIN, MOTHERSON, IGL, VEDL]
+  20240306  n= 2  ≡ƒö┤ avg= -3.55%  W=0/2  [ICICIBANK, AXISBANK]
+  20240307  n= 4  ≡ƒö┤ avg= -2.31%  W=1/4  [TATASTEEL, IGL, BAJFINANCE, ITC]
+  20240311  n= 2  ≡ƒö┤ avg= -9.64%  W=0/2  [ICICIPRULI, RECLTD]
+  20240312  n= 2  ≡ƒƒó avg= +3.59%  W=1/2  [ETERNAL, HDFCBANK]
+  20240313  n= 1  ≡ƒƒó avg= +0.59%  W=1/1  [ICICIBANK]
+  20240314  n= 3  ≡ƒƒó avg= +0.54%  W=2/3  [GMRAIRPORT, NBCC, TATAPOWER]
+  20240315  n= 5  ≡ƒƒó avg= +0.39%  W=2/5  [HINDCOPPER, J&KBANK, ICICIBANK, HUDCO, HDFCBANK]
+  20240318  n= 5  ≡ƒƒó avg= +3.03%  W=5/5  [MOTHERSON, ZENSARTECH, TATASTEEL, TATAPOWER, SBIN]
+  20240321  n= 5  ≡ƒƒó avg= +8.79%  W=5/5  [TATASTEEL, HINDALCO, NTPC, NBCC, BAJFINANCE]
+  20240322  n= 4  ≡ƒƒó avg= +3.34%  W=3/4  [IRFC, RELIANCE, ENGINERSIN, ITC]
+  20240325  n= 4  ≡ƒƒó avg= +3.34%  W=3/4  [IRFC, RELIANCE, ENGINERSIN, ITC]
+  20240326  n= 5  ≡ƒƒó avg= +7.18%  W=5/5  [INDUSTOWER, ENGINERSIN, INDUSINDBK, HINDCOPPER, RVNL]
+  20240327  n= 5  ≡ƒƒó avg= +7.17%  W=4/5  [INDUSINDBK, TORNTPOWER, HDFCBANK, HINDCOPPER, RELIANCE]
+  20240328  n= 5  ≡ƒƒó avg= +2.16%  W=2/5  [CENTRALBK, RECLTD, BAJFINANCE, INFY, HDFCBANK]
+  20240401  n= 5  ≡ƒƒó avg= +1.46%  W=2/5  [BANDHANBNK, RVNL, NMDC, DLF, TATASTEEL]
+  20240402  n= 5  ≡ƒƒó avg= +7.88%  W=5/5  [NBCC, IRCTC, ENGINERSIN, UJJIVANSFB, VEDL]
+  20240403  n= 5  ≡ƒƒó avg= +1.16%  W=3/5  [PETRONET, GAIL, ENGINERSIN, CENTRALBK, ABCAPITAL]
+  20240404  n= 5  ≡ƒƒó avg= +1.33%  W=1/5  [HDFCBANK, VEDL, ETERNAL, BANDHANBNK, UPL]
+  20240405  n= 4  ≡ƒö┤ avg= -0.78%  W=1/4  [IGL, UJJIVANSFB, HINDCOPPER, TATACHEM]
+  20240408  n= 5  ≡ƒö┤ avg= -1.13%  W=2/5  [IDFCFIRSTB, IRB, IIFL, GAIL, INDUSTOWER]
+  20240409  n= 5  ≡ƒƒó avg= +4.62%  W=2/5  [GAIL, EXIDEIND, TATAPOWER, VEDL, IIFL]
+  20240410  n= 5  ≡ƒƒó avg= +3.03%  W=2/5  [HINDALCO, PETRONET, NMDC, EXIDEIND, IDFCFIRSTB]
+  20240412  n= 5  ≡ƒƒó avg= +2.81%  W=3/5  [VEDL, IRCTC, EXIDEIND, HINDCOPPER, PETRONET]
+  20240415  n= 5  ≡ƒƒó avg= +2.26%  W=4/5  [ONGC, EXIDEIND, IGL, HEG, NMDC]
+  20240422  n= 5  ≡ƒƒó avg= +3.96%  W=4/5  [HINDCOPPER, CANBK, HINDPETRO, PNB, EXIDEIND]
+  20240423  n= 1  ≡ƒƒó avg= +2.43%  W=1/1  [RVNL]
+  20240424  n= 5  ≡ƒƒó avg= +1.14%  W=2/5  [RVNL, CHAMBLFERT, NMDC, HINDALCO, ICICIPRULI]
+  20240425  n= 5  ≡ƒö┤ avg= -2.64%  W=2/5  [AXISBANK, ENGINERSIN, SBIN, RBLBANK, CANBK]
+  20240426  n= 3  ≡ƒö┤ avg= -2.32%  W=1/3  [HINDCOPPER, VEDL, IRFC]
+  20240429  n= 5  ≡ƒö┤ avg= -7.91%  W=0/5  [NBCC, CENTRALBK, UCOBANK, ICICIBANK, CESC]
+  20240430  n= 5  ≡ƒö┤ avg= -5.22%  W=0/5  [ENGINERSIN, JUBLFOOD, PNB, AXISBANK, BANDHANBNK]
+  20240501  n= 4  ≡ƒö┤ avg= -6.36%  W=0/4  [ENGINERSIN, JUBLFOOD, PNB, AXISBANK]
+  20240502  n= 5  ≡ƒö┤ avg= -6.61%  W=0/5  [IOC, POWERGRID, CESC, PETRONET, GMRAIRPORT]
+  20240503  n= 4  ≡ƒö┤ avg= -1.18%  W=1/4  [VEDL, COALINDIA, NMDC, ICICIBANK]
+  20240507  n= 5  ≡ƒƒó avg= +0.95%  W=2/5  [IIFL, CGPOWER, DABUR, JUBLFOOD, ITC]
+  20240508  n= 5  ≡ƒö┤ avg= -0.32%  W=3/5  [IRB, RECLTD, IGL, VOLTAS, SBIN]
+  20240516  n= 4  ≡ƒƒó avg= +1.67%  W=2/4  [APOLLOTYRE, LICHSGFIN, ENGINERSIN, HUDCO]
+  20240517  n= 4  ≡ƒö┤ avg= -1.15%  W=0/4  [CONCOR, ENGINERSIN, NBCC, GAIL]
+  20240520  n= 4  ≡ƒö┤ avg= -1.15%  W=0/4  [CONCOR, ENGINERSIN, NBCC, GAIL]
+  20240521  n= 4  ≡ƒö┤ avg= -3.25%  W=2/4  [HINDCOPPER, HINDALCO, HDFCBANK, TATASTEEL]
+  20240522  n= 4  ≡ƒö┤ avg= -5.34%  W=0/4  [METROPOLIS, IRB, NIACL, COALINDIA]
+  20240524  n= 3  ≡ƒö┤ avg= -8.81%  W=0/3  [EXIDEIND, INDUSTOWER, UNIONBANK]
+  20240527  n= 4  ≡ƒö┤ avg= -2.08%  W=1/4  [RVNL, EXIDEIND, CENTRALBK, JUBLFOOD]
+  20240528  n= 4  ≡ƒƒó avg= +0.79%  W=2/4  [EXIDEIND, JUBLFOOD, NMDC, IGL]
+  20240529  n= 4  ≡ƒö┤ avg= -0.41%  W=2/4  [HINDALCO, MOTHERSON, JUBLFOOD, HUDCO]
+  20240530  n= 3  ≡ƒƒó avg= +3.08%  W=2/3  [MOTHERSON, HDFCBANK, RVNL]
+  20240531  n= 4  ≡ƒƒó avg= +3.87%  W=3/4  [TORNTPOWER, GMRAIRPORT, CANBK, INDUSTOWER]
+  20240611  n= 4  ≡ƒƒó avg= +1.40%  W=3/4  [ONGC, PETRONET, RVNL, IRB]
+  20240612  n= 4  ≡ƒƒó avg= +1.27%  W=2/4  [IRB, LICHSGFIN, ENGINERSIN, LTF]
+  20240613  n= 4  ≡ƒƒó avg= +3.89%  W=2/4  [LTF, ETERNAL, HDFCLIFE, ABCAPITAL]
+  20240614  n= 4  ≡ƒƒó avg= +2.74%  W=3/4  [LTF, GMRAIRPORT, NBCC, INDHOTEL]
+  20240618  n= 4  ≡ƒƒó avg= +3.01%  W=3/4  [GMRAIRPORT, IIFL, MOTHERSON, IDFCFIRSTB]
+  20240619  n= 4  ≡ƒƒó avg= +2.94%  W=2/4  [NBCC, INDUSTOWER, RBLBANK, AXISBANK]
+  20240620  n= 4  ≡ƒö┤ avg= -3.56%  W=0/4  [BANDHANBNK, VEDL, NBCC, NMDC]
+  20240621  n= 2  ≡ƒö┤ avg= -0.99%  W=1/2  [RVNL, NBCC]
+  20240624  n= 4  ≡ƒö┤ avg= -2.12%  W=2/4  [CHAMBLFERT, JUBLFOOD, RVNL, INDHOTEL]
+  20240625  n= 4  ≡ƒƒó avg= +0.48%  W=3/4  [ETERNAL, EXIDEIND, HDFCBANK, AXISBANK]
+  20240626  n= 4  ≡ƒƒó avg= +6.67%  W=3/4  [VEDL, BANDHANBNK, HUDCO, RELIANCE]
+  20240627  n= 4  ≡ƒƒó avg= +3.78%  W=4/4  [INDUSTOWER, DRREDDY, NTPC, RELIANCE]
+  20240628  n= 4  ≡ƒƒó avg= +2.03%  W=4/4  [INDUSTOWER, APOLLOTYRE, IGL, RELIANCE]
+  20240701  n= 4  ≡ƒƒó avg= +0.23%  W=2/4  [LTF, MOTHERSON, EMAMILTD, NMDC]
+  20240702  n= 4  ≡ƒƒó avg= +5.10%  W=2/4  [MOTHERSON, ETERNAL, NBCC, WIPRO]
+  20240703  n= 5  ≡ƒƒó avg= +1.40%  W=2/5  [RECLTD, INDUSTOWER, NBCC, BANDHANBNK, RBLBANK]
+  20240704  n= 4  ≡ƒƒó avg= +4.84%  W=3/4  [ICICIBANK, CASTROLIND, HCLTECH, RECLTD]
+  20240705  n= 3  ≡ƒƒó avg= +5.87%  W=2/3  [IRFC, CASTROLIND, NBCC]
+  20240708  n= 5  ≡ƒö┤ avg= -0.01%  W=2/5  [ONGC, RECLTD, ENGINERSIN, HINDCOPPER, HUDCO]
+  20240709  n= 5  ≡ƒö┤ avg= -4.50%  W=0/5  [CESC, CENTRALBK, HINDCOPPER, UNIONBANK, UCOBANK]
+  20240710  n= 5  ≡ƒö┤ avg= -2.42%  W=1/5  [CAMS, IRFC, CESC, RECLTD, IRB]
+  20240711  n= 4  ≡ƒö┤ avg= -7.69%  W=0/4  [HINDPETRO, NIACL, HUDCO, NBCC]
+  20240712  n= 5  ≡ƒö┤ avg= -2.45%  W=2/5  [INFY, IRFC, ONGC, WIPRO, HDFCBANK]
+  20240715  n= 5  ≡ƒö┤ avg= -1.04%  W=1/5  [ONGC, APOLLOTYRE, ETERNAL, ZENSARTECH, SBIN]
+  20240716  n= 5  ≡ƒƒó avg= +0.84%  W=2/5  [INDUSTOWER, IRB, COALINDIA, BANDHANBNK, BPCL]
+  20240718  n= 5  ≡ƒƒó avg= +1.28%  W=4/5  [ONGC, MOTHERSON, INFY, UCOBANK, ETERNAL]
+  20240719  n= 3  ≡ƒö┤ avg= -0.55%  W=2/3  [RVNL, IRFC, ITC]
+  20240722  n= 4  ≡ƒƒó avg= +2.02%  W=1/4  [RVNL, HINDCOPPER, HDFCBANK, BPCL]
+  20240723  n= 4  ≡ƒƒó avg= +2.88%  W=3/4  [MOTHERSON, ITC, NTPC, INDUSTOWER]
+  20240724  n= 3  ≡ƒƒó avg= +2.08%  W=2/3  [HUDCO, PETRONET, HDFCLIFE]
+  20240725  n= 5  ≡ƒƒó avg= +0.64%  W=2/5  [PETRONET, IOC, HINDPETRO, CGPOWER, RPOWER]
+  20240726  n= 5  ≡ƒö┤ avg= -4.47%  W=0/5  [TATAPOWER, INDUSTOWER, VEDL, AXISBANK, ICICIBANK]
+  20240729  n= 5  ≡ƒö┤ avg= -3.90%  W=2/5  [PNB, J&KBANK, BPCL, CANBK, RECLTD]
+  20240730  n= 5  ≡ƒö┤ avg= -2.22%  W=2/5  [CESC, HINDPETRO, BPCL, BANDHANBNK, HDFCBANK]
+  20240731  n= 2  ≡ƒö┤ avg= -1.79%  W=0/2  [RPOWER, AXISBANK]
+  20240801  n= 5  ≡ƒö┤ avg= -0.49%  W=1/5  [COALINDIA, ONGC, CESC, TATAPOWER, ETERNAL]
+  20240802  n= 5  ≡ƒö┤ avg= -9.43%  W=0/5  [RPOWER, CHAMBLFERT, ADANIENSOL, TATAPOWER, CASTROLIND]
+  20240805  n= 3  ≡ƒö┤ avg= -1.03%  W=1/3  [ETERNAL, NTPC, ABCAPITAL]
+  20240806  n= 1  ≡ƒö┤ avg= -2.95%  W=0/1  [CESC]
+  20240807  n= 4  ≡ƒƒó avg= +1.24%  W=3/4  [VEDL, RECLTD, TATASTEEL, RPOWER]
+  20240808  n= 4  ≡ƒö┤ avg= -1.71%  W=0/4  [APOLLOTYRE, GMRAIRPORT, HDFCBANK, ETERNAL]
+  20240809  n= 2  ≡ƒƒó avg= +6.66%  W=2/2  [RPOWER, UNIONBANK]
+  20240812  n= 3  ≡ƒö┤ avg= -3.63%  W=0/3  [HUDCO, ENGINERSIN, NMDC]
+  20240814  n= 2  ≡ƒƒó avg= +4.62%  W=2/2  [MOTHERSON, HDFCBANK]
+  20240816  n= 4  ≡ƒƒó avg= +2.15%  W=3/4  [HINDCOPPER, NMDC, HDFCBANK, DLF]
+  20240819  n= 4  ≡ƒƒó avg= +0.28%  W=2/4  [BPCL, ONGC, RPOWER, NBCC]
+  20240820  n= 4  ≡ƒƒó avg= +0.37%  W=2/4  [BPCL, RBLBANK, UJJIVANSFB, ETERNAL]
+  20240821  n= 3  ≡ƒö┤ avg= -1.45%  W=0/3  [RBLBANK, ABCAPITAL, NIACL]
+  20240822  n= 3  ≡ƒƒó avg= +2.42%  W=3/3  [CESC, INDHOTEL, UPL]
+  20240823  n= 4  ≡ƒö┤ avg= -1.30%  W=1/4  [GMRAIRPORT, ETERNAL, MOTHERSON, RVNL]
+  20240827  n= 4  ≡ƒƒó avg= +1.48%  W=3/4  [CASTROLIND, ICICIBANK, BAJFINANCE, RECLTD]
+  20240828  n= 4  ≡ƒö┤ avg= -5.45%  W=0/4  [ENGINERSIN, HUDCO, RPOWER, WIPRO]
+  20240829  n= 4  ≡ƒö┤ avg= -2.29%  W=1/4  [RELIANCE, BAJFINANCE, INDUSTOWER, SBIN]
+  20240830  n= 4  ≡ƒö┤ avg= -3.42%  W=1/4  [BANDHANBNK, RVNL, INDUSTOWER, BAJFINANCE]
+  20240902  n= 4  ≡ƒö┤ avg= -2.62%  W=1/4  [BAJFINANCE, ABCAPITAL, HINDPETRO, ITC]
+  20240903  n= 5  ≡ƒö┤ avg= -3.72%  W=1/5  [HDFCLIFE, ICICIBANK, CASTROLIND, GUJGASLTD, IGL]
+  20240904  n= 5  ≡ƒö┤ avg= -2.99%  W=1/5  [HINDPETRO, CASTROLIND, BANDHANBNK, BPCL, CANBK]
+  20240905  n= 5  ≡ƒƒó avg= +0.43%  W=3/5  [ETERNAL, GMRAIRPORT, BANDHANBNK, LICHSGFIN, IOC]
+  20240906  n= 2  ≡ƒƒó avg= +2.41%  W=2/2  [ETERNAL, BAJFINANCE]
+  20240909  n= 5  ≡ƒƒó avg= +1.27%  W=3/5  [JSWENERGY, DABUR, ICICIBANK, CANBK, ITC]
+  20240910  n= 5  ≡ƒƒó avg= +1.53%  W=3/5  [LTF, INDHOTEL, ICICIBANK, ETERNAL, ENGINERSIN]
+  20240911  n= 2  ≡ƒƒó avg= +3.45%  W=2/2  [ETERNAL, ITC]
+  20240912  n= 5  ≡ƒƒó avg= +3.92%  W=5/5  [ETERNAL, HINDALCO, CGPOWER, LTF, RELIANCE]
+  20240913  n= 5  ≡ƒƒó avg= +1.87%  W=3/5  [BANDHANBNK, BAJFINANCE, WIPRO, MOTHERSON, LTF]
+  20240917  n= 2  ≡ƒö┤ avg= -3.59%  W=0/2  [NUVOCO, IIFL]
+  20240918  n= 5  ≡ƒö┤ avg= -1.60%  W=2/5  [HSCL, MOTHERSON, BANDHANBNK, BAJFINANCE, IIFL]
+  20240919  n= 2  ≡ƒƒó avg= +3.29%  W=2/2  [HINDCOPPER, RELIANCE]
+  20240920  n= 5  ≡ƒƒó avg= +6.17%  W=2/5  [BAJAJHFL, RPOWER, ICICIBANK, M&M, ETERNAL]
+  20240923  n= 5  ≡ƒö┤ avg= -4.00%  W=1/5  [INDUSTOWER, CAMS, TATAPOWER, ENGINERSIN, DLF]
+  20240924  n= 5  ≡ƒƒó avg= +1.98%  W=3/5  [NMDC, HINDALCO, TATASTEEL, TATAPOWER, HINDCOPPER]
+  20240925  n= 5  ≡ƒö┤ avg= -4.61%  W=2/5  [POWERGRID, VEDL, HEG, CESC, TATASTEEL]
+  20240926  n= 5  ≡ƒö┤ avg= -2.25%  W=1/5  [RPOWER, VEDL, NMDC, MOTHERSON, TATASTEEL]
+  20240927  n= 5  ≡ƒö┤ avg= -4.09%  W=1/5  [HINDALCO, GAIL, EXIDEIND, CANBK, IOC]
+  20240930  n= 5  ≡ƒö┤ avg= -5.34%  W=0/5  [NMDC, RPOWER, TATASTEEL, HINDALCO, GAIL]
+  20241001  n= 3  ≡ƒö┤ avg= -1.90%  W=1/3  [CHAMBLFERT, PNB, EXIDEIND]
+  20241003  n= 4  ≡ƒö┤ avg= -6.70%  W=0/4  [RPOWER, PETRONET, PNB, TATASTEEL]
+  20241014  n= 5  ≡ƒö┤ avg= -6.22%  W=1/5  [WIPRO, FINPIPE, RBLBANK, LTF, HDFCBANK]
+  20241118  n= 1  ≡ƒƒó avg= +1.54%  W=1/1  [TATASTEEL]
+  20241119  n= 2  ≡ƒƒó avg= +0.39%  W=2/2  [AXISBANK, M&M]
+  20241120  n= 2  ≡ƒƒó avg= +0.39%  W=2/2  [AXISBANK, M&M]
+  20241213  n= 4  ≡ƒö┤ avg= -4.09%  W=1/4  [IRB, ITC, RELIANCE, HEG]
+  20241216  n= 4  ≡ƒö┤ avg= -7.19%  W=0/4  [HUDCO, DLF, ICICIBANK, ETERNAL]
+  20241220  n= 1  ≡ƒö┤ avg= -0.37%  W=0/1  [ICICIBANK]
+  20241223  n= 3  ≡ƒƒó avg= +3.23%  W=2/3  [BANDHANBNK, IGL, RBLBANK]
+  20241224  n= 1  ≡ƒƒó avg=+11.07%  W=1/1  [IGL]
+  20241226  n= 1  ≡ƒö┤ avg= -3.88%  W=0/1  [J&KBANK]
+  20241230  n= 1  ≡ƒƒó avg= +1.82%  W=1/1  [INDUSINDBK]
+  20241231  n= 1  ≡ƒƒó avg= +0.93%  W=1/1  [IGL]
+  20250102  n= 4  ≡ƒö┤ avg= -6.68%  W=1/4  [INFY, RPOWER, ITC, RELIANCE]
+  20250110  n= 1  ≡ƒƒó avg= +0.46%  W=1/1  [IRCTC]
+  20250113  n= 1  ≡ƒƒó avg= +3.11%  W=1/1  [INDUSINDBK]
+  20250115  n= 2  ≡ƒƒó avg= +1.49%  W=2/2  [NTPC, COALINDIA]
+  20250116  n= 2  ≡ƒö┤ avg= -5.28%  W=0/2  [NMDC, AXISBANK]
+  20250124  n= 2  ≡ƒƒó avg= +4.92%  W=2/2  [AXISBANK, RBLBANK]
+  20250127  n= 1  ≡ƒƒó avg= +3.28%  W=1/1  [ICICIBANK]
+  20250128  n= 3  ≡ƒƒó avg= +4.82%  W=3/3  [AXISBANK, ABCAPITAL, RBLBANK]
+  20250214  n= 1  ≡ƒö┤ avg= -2.85%  W=0/1  [ICICIBANK]
+  20250218  n= 1  ≡ƒƒó avg= +0.08%  W=1/1  [NTPC]
+  20250219  n= 1  ≡ƒö┤ avg= -4.40%  W=0/1  [ICICIBANK]
+  20250220  n= 1  ≡ƒö┤ avg= -3.51%  W=0/1  [NTPC]
+  20250221  n= 2  ≡ƒƒó avg= +4.78%  W=2/2  [BANDHANBNK, TATASTEEL]
+  20250224  n= 1  ≡ƒƒó avg= +1.23%  W=1/1  [M&M]
+  20250225  n= 1  ≡ƒö┤ avg= -1.80%  W=0/1  [M&M]
+  20250227  n= 2  ≡ƒƒó avg= +1.07%  W=2/2  [ABCAPITAL, AXISBANK]
+  20250228  n= 3  ≡ƒö┤ avg= -0.83%  W=1/3  [HDFCBANK, BANDHANBNK, AXISBANK]
+  20250303  n= 2  ≡ƒƒó avg= +6.22%  W=2/2  [VEDL, CGPOWER]
+  20250304  n= 1  ≡ƒö┤ avg= -5.10%  W=0/1  [BANDHANBNK]
+  20250310  n= 1  ≡ƒö┤ avg=-24.03%  W=0/1  [INDUSINDBK]
+  20250313  n= 1  ≡ƒƒó avg= +1.11%  W=1/1  [ENGINERSIN]
+  20250314  n= 1  ≡ƒƒó avg= +1.11%  W=1/1  [ENGINERSIN]
+  20250407  n= 1  ≡ƒƒó avg= +7.49%  W=1/1  [TATASTEEL]
+  20250508  n= 3  ≡ƒƒó avg= +4.76%  W=2/3  [CANBK, KOTAKBANK, INDUSTOWER]
+  20250513  n= 4  ≡ƒƒó avg= +3.39%  W=4/4  [IIFL, RPOWER, CANBK, UNIONBANK]
+  20250514  n= 4  ≡ƒƒó avg= +4.58%  W=4/4  [TATASTEEL, JINDALSTEL, NBCC, RVNL]
+  20250515  n= 4  ≡ƒƒó avg= +0.03%  W=3/4  [NTPC, ICICIBANK, RELIANCE, HDFCBANK]
+  20250516  n= 4  ≡ƒƒó avg= +2.10%  W=3/4  [GMRAIRPORT, CONCOR, INDUSINDBK, HUDCO]
+  20250519  n= 4  ≡ƒö┤ avg= -0.74%  W=1/4  [RVNL, CESC, NBCC, CONCOR]
+  20250520  n= 4  ≡ƒö┤ avg= -0.70%  W=2/4  [COALINDIA, TATASTEEL, CESC, GAIL]
+  20250521  n= 4  ≡ƒƒó avg= +4.55%  W=3/4  [DLF, ENGINERSIN, ETERNAL, INDUSTOWER]
+  20250522  n= 4  ≡ƒƒó avg= +0.54%  W=2/4  [INDUSINDBK, NMDC, TATASTEEL, HDFCBANK]
+  20250523  n= 4  ≡ƒƒó avg= +0.68%  W=2/4  [ITC, RAMCOCEM, HINDCOPPER, MFSL]
+  20250526  n= 4  ≡ƒƒó avg= +3.83%  W=3/4  [HINDCOPPER, BALKRISIND, HUDCO, CONCOR]
+  20250527  n= 4  ≡ƒƒó avg= +4.59%  W=3/4  [CREDITACC, BEML, RPOWER, RBLBANK]
+  20250528  n= 4  ≡ƒƒó avg= +1.88%  W=2/4  [ITC, ENGINERSIN, INDUSTOWER, IGL]
+  20250529  n= 4  ≡ƒƒó avg= +9.33%  W=4/4  [CASTROLIND, MOTHERSON, RPOWER, RBLBANK]
+  20250530  n= 4  ≡ƒƒó avg= +5.16%  W=4/4  [ENGINERSIN, ETERNAL, UNIONBANK, CANBK]
+  20250602  n= 4  ≡ƒö┤ avg= -0.86%  W=1/4  [UNIONBANK, CENTRALBK, UCOBANK, CAMS]
+  20250603  n= 3  ≡ƒö┤ avg= -1.79%  W=0/3  [CAMS, PNB, CASTROLIND]
+  20250604  n= 4  ≡ƒƒó avg= +0.34%  W=1/4  [RPOWER, ADANIENSOL, ENGINERSIN, IRFC]
+  20250605  n= 4  ≡ƒƒó avg= +3.02%  W=2/4  [ETERNAL, LTF, RPOWER, ADANIENSOL]
+  20250606  n= 4  ≡ƒö┤ avg= -0.69%  W=2/4  [BAJAJFINSV, RBLBANK, CHOLAFIN, BAJFINANCE]
+  20250609  n= 5  ≡ƒö┤ avg= -0.39%  W=2/5  [BAJFINANCE, KOTAKBANK, AXISBANK, RBLBANK, RPOWER]
+  20250610  n= 5  ≡ƒö┤ avg= -7.83%  W=0/5  [UJJIVANSFB, ENGINERSIN, J&KBANK, ADANIENSOL, LTF]
+  20250611  n= 5  ≡ƒö┤ avg= -2.17%  W=1/5  [ABCAPITAL, BPCL, INFY, IOC, HINDPETRO]
+  20250613  n= 5  ≡ƒƒó avg= +1.41%  W=3/5  [HINDPETRO, UJJIVANSFB, RPOWER, BPCL, KOTAKBANK]
+  20250616  n= 5  ≡ƒö┤ avg= -0.30%  W=3/5  [ONGC, HINDCOPPER, HDFCBANK, HINDPETRO, IOC]
+  20250617  n= 2  ≡ƒƒó avg= +3.52%  W=1/2  [ABCAPITAL, INFY]
+  20250618  n= 5  ≡ƒƒó avg= +1.35%  W=4/5  [INDUSINDBK, RBLBANK, BANDHANBNK, FINPIPE, ABCAPITAL]
+  20250619  n= 5  ≡ƒƒó avg= +4.01%  W=5/5  [ABCAPITAL, WIPRO, RELIANCE, HDFCBANK, ICICIBANK]
+  20250620  n= 5  ≡ƒƒó avg= +2.43%  W=4/5  [RECLTD, TRENT, NESTLEIND, M&M, INDUSINDBK]
+  20250623  n= 5  ≡ƒƒó avg= +2.58%  W=4/5  [BEML, IGL, ENGINERSIN, RBLBANK, HINDALCO]
+  20250624  n= 5  ≡ƒƒó avg= +1.16%  W=4/5  [J&KBANK, KOTAKBANK, INDUSTOWER, LTF, ENGINERSIN]
+  20250625  n= 5  ≡ƒƒó avg= +0.03%  W=3/5  [CESC, INFY, HDFCBANK, RPOWER, NBCC]
+  20250626  n= 5  ≡ƒƒó avg= +2.35%  W=3/5  [JSWENERGY, HINDCOPPER, HDFCBANK, HINDPETRO, BPCL]
+  20250627  n= 5  ≡ƒö┤ avg= -1.07%  W=0/5  [HINDCOPPER, ICICIBANK, HDFCBANK, INDUSINDBK, HDFCLIFE]
+  20250630  n= 5  ≡ƒö┤ avg= -0.06%  W=2/5  [HSCL, J&KBANK, RBLBANK, SBIN, PNB]
+  20250701  n= 5  ≡ƒö┤ avg= -2.01%  W=1/5  [RBLBANK, CASTROLIND, J&KBANK, CESC, PNB]
+  20250702  n= 5  ≡ƒö┤ avg= -1.95%  W=1/5  [APOLLOTYRE, TATASTEEL, UJJIVANSFB, GMRAIRPORT, PNB]
+  20250703  n= 2  ≡ƒƒó avg= +0.18%  W=2/2  [NATCOPHARM, NMDC]
+  20250704  n= 5  ≡ƒƒó avg= +0.01%  W=3/5  [CREDITACC, IOC, ENGINERSIN, IGL, BPCL]
+  20251001  n= 5  ≡ƒƒó avg= +1.03%  W=4/5  [SUNTV, ICICIBANK, AXISBANK, HDFCBANK, KOTAKBANK]
+  20251003  n= 5  ≡ƒƒó avg= +0.09%  W=2/5  [HINDPETRO, TATASTEEL, HDFCBANK, VEDL, AXISBANK]
+  20251006  n= 5  ≡ƒƒó avg= +0.23%  W=3/5  [MAXHEALTH, FORTIS, AXISBANK, KOTAKBANK, RELIANCE]
+  20251007  n= 5  ≡ƒƒó avg= +0.45%  W=3/5  [IGL, ICICIBANK, HDFCBANK, PETRONET, YESBANK]
+  20251008  n= 5  ≡ƒƒó avg= +1.62%  W=3/5  [TITAN, RBLBANK, TCS, HDFCBANK, IDFCFIRSTB]
+  20251009  n= 5  ≡ƒö┤ avg= -3.78%  W=0/5  [AUROPHARMA, HINDCOPPER, TATASTEEL, SAIL, NMDC]
+  20251010  n= 5  ≡ƒö┤ avg= -3.85%  W=1/5  [TATACOMM, TATAINVEST, YESBANK, RPOWER, BANDHANBNK]
+  20251013  n= 5  ≡ƒö┤ avg= -2.71%  W=2/5  [TATAINVEST, RPOWER, RBLBANK, LTF, FORTIS]
+  20251014  n= 3  ≡ƒƒó avg= +1.71%  W=3/3  [HDFCBANK, MOTHERSON, BIOCON]
+  20251015  n= 5  ≡ƒƒó avg= +2.68%  W=3/5  [ICICIGI, RBLBANK, TATACOMM, CESC, BAJFINANCE]
+  20251016  n= 5  ≡ƒö┤ avg= -0.19%  W=1/5  [RBLBANK, NESTLEIND, ADANIPORTS, KOTAKBANK, LTF]
+  20251017  n= 5  ≡ƒƒó avg= +0.09%  W=3/5  [WHIRLPOOL, ICICIBANK, ETERNAL, RELIANCE, HDFCBANK]
+  20251021  n= 5  ≡ƒö┤ avg= -3.39%  W=1/5  [TATAINVEST, CEATLTD, AXISBANK, WHIRLPOOL, HDFCBANK]
+  20251022  n= 5  ≡ƒö┤ avg= -3.39%  W=1/5  [TATAINVEST, CEATLTD, AXISBANK, WHIRLPOOL, HDFCBANK]
+  20251023  n= 5  ≡ƒƒó avg= +0.04%  W=2/5  [INFY, TCS, IDFCFIRSTB, UJJIVANSFB, AXISBANK]
+  20251024  n= 5  ≡ƒƒó avg= +1.27%  W=4/5  [HINDALCO, VEDL, GMRAIRPORT, CESC, ONGC]
+  20251027  n= 5  ≡ƒö┤ avg= -0.62%  W=2/5  [HINDALCO, VEDL, INDUSTOWER, UJJIVANSFB, RBLBANK]
+  20251028  n= 5  ≡ƒƒó avg= +1.58%  W=2/5  [INDUSTOWER, HDFCBANK, INDUSINDBK, TATASTEEL, SAIL]
+  20251029  n= 5  ≡ƒö┤ avg= -5.50%  W=1/5  [ADANIGREEN, TATASTEEL, HEG, SAIL, RPOWER]
+  20251030  n= 5  ≡ƒö┤ avg= -0.20%  W=3/5  [ABCAPITAL, IIFL, CANBK, DRREDDY, ADANIGREEN]
+  20251031  n= 5  ≡ƒƒó avg= +1.88%  W=3/5  [NAVINFLUOR, STAR, WELCORP, UNIONBANK, CANBK]
+  20251103  n= 5  ≡ƒƒó avg= +3.13%  W=4/5  [VEDL, BPCL, STAR, INDUSTOWER, CANBK]
+  20251104  n= 5  ≡ƒƒó avg= +1.81%  W=4/5  [BHARTIARTL, JKTYRE, INDUSTOWER, SBIN, DABUR]
+  20251106  n= 5  ≡ƒƒó avg= +0.79%  W=3/5  [ASTRAL, HINDALCO, RPOWER, UPL, INDUSTOWER]
+  20251107  n= 5  ≡ƒö┤ avg= -0.96%  W=1/5  [LTF, BANDHANBNK, ABCAPITAL, HINDALCO, SAIL]
+  20251110  n= 5  ≡ƒö┤ avg= -1.19%  W=2/5  [RPOWER, SAIL, NMDC, INFY, CROMPTON]
+  20251111  n= 5  ≡ƒö┤ avg= -1.76%  W=3/5  [HINDCOPPER, BHARTIARTL, HFCL, INDUSINDBK, INFY]
+  20251112  n= 5  ≡ƒö┤ avg= -1.24%  W=1/5  [ONGC, INDUSINDBK, ADANIENT, WELSPUNLIV, BIOCON]
+  20251113  n= 5  ≡ƒö┤ avg= -2.74%  W=2/5  [ASIANPAINT, IGL, BIOCON, ICICIBANK, MOTHERSON]
+  20251114  n= 5  ≡ƒö┤ avg= -1.16%  W=1/5  [MUTHOOTFIN, JUBLFOOD, ENGINERSIN, ITC, NBCC]
+  20251117  n= 5  ≡ƒƒó avg= +0.87%  W=3/5  [UJJIVANSFB, ENGINERSIN, HUDCO, YESBANK, MAXHEALTH]
+  20251118  n= 5  ≡ƒƒó avg= +1.33%  W=3/5  [MPHASIS, GMRAIRPORT, AXISBANK, HUDCO, BHARTIARTL]
+  20251119  n= 5  ≡ƒƒó avg= +1.66%  W=3/5  [MAXHEALTH, TECHM, HCLTECH, INFY, MOTHERSON]
+  20251120  n= 5  ≡ƒƒó avg= +0.40%  W=3/5  [RADICO, NATCOPHARM, RELIANCE, INDHOTEL, HDFCBANK]
+  20251121  n= 5  ≡ƒƒó avg= +0.82%  W=4/5  [INDUSINDBK, GODREJCP, GMRAIRPORT, TCS, INFY]
+  20251124  n= 5  ≡ƒö┤ avg= -1.29%  W=1/5  [CONCOR, NBCC, TECHM, ETERNAL, RVNL]
+  20251125  n= 5  ≡ƒƒó avg= +0.94%  W=2/5  [NUVOCO, HEG, HSCL, ABCAPITAL, RELIANCE]
+  20251126  n= 5  ≡ƒö┤ avg= -3.08%  W=1/5  [TATAINVEST, SAIL, NATCOPHARM, CARBORUNIV, UJJIVANSFB]
+  20251127  n= 5  ≡ƒö┤ avg= -2.84%  W=0/5  [RPOWER, HDFCBANK, ICICIBANK, MOTHERSON, BAJFINANCE]
+  20251128  n= 5  ≡ƒö┤ avg= -3.90%  W=1/5  [WELSPUNLIV, ELGIEQUIP, ABCAPITAL, GAIL, LTF]
+  20251201  n= 4  ≡ƒö┤ avg= -0.36%  W=1/4  [HINDCOPPER, NATCOPHARM, ADANIPORTS, NMDC]
+  20251202  n= 5  ≡ƒö┤ avg= -1.38%  W=2/5  [NATCOPHARM, MOTHERSON, HDFCBANK, UNIONBANK, CANBK]
+  20251203  n= 5  ≡ƒö┤ avg= -0.35%  W=3/5  [WELSPUNLIV, INFY, BIOCON, INDUSTOWER, WIPRO]
+  20251204  n= 5  ≡ƒö┤ avg= -1.25%  W=3/5  [PETRONET, HINDCOPPER, INFY, TCS, HFCL]
+  20251205  n= 5  ≡ƒö┤ avg= -1.93%  W=0/5  [HINDCOPPER, HSCL, SBIN, BAJFINANCE, INDUSTOWER]
+  20251208  n= 2  ≡ƒö┤ avg= -0.47%  W=1/2  [TATAINVEST, RELIANCE]
+  20251209  n= 5  ≡ƒö┤ avg= -0.10%  W=2/5  [BANDHANBNK, LTF, RPOWER, ABCAPITAL, RBLBANK]
+  20251210  n= 5  ≡ƒƒó avg= +3.18%  W=4/5  [WELSPUNLIV, VEDL, HINDALCO, BPCL, RELIANCE]
+  20251211  n= 5  ≡ƒö┤ avg= -0.83%  W=2/5  [DCMSHRIRAM, NATCOPHARM, KOTAKBANK, RBLBANK, TATASTEEL]
+  20251212  n= 5  ≡ƒƒó avg= +2.87%  W=3/5  [HINDCOPPER, VEDL, GMRAIRPORT, BANDHANBNK, TATASTEEL]
+  20251215  n= 5  ≡ƒƒó avg= +1.25%  W=3/5  [NUVOCO, NBCC, VEDL, BANDHANBNK, IOC]
+  20251216  n= 5  ≡ƒƒó avg= +2.47%  W=3/5  [VEDL, CHAMBLFERT, ICICIBANK, HDFCBANK, IDFCFIRSTB]
+  20251217  n= 5  ≡ƒƒó avg= +0.02%  W=3/5  [IGL, RPOWER, AXISBANK, SBIN, CANBK]
+  20251218  n= 5  ≡ƒƒó avg= +4.41%  W=1/5  [RPOWER, HINDCOPPER, CROMPTON, MAXHEALTH, IGL]
+  20251219  n= 5  ≡ƒƒó avg= +3.57%  W=4/5  [JKTYRE, INDUSINDBK, ICICIBANK, UPL, NBCC]
+  20251222  n= 5  ≡ƒƒó avg=+10.52%  W=4/5  [INFY, HINDCOPPER, RVNL, UPL, SAIL]
+  20251223  n= 5  ≡ƒƒó avg= +4.55%  W=5/5  [CHOLAFIN, JKTYRE, NMDC, COALINDIA, IRFC]
+  20251224  n= 5  ≡ƒƒó avg= +6.27%  W=4/5  [HINDCOPPER, CASTROLIND, IIFL, RPOWER, INDUSTOWER]
+  20251226  n= 5  ≡ƒö┤ avg= -0.55%  W=1/5  [HINDCOPPER, RVNL, IRFC, IRCTC, TITAGARH]
+  20251229  n= 5  ≡ƒƒó avg= +6.70%  W=5/5  [HEG, HFCL, SAIL, TATASTEEL, PNB]
+  20251230  n= 5  ≡ƒƒó avg= +0.45%  W=3/5  [HINDCOPPER, LTF, ABCAPITAL, HINDALCO, BAJAJFINSV]
+  20260101  n= 5  ≡ƒƒó avg= +1.10%  W=3/5  [INDUSTOWER, HINDCOPPER, INDUSINDBK, RECLTD, JSWENERGY]
+  20260102  n= 5  ≡ƒö┤ avg= -3.81%  W=0/5  [HINDCOPPER, RECLTD, NTPC, TATAPOWER, RBLBANK]
+  20260105  n= 5  ≡ƒƒó avg= +2.67%  W=4/5  [UJJIVANSFB, BANDHANBNK, UNIONBANK, AXISBANK, SBIN]
+  20260106  n= 5  ≡ƒö┤ avg= -0.39%  W=3/5  [HEG, ICICIBANK, RBLBANK, INDUSINDBK, UNIONBANK]
+  20260107  n= 5  ≡ƒö┤ avg= -1.46%  W=1/5  [PETRONET, ICICIBANK, NMDC, ETERNAL, WIPRO]
+  20260108  n= 5  ≡ƒö┤ avg= -1.22%  W=1/5  [UJJIVANSFB, ICICIBANK, IDFCFIRSTB, ETERNAL, HDFCBANK]
+  20260109  n= 4  ≡ƒƒó avg= +0.70%  W=2/4  [UJJIVANSFB, HINDCOPPER, ETERNAL, UNIONBANK]
+  20260112  n= 5  ≡ƒö┤ avg= -2.06%  W=2/5  [HINDCOPPER, COALINDIA, ICICIBANK, HINDALCO, TATAPOWER]
+  20260113  n= 5  ≡ƒö┤ avg= -1.22%  W=2/5  [ETERNAL, TCS, ICICIBANK, SBIN, VEDL]
+  20260114  n= 5  ≡ƒö┤ avg= -6.42%  W=0/5  [INDUSTOWER, INDUSINDBK, HEG, TATASTEEL, ETERNAL]
+  20260115  n= 2  ≡ƒö┤ avg= -8.28%  W=0/2  [ETERNAL, UNITDSPR]
+  20260116  n= 5  ≡ƒö┤ avg= -1.42%  W=2/5  [INFY, RBLBANK, INDUSINDBK, VEDL, HDFCBANK]
+  20260119  n= 3  ≡ƒö┤ avg= -0.22%  W=2/3  [CGPOWER, TECHM, LTF]
+  20260120  n= 2  ≡ƒö┤ avg= -0.86%  W=0/2  [HDFCBANK, ICICIBANK]
+  20260121  n= 5  ≡ƒƒó avg= +0.43%  W=1/5  [ETERNAL, HINDCOPPER, RELIANCE, J&KBANK, BHARTIARTL]
+  20260122  n= 5  ≡ƒö┤ avg= -0.65%  W=2/5  [DRREDDY, ABCAPITAL, UNIONBANK, RECLTD, J&KBANK]
+  20260123  n= 2  ≡ƒƒó avg= +4.16%  W=2/2  [UJJIVANSFB, ICICIBANK]
+  20260127  n= 5  ≡ƒƒó avg= +1.48%  W=4/5  [AXISBANK, HINDCOPPER, VEDL, TATASTEEL, HDFCBANK]
+  20260128  n= 5  ≡ƒö┤ avg= -3.78%  W=1/5  [RVNL, VEDL, ETERNAL, COALINDIA, HINDALCO]
+  20260129  n= 5  ≡ƒö┤ avg= -3.82%  W=0/5  [HINDALCO, VEDL, AXISBANK, NMDC, TATASTEEL]
+  20260130  n= 5  ≡ƒö┤ avg= -1.42%  W=2/5  [BAJAJHFL, AXISBANK, UJJIVANSFB, BHARTIARTL, RVNL]
+  20260202  n= 5  ≡ƒƒó avg= +4.29%  W=4/5  [HINDCOPPER, POWERGRID, VEDL, ABCAPITAL, GMRAIRPORT]
+  20260203  n= 2  ≡ƒƒó avg= +3.73%  W=2/2  [POWERGRID, KOTAKBANK]
+  20260204  n= 5  ≡ƒö┤ avg= -2.16%  W=2/5  [EXIDEIND, POWERGRID, RPOWER, NMDC, IOC]
+  20260205  n= 3  ≡ƒö┤ avg= -2.52%  W=0/3  [JUBLFOOD, HINDCOPPER, IOC]
+  20260206  n= 4  ≡ƒƒó avg= +0.70%  W=2/4  [ITC, BHARTIARTL, BAJFINANCE, KOTAKBANK]
+  20260209  n= 5  ≡ƒƒó avg= +0.05%  W=3/5  [MOTHERSON, HINDCOPPER, HINDALCO, JKTYRE, INDUSINDBK]
+  20260210  n= 5  ≡ƒö┤ avg= -1.36%  W=3/5  [ETERNAL, BANDHANBNK, TATASTEEL, MOTHERSON, INDUSTOWER]
+  20260211  n= 5  ≡ƒö┤ avg= -1.79%  W=3/5  [JKTYRE, SBIN, BANDHANBNK, INDUSTOWER, IOC]
+  20260212  n= 5  ≡ƒö┤ avg= -1.77%  W=2/5  [FINPIPE, HINDCOPPER, SBIN, BANDHANBNK, ICICIBANK]
+  20260213  n= 5  ≡ƒö┤ avg= -4.32%  W=1/5  [INFY, TCS, BAJFINANCE, SBIN, TECHM]
+  20260216  n= 5  ≡ƒƒó avg= +1.07%  W=3/5  [IGL, POWERGRID, HDFCBANK, SBIN, COALINDIA]
+  20260217  n= 5  ≡ƒƒó avg= +1.00%  W=3/5  [INFY, SBIN, RBLBANK, PNB, UNIONBANK]
+  20260218  n= 5  ≡ƒö┤ avg= -0.12%  W=3/5  [HEG, TATASTEEL, RBLBANK, ITC, PNB]
+  20260219  n= 2  ≡ƒö┤ avg= -4.58%  W=0/2  [RBLBANK, HSCL]
+  20260220  n= 5  ≡ƒö┤ avg= -7.74%  W=0/5  [TATAINVEST, IRCTC, NTPC, PNB, CANBK]
+  20260223  n= 5  ≡ƒö┤ avg= -2.81%  W=1/5  [CIEINDIA, UNIONBANK, POWERGRID, NTPC, ABCAPITAL]
+  20260224  n= 5  ≡ƒö┤ avg= -0.96%  W=2/5  [J&KBANK, IDFCFIRSTB, BANDHANBNK, RBLBANK, CENTRALBK]
+2026-05-21 16:17:48,317 - INFO - Results saved to prism-in/bt_v1_full.json
+  20260225  n= 5  ≡ƒö┤ avg= -6.63%  W=0/5  [VEDL, CENTRALBK, J&KBANK, ABCAPITAL, TATASTEEL]
+  20260226  n= 5  ≡ƒö┤ avg= -4.09%  W=1/5  [IDFCFIRSTB, INDUSINDBK, RELIANCE, BHARTIARTL, BANDHANBNK]
+  20260227  n= 3  ≡ƒö┤ avg= -5.37%  W=1/3  [J&KBANK, JUBLFOOD, PETRONET]
+  20260302  n= 5  ≡ƒö┤ avg= -3.07%  W=2/5  [J&KBANK, LT, UJJIVANSFB, ETERNAL, RPOWER]
+  20260303  n= 5  ≡ƒö┤ avg= -3.07%  W=2/5  [J&KBANK, LT, UJJIVANSFB, ETERNAL, RPOWER]
+  20260304  n= 5  ≡ƒö┤ avg= -4.15%  W=1/5  [BHARTIARTL, RPOWER, RELIANCE, ICICIBANK, HDFCBANK]
+  20260305  n= 5  ≡ƒö┤ avg= -3.36%  W=1/5  [COALINDIA, BAJFINANCE, PETRONET, HINDALCO, VEDL]
+  20260306  n= 5  ≡ƒö┤ avg= -3.78%  W=0/5  [UNITDSPR, PETRONET, RVNL, RPOWER, VEDL]
+  20260309  n= 5  ≡ƒö┤ avg= -0.81%  W=3/5  [RELIANCE, RPOWER, HDFCBANK, IOC, POWERGRID]
+  20260310  n= 5  ≡ƒö┤ avg= -5.79%  W=0/5  [PETRONET, RECLTD, MOTHERSON, VEDL, ICICIBANK]
+  20260311  n= 5  ≡ƒö┤ avg= -3.00%  W=1/5  [GUJGASLTD, J&KBANK, IGL, RPOWER, TATAPOWER]
+  20260312  n= 5  ≡ƒö┤ avg= -7.13%  W=0/5  [CESC, TATAPOWER, HDFCBANK, COALINDIA, RPOWER]
+  20260316  n= 5  ≡ƒö┤ avg= -1.80%  W=1/5  [HDFCBANK, LT, ICICIBANK, AMBUJACEM, J&KBANK]
+  20260317  n= 5  ≡ƒö┤ avg= -2.78%  W=1/5  [MOTHERSON, ETERNAL, HINDCOPPER, ICICIBANK, TATAPOWER]
+  20260318  n= 5  ≡ƒö┤ avg= -6.15%  W=0/5  [RECLTD, ETERNAL, BAJFINANCE, WIPRO, INFY]
+  20260319  n= 2  ≡ƒö┤ avg= -5.80%  W=0/2  [HDFCBANK, TATAPOWER]
+  20260320  n= 5  ≡ƒö┤ avg= -0.17%  W=3/5  [INFY, TATASTEEL, HINDCOPPER, TATAPOWER, RPOWER]
+  20260323  n= 1  ≡ƒö┤ avg= -2.30%  W=0/1  [POWERGRID]
+  20260324  n= 5  ≡ƒö┤ avg= -0.01%  W=3/5  [MOTHERSON, GMRAIRPORT, BPCL, BAJFINANCE, HDFCBANK]
+  20260325  n= 5  ≡ƒƒó avg= +3.90%  W=5/5  [BAJFINANCE, SBIN, RPOWER, HDFCBANK, APTUS]
+  20260326  n= 5  ≡ƒƒó avg= +3.90%  W=5/5  [BAJFINANCE, SBIN, RPOWER, APTUS, HDFCBANK]
+  20260327  n= 3  ≡ƒƒó avg= +2.60%  W=3/3  [BHARTIARTL, HINDCOPPER, NAUKRI]
+  20260330  n= 2  ≡ƒƒó avg=+12.98%  W=2/2  [HINDALCO, VEDL]
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+SECTOR CONCENTRATION
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Financial Services              534 (35.7%) ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+  Basic Materials                 202 (13.5%) ΓûêΓûêΓûêΓûêΓûêΓûê
+  Utilities                       157 (10.5%) ΓûêΓûêΓûêΓûêΓûê
+  Industrials                     145 ( 9.7%) ΓûêΓûêΓûêΓûê
+  Consumer Cyclical               144 ( 9.6%) ΓûêΓûêΓûêΓûê
+  Energy                          143 ( 9.6%) ΓûêΓûêΓûêΓûê
+  Technology                       57 ( 3.8%) Γûê
+  Communication Services           52 ( 3.5%) Γûê
+  Consumer Defensive               28 ( 1.9%) 
+  Healthcare                       22 ( 1.5%) 
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TOP 10 BEST TRADES (7-day)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  20240111 IRFC         + 51.0%  (entry Γé╣103.2, trigger: +3.7%)  via Gap Up Momentum Top
+  20240920 RPOWER       + 40.6%  (entry Γé╣36.3, trigger: +5.0%)  via Gap Up Momentum Top
+  20251218 HINDCOPPER   + 37.7%  (entry Γé╣386.8, trigger: +5.2%)  via Value-to-Cap Ratio Top
+  20251222 HINDCOPPER   + 29.6%  (entry Γé╣402.8, trigger: +4.1%)  via Value-to-Cap Ratio Top
+  20240101 RPOWER       + 28.6%  (entry Γé╣24.0, trigger: +2.8%)  via Value-to-Cap Ratio Top
+  20251224 HINDCOPPER   + 26.6%  (entry Γé╣435.9, trigger: +7.1%)  via Gap Up Momentum Top
+  20240402 VEDL         + 23.8%  (entry Γé╣255.9, trigger: +4.8%)  via Value-to-Cap Ratio Top
+  20250529 RPOWER       + 23.7%  (entry Γé╣52.2, trigger: +3.5%)  via Value-to-Cap Ratio Top
+  20240130 BPCL         + 23.1%  (entry Γé╣224.8, trigger: +2.3%)  via Value-to-Cap Ratio Top
+  20240115 HUDCO        + 23.1%  (entry Γé╣125.0, trigger: +4.9%)  via Value-to-Cap Ratio Top
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TOP 10 WORST TRADES (7-day)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  20250310 INDUSINDBK   -24.0%  (entry Γé╣900.5, trigger: -3.9%)  via Value-to-Cap Ratio Top
+  20250102 RPOWER       -20.0%  (entry Γé╣46.3, trigger: +3.5%)  via Value-to-Cap Ratio Top
+  20241014 RBLBANK      -19.8%  (entry Γé╣206.0, trigger: +1.1%)  via Value-to-Cap Ratio Top
+  20240305 ENGINERSIN   -19.0%  (entry Γé╣224.2, trigger: +4.9%)  via Value-to-Cap Ratio Top
+  20241003 RPOWER       -18.8%  (entry Γé╣53.6, trigger: +5.0%)  via Gap Up Momentum Top
+  20240304 RBLBANK      -17.6%  (entry Γé╣270.7, trigger: +2.5%)  via Gap Up Momentum Top
+  20251013 TATAINVEST   -16.6%  (entry Γé╣992.2, trigger: +6.7%)  via Value-to-Cap Ratio Top
+  20240304 NMDC         -15.9%  (entry Γé╣73.5, trigger: +3.9%)  via Gap Up Momentum Top
+  20260115 ETERNAL      -15.2%  (entry Γé╣299.2, trigger: +1.6%)  via Value-to-Cap Ratio Top
+  20240802 ADANIENSOL   -15.1%  (entry Γé╣1,261.8, trigger: -1.1%)  via Value-to-Cap Ratio Top
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+MAE/MFE ANALYSIS (30-day window)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  If you used a 5% stop-loss:
+    Stopped out: 984/1479 trades (67%)
+  If you used a 3% stop-loss:
+    Stopped out: 1185/1479 trades (80%)
+  Typical MFE (how far stocks run in your favor):
+    P25: +3.4%
+    P50: +7.2%
+    P75: +13.5%
+    P90: +22.5%
+  ΓåÆ If your stocks typically run +7% before reversing,
+    taking profit at +5% captures ~70% of the move.

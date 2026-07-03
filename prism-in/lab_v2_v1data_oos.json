@@ -1,0 +1,228 @@
+[
+  {
+    "features": "Baseline (3\u00d7SL/2\u00d7TP static)",
+    "n_trades": 516,
+    "win_rate": 53.5,
+    "avg_return_net": -0.79,
+    "profit_factor": 0.78,
+    "avg_hold_days": 13.2,
+    "final_equity": 204594.0,
+    "total_return_pct": -79.5,
+    "cagr_pct": -60.4,
+    "max_drawdown_pct": -92.8,
+    "calmar": -0.65,
+    "exit_breakdown": {
+      "take_profit": 256,
+      "stop_loss": 188,
+      "time_exit": 72
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 424,
+        "win_rate": 53.5,
+        "avg_return": -0.86,
+        "pf": 0.76
+      },
+      "Gap Up Momentum Top": {
+        "n": 92,
+        "win_rate": 53.3,
+        "avg_return": -0.5,
+        "pf": 0.86
+      }
+    }
+  },
+  {
+    "features": "E: Vol-adjusted sizing",
+    "n_trades": 516,
+    "win_rate": 53.5,
+    "avg_return_net": -0.79,
+    "profit_factor": 0.78,
+    "avg_hold_days": 13.2,
+    "final_equity": 307206.0,
+    "total_return_pct": -69.3,
+    "cagr_pct": -49.7,
+    "max_drawdown_pct": -87.3,
+    "calmar": -0.57,
+    "exit_breakdown": {
+      "take_profit": 256,
+      "stop_loss": 188,
+      "time_exit": 72
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 424,
+        "win_rate": 53.5,
+        "avg_return": -0.86,
+        "pf": 0.76
+      },
+      "Gap Up Momentum Top": {
+        "n": 92,
+        "win_rate": 53.3,
+        "avg_return": -0.5,
+        "pf": 0.86
+      }
+    }
+  },
+  {
+    "features": "H: Parabolic SAR exit",
+    "n_trades": 556,
+    "win_rate": 44.1,
+    "avg_return_net": -0.4,
+    "profit_factor": 0.84,
+    "avg_hold_days": 8.5,
+    "final_equity": 542203.0,
+    "total_return_pct": -45.8,
+    "cagr_pct": -30.0,
+    "max_drawdown_pct": -68.0,
+    "calmar": -0.44,
+    "exit_breakdown": {
+      "stop_loss": 334,
+      "take_profit": 220,
+      "time_exit": 2
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 458,
+        "win_rate": 44.3,
+        "avg_return": -0.36,
+        "pf": 0.86
+      },
+      "Gap Up Momentum Top": {
+        "n": 98,
+        "win_rate": 42.9,
+        "avg_return": -0.59,
+        "pf": 0.79
+      }
+    }
+  },
+  {
+    "features": "I: Time cut (exit if <0.5R after 7d)",
+    "n_trades": 588,
+    "win_rate": 46.6,
+    "avg_return_net": -0.52,
+    "profit_factor": 0.76,
+    "avg_hold_days": 6.0,
+    "final_equity": 472221.0,
+    "total_return_pct": -52.8,
+    "cagr_pct": -35.4,
+    "max_drawdown_pct": -63.9,
+    "calmar": -0.55,
+    "exit_breakdown": {
+      "time_cut": 403,
+      "take_profit": 136,
+      "stop_loss": 49
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 488,
+        "win_rate": 46.5,
+        "avg_return": -0.51,
+        "pf": 0.76
+      },
+      "Gap Up Momentum Top": {
+        "n": 100,
+        "win_rate": 47.0,
+        "avg_return": -0.59,
+        "pf": 0.72
+      }
+    }
+  },
+  {
+    "features": "I2: Time cut lax (<0R after 10d)",
+    "n_trades": 555,
+    "win_rate": 40.7,
+    "avg_return_net": -0.36,
+    "profit_factor": 0.86,
+    "avg_hold_days": 8.5,
+    "final_equity": 547114.0,
+    "total_return_pct": -45.3,
+    "cagr_pct": -29.6,
+    "max_drawdown_pct": -68.5,
+    "calmar": -0.43,
+    "exit_breakdown": {
+      "time_cut": 243,
+      "take_profit": 225,
+      "stop_loss": 85,
+      "time_exit": 2
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 458,
+        "win_rate": 41.3,
+        "avg_return": -0.43,
+        "pf": 0.83
+      },
+      "Gap Up Momentum Top": {
+        "n": 97,
+        "win_rate": 38.1,
+        "avg_return": -0.01,
+        "pf": 0.99
+      }
+    }
+  },
+  {
+    "features": "E+I: Vol sizing + Time cut 7d",
+    "n_trades": 588,
+    "win_rate": 46.6,
+    "avg_return_net": -0.52,
+    "profit_factor": 0.76,
+    "avg_hold_days": 6.0,
+    "final_equity": 535987.0,
+    "total_return_pct": -46.4,
+    "cagr_pct": -30.5,
+    "max_drawdown_pct": -59.3,
+    "calmar": -0.51,
+    "exit_breakdown": {
+      "time_cut": 403,
+      "take_profit": 136,
+      "stop_loss": 49
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 488,
+        "win_rate": 46.5,
+        "avg_return": -0.51,
+        "pf": 0.76
+      },
+      "Gap Up Momentum Top": {
+        "n": 100,
+        "win_rate": 47.0,
+        "avg_return": -0.59,
+        "pf": 0.72
+      }
+    }
+  },
+  {
+    "features": "E+I2: Vol sizing + Time cut lax",
+    "n_trades": 555,
+    "win_rate": 40.7,
+    "avg_return_net": -0.36,
+    "profit_factor": 0.86,
+    "avg_hold_days": 8.5,
+    "final_equity": 636341.0,
+    "total_return_pct": -36.4,
+    "cagr_pct": -23.2,
+    "max_drawdown_pct": -63.7,
+    "calmar": -0.36,
+    "exit_breakdown": {
+      "time_cut": 243,
+      "take_profit": 225,
+      "stop_loss": 85,
+      "time_exit": 2
+    },
+    "by_trigger": {
+      "Value-to-Cap Ratio Top": {
+        "n": 458,
+        "win_rate": 41.3,
+        "avg_return": -0.43,
+        "pf": 0.83
+      },
+      "Gap Up Momentum Top": {
+        "n": 97,
+        "win_rate": 38.1,
+        "avg_return": -0.01,
+        "pf": 0.99
+      }
+    }
+  }
+]
