@@ -25,6 +25,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DB_PATH = PROJECT_ROOT / "stock_tracking_db.sqlite"
+TRADE_SNAPSHOT_PATH = PROJECT_ROOT / "prism-in" / "data" / "in_trading_history_snapshot.json"
 
 st.set_page_config(page_title="PRISM-INSIGHT", page_icon="📊", layout="wide",
                    initial_sidebar_state="expanded")
@@ -140,6 +141,21 @@ def query_df(conn, sql, params=()):
     cur.execute(sql, params)
     rows = cur.fetchall()
     return pd.DataFrame([dict(r) for r in rows]) if rows else pd.DataFrame()
+
+
+@st.cache_data(ttl=300)
+def load_trade_snapshot_df():
+    """Load committed trade history snapshot used by cloud deployments without SQLite."""
+    if not TRADE_SNAPSHOT_PATH.exists():
+        return pd.DataFrame()
+    try:
+        with open(TRADE_SNAPSHOT_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, list):
+            return pd.DataFrame(data)
+    except Exception:
+        pass
+    return pd.DataFrame()
 
 
 # ══════════════════════════════════════════════════════════════
@@ -881,6 +897,10 @@ def main():
         """)
         # Get trading history for extra data
         trade_hist = query_df(conn, "SELECT * FROM in_trading_history ORDER BY sell_date DESC")
+        if trade_hist.empty and conn is None:
+            trade_hist = load_trade_snapshot_df()
+            if not trade_hist.empty:
+                st.caption("Historical trades loaded from committed snapshot (cloud mode).")
 
         # Merge: use closed_pos as primary (has target/SL), enrich from trade_hist
         if not closed_pos.empty:
