@@ -1,0 +1,113 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 362.70001220703125,
+            "change_pct": 2.2986954434254607,
+            "composite_score": 0.42923562427995654,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 248.8000030517578,
+            "change_pct": 2.8524222113978803,
+            "composite_score": 0.34284318843014583,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 94.08220672607422,
+            "change_pct": 8.516435938962434,
+            "composite_score": 0.9744771568940117,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 422.8550720214844,
+            "change_pct": 3.7091040658631176,
+            "composite_score": 0.7408545637527615,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 246.02481079101562,
+            "change_pct": 7.086030024502926,
+            "composite_score": 0.4576766530359947,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 362.70001220703125,
+            "change_pct": 2.2986954434254607,
+            "composite_score": 0.3511662633438468,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 27.261474609375,
+            "change_pct": 4.472775493741442,
+            "composite_score": 0.3353667710199559,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 142.54689025878906,
+            "change_pct": 2.245068719166669,
+            "composite_score": 0.32514979548134004,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T20:56:56.339017",
+    "trigger_mode": "morning",
+    "trade_date": "20250117",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 37.0,
+      "nifty_slope_pct": -1.64,
+      "nifty_rvol": 13.0,
+      "max_picks": 3
+    }
+  }
+}

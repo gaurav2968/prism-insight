@@ -1,0 +1,160 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 299.25,
+      "change_rate": 1.595658598476929,
+      "volume": 48489260,
+      "trade_value": 14510411055.0,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999925,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 284.28749999999997,
+      "target_price": 344.1375,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 619.0); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8185333333333334,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 221941.0,
+        "trailing_pe": 619.0,
+        "forward_pe": 59.4,
+        "price_to_book": 7.14,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 44.2,
+        "sma_50": 241.52,
+        "sma_200": 288.9,
+        "pct_from_52w_high": -34.5,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.97,
+        "target_upside_pct": 43.7,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "UNITDSPR",
+      "name": "UNITDSPR",
+      "current_price": 1329.986572265625,
+      "change_rate": 1.2581465862753982,
+      "volume": 1050390,
+      "trade_value": 1397004595.6420898,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1263.4872436523438,
+      "target_price": 1529.4845581054685,
+      "quality_score": 54.425000000000004,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 54.7); Strong ROE (20.0%); Death cross (50MA < 200MA)",
+      "final_score": 0.6177,
+      "metrics": {
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Wineries & Distilleries",
+        "market_cap_cr": 95704.0,
+        "trailing_pe": 54.7,
+        "forward_pe": 42.5,
+        "price_to_book": 11.12,
+        "dividend_yield_pct": 129.0,
+        "revenue_growth_pct": 0.8,
+        "earnings_growth_pct": 28.0,
+        "operating_margin_pct": 16.9,
+        "profit_margin_pct": 14.7,
+        "roe_pct": 20.0,
+        "rsi_14": 52.1,
+        "sma_50": 1308.3,
+        "sma_200": 1353.26,
+        "pct_from_52w_high": -20.0,
+        "beta": 0.26,
+        "analyst_recommendation": "buy",
+        "target_mean": 1508.58,
+        "target_upside_pct": 14.7,
+        "analyst_count": 26,
+        "debt_to_equity": 4.6,
+        "valuation_score": 38.0,
+        "growth_score": 58.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 299.25,
+            "change_pct": 1.595658598476929,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NAVINFLUOR",
+            "name": "NAVINFLUOR",
+            "price": 6032.0,
+            "change_pct": 0.7348029392117569,
+            "composite_score": 0.4119037962325409,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNITDSPR",
+            "name": "UNITDSPR",
+            "price": 1329.986572265625,
+            "change_pct": 1.2581465862753982,
+            "composite_score": 0.28604740022827846,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T03:59:35.793211",
+    "trigger_mode": "morning",
+    "trade_date": "20260115",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

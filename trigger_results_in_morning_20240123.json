@@ -1,0 +1,65 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1142.03515625,
+            "change_pct": 2.9333333920126905,
+            "composite_score": 0.5870700195713816,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1142.03515625,
+            "change_pct": 2.9333333920126905,
+            "composite_score": 0.5735037718770835,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:00:33.174063",
+    "trigger_mode": "morning",
+    "trade_date": "20240123",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 45.3,
+      "nifty_slope_pct": 4.52,
+      "nifty_rvol": 13.4,
+      "max_picks": 4
+    }
+  }
+}

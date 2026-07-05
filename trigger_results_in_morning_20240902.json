@@ -1,0 +1,321 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "BAJFINANCE",
+      "name": "BAJFINANCE",
+      "current_price": 739.4422607421875,
+      "change_rate": 3.331877677113843,
+      "volume": 22963780,
+      "trade_value": 16980389398.38623,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 702.4701477050781,
+      "target_price": 850.3585998535156,
+      "quality_score": 58.24166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (26.8%); Highly profitable (margin 43.4%); Death cross (50MA < 200MA)",
+      "final_score": 0.8329666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 574252.0,
+        "trailing_pe": 30.3,
+        "forward_pe": 18.7,
+        "price_to_book": 5.04,
+        "dividend_yield_pct": 59.0,
+        "revenue_growth_pct": 26.8,
+        "earnings_growth_pct": 21.4,
+        "operating_margin_pct": 60.6,
+        "profit_margin_pct": 43.4,
+        "roe_pct": 17.9,
+        "rsi_14": 49.0,
+        "sma_50": 894.77,
+        "sma_200": 964.93,
+        "pct_from_52w_high": -16.2,
+        "beta": 0.41,
+        "analyst_recommendation": "buy",
+        "target_mean": 1061.86,
+        "target_upside_pct": 15.0,
+        "analyst_count": 35,
+        "debt_to_equity": 313.4,
+        "valuation_score": 52.0,
+        "growth_score": 82.0,
+        "profitability_score": 83.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 50.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ABCAPITAL",
+      "name": "ABCAPITAL",
+      "current_price": 226.9600067138672,
+      "change_rate": 3.112083087783825,
+      "volume": 10313854,
+      "trade_value": 2340832373.085846,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999995,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 215.61200637817382,
+      "target_price": 261.00400772094724,
+      "quality_score": 62.85,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹411 (+17% upside)",
+      "final_score": 0.6989354294097598,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Financial Conglomerates",
+        "market_cap_cr": 92043.0,
+        "trailing_pe": 24.6,
+        "forward_pe": 14.3,
+        "price_to_book": 2.67,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 7.7,
+        "earnings_growth_pct": 30.1,
+        "operating_margin_pct": 13.7,
+        "profit_margin_pct": 11.6,
+        "roe_pct": 11.2,
+        "rsi_14": 52.4,
+        "sma_50": 331.42,
+        "sma_200": 326.88,
+        "pct_from_52w_high": -6.6,
+        "beta": 0.71,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 411.42,
+        "target_upside_pct": 17.1,
+        "analyst_count": 12,
+        "debt_to_equity": 491.7,
+        "valuation_score": 65.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 67.0,
+        "analyst_score": 77.0,
+        "risk_score": 45.0
+      }
+    },
+    {
+      "ticker": "HINDPETRO",
+      "name": "HINDPETRO",
+      "current_price": 412.6227111816406,
+      "change_rate": 2.0999984595314376,
+      "volume": 18305095,
+      "trade_value": 7553097927.337494,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 391.99157562255857,
+      "target_price": 474.5161178588867,
+      "quality_score": 54.28333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 4.4); Strong ROE (30.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.6918541141977379,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 78942.0,
+        "trailing_pe": 4.4,
+        "forward_pe": 6.5,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 968.0,
+        "revenue_growth_pct": 4.9,
+        "earnings_growth_pct": 77.5,
+        "operating_margin_pct": 8.1,
+        "profit_margin_pct": 4.1,
+        "roe_pct": 30.9,
+        "rsi_14": 42.5,
+        "sma_50": 361.72,
+        "sma_200": 422.08,
+        "pct_from_52w_high": -27.0,
+        "beta": 0.98,
+        "analyst_recommendation": "hold",
+        "target_mean": 402.52,
+        "target_upside_pct": 8.5,
+        "analyst_count": 31,
+        "debt_to_equity": 85.4,
+        "valuation_score": 68.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 44.0,
+        "analyst_score": 62.0,
+        "risk_score": 55.0
+      }
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC",
+      "current_price": 465.01019287109375,
+      "change_rate": 1.6238252450417094,
+      "volume": 16497266,
+      "trade_value": 7671396844.505737,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999925,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 441.759683227539,
+      "target_price": 534.7617218017577,
+      "quality_score": 54.325,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 43.9%); Death cross (50MA < 200MA); Down 30% from 52W high",
+      "final_score": 0.6729823484000043,
+      "metrics": {
+        "sector": "Consumer Defensive",
+        "industry": "Tobacco",
+        "market_cap_cr": 388789.0,
+        "trailing_pe": 19.1,
+        "forward_pe": 18.5,
+        "price_to_book": 5.47,
+        "dividend_yield_pct": 463.0,
+        "revenue_growth_pct": 6.7,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 32.2,
+        "profit_margin_pct": 43.9,
+        "roe_pct": null,
+        "rsi_14": 54.3,
+        "sma_50": 302.78,
+        "sma_200": 360.55,
+        "pct_from_52w_high": -30.1,
+        "beta": -0.02,
+        "analyst_recommendation": "none",
+        "target_mean": 359.19,
+        "target_upside_pct": 15.8,
+        "analyst_count": 32,
+        "debt_to_equity": 0.5,
+        "valuation_score": 60.0,
+        "growth_score": 28.0,
+        "profitability_score": 90.0,
+        "technical_score": 41.0,
+        "analyst_score": 75.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "GUJGASLTD",
+            "name": "GUJGASLTD",
+            "price": 665.3588256835938,
+            "change_pct": 12.035580511642257,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 739.4422607421875,
+            "change_pct": 3.331877677113843,
+            "composite_score": 0.44620977860668365,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 412.6227111816406,
+            "change_pct": 2.0999984595314376,
+            "composite_score": 0.28361084405110004,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 7,
+        "top_candidates": [
+          {
+            "ticker": "GUJGASLTD",
+            "name": "GUJGASLTD",
+            "price": 665.3588256835938,
+            "change_pct": 12.035580511642257,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 739.4422607421875,
+            "change_pct": 3.331877677113843,
+            "composite_score": 0.4019855609220856,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 412.6227111816406,
+            "change_pct": 2.0999984595314376,
+            "composite_score": 0.32021688075148647,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ITC",
+            "name": "ITC",
+            "price": 465.01019287109375,
+            "change_pct": 1.6238252450417094,
+            "composite_score": 0.30779065790405513,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 226.9600067138672,
+            "change_pct": 3.112083087783825,
+            "composite_score": 0.3024732332115524,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 74.76528930664062,
+            "change_pct": 1.5845181931672336,
+            "composite_score": 0.29463485801807776,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 108.86927032470703,
+            "change_pct": 1.1118058308177694,
+            "composite_score": 0.2714472629748465,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:32:51.870884",
+    "trigger_mode": "morning",
+    "trade_date": "20240902",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 70.0,
+      "nifty_slope_pct": 2.66,
+      "nifty_rvol": 13.8,
+      "max_picks": 4
+    }
+  }
+}

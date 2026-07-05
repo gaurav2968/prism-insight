@@ -1,0 +1,337 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "CANBK",
+      "name": "CANBK",
+      "current_price": 103.7945556640625,
+      "change_rate": 5.887430354677936,
+      "volume": 93641330,
+      "trade_value": 9719460239.141846,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 98.60482788085938,
+      "target_price": 119.36373901367186,
+      "quality_score": 57.43333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Strong revenue growth (20.9%); Highly profitable (margin 32.0%)",
+      "final_score": 0.8297333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 114426.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 5.5,
+        "price_to_book": 0.97,
+        "dividend_yield_pct": 336.0,
+        "revenue_growth_pct": 20.9,
+        "earnings_growth_pct": -9.8,
+        "operating_margin_pct": 41.7,
+        "profit_margin_pct": 32.0,
+        "roe_pct": 17.6,
+        "rsi_14": 32.4,
+        "sma_50": 135.14,
+        "sma_200": 136.69,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.56,
+        "analyst_recommendation": "buy",
+        "target_mean": 151.6,
+        "target_upside_pct": 20.2,
+        "analyst_count": 20,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 45.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 77.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 225.64999389648438,
+      "change_rate": 2.104069636418269,
+      "volume": 31399900,
+      "trade_value": 7085387243.35022,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 214.36749420166015,
+      "target_price": 259.497492980957,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.6911200967564306,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 59.0,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    },
+    {
+      "ticker": "DLF",
+      "name": "DLF",
+      "current_price": 816.7738647460938,
+      "change_rate": 3.775017204041248,
+      "volume": 10550511,
+      "trade_value": 8617381644.516174,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 775.935171508789,
+      "target_price": 939.2899444580078,
+      "quality_score": 51.56666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-42.0%); Highly profitable (margin 53.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.6792486067027819,
+      "metrics": {
+        "sector": "Real Estate",
+        "industry": "Real Estate - Development",
+        "market_cap_cr": 142925.0,
+        "trailing_pe": 32.4,
+        "forward_pe": 21.6,
+        "price_to_book": 3.15,
+        "dividend_yield_pct": 105.0,
+        "revenue_growth_pct": -42.0,
+        "earnings_growth_pct": -1.1,
+        "operating_margin_pct": 20.0,
+        "profit_margin_pct": 53.9,
+        "roe_pct": 10.0,
+        "rsi_14": 46.0,
+        "sma_50": 565.97,
+        "sma_200": 671.67,
+        "pct_from_52w_high": -34.9,
+        "beta": 0.34,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 821.91,
+        "target_upside_pct": 42.3,
+        "analyst_count": 22,
+        "debt_to_equity": 0.7,
+        "valuation_score": 58.0,
+        "growth_score": 15.0,
+        "profitability_score": 72.0,
+        "technical_score": 41.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "SBIN",
+      "name": "SBIN",
+      "current_price": 639.51318359375,
+      "change_rate": 3.84468130928662,
+      "volume": 41696232,
+      "trade_value": 26665290070.183594,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 607.5375244140624,
+      "target_price": 735.4401611328125,
+      "quality_score": 62.825,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.4); Highly profitable (margin 22.3%); Oversold (RSI 30)",
+      "final_score": 0.8513000000000002,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 875801.0,
+        "trailing_pe": 10.4,
+        "forward_pe": 9.1,
+        "price_to_book": 1.48,
+        "dividend_yield_pct": 185.0,
+        "revenue_growth_pct": 3.8,
+        "earnings_growth_pct": -3.1,
+        "operating_margin_pct": 26.8,
+        "profit_margin_pct": 22.3,
+        "roe_pct": 15.5,
+        "rsi_14": 29.7,
+        "sma_50": 1050.41,
+        "sma_200": 988.05,
+        "pct_from_52w_high": -23.2,
+        "beta": 0.47,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1195.0,
+        "target_upside_pct": 25.9,
+        "analyst_count": 38,
+        "debt_to_equity": null,
+        "valuation_score": 78.0,
+        "growth_score": 28.0,
+        "profitability_score": 83.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 103.7945556640625,
+            "change_pct": 5.887430354677936,
+            "composite_score": 1.0244192888984216,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DLF",
+            "name": "DLF",
+            "price": 816.7738647460938,
+            "change_pct": 3.775017204041248,
+            "composite_score": 0.6663512838984235,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 225.64999389648438,
+            "change_pct": 2.104069636418269,
+            "composite_score": 0.5845189787319933,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 119.00519561767578,
+            "change_pct": 1.6406909710323443,
+            "composite_score": 0.4606128426311621,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 66.05300903320312,
+            "change_pct": 16.32654171767102,
+            "composite_score": 1.0185459892095745,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 71.46802520751953,
+            "change_pct": 11.419985393715491,
+            "composite_score": 0.8390311938018244,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 29.799999237060547,
+            "change_pct": 17.32283340398283,
+            "composite_score": 0.6794234852174134,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SBIN",
+            "name": "SBIN",
+            "price": 639.51318359375,
+            "change_pct": 3.84468130928662,
+            "composite_score": 0.5159216320437237,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 103.7945556640625,
+            "change_pct": 5.887430354677936,
+            "composite_score": 0.4853845671419704,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 105.51792907714844,
+            "change_pct": 2.222223207702355,
+            "composite_score": 0.4598697308328924,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DLF",
+            "name": "DLF",
+            "price": 816.7738647460938,
+            "change_pct": 3.775017204041248,
+            "composite_score": 0.40084659085512764,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 187.60000610351562,
+            "change_pct": 4.135449602797149,
+            "composite_score": 0.3681016356195035,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:16:28.456329",
+    "trigger_mode": "morning",
+    "trade_date": "20240207",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 58.9,
+      "nifty_slope_pct": 4.45,
+      "nifty_rvol": 15.1,
+      "max_picks": 4
+    }
+  }
+}

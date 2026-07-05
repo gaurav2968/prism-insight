@@ -1,0 +1,353 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "TORNTPOWER",
+      "name": "TORNTPOWER",
+      "current_price": 1461.2913818359375,
+      "change_rate": 4.259104393585925,
+      "volume": 23992516,
+      "trade_value": 35060056859.36084,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999994,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1388.2268127441405,
+      "target_price": 1680.485089111328,
+      "quality_score": 49.733333333333334,
+      "quality_signal": "SELL",
+      "quality_reasons": "Revenue declining (-0.8%); Earnings collapsing (-70.0%); Golden cross (50MA > 200MA)",
+      "final_score": 0.7989333333333335,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "market_cap_cr": 74593.0,
+        "trailing_pe": 30.8,
+        "forward_pe": 23.7,
+        "price_to_book": 3.97,
+        "dividend_yield_pct": 131.0,
+        "revenue_growth_pct": -0.8,
+        "earnings_growth_pct": -70.0,
+        "operating_margin_pct": 11.4,
+        "profit_margin_pct": 8.3,
+        "roe_pct": 13.0,
+        "rsi_14": 42.7,
+        "sma_50": 1521.95,
+        "sma_200": 1375.06,
+        "pct_from_52w_high": -18.8,
+        "beta": 0.8,
+        "analyst_recommendation": "hold",
+        "target_mean": 1460.5,
+        "target_upside_pct": -1.3,
+        "analyst_count": 10,
+        "debt_to_equity": 70.9,
+        "valuation_score": 58.0,
+        "growth_score": 15.0,
+        "profitability_score": 52.0,
+        "technical_score": 58.0,
+        "analyst_score": 53.0,
+        "risk_score": 55.0
+      }
+    },
+    {
+      "ticker": "GMRAIRPORT",
+      "name": "GMRAIRPORT",
+      "current_price": 84.5999984741211,
+      "change_rate": 4.380006525226515,
+      "volume": 81926700,
+      "trade_value": 6930998694.989777,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 80.36999855041503,
+      "target_price": 97.28999824523925,
+      "quality_score": 57.59166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (50.5%); Earnings collapsing (-45.5%); Net loss (margin -2.7%)",
+      "final_score": 0.7666198738402485,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Airports & Air Services",
+        "market_cap_cr": 99476.0,
+        "trailing_pe": null,
+        "forward_pe": 177.1,
+        "price_to_book": -31.96,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 50.5,
+        "earnings_growth_pct": -45.5,
+        "operating_margin_pct": 31.3,
+        "profit_margin_pct": -2.7,
+        "roe_pct": null,
+        "rsi_14": 46.4,
+        "sma_50": 93.89,
+        "sma_200": 95.27,
+        "pct_from_52w_high": -14.6,
+        "beta": 0.64,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 112.71,
+        "target_upside_pct": 19.6,
+        "analyst_count": 7,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 50.0,
+        "technical_score": 45.0,
+        "analyst_score": 73.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "CANBK",
+      "name": "CANBK",
+      "current_price": 110.9096908569336,
+      "change_rate": 2.5640962324164986,
+      "volume": 285607552,
+      "trade_value": 31676645298.725586,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 105.36420631408691,
+      "target_price": 127.54614448547362,
+      "quality_score": 57.43333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Strong revenue growth (20.9%); Highly profitable (margin 32.0%)",
+      "final_score": 0.7499071837024889,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 114426.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 5.5,
+        "price_to_book": 0.97,
+        "dividend_yield_pct": 336.0,
+        "revenue_growth_pct": 20.9,
+        "earnings_growth_pct": -9.8,
+        "operating_margin_pct": 41.7,
+        "profit_margin_pct": 32.0,
+        "roe_pct": 17.6,
+        "rsi_14": 32.4,
+        "sma_50": 135.14,
+        "sma_200": 136.69,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.56,
+        "analyst_recommendation": "buy",
+        "target_mean": 151.6,
+        "target_upside_pct": 20.2,
+        "analyst_count": 20,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 45.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 77.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 348.1499938964844,
+      "change_rate": 1.2799982244318182,
+      "volume": 110651268,
+      "trade_value": 38523238278.83826,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 330.7424942016601,
+      "target_price": 400.372492980957,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.7186191949519556,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 59.0,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "JSL",
+            "name": "JSL",
+            "price": 787.08544921875,
+            "change_pct": 12.131694748701634,
+            "composite_score": 0.9307634750785911,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TORNTPOWER",
+            "name": "TORNTPOWER",
+            "price": 1461.2913818359375,
+            "change_pct": 4.259104393585925,
+            "composite_score": 0.8496184639824444,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 84.5999984741211,
+            "change_pct": 4.380006525226515,
+            "composite_score": 0.6732120924168832,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 110.9096908569336,
+            "change_pct": 2.5640962324164986,
+            "composite_score": 0.6287157206746898,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 160.16273498535156,
+            "change_pct": 1.8580480805639694,
+            "composite_score": 0.5705892043819939,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 348.1499938964844,
+            "change_pct": 1.2799982244318182,
+            "composite_score": 0.559804086370907,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 79.67452239990234,
+            "change_pct": 4.289427531069326,
+            "composite_score": 0.5103014037870629,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 391.23297119140625,
+            "change_pct": 2.087120978354134,
+            "composite_score": 0.4853814169790892,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 32.71552276611328,
+            "change_pct": 1.3803806082838441,
+            "composite_score": 0.29615886627087273,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "JSL",
+            "name": "JSL",
+            "price": 787.08544921875,
+            "change_pct": 12.131694748701634,
+            "composite_score": 0.9237977936292386,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TORNTPOWER",
+            "name": "TORNTPOWER",
+            "price": 1461.2913818359375,
+            "change_pct": 4.259104393585925,
+            "composite_score": 0.823220339757318,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 348.1499938964844,
+            "change_pct": 1.2799982244318182,
+            "composite_score": 0.5773501202221363,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 110.9096908569336,
+            "change_pct": 2.5640962324164986,
+            "composite_score": 0.4894784688177757,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 755.5620727539062,
+            "change_pct": 1.1024206096186202,
+            "composite_score": 0.4406842754450644,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:06:01.186122",
+    "trigger_mode": "morning",
+    "trade_date": "20240531",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 50.6,
+      "nifty_slope_pct": 0.51,
+      "nifty_rvol": 10.8,
+      "max_picks": 4
+    }
+  }
+}

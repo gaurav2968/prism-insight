@@ -1,0 +1,401 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "TATAPOWER",
+      "name": "TATAPOWER",
+      "current_price": 377.915283203125,
+      "change_rate": 4.6014746464370875,
+      "volume": 34448280,
+      "trade_value": 13018531492.060547,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 359.01951904296874,
+      "target_price": 434.6025756835937,
+      "quality_score": 54.324999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 35.4); Revenue declining (-12.8%); Golden cross (50MA > 200MA)",
+      "final_score": 0.8173000000000001,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "market_cap_cr": 132607.0,
+        "trailing_pe": 35.4,
+        "forward_pe": 27.4,
+        "price_to_book": 3.5,
+        "dividend_yield_pct": 62.0,
+        "revenue_growth_pct": -12.8,
+        "earnings_growth_pct": -4.6,
+        "operating_margin_pct": 8.9,
+        "profit_margin_pct": 6.0,
+        "roe_pct": 11.3,
+        "rsi_14": 37.7,
+        "sma_50": 411.27,
+        "sma_200": 389.58,
+        "pct_from_52w_high": -10.7,
+        "beta": 0.37,
+        "analyst_recommendation": "buy",
+        "target_mean": 428.7,
+        "target_upside_pct": 3.3,
+        "analyst_count": 24,
+        "debt_to_equity": 167.8,
+        "valuation_score": 58.0,
+        "growth_score": 15.0,
+        "profitability_score": 52.0,
+        "technical_score": 68.0,
+        "analyst_score": 62.0,
+        "risk_score": 58.0
+      }
+    },
+    {
+      "ticker": "GAIL",
+      "name": "GAIL",
+      "current_price": 154.73707580566406,
+      "change_rate": 3.8391782523670583,
+      "volume": 58433818,
+      "trade_value": 9041878125.480377,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999925,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 147.00022201538084,
+      "target_price": 177.94763717651367,
+      "quality_score": 50.866666666666674,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 12.0); Revenue declining (-4.5%); Earnings collapsing (-57.0%)",
+      "final_score": 0.7646226816070791,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Gas",
+        "market_cap_cr": 102650.0,
+        "trailing_pe": 12.0,
+        "forward_pe": 9.7,
+        "price_to_book": 1.16,
+        "dividend_yield_pct": 780.0,
+        "revenue_growth_pct": -4.5,
+        "earnings_growth_pct": -57.0,
+        "operating_margin_pct": 4.9,
+        "profit_margin_pct": 6.0,
+        "roe_pct": null,
+        "rsi_14": 48.2,
+        "sma_50": 153.69,
+        "sma_200": 167.96,
+        "pct_from_52w_high": -23.0,
+        "beta": 0.6,
+        "analyst_recommendation": "buy",
+        "target_mean": 187.48,
+        "target_upside_pct": 20.1,
+        "analyst_count": 31,
+        "debt_to_equity": 25.4,
+        "valuation_score": 83.0,
+        "growth_score": 15.0,
+        "profitability_score": 42.0,
+        "technical_score": 44.0,
+        "analyst_score": 77.0,
+        "risk_score": 72.0
+      }
+    },
+    {
+      "ticker": "SBIN",
+      "name": "SBIN",
+      "current_price": 589.9810791015625,
+      "change_rate": 1.6646338122189401,
+      "volume": 19572140,
+      "trade_value": 11547192277.526855,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 560.4820251464844,
+      "target_price": 678.4782409667969,
+      "quality_score": 62.825,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.4); Highly profitable (margin 22.3%); Oversold (RSI 30)",
+      "final_score": 0.7365913273470462,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 875801.0,
+        "trailing_pe": 10.4,
+        "forward_pe": 9.1,
+        "price_to_book": 1.48,
+        "dividend_yield_pct": 185.0,
+        "revenue_growth_pct": 3.8,
+        "earnings_growth_pct": -3.1,
+        "operating_margin_pct": 26.8,
+        "profit_margin_pct": 22.3,
+        "roe_pct": 15.5,
+        "rsi_14": 29.7,
+        "sma_50": 1050.41,
+        "sma_200": 988.05,
+        "pct_from_52w_high": -23.2,
+        "beta": 0.47,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1195.0,
+        "target_upside_pct": 25.9,
+        "analyst_count": 38,
+        "debt_to_equity": null,
+        "valuation_score": 78.0,
+        "growth_score": 28.0,
+        "profitability_score": 83.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFCBANK",
+      "current_price": 707.9573974609375,
+      "change_rate": 1.3763961987786595,
+      "volume": 65645498,
+      "trade_value": 46474215919.10718,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.1485248290049572,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 672.5595275878906,
+      "target_price": 819.4084696501124,
+      "quality_score": 56.075,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-1.8%); Highly profitable (margin 26.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.6243000000000001,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 1173824.0,
+        "trailing_pe": 17.0,
+        "forward_pe": 12.1,
+        "price_to_book": 2.08,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": -1.8,
+        "earnings_growth_pct": 7.5,
+        "operating_margin_pct": 40.5,
+        "profit_margin_pct": 26.8,
+        "roe_pct": 13.8,
+        "rsi_14": 44.6,
+        "sma_50": 786.1,
+        "sma_200": 919.85,
+        "pct_from_52w_high": -25.3,
+        "beta": 0.48,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1039.79,
+        "target_upside_pct": 36.4,
+        "analyst_count": 39,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 224.1894073486328,
+            "change_pct": 7.882914271406449,
+            "composite_score": 1.0052405211039157,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 83.28732299804688,
+            "change_pct": 10.723632529714164,
+            "composite_score": 0.7957833930653471,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 450.0384216308594,
+            "change_pct": 6.28522348831482,
+            "composite_score": 0.614790228894866,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATAPOWER",
+            "name": "TATAPOWER",
+            "price": 377.915283203125,
+            "change_pct": 4.6014746464370875,
+            "composite_score": 0.5901213531559388,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 154.73707580566406,
+            "change_pct": 3.8391782523670583,
+            "composite_score": 0.5476690860297881,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 83.22759246826172,
+            "change_pct": 4.309804740524172,
+            "composite_score": 0.5078112537771441,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 148.07110595703125,
+            "change_pct": 9.133927197773774,
+            "composite_score": 0.5027253165709852,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SBIN",
+            "name": "SBIN",
+            "price": 589.9810791015625,
+            "change_pct": 1.6646338122189401,
+            "composite_score": 0.4647572020350065,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 41.18655776977539,
+            "change_pct": 3.5194155790799444,
+            "composite_score": 0.37682336767086894,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CESC",
+            "name": "CESC",
+            "price": 126.54138946533203,
+            "change_pct": 4.351090830378476,
+            "composite_score": 0.37154302211689655,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 29.58358383178711,
+            "change_pct": 18.244572944580188,
+            "composite_score": 0.91432310049694,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 83.28732299804688,
+            "change_pct": 10.723632529714164,
+            "composite_score": 0.7596790836706735,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 148.07110595703125,
+            "change_pct": 9.133927197773774,
+            "composite_score": 0.6065997789117257,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RELIANCE",
+            "name": "RELIANCE",
+            "price": 1437.4111328125,
+            "change_pct": 7.019207209119879,
+            "composite_score": 0.49471387966445757,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 450.0384216308594,
+            "change_pct": 6.28522348831482,
+            "composite_score": 0.4429260017821013,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 167.19403076171875,
+            "change_pct": 8.081085266577038,
+            "composite_score": 0.4365682848288801,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 224.1894073486328,
+            "change_pct": 7.882914271406449,
+            "composite_score": 0.41094001027001525,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATAPOWER",
+            "name": "TATAPOWER",
+            "price": 377.915283203125,
+            "change_pct": 4.6014746464370875,
+            "composite_score": 0.39648875745609824,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 707.9573974609375,
+            "change_pct": 1.3763961987786595,
+            "composite_score": 0.3963434067140883,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 358.8066711425781,
+            "change_pct": 6.009242894488796,
+            "composite_score": 0.3791414816623955,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:05:16.964916",
+    "trigger_mode": "morning",
+    "trade_date": "20240129",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 56.5,
+      "nifty_slope_pct": 4.57,
+      "nifty_rvol": 14.7,
+      "max_picks": 4
+    }
+  }
+}

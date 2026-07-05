@@ -1,0 +1,321 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "TATASTEEL",
+      "name": "TATASTEEL",
+      "current_price": 151.77061462402344,
+      "change_rate": 3.9349545955122274,
+      "volume": 60002060,
+      "trade_value": 9106549524.907532,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999925,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 144.18208389282225,
+      "target_price": 174.53620681762695,
+      "quality_score": 62.10833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Buy; Target ₹223 (+6% upside)",
+      "final_score": 0.6484333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 261023.0,
+        "trailing_pe": 28.5,
+        "forward_pe": 11.1,
+        "price_to_book": 2.75,
+        "dividend_yield_pct": 191.0,
+        "revenue_growth_pct": 12.5,
+        "earnings_growth_pct": 125.4,
+        "operating_margin_pct": 10.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 11.2,
+        "rsi_14": 47.0,
+        "sma_50": 204.08,
+        "sma_200": 184.78,
+        "pct_from_52w_high": -6.7,
+        "beta": 0.79,
+        "analyst_recommendation": "buy",
+        "target_mean": 222.68,
+        "target_upside_pct": 6.4,
+        "analyst_count": 34,
+        "debt_to_equity": 89.0,
+        "valuation_score": 65.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 65.0,
+        "analyst_score": 67.0,
+        "risk_score": 62.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "JINDALSTEL",
+      "name": "JINDALSTEL",
+      "current_price": 941.3325805664062,
+      "change_rate": 3.68253049274031,
+      "volume": 6979336,
+      "trade_value": 6569876367.52002,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 894.2659515380859,
+      "target_price": 1082.5324676513671,
+      "quality_score": 61.208333333333336,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 37.0); Strong revenue growth (23.0%); Golden cross (50MA > 200MA)",
+      "final_score": 0.8448333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 124775.0,
+        "trailing_pe": 37.0,
+        "forward_pe": 12.8,
+        "price_to_book": 2.51,
+        "dividend_yield_pct": 16.0,
+        "revenue_growth_pct": 23.0,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 12.8,
+        "profit_margin_pct": 6.3,
+        "roe_pct": 6.8,
+        "rsi_14": 48.0,
+        "sma_50": 1203.88,
+        "sma_200": 1098.94,
+        "pct_from_52w_high": -6.1,
+        "beta": 0.63,
+        "analyst_recommendation": "buy",
+        "target_mean": 1282.71,
+        "target_upside_pct": 4.6,
+        "analyst_count": 31,
+        "debt_to_equity": 43.6,
+        "valuation_score": 58.0,
+        "growth_score": 75.0,
+        "profitability_score": 43.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 72.0
+      }
+    },
+    {
+      "ticker": "NBCC",
+      "name": "NBCC",
+      "current_price": 106.06018829345703,
+      "change_rate": 4.975902359834181,
+      "volume": 32568683,
+      "trade_value": 3454240651.449913,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 100.75717887878417,
+      "target_price": 121.96921653747557,
+      "quality_score": 51.449999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 38.5); Death cross (50MA < 200MA); Down 29% from 52W high",
+      "final_score": 0.7736279147795474,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 25132.0,
+        "trailing_pe": 38.5,
+        "forward_pe": 34.5,
+        "price_to_book": 9.38,
+        "dividend_yield_pct": 74.0,
+        "revenue_growth_pct": 9.5,
+        "earnings_growth_pct": 39.2,
+        "operating_margin_pct": 6.6,
+        "profit_margin_pct": 5.0,
+        "roe_pct": null,
+        "rsi_14": 50.2,
+        "sma_50": 88.9,
+        "sma_200": 102.72,
+        "pct_from_52w_high": -28.8,
+        "beta": 0.67,
+        "analyst_recommendation": "none",
+        "target_mean": 124.5,
+        "target_upside_pct": 33.8,
+        "analyst_count": 2,
+        "debt_to_equity": 0.0,
+        "valuation_score": 40.0,
+        "growth_score": 75.0,
+        "profitability_score": 32.0,
+        "technical_score": 44.0,
+        "analyst_score": 68.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "RVNL",
+      "name": "RVNL",
+      "current_price": 369.70068359375,
+      "change_rate": 4.4111525177318835,
+      "volume": 15252942,
+      "trade_value": 5639023084.21582,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 351.2156494140625,
+      "target_price": 425.15578613281247,
+      "quality_score": 41.300000000000004,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 49.3); Death cross (50MA < 200MA); Down 39% from 52W high",
+      "final_score": 0.7324641310509298,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 56619.0,
+        "trailing_pe": 49.3,
+        "forward_pe": 38.2,
+        "price_to_book": 5.95,
+        "dividend_yield_pct": 98.0,
+        "revenue_growth_pct": 2.6,
+        "earnings_growth_pct": 4.0,
+        "operating_margin_pct": 4.5,
+        "profit_margin_pct": 5.7,
+        "roe_pct": null,
+        "rsi_14": 36.1,
+        "sma_50": 281.34,
+        "sma_200": 316.39,
+        "pct_from_52w_high": -39.4,
+        "beta": 1.01,
+        "analyst_recommendation": "none",
+        "target_mean": 240.33,
+        "target_upside_pct": -11.5,
+        "analyst_count": 3,
+        "debt_to_equity": 52.1,
+        "valuation_score": 45.0,
+        "growth_score": 40.0,
+        "profitability_score": 42.0,
+        "technical_score": 39.0,
+        "analyst_score": 32.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 151.77061462402344,
+            "change_pct": 3.9349545955122274,
+            "composite_score": 0.65,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 218.3300018310547,
+            "change_pct": 6.55961856676411,
+            "composite_score": 0.7974887831999313,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "JINDALSTEL",
+            "name": "JINDALSTEL",
+            "price": 941.3325805664062,
+            "change_pct": 3.68253049274031,
+            "composite_score": 0.6640656101081853,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 106.06018829345703,
+            "change_pct": 4.975902359834181,
+            "composite_score": 0.6302524076104116,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 369.70068359375,
+            "change_pct": 4.4111525177318835,
+            "composite_score": 0.6296598649371571,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 121.16144561767578,
+            "change_pct": 5.758619885922823,
+            "composite_score": 0.5508206410086359,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 151.77061462402344,
+            "change_pct": 3.9349545955122274,
+            "composite_score": 0.5065765649340366,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CESC",
+            "name": "CESC",
+            "price": 162.35719299316406,
+            "change_pct": 2.2982158114655817,
+            "composite_score": 0.49332186887549967,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 85.5273666381836,
+            "change_pct": 3.5295515974651415,
+            "composite_score": 0.4924727692276133,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 127.51508331298828,
+            "change_pct": 4.168002241209905,
+            "composite_score": 0.4538634906864836,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:32:04.952020",
+    "trigger_mode": "morning",
+    "trade_date": "20250514",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 61.5,
+      "nifty_slope_pct": 1.8,
+      "nifty_rvol": 18.5,
+      "max_picks": 4
+    }
+  }
+}

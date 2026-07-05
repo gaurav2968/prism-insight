@@ -1,0 +1,337 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "IRB",
+      "name": "IRB",
+      "current_price": 33.32924270629883,
+      "change_rate": 1.8451123488172492,
+      "volume": 296449454,
+      "trade_value": 9880435802.51577,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.2105774580229203,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 31.662780570983884,
+      "target_price": 38.67954847258973,
+      "quality_score": 50.625,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-16.3%); Earnings collapsing (-96.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8025000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Infrastructure Operations",
+        "market_cap_cr": 24410.0,
+        "trailing_pe": 32.1,
+        "forward_pe": 21.6,
+        "price_to_book": 1.21,
+        "dividend_yield_pct": 69.0,
+        "revenue_growth_pct": -16.3,
+        "earnings_growth_pct": -96.5,
+        "operating_margin_pct": 23.6,
+        "profit_margin_pct": 11.6,
+        "roe_pct": null,
+        "rsi_14": 33.5,
+        "sma_50": 21.26,
+        "sma_200": 21.26,
+        "pct_from_52w_high": -25.5,
+        "beta": -0.09,
+        "analyst_recommendation": "none",
+        "target_mean": 28.5,
+        "target_upside_pct": 41.0,
+        "analyst_count": 5,
+        "debt_to_equity": 102.3,
+        "valuation_score": 65.0,
+        "growth_score": 15.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "LICHSGFIN",
+      "name": "LICHSGFIN",
+      "current_price": 693.7470092773438,
+      "change_rate": 5.190431279480938,
+      "volume": 10108963,
+      "trade_value": 7013062848.145325,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 659.0596588134765,
+      "target_price": 797.8090606689452,
+      "quality_score": 56.3,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Highly profitable (margin 65.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.8252,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Mortgage Finance",
+        "market_cap_cr": 29868.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 4.8,
+        "price_to_book": 0.78,
+        "dividend_yield_pct": 183.0,
+        "revenue_growth_pct": 4.4,
+        "earnings_growth_pct": 8.6,
+        "operating_margin_pct": 81.5,
+        "profit_margin_pct": 65.8,
+        "roe_pct": 14.4,
+        "rsi_14": 47.1,
+        "sma_50": 530.07,
+        "sma_200": 544.21,
+        "pct_from_52w_high": -16.0,
+        "beta": 0.32,
+        "analyst_recommendation": "hold",
+        "target_mean": 613.35,
+        "target_upside_pct": 13.0,
+        "analyst_count": 23,
+        "debt_to_equity": 642.5,
+        "valuation_score": 83.0,
+        "growth_score": 50.0,
+        "profitability_score": 77.0,
+        "technical_score": 45.0,
+        "analyst_score": 62.0,
+        "risk_score": 50.0
+      }
+    },
+    {
+      "ticker": "ENGINERSIN",
+      "name": "ENGINERSIN",
+      "current_price": 246.10943603515625,
+      "change_rate": 3.7200642190000113,
+      "volume": 15558157,
+      "trade_value": 3829009245.0164185,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 233.80396423339843,
+      "target_price": 283.0258514404297,
+      "quality_score": 65.525,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (58.3%); Highly profitable (margin 19.3%); Golden cross (50MA > 200MA)",
+      "final_score": 0.7323112472056589,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 13770.0,
+        "trailing_pe": 17.8,
+        "forward_pe": 20.8,
+        "price_to_book": 5.07,
+        "dividend_yield_pct": 126.0,
+        "revenue_growth_pct": 58.3,
+        "earnings_growth_pct": 218.6,
+        "operating_margin_pct": 28.3,
+        "profit_margin_pct": 19.3,
+        "roe_pct": null,
+        "rsi_14": 47.7,
+        "sma_50": 221.31,
+        "sma_200": 203.46,
+        "pct_from_52w_high": -8.2,
+        "beta": 1.03,
+        "analyst_recommendation": "none",
+        "target_mean": 247.0,
+        "target_upside_pct": 0.8,
+        "analyst_count": 5,
+        "debt_to_equity": 0.7,
+        "valuation_score": 50.0,
+        "growth_score": 90.0,
+        "profitability_score": 80.0,
+        "technical_score": 67.0,
+        "analyst_score": 50.0,
+        "risk_score": 72.0
+      }
+    },
+    {
+      "ticker": "LTF",
+      "name": "LTF",
+      "current_price": 165.6195526123047,
+      "change_rate": 3.4687636913970072,
+      "volume": 13051066,
+      "trade_value": 2161511712.033661,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 157.33857498168945,
+      "target_price": 190.46248550415038,
+      "quality_score": 58.34166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (31.9%); Highly profitable (margin 33.1%); Death cross (50MA < 200MA)",
+      "final_score": 0.6699743333402787,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 69639.0,
+        "trailing_pe": 23.4,
+        "forward_pe": 14.7,
+        "price_to_book": 2.64,
+        "dividend_yield_pct": 99.0,
+        "revenue_growth_pct": 31.9,
+        "earnings_growth_pct": 26.4,
+        "operating_margin_pct": 43.7,
+        "profit_margin_pct": 33.1,
+        "roe_pct": 11.1,
+        "rsi_14": 45.2,
+        "sma_50": 272.97,
+        "sma_200": 274.74,
+        "pct_from_52w_high": -15.6,
+        "beta": 0.69,
+        "analyst_recommendation": "buy",
+        "target_mean": 307.75,
+        "target_upside_pct": 10.7,
+        "analyst_count": 20,
+        "debt_to_equity": 393.4,
+        "valuation_score": 65.0,
+        "growth_score": 82.0,
+        "profitability_score": 77.0,
+        "technical_score": 45.0,
+        "analyst_score": 67.0,
+        "risk_score": 45.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 31.540000915527344,
+            "change_pct": 9.972108019243738,
+            "composite_score": 0.9992362099061923,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 33.32924270629883,
+            "change_pct": 1.8451123488172492,
+            "composite_score": 0.41248212953313335,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 201.53648376464844,
+            "change_pct": 1.9073523020265357,
+            "composite_score": 0.2820833543915441,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 303.8177490234375,
+            "change_pct": 2.5588460417158143,
+            "composite_score": 0.24633140748120336,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 31.540000915527344,
+            "change_pct": 9.972108019243738,
+            "composite_score": 0.9752075817289835,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 111.27254486083984,
+            "change_pct": 3.7185073772429966,
+            "composite_score": 0.7172081751362536,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LICHSGFIN",
+            "name": "LICHSGFIN",
+            "price": 693.7470092773438,
+            "change_pct": 5.190431279480938,
+            "composite_score": 0.6574840370567999,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 33.32924270629883,
+            "change_pct": 1.8451123488172492,
+            "composite_score": 0.5347044636153795,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 246.10943603515625,
+            "change_pct": 3.7200642190000113,
+            "composite_score": 0.4614363718646087,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LTF",
+            "name": "LTF",
+            "price": 165.6195526123047,
+            "change_pct": 3.4687636913970072,
+            "composite_score": 0.4106777093182129,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 63.911590576171875,
+            "change_pct": 3.641754969800198,
+            "composite_score": 0.36679200658006667,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PETRONET",
+            "name": "PETRONET",
+            "price": 300.5273132324219,
+            "change_pct": 1.6970788503352923,
+            "composite_score": 0.3553813340547276,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:16:01.331034",
+    "trigger_mode": "morning",
+    "trade_date": "20240612",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 59.5,
+      "nifty_slope_pct": 1.11,
+      "nifty_rvol": 29.2,
+      "max_picks": 4
+    }
+  }
+}

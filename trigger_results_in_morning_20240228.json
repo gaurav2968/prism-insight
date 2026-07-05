@@ -1,0 +1,226 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "VGUARD",
+      "name": "VGUARD",
+      "current_price": 327.79339599609375,
+      "change_rate": 2.4045950211451745,
+      "volume": 7608365,
+      "trade_value": 2493971801.32782,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 311.403726196289,
+      "target_price": 376.9624053955078,
+      "quality_score": 52.474999999999994,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 44.6); Death cross (50MA < 200MA); Analyst: Buy",
+      "final_score": 0.6099,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 13665.0,
+        "trailing_pe": 44.6,
+        "forward_pe": 28.7,
+        "price_to_book": 6.26,
+        "dividend_yield_pct": 47.0,
+        "revenue_growth_pct": 14.1,
+        "earnings_growth_pct": 23.1,
+        "operating_margin_pct": 8.1,
+        "profit_margin_pct": 5.2,
+        "roe_pct": 13.8,
+        "rsi_14": 40.5,
+        "sma_50": 324.51,
+        "sma_200": 340.51,
+        "pct_from_52w_high": -23.6,
+        "beta": 0.08,
+        "analyst_recommendation": "buy",
+        "target_mean": 386.65,
+        "target_upside_pct": 23.6,
+        "analyst_count": 17,
+        "debt_to_equity": 7.0,
+        "valuation_score": 45.0,
+        "growth_score": 68.0,
+        "profitability_score": 52.0,
+        "technical_score": 39.0,
+        "analyst_score": 73.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 244.64999389648438,
+      "change_rate": 1.8314230578498958,
+      "volume": 54016111,
+      "trade_value": 13215041226.461823,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999907,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 232.41749420166013,
+      "target_price": 281.347492980957,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.7530687316521413,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 59.0,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    },
+    {
+      "ticker": "MOTHERSON",
+      "name": "MOTHERSON",
+      "current_price": 77.96058654785156,
+      "change_rate": 2.7741564451886256,
+      "volume": 46088626,
+      "trade_value": 3593096316.144562,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 74.06255722045898,
+      "target_price": 89.6546745300293,
+      "quality_score": 59.69166666666666,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 40.7); Golden cross (50MA > 200MA); Trading near 52-week high",
+      "final_score": 0.6387666666666667,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "market_cap_cr": 138475.0,
+        "trailing_pe": 40.7,
+        "forward_pe": 26.3,
+        "price_to_book": 3.75,
+        "dividend_yield_pct": 45.0,
+        "revenue_growth_pct": 14.5,
+        "earnings_growth_pct": 16.4,
+        "operating_margin_pct": 5.5,
+        "profit_margin_pct": 2.8,
+        "roe_pct": null,
+        "rsi_14": 55.9,
+        "sma_50": 119.29,
+        "sma_200": 113.76,
+        "pct_from_52w_high": -3.4,
+        "beta": 0.98,
+        "analyst_recommendation": "none",
+        "target_mean": 139.91,
+        "target_upside_pct": 6.4,
+        "analyst_count": 22,
+        "debt_to_equity": 49.9,
+        "valuation_score": 52.0,
+        "growth_score": 68.0,
+        "profitability_score": 32.0,
+        "technical_score": 69.0,
+        "analyst_score": 68.0,
+        "risk_score": 65.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "VGUARD",
+            "name": "VGUARD",
+            "price": 327.79339599609375,
+            "change_pct": 2.4045950211451745,
+            "composite_score": 0.44999999999999996,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "VGUARD",
+            "name": "VGUARD",
+            "price": 327.79339599609375,
+            "change_pct": 2.4045950211451745,
+            "composite_score": 0.9433506922197108,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 244.64999389648438,
+            "change_pct": 1.8314230578498958,
+            "composite_score": 0.7245691674801505,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "MOTHERSON",
+            "name": "MOTHERSON",
+            "price": 77.96058654785156,
+            "change_pct": 2.7741564451886256,
+            "composite_score": 0.4783425606262002,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:38:01.441242",
+    "trigger_mode": "morning",
+    "trade_date": "20240228",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 52.1,
+      "nifty_slope_pct": 2.85,
+      "nifty_rvol": 9.1,
+      "max_picks": 5
+    }
+  }
+}

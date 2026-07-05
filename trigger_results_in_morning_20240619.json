@@ -1,0 +1,337 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "NBCC",
+      "name": "NBCC",
+      "current_price": 105.64373779296875,
+      "change_rate": 1.833234676645443,
+      "volume": 57428613,
+      "trade_value": 6066973333.585876,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 100.3615509033203,
+      "target_price": 121.49029846191405,
+      "quality_score": 51.449999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 38.5); Death cross (50MA < 200MA); Down 29% from 52W high",
+      "final_score": 0.6058,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 25132.0,
+        "trailing_pe": 38.5,
+        "forward_pe": 34.5,
+        "price_to_book": 9.38,
+        "dividend_yield_pct": 74.0,
+        "revenue_growth_pct": 9.5,
+        "earnings_growth_pct": 39.2,
+        "operating_margin_pct": 6.6,
+        "profit_margin_pct": 5.0,
+        "roe_pct": null,
+        "rsi_14": 47.2,
+        "sma_50": 88.9,
+        "sma_200": 102.72,
+        "pct_from_52w_high": -28.8,
+        "beta": 0.67,
+        "analyst_recommendation": "none",
+        "target_mean": 124.5,
+        "target_upside_pct": 33.8,
+        "analyst_count": 2,
+        "debt_to_equity": 0.0,
+        "valuation_score": 40.0,
+        "growth_score": 75.0,
+        "profitability_score": 32.0,
+        "technical_score": 44.0,
+        "analyst_score": 68.0,
+        "risk_score": 80.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 334.0,
+      "change_rate": -3.061961447320662,
+      "volume": 832154977,
+      "trade_value": 277939762318.0,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 317.3,
+      "target_price": 384.09999999999997,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.8471666666666667,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 59.0,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    },
+    {
+      "ticker": "RBLBANK",
+      "name": "RBLBANK",
+      "current_price": 263.4180908203125,
+      "change_rate": 2.4248475259198226,
+      "volume": 12335878,
+      "trade_value": 3249493431.352295,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 250.24718627929687,
+      "target_price": 302.93080444335936,
+      "quality_score": 66.25833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (40.8%); Golden cross (50MA > 200MA); Analyst: Buy",
+      "final_score": 0.6668475411729367,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 20024.0,
+        "trailing_pe": 23.0,
+        "forward_pe": 17.1,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 33.0,
+        "revenue_growth_pct": 40.8,
+        "earnings_growth_pct": 367.9,
+        "operating_margin_pct": 14.0,
+        "profit_margin_pct": 9.1,
+        "roe_pct": null,
+        "rsi_14": 48.8,
+        "sma_50": 314.99,
+        "sma_200": 302.58,
+        "pct_from_52w_high": -7.5,
+        "beta": 0.64,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.89,
+        "target_upside_pct": 7.2,
+        "analyst_count": 18,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 90.0,
+        "profitability_score": 52.0,
+        "technical_score": 65.0,
+        "analyst_score": 63.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 1224.657470703125,
+      "change_rate": 2.915517392777978,
+      "volume": 17987437,
+      "trade_value": 22028449100.851807,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999925,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1163.4245971679686,
+      "target_price": 1408.3560913085937,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.6631554177560006,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.7,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "CHAMBLFERT",
+            "name": "CHAMBLFERT",
+            "price": 450.7915954589844,
+            "change_pct": 6.684152763301124,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 105.64373779296875,
+            "change_pct": 1.833234676645443,
+            "composite_score": 0.11010539647325601,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 334.0,
+            "change_pct": -3.061961447320662,
+            "composite_score": 1.075900989541461,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CHAMBLFERT",
+            "name": "CHAMBLFERT",
+            "price": 450.7915954589844,
+            "change_pct": 6.684152763301124,
+            "composite_score": 0.4721384869776144,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 198.49000549316406,
+            "change_pct": 5.2383250362336575,
+            "composite_score": 0.39173057924214905,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 126.69132995605469,
+            "change_pct": 2.2868182531032497,
+            "composite_score": 0.3880648803996304,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 817.869873046875,
+            "change_pct": 3.112953945838532,
+            "composite_score": 0.37916681272916575,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 1224.657470703125,
+            "change_pct": 2.915517392777978,
+            "composite_score": 0.33956512709720343,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 263.4180908203125,
+            "change_pct": 2.4248475259198226,
+            "composite_score": 0.31982429961668096,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ICICIBANK",
+            "name": "ICICIBANK",
+            "price": 1125.993408203125,
+            "change_pct": 1.9236699928011407,
+            "composite_score": 0.31731603448935153,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSINDBK",
+            "name": "INDUSINDBK",
+            "price": 1511.4205322265625,
+            "change_pct": 1.3462375561570084,
+            "composite_score": 0.3129031159977633,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 348.5556640625,
+            "change_pct": 1.5877578869125313,
+            "composite_score": 0.28852040604479545,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:21:56.798002",
+    "trigger_mode": "morning",
+    "trade_date": "20240619",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 61.6,
+      "nifty_slope_pct": 1.39,
+      "nifty_rvol": 29.1,
+      "max_picks": 4
+    }
+  }
+}

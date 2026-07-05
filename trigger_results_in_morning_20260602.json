@@ -1,0 +1,128 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1244.5999755859375,
+            "change_pct": 3.5010374707640333,
+            "composite_score": 0.9999999999999999,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HCLTECH",
+            "name": "HCLTECH",
+            "price": 1215.699951171875,
+            "change_pct": 1.7237031216436665,
+            "composite_score": 0.0,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 105.87999725341797,
+            "change_pct": 1.4176204079577508,
+            "composite_score": 0.7431485023998243,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 94.87999725341797,
+            "change_pct": 2.717326439539177,
+            "composite_score": 0.6070466593727584,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1244.5999755859375,
+            "change_pct": 3.5010374707640333,
+            "composite_score": 0.5199980086557644,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 183.33999633789062,
+            "change_pct": 0.5815215962762795,
+            "composite_score": 0.5122949622664941,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TCS",
+            "name": "TCS",
+            "price": 2364.699951171875,
+            "change_pct": 2.9294007003076468,
+            "composite_score": 0.39412106388274387,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 340.75,
+            "change_pct": 1.0677758174959184,
+            "composite_score": 0.2419919067207652,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HCLTECH",
+            "name": "HCLTECH",
+            "price": 1215.699951171875,
+            "change_pct": 1.7237031216436665,
+            "composite_score": 0.21885894066921424,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1797.4000244140625,
+            "change_pct": -0.7290374102431597,
+            "composite_score": 0.20081440405210518,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-06-02T09:31:27.018282",
+    "trigger_mode": "morning",
+    "trade_date": "20260602",
+    "selection_mode": "momentum_first",
+    "scoring_weights": {
+      "momentum_signal": 0.75,
+      "quality_tiebreaker": 0.25
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 38.4,
+      "nifty_slope_pct": -1.77,
+      "nifty_rvol": 13.1,
+      "max_picks": 3
+    }
+  }
+}

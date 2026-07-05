@@ -1,0 +1,79 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 568,
+    "snapshot_count": 562,
+    "prev_snapshot_count": 562,
+    "baseline_count": 562,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "IFCI",
+            "name": "IFCI",
+            "price": 73.8499984741211,
+            "change_pct": 3.0848675367130003,
+            "composite_score": 0.6488845608246239,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 193.77999877929688,
+            "change_pct": 2.0216891063140894,
+            "composite_score": 0.48171246869138407,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 477.20001220703125,
+            "change_pct": 1.069579238764971,
+            "composite_score": 0.18113768933939742,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 745.7000122070312,
+            "change_pct": -0.3407935573630137,
+            "composite_score": 0.1682608728178867,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-06-03T09:31:39.545545",
+    "trigger_mode": "morning",
+    "trade_date": "20260603",
+    "selection_mode": "momentum_first",
+    "scoring_weights": {
+      "momentum_signal": 0.75,
+      "quality_tiebreaker": 0.25
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 39.3,
+      "nifty_slope_pct": -1.64,
+      "nifty_rvol": 13.4,
+      "max_picks": 3
+    }
+  }
+}

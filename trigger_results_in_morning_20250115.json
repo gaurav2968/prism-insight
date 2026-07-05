@@ -1,0 +1,225 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "NTPC",
+      "name": "NTPC",
+      "current_price": 310.66400146484375,
+      "change_rate": 3.527717343273779,
+      "volume": 21894626,
+      "trade_value": 6801872123.736206,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 295.13080139160155,
+      "target_price": 357.2636016845703,
+      "quality_score": 61.25833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹427 (+10% upside)",
+      "final_score": 0.8450333333333334,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Electric",
+        "market_cap_cr": 377588.0,
+        "trailing_pe": 21.6,
+        "forward_pe": 14.5,
+        "price_to_book": 1.96,
+        "dividend_yield_pct": 292.0,
+        "revenue_growth_pct": 8.0,
+        "earnings_growth_pct": -1.6,
+        "operating_margin_pct": 18.4,
+        "profit_margin_pct": 12.9,
+        "roe_pct": null,
+        "rsi_14": 46.7,
+        "sma_50": 386.54,
+        "sma_200": 352.2,
+        "pct_from_52w_high": -6.0,
+        "beta": 0.32,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 427.11,
+        "target_upside_pct": 9.7,
+        "analyst_count": 27,
+        "debt_to_equity": 118.1,
+        "valuation_score": 78.0,
+        "growth_score": 28.0,
+        "profitability_score": 72.0,
+        "technical_score": 65.0,
+        "analyst_score": 75.0,
+        "risk_score": 58.0
+      }
+    },
+    {
+      "ticker": "COALINDIA",
+      "name": "COALINDIA",
+      "current_price": 344.903564453125,
+      "change_rate": 1.448890289997081,
+      "volume": 11117714,
+      "trade_value": 3834539187.17041,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 327.65838623046875,
+      "target_price": 396.6390991210937,
+      "quality_score": 66.14166666666668,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 9.1); Strong revenue growth (16.2%); Highly profitable (margin 18.5%)",
+      "final_score": 0.6645666666666667,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Thermal Coal",
+        "market_cap_cr": 281606.0,
+        "trailing_pe": 9.1,
+        "forward_pe": 8.0,
+        "price_to_book": 2.36,
+        "dividend_yield_pct": 476.0,
+        "revenue_growth_pct": 16.2,
+        "earnings_growth_pct": 12.9,
+        "operating_margin_pct": 20.9,
+        "profit_margin_pct": 18.5,
+        "roe_pct": 28.1,
+        "rsi_14": 48.6,
+        "sma_50": 455.11,
+        "sma_200": 413.38,
+        "pct_from_52w_high": -7.0,
+        "beta": 0.0,
+        "analyst_recommendation": "hold",
+        "target_mean": 450.81,
+        "target_upside_pct": -1.3,
+        "analyst_count": 26,
+        "debt_to_equity": 11.6,
+        "valuation_score": 72.0,
+        "growth_score": 68.0,
+        "profitability_score": 78.0,
+        "technical_score": 65.0,
+        "analyst_score": 57.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 285.8550109863281,
+            "change_pct": 2.8940491609819103,
+            "composite_score": 0.7137382017984467,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 149.20089721679688,
+            "change_pct": 2.742236302215497,
+            "composite_score": 0.6458939872862025,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 149.20089721679688,
+            "change_pct": 2.742236302215497,
+            "composite_score": 0.8888468554017238,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 351.79998779296875,
+            "change_pct": 3.379371264331738,
+            "composite_score": 0.575990860362931,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 243.89999389648438,
+            "change_pct": 4.409241234524838,
+            "composite_score": 0.4990191065710067,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDHOTEL",
+            "name": "INDHOTEL",
+            "price": 809.0210571289062,
+            "change_pct": 3.8392635693347756,
+            "composite_score": 0.48811786726832096,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NTPC",
+            "name": "NTPC",
+            "price": 310.66400146484375,
+            "change_pct": 3.527717343273779,
+            "composite_score": 0.4384818430651838,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 91.41466522216797,
+            "change_pct": 1.5769219976685103,
+            "composite_score": 0.34624442657938914,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 344.903564453125,
+            "change_pct": 1.448890289997081,
+            "composite_score": 0.33669029421392993,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 61.817665100097656,
+            "change_pct": 0.12915661650074484,
+            "composite_score": 0.32306151762301694,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T20:53:57.924798",
+    "trigger_mode": "morning",
+    "trade_date": "20250115",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 36.0,
+      "nifty_slope_pct": -1.64,
+      "nifty_rvol": 13.2,
+      "max_picks": 3
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "CANBK",
+      "name": "CANBK",
+      "current_price": 92.0711441040039,
+      "change_rate": 1.814891005382426,
+      "volume": 78481304,
+      "trade_value": 7225863450.054138,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999994,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 87.4675868988037,
+      "target_price": 105.88181571960449,
+      "quality_score": 57.43333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Strong revenue growth (20.9%); Highly profitable (margin 32.0%)",
+      "final_score": 0.8297333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 114426.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 5.5,
+        "price_to_book": 0.97,
+        "dividend_yield_pct": 336.0,
+        "revenue_growth_pct": 20.9,
+        "earnings_growth_pct": -9.8,
+        "operating_margin_pct": 41.7,
+        "profit_margin_pct": 32.0,
+        "roe_pct": 17.6,
+        "rsi_14": 35.4,
+        "sma_50": 135.14,
+        "sma_200": 136.69,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.56,
+        "analyst_recommendation": "buy",
+        "target_mean": 151.6,
+        "target_upside_pct": 20.2,
+        "analyst_count": 20,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 45.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 77.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "KOTAKBANK",
+      "name": "KOTAKBANK",
+      "current_price": 422.0334167480469,
+      "change_rate": 0.8449080842969824,
+      "volume": 34624355,
+      "trade_value": 14612634843.34732,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 400.9317459106445,
+      "target_price": 485.33842926025386,
+      "quality_score": 56.90833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-11.0%); Highly profitable (margin 26.0%); Death cross (50MA < 200MA)",
+      "final_score": 0.8060705771309695,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 379905.0,
+        "trailing_pe": 19.7,
+        "forward_pe": 13.6,
+        "price_to_book": 2.1,
+        "dividend_yield_pct": 13.0,
+        "revenue_growth_pct": -11.0,
+        "earnings_growth_pct": 9.8,
+        "operating_margin_pct": 35.1,
+        "profit_margin_pct": 26.0,
+        "roe_pct": 11.4,
+        "rsi_14": 51.6,
+        "sma_50": 373.61,
+        "sma_200": 407.06,
+        "pct_from_52w_high": -15.7,
+        "beta": 0.31,
+        "analyst_recommendation": "buy",
+        "target_mean": 461.12,
+        "target_upside_pct": 20.7,
+        "analyst_count": 36,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 44.0,
+        "analyst_score": 77.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 384.6499938964844,
+      "change_rate": 0.20841156187268928,
+      "volume": 11135804,
+      "trade_value": 4283386940.6324463,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999942,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 365.41749420166013,
+      "target_price": 442.347492980957,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.6471666666666667,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 58.9,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 136.25611877441406,
+            "change_pct": 2.1558748418843985,
+            "composite_score": 1.0084290222161365,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 92.0711441040039,
+            "change_pct": 1.814891005382426,
+            "composite_score": 0.45001751815879676,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 422.0334167480469,
+            "change_pct": 0.8449080842969824,
+            "composite_score": 0.438595477531443,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 384.6499938964844,
+            "change_pct": 0.20841156187268928,
+            "composite_score": 0.3440752117100357,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:28:02.853834",
+    "trigger_mode": "morning",
+    "trade_date": "20250508",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 60.9,
+      "nifty_slope_pct": 1.0,
+      "nifty_rvol": 19.0,
+      "max_picks": 4
+    }
+  }
+}

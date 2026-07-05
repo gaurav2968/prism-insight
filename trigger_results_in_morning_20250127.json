@@ -1,0 +1,137 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICIBANK",
+      "current_price": 1218.547607421875,
+      "change_rate": 1.550613138380198,
+      "volume": 16164687,
+      "trade_value": 19697440668.573486,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1157.6202270507813,
+      "target_price": 1401.329748535156,
+      "quality_score": 62.73333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (66.9%); Highly profitable (margin 24.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.6509333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 889489.0,
+        "trailing_pe": 16.6,
+        "forward_pe": 13.7,
+        "price_to_book": 2.45,
+        "dividend_yield_pct": 88.0,
+        "revenue_growth_pct": 66.9,
+        "earnings_growth_pct": 8.4,
+        "operating_margin_pct": 33.3,
+        "profit_margin_pct": 24.9,
+        "roe_pct": 16.4,
+        "rsi_14": 39.6,
+        "sma_50": 1278.38,
+        "sma_200": 1357.01,
+        "pct_from_52w_high": -17.3,
+        "beta": 0.28,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1669.8,
+        "target_upside_pct": 34.6,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 75.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "CYIENT",
+            "name": "CYIENT",
+            "price": 1318.480712890625,
+            "change_pct": 0.43124742261810395,
+            "composite_score": 0.9550151738532671,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CREDITACC",
+            "name": "CREDITACC",
+            "price": 923.7999877929688,
+            "change_pct": 0.7855130262717533,
+            "composite_score": 0.6597233417573137,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DLF",
+            "name": "DLF",
+            "price": 698.788818359375,
+            "change_pct": 1.2441610174789886,
+            "composite_score": 0.6103759383223974,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 49.60834884643555,
+            "change_pct": 2.1432797116101785,
+            "composite_score": 0.5863943303975948,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ICICIBANK",
+            "name": "ICICIBANK",
+            "price": 1218.547607421875,
+            "change_pct": 1.550613138380198,
+            "composite_score": 0.5298913426596346,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:04:25.027823",
+    "trigger_mode": "morning",
+    "trade_date": "20250127",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 33.8,
+      "nifty_slope_pct": -1.48,
+      "nifty_rvol": 13.3,
+      "max_picks": 3
+    }
+  }
+}

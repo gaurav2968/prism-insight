@@ -1,0 +1,337 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "UNIONBANK",
+      "name": "UNIONBANK",
+      "current_price": 148.1513214111328,
+      "change_rate": 4.346347190839161,
+      "volume": 36376375,
+      "trade_value": 5389208024.396896,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 140.74375534057617,
+      "target_price": 170.37401962280273,
+      "quality_score": 59.733333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.2); Highly profitable (margin 35.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.8389333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 121344.0,
+        "trailing_pe": 6.2,
+        "forward_pe": 6.2,
+        "price_to_book": 0.93,
+        "dividend_yield_pct": 299.0,
+        "revenue_growth_pct": null,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": -887.7,
+        "profit_margin_pct": 35.7,
+        "roe_pct": 15.7,
+        "rsi_14": 34.3,
+        "sma_50": 174.94,
+        "sma_200": 160.04,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.94,
+        "analyst_recommendation": "buy",
+        "target_mean": 195.2,
+        "target_upside_pct": 22.8,
+        "analyst_count": 15,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 50.0,
+        "profitability_score": 57.0,
+        "technical_score": 57.0,
+        "analyst_score": 68.0,
+        "risk_score": 60.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "CENTRALBK",
+      "name": "CENTRALBK",
+      "current_price": 39.0062141418457,
+      "change_rate": 3.9291176695391408,
+      "volume": 52305706,
+      "trade_value": 2040247569.0764236,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 37.05590343475342,
+      "target_price": 44.85714626312256,
+      "quality_score": 55.858333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.8); Strong revenue growth (44.8%); Earnings collapsing (-35.4%)",
+      "final_score": 0.8132359530016241,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 30811.0,
+        "trailing_pe": 6.8,
+        "forward_pe": null,
+        "price_to_book": 0.79,
+        "dividend_yield_pct": 411.0,
+        "revenue_growth_pct": 44.8,
+        "earnings_growth_pct": -35.4,
+        "operating_margin_pct": 34.4,
+        "profit_margin_pct": 24.4,
+        "roe_pct": 11.9,
+        "rsi_14": 42.1,
+        "sma_50": 35.08,
+        "sma_200": 36.87,
+        "pct_from_52w_high": -17.4,
+        "beta": 0.52,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 50.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "UCOBANK",
+      "name": "UCOBANK",
+      "current_price": 33.707149505615234,
+      "change_rate": 3.6913885398723214,
+      "volume": 63078121,
+      "trade_value": 2126183655.080288,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 32.021792030334474,
+      "target_price": 38.763221931457515,
+      "quality_score": 51.741666666666674,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 11.2); Revenue declining (-12.6%); Highly profitable (margin 23.9%)",
+      "final_score": 0.8069666666666668,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 31060.0,
+        "trailing_pe": 11.2,
+        "forward_pe": 17.7,
+        "price_to_book": 0.94,
+        "dividend_yield_pct": 178.0,
+        "revenue_growth_pct": -12.6,
+        "earnings_growth_pct": 14.9,
+        "operating_margin_pct": 41.6,
+        "profit_margin_pct": 23.9,
+        "roe_pct": 8.6,
+        "rsi_14": 38.7,
+        "sma_50": 25.57,
+        "sma_200": 28.72,
+        "pct_from_52w_high": -29.4,
+        "beta": 0.83,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 42.0,
+        "analyst_score": 50.0,
+        "risk_score": 60.0
+      }
+    },
+    {
+      "ticker": "CAMS",
+      "name": "CAMS",
+      "current_price": 814.533203125,
+      "change_rate": 4.49623188115286,
+      "volume": 7136450,
+      "trade_value": 5812875477.441406,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 773.8065429687499,
+      "target_price": 936.7131835937499,
+      "quality_score": 56.76666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 40.7); Highly profitable (margin 31.4%); Strong ROE (38.7%)",
+      "final_score": 0.766833300106545,
+      "metrics": {
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "market_cap_cr": 19327.0,
+        "trailing_pe": 40.7,
+        "forward_pe": 30.3,
+        "price_to_book": 14.63,
+        "dividend_yield_pct": 162.0,
+        "revenue_growth_pct": 11.0,
+        "earnings_growth_pct": 10.6,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 31.4,
+        "roe_pct": 38.7,
+        "rsi_14": 55.0,
+        "sma_50": 713.13,
+        "sma_200": 740.96,
+        "pct_from_52w_high": -10.9,
+        "beta": 0.11,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 871.76,
+        "target_upside_pct": 11.9,
+        "analyst_count": 17,
+        "debt_to_equity": 4.9,
+        "valuation_score": 38.0,
+        "growth_score": 60.0,
+        "profitability_score": 90.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 148.1513214111328,
+            "change_pct": 4.346347190839161,
+            "composite_score": 1.1340884281409913,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 33.707149505615234,
+            "change_pct": 3.6913885398723214,
+            "composite_score": 0.5934193152870512,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 39.0062141418457,
+            "change_pct": 3.9291176695391408,
+            "composite_score": 0.41590657522913754,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 61.970001220703125,
+            "change_pct": 6.660934334285409,
+            "composite_score": 1.0378646523088255,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 23.280000686645508,
+            "change_pct": 8.37989377453114,
+            "composite_score": 0.6134850740970775,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 33.707149505615234,
+            "change_pct": 3.6913885398723214,
+            "composite_score": 0.5437356694513434,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 39.0062141418457,
+            "change_pct": 3.9291176695391408,
+            "composite_score": 0.533068520885841,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CAMS",
+            "name": "CAMS",
+            "price": 814.533203125,
+            "change_pct": 4.49623188115286,
+            "composite_score": 0.4807274998237735,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SBIN",
+            "name": "SBIN",
+            "price": 799.2435913085938,
+            "change_pct": 0.166196489274142,
+            "composite_score": 0.4353639327593263,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 148.1513214111328,
+            "change_pct": 4.346347190839161,
+            "composite_score": 0.3844674800242601,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 105.40567779541016,
+            "change_pct": 2.494805610348852,
+            "composite_score": 0.361066282797315,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 240.94580078125,
+            "change_pct": 2.661252902796378,
+            "composite_score": 0.3345221613048961,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:50:32.493162",
+    "trigger_mode": "morning",
+    "trade_date": "20250602",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 54.7,
+      "nifty_slope_pct": 3.71,
+      "nifty_rvol": 17.6,
+      "max_picks": 4
+    }
+  }
+}

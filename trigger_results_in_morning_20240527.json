@@ -1,0 +1,329 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "RVNL",
+      "name": "RVNL",
+      "current_price": 372.41632080078125,
+      "change_rate": 1.7543827466435242,
+      "volume": 78610946,
+      "trade_value": 29275999283.98889,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 353.7955047607422,
+      "target_price": 428.2787689208984,
+      "quality_score": 41.300000000000004,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 49.3); Death cross (50MA < 200MA); Down 39% from 52W high",
+      "final_score": 0.7652000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 56619.0,
+        "trailing_pe": 49.3,
+        "forward_pe": 38.2,
+        "price_to_book": 5.95,
+        "dividend_yield_pct": 98.0,
+        "revenue_growth_pct": 2.6,
+        "earnings_growth_pct": 4.0,
+        "operating_margin_pct": 4.5,
+        "profit_margin_pct": 5.7,
+        "roe_pct": null,
+        "rsi_14": 38.9,
+        "sma_50": 281.34,
+        "sma_200": 316.39,
+        "pct_from_52w_high": -39.4,
+        "beta": 1.01,
+        "analyst_recommendation": "none",
+        "target_mean": 240.33,
+        "target_upside_pct": -11.5,
+        "analyst_count": 3,
+        "debt_to_equity": 52.1,
+        "valuation_score": 45.0,
+        "growth_score": 40.0,
+        "profitability_score": 42.0,
+        "technical_score": 39.0,
+        "analyst_score": 32.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "EXIDEIND",
+      "name": "EXIDEIND",
+      "current_price": 489.95257568359375,
+      "change_rate": 4.128490528028322,
+      "volume": 16271268,
+      "trade_value": 7972149666.238037,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999956,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 465.45494689941404,
+      "target_price": 563.4454620361328,
+      "quality_score": 50.4,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Hold; Target ₹368 (+7% upside)",
+      "final_score": 0.6907986370930397,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "market_cap_cr": 29295.0,
+        "trailing_pe": 34.3,
+        "forward_pe": 20.5,
+        "price_to_book": 2.11,
+        "dividend_yield_pct": 58.0,
+        "revenue_growth_pct": 9.2,
+        "earnings_growth_pct": 15.0,
+        "operating_margin_pct": 7.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 6.2,
+        "rsi_14": 48.8,
+        "sma_50": 326.0,
+        "sma_200": 359.9,
+        "pct_from_52w_high": -20.0,
+        "beta": 0.58,
+        "analyst_recommendation": "hold",
+        "target_mean": 367.93,
+        "target_upside_pct": 6.8,
+        "analyst_count": 14,
+        "debt_to_equity": 11.3,
+        "valuation_score": 58.0,
+        "growth_score": 60.0,
+        "profitability_score": 30.0,
+        "technical_score": 45.0,
+        "analyst_score": 53.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "CENTRALBK",
+      "name": "CENTRALBK",
+      "current_price": 65.68504333496094,
+      "change_rate": 3.5714189045114386,
+      "volume": 43515664,
+      "trade_value": 2858328275.5895996,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 62.40079116821289,
+      "target_price": 75.53779983520508,
+      "quality_score": 56.90833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.8); Strong revenue growth (44.8%); Earnings collapsing (-35.4%)",
+      "final_score": 0.663351249357563,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 30811.0,
+        "trailing_pe": 6.8,
+        "forward_pe": null,
+        "price_to_book": 0.79,
+        "dividend_yield_pct": 411.0,
+        "revenue_growth_pct": 44.8,
+        "earnings_growth_pct": -35.4,
+        "operating_margin_pct": 34.4,
+        "profit_margin_pct": 24.4,
+        "roe_pct": 11.9,
+        "rsi_14": 39.7,
+        "sma_50": 35.08,
+        "sma_200": 36.87,
+        "pct_from_52w_high": -17.4,
+        "beta": 0.52,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 77.0,
+        "technical_score": 42.0,
+        "analyst_score": 50.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "JUBLFOOD",
+      "name": "JUBLFOOD",
+      "current_price": 489.283935546875,
+      "change_rate": 5.227634824733343,
+      "volume": 7860977,
+      "trade_value": 3846249763.803467,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999956,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 464.8197387695312,
+      "target_price": 562.6765258789062,
+      "quality_score": 52.458333333333336,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 97.7); Strong revenue growth (20.3%); Death cross (50MA < 200MA)",
+      "final_score": 0.6555452289684478,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Restaurants",
+        "market_cap_cr": 31108.0,
+        "trailing_pe": 97.7,
+        "forward_pe": 61.9,
+        "price_to_book": 13.73,
+        "dividend_yield_pct": 26.0,
+        "revenue_growth_pct": 20.3,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 8.0,
+        "profit_margin_pct": 4.3,
+        "roe_pct": null,
+        "rsi_14": 45.4,
+        "sma_50": 460.13,
+        "sma_200": 548.13,
+        "pct_from_52w_high": -34.2,
+        "beta": 0.13,
+        "analyst_recommendation": "none",
+        "target_mean": 597.55,
+        "target_upside_pct": 26.3,
+        "analyst_count": 29,
+        "debt_to_equity": 2.7,
+        "valuation_score": 38.0,
+        "growth_score": 75.0,
+        "profitability_score": 42.0,
+        "technical_score": 41.0,
+        "analyst_score": 75.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 372.41632080078125,
+            "change_pct": 1.7543827466435242,
+            "composite_score": 0.6049609970680596,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "EXIDEIND",
+            "name": "EXIDEIND",
+            "price": 489.95257568359375,
+            "change_pct": 4.128490528028322,
+            "composite_score": 0.4880699562444808,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 372.41632080078125,
+            "change_pct": 1.7543827466435242,
+            "composite_score": 0.8962485022429176,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 59.22613525390625,
+            "change_pct": 7.11150340055989,
+            "composite_score": 0.7467714250254611,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "EXIDEIND",
+            "name": "EXIDEIND",
+            "price": 489.95257568359375,
+            "change_pct": 4.128490528028322,
+            "composite_score": 0.626762455211383,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 105.76726531982422,
+            "change_pct": 2.8114365198777342,
+            "composite_score": 0.6174809981903815,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "JUBLFOOD",
+            "name": "JUBLFOOD",
+            "price": 489.283935546875,
+            "change_pct": 5.227634824733343,
+            "composite_score": 0.5209959759342362,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 65.68504333496094,
+            "change_pct": 3.5714189045114386,
+            "composite_score": 0.4966890722212144,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDHOTEL",
+            "name": "INDHOTEL",
+            "price": 577.6585693359375,
+            "change_pct": 1.9742102496366554,
+            "composite_score": 0.42656976722088136,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 526.777099609375,
+            "change_pct": 4.503212299068225,
+            "composite_score": 0.42160927294938,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 348.0883483886719,
+            "change_pct": 2.5209225244387112,
+            "composite_score": 0.4098175776380977,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:00:28.112775",
+    "trigger_mode": "morning",
+    "trade_date": "20240527",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 66.1,
+      "nifty_slope_pct": 0.65,
+      "nifty_rvol": 10.7,
+      "max_picks": 4
+    }
+  }
+}

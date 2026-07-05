@@ -1,0 +1,353 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 229.9499969482422,
+      "change_rate": 5.918926984552709,
+      "volume": 45883653,
+      "trade_value": 10550945867.324203,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 218.45249710083007,
+      "target_price": 264.4424964904785,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.8471666666666667,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 59.0,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    },
+    {
+      "ticker": "COALINDIA",
+      "name": "COALINDIA",
+      "current_price": 332.5567626953125,
+      "change_rate": 1.9451036185524555,
+      "volume": 22938994,
+      "trade_value": 7628517584.127197,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 315.9289245605469,
+      "target_price": 382.4402770996093,
+      "quality_score": 66.14166666666668,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 9.1); Strong revenue growth (16.2%); Highly profitable (margin 18.5%)",
+      "final_score": 0.7084777747589834,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Thermal Coal",
+        "market_cap_cr": 281606.0,
+        "trailing_pe": 9.1,
+        "forward_pe": 8.0,
+        "price_to_book": 2.36,
+        "dividend_yield_pct": 476.0,
+        "revenue_growth_pct": 16.2,
+        "earnings_growth_pct": 12.9,
+        "operating_margin_pct": 20.9,
+        "profit_margin_pct": 18.5,
+        "roe_pct": 28.1,
+        "rsi_14": 52.4,
+        "sma_50": 455.11,
+        "sma_200": 413.38,
+        "pct_from_52w_high": -7.0,
+        "beta": 0.0,
+        "analyst_recommendation": "hold",
+        "target_mean": 450.81,
+        "target_upside_pct": -1.3,
+        "analyst_count": 26,
+        "debt_to_equity": 11.6,
+        "valuation_score": 72.0,
+        "growth_score": 68.0,
+        "profitability_score": 78.0,
+        "technical_score": 65.0,
+        "analyst_score": 57.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFCBANK",
+      "current_price": 708.5657958984375,
+      "change_rate": 2.000212977424393,
+      "volume": 86004404,
+      "trade_value": 60939778971.03076,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.128648726576765,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 673.1375061035156,
+      "target_price": 819.4084696501124,
+      "quality_score": 56.075,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-1.8%); Highly profitable (margin 26.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.8243000000000001,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 1173824.0,
+        "trailing_pe": 17.0,
+        "forward_pe": 12.1,
+        "price_to_book": 2.08,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": -1.8,
+        "earnings_growth_pct": 7.5,
+        "operating_margin_pct": 40.5,
+        "profit_margin_pct": 26.8,
+        "roe_pct": 13.8,
+        "rsi_14": 44.6,
+        "sma_50": 786.1,
+        "sma_200": 919.85,
+        "pct_from_52w_high": -25.3,
+        "beta": 0.48,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1039.79,
+        "target_upside_pct": 36.4,
+        "analyst_count": 39,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 1057.4295654296875,
+      "change_rate": -2.763372913627015,
+      "volume": 20884046,
+      "trade_value": 22083407686.193604,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999956,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1004.5580871582031,
+      "target_price": 1216.0440002441405,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.6836362563024083,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.7,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 229.9499969482422,
+            "change_pct": 5.918926984552709,
+            "composite_score": 0.8393340980639468,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 166.06005859375,
+            "change_pct": 6.57161351099656,
+            "composite_score": 0.7226948254668243,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 421.03857421875,
+            "change_pct": 7.5330630884748855,
+            "composite_score": 0.5454264562579998,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 332.5567626953125,
+            "change_pct": 1.9451036185524555,
+            "composite_score": 0.3691779062630379,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 136.1999969482422,
+            "change_pct": 4.688693742160958,
+            "composite_score": 0.29447591016116687,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 63.27915954589844,
+            "change_pct": 4.618415361594677,
+            "composite_score": 0.23691302113173784,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 105.36832427978516,
+            "change_pct": 12.813653594690091,
+            "composite_score": 0.9966228398229265,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 421.03857421875,
+            "change_pct": 7.5330630884748855,
+            "composite_score": 0.5884685453291768,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 69.0235366821289,
+            "change_pct": 6.744396394474574,
+            "composite_score": 0.5854854756539815,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 708.5657958984375,
+            "change_pct": 2.000212977424393,
+            "composite_score": 0.5782861522181535,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 166.06005859375,
+            "change_pct": 6.57161351099656,
+            "composite_score": 0.5654980461212928,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 229.9499969482422,
+            "change_pct": 5.918926984552709,
+            "composite_score": 0.47797065565021135,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 1057.4295654296875,
+            "change_pct": -2.763372913627015,
+            "composite_score": 0.4488769569789952,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RELIANCE",
+            "name": "RELIANCE",
+            "price": 1334.00146484375,
+            "change_pct": 1.1516122729174008,
+            "composite_score": 0.42827295168621193,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:02:05.894306",
+    "trigger_mode": "morning",
+    "trade_date": "20240124",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 50.6,
+      "nifty_slope_pct": 4.56,
+      "nifty_rvol": 13.8,
+      "max_picks": 4
+    }
+  }
+}

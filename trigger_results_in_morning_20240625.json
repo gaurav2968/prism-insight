@@ -1,0 +1,313 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 202.27000427246094,
+      "change_rate": 1.6840971920130534,
+      "volume": 60670560,
+      "trade_value": 12271834430.412598,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 192.15650405883787,
+      "target_price": 232.61050491333006,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 633.9); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.6185333333333334,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 227282.0,
+        "trailing_pe": 633.9,
+        "forward_pe": 60.9,
+        "price_to_book": 7.31,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 49.5,
+        "sma_50": 241.42,
+        "sma_200": 288.59,
+        "pct_from_52w_high": -32.9,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.66,
+        "target_upside_pct": 40.2,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "EXIDEIND",
+      "name": "EXIDEIND",
+      "current_price": 574.4937744140625,
+      "change_rate": 1.010718236455397,
+      "volume": 41296482,
+      "trade_value": 23724571814.202393,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 545.7690856933593,
+      "target_price": 660.6678405761718,
+      "quality_score": 50.4,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Hold; Target ₹368 (+7% upside)",
+      "final_score": 0.8016000000000001,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "market_cap_cr": 29295.0,
+        "trailing_pe": 34.3,
+        "forward_pe": 20.5,
+        "price_to_book": 2.11,
+        "dividend_yield_pct": 58.0,
+        "revenue_growth_pct": 9.2,
+        "earnings_growth_pct": 15.0,
+        "operating_margin_pct": 7.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 6.2,
+        "rsi_14": 48.8,
+        "sma_50": 326.0,
+        "sma_200": 359.9,
+        "pct_from_52w_high": -20.0,
+        "beta": 0.58,
+        "analyst_recommendation": "hold",
+        "target_mean": 367.93,
+        "target_upside_pct": 6.8,
+        "analyst_count": 14,
+        "debt_to_equity": 11.3,
+        "valuation_score": 58.0,
+        "growth_score": 60.0,
+        "profitability_score": 30.0,
+        "technical_score": 45.0,
+        "analyst_score": 53.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFCBANK",
+      "current_price": 844.2631225585938,
+      "change_rate": 2.3289886713483714,
+      "volume": 74521548,
+      "trade_value": 62915794812.38013,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 802.049966430664,
+      "target_price": 970.9025909423827,
+      "quality_score": 56.075,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-1.8%); Highly profitable (margin 26.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.7287852286618275,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 1173824.0,
+        "trailing_pe": 17.0,
+        "forward_pe": 12.1,
+        "price_to_book": 2.08,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": -1.8,
+        "earnings_growth_pct": 7.5,
+        "operating_margin_pct": 40.5,
+        "profit_margin_pct": 26.8,
+        "roe_pct": 13.8,
+        "rsi_14": 44.6,
+        "sma_50": 786.1,
+        "sma_200": 919.85,
+        "pct_from_52w_high": -25.3,
+        "beta": 0.48,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1039.79,
+        "target_upside_pct": 36.4,
+        "analyst_count": 39,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 1269.3846435546875,
+      "change_rate": 3.529849709067435,
+      "volume": 17607952,
+      "trade_value": 22351263873.248047,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1205.915411376953,
+      "target_price": 1459.7923400878906,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.7223429373553547,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.7,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 202.27000427246094,
+            "change_pct": 1.6840971920130534,
+            "composite_score": 0.6062219864103412,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "EXIDEIND",
+            "name": "EXIDEIND",
+            "price": 574.4937744140625,
+            "change_pct": 1.010718236455397,
+            "composite_score": 0.9392409017709352,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 844.2631225585938,
+            "change_pct": 2.3289886713483714,
+            "composite_score": 0.6307048273222909,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "APOLLOTYRE",
+            "name": "APOLLOTYRE",
+            "price": 504.4061584472656,
+            "change_pct": 4.0268502417964305,
+            "composite_score": 0.5981589551600774,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 1269.3846435546875,
+            "change_pct": 3.529849709067435,
+            "composite_score": 0.5069575226524967,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BANDHANBNK",
+            "name": "BANDHANBNK",
+            "price": 200.0735626220703,
+            "change_pct": -2.1592753709054446,
+            "composite_score": 0.4641637421474687,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ICICIBANK",
+            "name": "ICICIBANK",
+            "price": 1178.6307373046875,
+            "change_pct": 2.3801397007170597,
+            "composite_score": 0.4636143110841734,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 202.27000427246094,
+            "change_pct": 1.6840971920130534,
+            "composite_score": 0.3324101309918733,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LTF",
+            "name": "LTF",
+            "price": 182.5829620361328,
+            "change_pct": 2.769931789645964,
+            "composite_score": 0.2931919815337414,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:27:34.970591",
+    "trigger_mode": "morning",
+    "trade_date": "20240625",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 64.4,
+      "nifty_slope_pct": 1.59,
+      "nifty_rvol": 28.8,
+      "max_picks": 4
+    }
+  }
+}

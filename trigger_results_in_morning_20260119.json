@@ -1,0 +1,226 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "CGPOWER",
+      "name": "CGPOWER",
+      "current_price": 588.70068359375,
+      "change_rate": 5.038275543401202,
+      "volume": 17314136,
+      "trade_value": 10192843699.035156,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 559.2656494140625,
+      "target_price": 677.0057861328124,
+      "quality_score": 62.44166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 104.9); Strong revenue growth (25.0%); Golden cross (50MA > 200MA)",
+      "final_score": 0.8497666666666668,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 127381.0,
+        "trailing_pe": 104.9,
+        "forward_pe": 58.9,
+        "price_to_book": 15.99,
+        "dividend_yield_pct": 16.0,
+        "revenue_growth_pct": 25.0,
+        "earnings_growth_pct": 30.5,
+        "operating_margin_pct": 12.1,
+        "profit_margin_pct": 9.7,
+        "roe_pct": 19.6,
+        "rsi_14": 58.9,
+        "sma_50": 753.85,
+        "sma_200": 707.74,
+        "pct_from_52w_high": -8.8,
+        "beta": 0.41,
+        "analyst_recommendation": "buy",
+        "target_mean": 834.82,
+        "target_upside_pct": 3.2,
+        "analyst_count": 17,
+        "debt_to_equity": 1.4,
+        "valuation_score": 38.0,
+        "growth_score": 82.0,
+        "profitability_score": 58.0,
+        "technical_score": 67.0,
+        "analyst_score": 58.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "TECHM",
+      "name": "TECHM",
+      "current_price": 1718.300048828125,
+      "change_rate": 2.8614216598697997,
+      "volume": 10621562,
+      "trade_value": 18251030503.230957,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1632.3850463867186,
+      "target_price": 1976.0450561523437,
+      "quality_score": 56.30833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Buy; Target ₹1,585 (+11% upside)",
+      "final_score": 0.8252333333333335,
+      "metrics": {
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "market_cap_cr": 126658.0,
+        "trailing_pe": 26.4,
+        "forward_pe": 16.8,
+        "price_to_book": 4.61,
+        "dividend_yield_pct": 372.0,
+        "revenue_growth_pct": 12.6,
+        "earnings_growth_pct": 15.9,
+        "operating_margin_pct": 13.8,
+        "profit_margin_pct": 8.5,
+        "roe_pct": 16.6,
+        "rsi_14": 40.2,
+        "sma_50": 1417.91,
+        "sma_200": 1495.01,
+        "pct_from_52w_high": -22.9,
+        "beta": 0.18,
+        "analyst_recommendation": "buy",
+        "target_mean": 1584.53,
+        "target_upside_pct": 10.8,
+        "analyst_count": 40,
+        "debt_to_equity": 7.3,
+        "valuation_score": 58.0,
+        "growth_score": 68.0,
+        "profitability_score": 58.0,
+        "technical_score": 45.0,
+        "analyst_score": 67.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "LTF",
+      "name": "LTF",
+      "current_price": 300.04998779296875,
+      "change_rate": 1.231441960744139,
+      "volume": 21465689,
+      "trade_value": 6440779722.417664,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999996,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 285.0474884033203,
+      "target_price": 345.05748596191404,
+      "quality_score": 58.34166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (31.9%); Highly profitable (margin 33.1%); Death cross (50MA < 200MA)",
+      "final_score": 0.6333666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 69839.0,
+        "trailing_pe": 23.5,
+        "forward_pe": 14.7,
+        "price_to_book": 2.64,
+        "dividend_yield_pct": 98.0,
+        "revenue_growth_pct": 31.9,
+        "earnings_growth_pct": 26.4,
+        "operating_margin_pct": 43.7,
+        "profit_margin_pct": 33.1,
+        "roe_pct": 11.1,
+        "rsi_14": 46.6,
+        "sma_50": 272.72,
+        "sma_200": 274.33,
+        "pct_from_52w_high": -15.4,
+        "beta": 0.69,
+        "analyst_recommendation": "buy",
+        "target_mean": 307.75,
+        "target_upside_pct": 10.4,
+        "analyst_count": 20,
+        "debt_to_equity": 393.4,
+        "valuation_score": 65.0,
+        "growth_score": 82.0,
+        "profitability_score": 77.0,
+        "technical_score": 45.0,
+        "analyst_score": 67.0,
+        "risk_score": 45.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 588.70068359375,
+            "change_pct": 5.038275543401202,
+            "composite_score": 1.0332086263327989,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TECHM",
+            "name": "TECHM",
+            "price": 1718.300048828125,
+            "change_pct": 2.8614216598697997,
+            "composite_score": 0.7632183270991556,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "TECHM",
+            "name": "TECHM",
+            "price": 1718.300048828125,
+            "change_pct": 2.8614216598697997,
+            "composite_score": 0.7862946406302765,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 588.70068359375,
+            "change_pct": 5.038275543401202,
+            "composite_score": 0.5594105036653777,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LTF",
+            "name": "LTF",
+            "price": 300.04998779296875,
+            "change_pct": 1.231441960744139,
+            "composite_score": 0.5517966115968507,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T04:02:42.356136",
+    "trigger_mode": "morning",
+    "trade_date": "20260119",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

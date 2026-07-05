@@ -1,0 +1,39 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T05:04:24.979664",
+    "trigger_mode": "morning",
+    "trade_date": "20260313",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

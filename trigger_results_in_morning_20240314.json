@@ -1,0 +1,290 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "GMRAIRPORT",
+      "name": "GMRAIRPORT",
+      "current_price": 78.05000305175781,
+      "change_rate": 3.858950721218884,
+      "volume": 30451300,
+      "trade_value": 2376724057.9299927,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 74.14750289916992,
+      "target_price": 89.75750350952148,
+      "quality_score": 57.59166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (50.5%); Earnings collapsing (-45.5%); Net loss (margin -2.7%)",
+      "final_score": 0.6303666666666667,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Airports & Air Services",
+        "market_cap_cr": 99476.0,
+        "trailing_pe": null,
+        "forward_pe": 177.1,
+        "price_to_book": -31.96,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 50.5,
+        "earnings_growth_pct": -45.5,
+        "operating_margin_pct": 31.3,
+        "profit_margin_pct": -2.7,
+        "roe_pct": null,
+        "rsi_14": 46.4,
+        "sma_50": 93.89,
+        "sma_200": 95.27,
+        "pct_from_52w_high": -14.6,
+        "beta": 0.64,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 112.71,
+        "target_upside_pct": 19.6,
+        "analyst_count": 7,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 50.0,
+        "technical_score": 45.0,
+        "analyst_score": 73.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "NBCC",
+      "name": "NBCC",
+      "current_price": 76.13903045654297,
+      "change_rate": 4.972868207269478,
+      "volume": 33107566,
+      "trade_value": 2520777976.0160065,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 4.022397019830624,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 72.33207893371582,
+      "target_price": 91.45210091660255,
+      "quality_score": 51.449999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 38.5); Death cross (50MA < 200MA); Down 29% from 52W high",
+      "final_score": 0.8058000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 25132.0,
+        "trailing_pe": 38.5,
+        "forward_pe": 34.5,
+        "price_to_book": 9.38,
+        "dividend_yield_pct": 74.0,
+        "revenue_growth_pct": 9.5,
+        "earnings_growth_pct": 39.2,
+        "operating_margin_pct": 6.6,
+        "profit_margin_pct": 5.0,
+        "roe_pct": null,
+        "rsi_14": 47.2,
+        "sma_50": 88.9,
+        "sma_200": 102.72,
+        "pct_from_52w_high": -28.8,
+        "beta": 0.67,
+        "analyst_recommendation": "none",
+        "target_mean": 124.5,
+        "target_upside_pct": 33.8,
+        "analyst_count": 2,
+        "debt_to_equity": 0.0,
+        "valuation_score": 40.0,
+        "growth_score": 75.0,
+        "profitability_score": 32.0,
+        "technical_score": 44.0,
+        "analyst_score": 68.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "TATAPOWER",
+      "name": "TATAPOWER",
+      "current_price": 380.4386901855469,
+      "change_rate": 3.3606643755696615,
+      "volume": 27089563,
+      "trade_value": 10305917865.418854,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 361.41675567626953,
+      "target_price": 437.50449371337885,
+      "quality_score": 54.324999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 35.4); Revenue declining (-12.8%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6173000000000001,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "market_cap_cr": 132607.0,
+        "trailing_pe": 35.4,
+        "forward_pe": 27.4,
+        "price_to_book": 3.5,
+        "dividend_yield_pct": 62.0,
+        "revenue_growth_pct": -12.8,
+        "earnings_growth_pct": -4.6,
+        "operating_margin_pct": 8.9,
+        "profit_margin_pct": 6.0,
+        "roe_pct": 11.3,
+        "rsi_14": 37.7,
+        "sma_50": 411.27,
+        "sma_200": 389.58,
+        "pct_from_52w_high": -10.7,
+        "beta": 0.37,
+        "analyst_recommendation": "buy",
+        "target_mean": 428.7,
+        "target_upside_pct": 3.3,
+        "analyst_count": 24,
+        "debt_to_equity": 167.8,
+        "valuation_score": 58.0,
+        "growth_score": 15.0,
+        "profitability_score": 52.0,
+        "technical_score": 68.0,
+        "analyst_score": 62.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 260.184326171875,
+            "change_pct": 11.763464770706628,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 78.05000305175781,
+            "change_pct": 3.858950721218884,
+            "composite_score": 0.0,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 135.48529052734375,
+            "change_pct": 12.87725991094951,
+            "composite_score": 1.0822501020325987,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 23.450000762939453,
+            "change_pct": 11.933173789771404,
+            "composite_score": 0.802972232911532,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 240.53944396972656,
+            "change_pct": 9.389030351583466,
+            "composite_score": 0.702006737613636,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 260.184326171875,
+            "change_pct": 11.763464770706628,
+            "composite_score": 0.6278756753422328,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 169.7955780029297,
+            "change_pct": 9.990853965615933,
+            "composite_score": 0.5814471681669969,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 58.408119201660156,
+            "change_pct": 12.014777342714927,
+            "composite_score": 0.5136803867934663,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 76.13903045654297,
+            "change_pct": 4.972868207269478,
+            "composite_score": 0.506909012376648,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 209.1040802001953,
+            "change_pct": 6.85134286928418,
+            "composite_score": 0.45430995182415623,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 27.674537658691406,
+            "change_pct": 9.911665715980392,
+            "composite_score": 0.4406718500827458,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATAPOWER",
+            "name": "TATAPOWER",
+            "price": 380.4386901855469,
+            "change_pct": 3.3606643755696615,
+            "composite_score": 0.4396844803135028,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:52:11.370127",
+    "trigger_mode": "morning",
+    "trade_date": "20240314",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 51.7,
+      "nifty_slope_pct": 1.78,
+      "nifty_rvol": 10.9,
+      "max_picks": 5
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "TATASTEEL",
+      "name": "TATASTEEL",
+      "current_price": 138.5618438720703,
+      "change_rate": 2.190030158069064,
+      "volume": 53192936,
+      "trade_value": 7370511293.129028,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 131.63375167846678,
+      "target_price": 159.34612045288085,
+      "quality_score": 62.10833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Buy; Target ₹223 (+6% upside)",
+      "final_score": 0.8291974784782181,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 261023.0,
+        "trailing_pe": 28.5,
+        "forward_pe": 11.1,
+        "price_to_book": 2.75,
+        "dividend_yield_pct": 191.0,
+        "revenue_growth_pct": 12.5,
+        "earnings_growth_pct": 125.4,
+        "operating_margin_pct": 10.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 11.2,
+        "rsi_14": 47.5,
+        "sma_50": 204.08,
+        "sma_200": 184.78,
+        "pct_from_52w_high": -6.7,
+        "beta": 0.79,
+        "analyst_recommendation": "buy",
+        "target_mean": 222.68,
+        "target_upside_pct": 6.4,
+        "analyst_count": 34,
+        "debt_to_equity": 89.0,
+        "valuation_score": 65.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 65.0,
+        "analyst_score": 67.0,
+        "risk_score": 62.0
+      }
+    },
+    {
+      "ticker": "HINDPETRO",
+      "name": "HINDPETRO",
+      "current_price": 325.378173828125,
+      "change_rate": 5.389466363367772,
+      "volume": 28853269,
+      "trade_value": 9388223976.19165,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 309.10926513671876,
+      "target_price": 374.1848999023437,
+      "quality_score": 54.28333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 4.4); Strong ROE (30.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.8171333333333335,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 78942.0,
+        "trailing_pe": 4.4,
+        "forward_pe": 6.5,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 968.0,
+        "revenue_growth_pct": 4.9,
+        "earnings_growth_pct": 77.5,
+        "operating_margin_pct": 8.1,
+        "profit_margin_pct": 4.1,
+        "roe_pct": 30.9,
+        "rsi_14": 42.5,
+        "sma_50": 361.72,
+        "sma_200": 422.08,
+        "pct_from_52w_high": -27.0,
+        "beta": 0.98,
+        "analyst_recommendation": "hold",
+        "target_mean": 402.52,
+        "target_upside_pct": 8.5,
+        "analyst_count": 31,
+        "debt_to_equity": 85.4,
+        "valuation_score": 68.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 44.0,
+        "analyst_score": 62.0,
+        "risk_score": 55.0
+      }
+    },
+    {
+      "ticker": "GAIL",
+      "name": "GAIL",
+      "current_price": 168.67486572265625,
+      "change_rate": 3.094828739927078,
+      "volume": 33761541,
+      "trade_value": 5694723394.764954,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 160.24112243652343,
+      "target_price": 193.97609558105466,
+      "quality_score": 50.866666666666674,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 12.0); Revenue declining (-4.5%); Earnings collapsing (-57.0%)",
+      "final_score": 0.7204719289651844,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Gas",
+        "market_cap_cr": 102650.0,
+        "trailing_pe": 12.0,
+        "forward_pe": 9.7,
+        "price_to_book": 1.16,
+        "dividend_yield_pct": 780.0,
+        "revenue_growth_pct": -4.5,
+        "earnings_growth_pct": -57.0,
+        "operating_margin_pct": 4.9,
+        "profit_margin_pct": 6.0,
+        "roe_pct": null,
+        "rsi_14": 48.2,
+        "sma_50": 153.69,
+        "sma_200": 167.96,
+        "pct_from_52w_high": -23.0,
+        "beta": 0.6,
+        "analyst_recommendation": "buy",
+        "target_mean": 187.48,
+        "target_upside_pct": 20.1,
+        "analyst_count": 31,
+        "debt_to_equity": 25.4,
+        "valuation_score": 83.0,
+        "growth_score": 15.0,
+        "profitability_score": 42.0,
+        "technical_score": 44.0,
+        "analyst_score": 77.0,
+        "risk_score": 72.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "HEG",
+      "name": "HEG",
+      "current_price": 384.8306884765625,
+      "change_rate": 5.653642331393717,
+      "volume": 10884370,
+      "trade_value": 4188639600.7336426,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999991,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 365.58915405273433,
+      "target_price": 442.55529174804684,
+      "quality_score": 59.550000000000004,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: None; Target ₹700 (+18% upside)",
+      "final_score": 0.8382000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 11415.0,
+        "trailing_pe": 29.9,
+        "forward_pe": 18.9,
+        "price_to_book": 2.4,
+        "dividend_yield_pct": 30.0,
+        "revenue_growth_pct": 11.2,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": -1.1,
+        "profit_margin_pct": 12.6,
+        "roe_pct": 7.3,
+        "rsi_14": 51.2,
+        "sma_50": 573.92,
+        "sma_200": 544.35,
+        "pct_from_52w_high": -14.3,
+        "beta": 0.75,
+        "analyst_recommendation": "none",
+        "target_mean": 700.0,
+        "target_upside_pct": 18.3,
+        "analyst_count": 2,
+        "debt_to_equity": 16.7,
+        "valuation_score": 65.0,
+        "growth_score": 60.0,
+        "profitability_score": 35.0,
+        "technical_score": 65.0,
+        "analyst_score": 60.0,
+        "risk_score": 80.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 25.399999618530273,
+            "change_pct": 11.403510826629867,
+            "composite_score": 0.8032419925515397,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 141.47923278808594,
+            "change_pct": 7.538806595416278,
+            "composite_score": 0.6979320853951811,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 166.09776306152344,
+            "change_pct": 6.064968329247597,
+            "composite_score": 0.6892074735085635,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PETRONET",
+            "name": "PETRONET",
+            "price": 272.21807861328125,
+            "change_pct": 6.237417118530863,
+            "composite_score": 0.6205109713672572,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1118.4154052734375,
+            "change_pct": 1.8409506250195218,
+            "composite_score": 0.5211812317248552,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 325.378173828125,
+            "change_pct": 5.389466363367772,
+            "composite_score": 0.4818416721362331,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 138.5618438720703,
+            "change_pct": 2.190030158069064,
+            "composite_score": 0.4576906359382962,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 168.67486572265625,
+            "change_pct": 3.094828739927078,
+            "composite_score": 0.37763996498237856,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 389.9676208496094,
+            "change_pct": 1.9080150909040594,
+            "composite_score": 0.2307373008478993,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "HEG",
+            "name": "HEG",
+            "price": 384.8306884765625,
+            "change_pct": 5.653642331393717,
+            "composite_score": 0.9147027448302342,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 25.399999618530273,
+            "change_pct": 11.403510826629867,
+            "composite_score": 0.8132449496551765,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 141.47923278808594,
+            "change_pct": 7.538806595416278,
+            "composite_score": 0.7035110755633985,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PETRONET",
+            "name": "PETRONET",
+            "price": 272.21807861328125,
+            "change_pct": 6.237417118530863,
+            "composite_score": 0.6447237219465665,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 166.09776306152344,
+            "change_pct": 6.064968329247597,
+            "composite_score": 0.5656876630250499,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 103.22406005859375,
+            "change_pct": 5.34350824086691,
+            "composite_score": 0.5564337034418467,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BIOCON",
+            "name": "BIOCON",
+            "price": 297.73870849609375,
+            "change_pct": 4.883173264949958,
+            "composite_score": 0.5561610036268944,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 271.7031555175781,
+            "change_pct": 6.0112967818210326,
+            "composite_score": 0.5225795144916313,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCLIFE",
+            "name": "HDFCLIFE",
+            "price": 589.1126708984375,
+            "change_pct": 5.218783057939531,
+            "composite_score": 0.5036679105114052,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:14:56.236317",
+    "trigger_mode": "morning",
+    "trade_date": "20240206",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 58.9,
+      "nifty_slope_pct": 4.49,
+      "nifty_rvol": 15.5,
+      "max_picks": 4
+    }
+  }
+}

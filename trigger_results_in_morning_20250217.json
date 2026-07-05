@@ -1,0 +1,96 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "GODFRYPHLP",
+            "name": "GODFRYPHLP",
+            "price": 2320.276123046875,
+            "change_pct": 17.309777035720366,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 70.26000213623047,
+            "change_pct": -0.3121470065615171,
+            "composite_score": 0.25570171538923825,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 339.60302734375,
+            "change_pct": -4.8485616997597045,
+            "composite_score": 0.2311697290811613,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 387.693603515625,
+            "change_pct": 0.4354620648512044,
+            "composite_score": 0.19554298207546378,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 190.9556884765625,
+            "change_pct": 5.859608249632479,
+            "composite_score": 0.18588725678513696,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 847.2230834960938,
+            "change_pct": 1.3275527827093883,
+            "composite_score": 0.15745029882505351,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:22:25.867252",
+    "trigger_mode": "morning",
+    "trade_date": "20250217",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 39.1,
+      "nifty_slope_pct": -1.37,
+      "nifty_rvol": 11.3,
+      "max_picks": 3
+    }
+  }
+}

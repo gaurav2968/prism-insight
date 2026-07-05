@@ -1,0 +1,209 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "RPOWER",
+      "name": "RPOWER",
+      "current_price": 32.31999969482422,
+      "change_rate": 4.935066543555979,
+      "volume": 64445253,
+      "trade_value": 2082870557.2928696,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 30.703999710083007,
+      "target_price": 37.16799964904785,
+      "quality_score": 47.35,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 39.3); Earnings collapsing (-38.1%); Death cross (50MA < 200MA)",
+      "final_score": 0.7894000000000001,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "market_cap_cr": 11212.0,
+        "trailing_pe": 39.3,
+        "forward_pe": 6.0,
+        "price_to_book": 0.68,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 1.1,
+        "earnings_growth_pct": -38.1,
+        "operating_margin_pct": 21.1,
+        "profit_margin_pct": 3.7,
+        "roe_pct": null,
+        "rsi_14": 44.3,
+        "sma_50": 25.58,
+        "sma_200": 34.89,
+        "pct_from_52w_high": -64.6,
+        "beta": 1.01,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": 92.2,
+        "valuation_score": 70.0,
+        "growth_score": 28.0,
+        "profitability_score": 52.0,
+        "technical_score": 43.0,
+        "analyst_score": 50.0,
+        "risk_score": 55.0
+      }
+    },
+    {
+      "ticker": "UNIONBANK",
+      "name": "UNIONBANK",
+      "current_price": 118.98919677734375,
+      "change_rate": 2.176074993730344,
+      "volume": 10893251,
+      "trade_value": 1296179186.7839966,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999902,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 113.03973693847655,
+      "target_price": 136.8375762939453,
+      "quality_score": 59.733333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.2); Highly profitable (margin 35.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6389333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 121344.0,
+        "trailing_pe": 6.2,
+        "forward_pe": 6.2,
+        "price_to_book": 0.93,
+        "dividend_yield_pct": 299.0,
+        "revenue_growth_pct": null,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": -887.7,
+        "profit_margin_pct": 35.7,
+        "roe_pct": 15.7,
+        "rsi_14": 34.1,
+        "sma_50": 174.94,
+        "sma_200": 160.04,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.94,
+        "analyst_recommendation": "buy",
+        "target_mean": 195.2,
+        "target_upside_pct": 22.8,
+        "analyst_count": 15,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 50.0,
+        "profitability_score": 57.0,
+        "technical_score": 57.0,
+        "analyst_score": 68.0,
+        "risk_score": 60.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "TRENT",
+            "name": "TRENT",
+            "price": 6269.91845703125,
+            "change_pct": 11.184245161013246,
+            "composite_score": 0.8186955809160086,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AFFLE",
+            "name": "AFFLE",
+            "price": 1595.199951171875,
+            "change_pct": 7.623802706959919,
+            "composite_score": 0.5607059066806132,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 32.31999969482422,
+            "change_pct": 4.935066543555979,
+            "composite_score": 0.40324450024019265,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 118.98919677734375,
+            "change_pct": 2.176074993730344,
+            "composite_score": 0.3027046344583182,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "TRENT",
+            "name": "TRENT",
+            "price": 6269.91845703125,
+            "change_pct": 11.184245161013246,
+            "composite_score": 0.9759243356810986,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 121.18634033203125,
+            "change_pct": 9.297938095950437,
+            "composite_score": 0.8153915604252969,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AFFLE",
+            "name": "AFFLE",
+            "price": 1595.199951171875,
+            "change_pct": 7.623802706959919,
+            "composite_score": 0.7760376703863553,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 32.31999969482422,
+            "change_pct": 4.935066543555979,
+            "composite_score": 0.33241678595379365,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:12:57.488599",
+    "trigger_mode": "morning",
+    "trade_date": "20240809",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 50.8,
+      "nifty_slope_pct": 3.55,
+      "nifty_rvol": 15.0,
+      "max_picks": 4
+    }
+  }
+}

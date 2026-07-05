@@ -1,0 +1,170 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "TATASTEEL",
+      "name": "TATASTEEL",
+      "current_price": 137.99195861816406,
+      "change_rate": 2.340927482942219,
+      "volume": 40233848,
+      "trade_value": 5551947488.265503,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 131.09236068725585,
+      "target_price": 158.69075241088865,
+      "quality_score": 62.10833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Buy; Target ₹223 (+6% upside)",
+      "final_score": 0.6484333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 261023.0,
+        "trailing_pe": 28.5,
+        "forward_pe": 11.1,
+        "price_to_book": 2.75,
+        "dividend_yield_pct": 191.0,
+        "revenue_growth_pct": 12.5,
+        "earnings_growth_pct": 125.4,
+        "operating_margin_pct": 10.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 11.2,
+        "rsi_14": 47.5,
+        "sma_50": 204.08,
+        "sma_200": 184.78,
+        "pct_from_52w_high": -6.7,
+        "beta": 0.79,
+        "analyst_recommendation": "buy",
+        "target_mean": 222.68,
+        "target_upside_pct": 6.4,
+        "analyst_count": 34,
+        "debt_to_equity": 89.0,
+        "valuation_score": 65.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 65.0,
+        "analyst_score": 67.0,
+        "risk_score": 62.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 410.3973693847656,
+            "change_pct": 3.2533410932588462,
+            "composite_score": 0.9549415758312597,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 646.3102416992188,
+            "change_pct": 3.777796485638064,
+            "composite_score": 0.9530674677621049,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CROMPTON",
+            "name": "CROMPTON",
+            "price": 380.85955810546875,
+            "change_pct": 3.55747125721448,
+            "composite_score": 0.8852779479506935,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 137.99195861816406,
+            "change_pct": 2.340927482942219,
+            "composite_score": 0.4697826157204804,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "CROMPTON",
+            "name": "CROMPTON",
+            "price": 380.85955810546875,
+            "change_pct": 3.55747125721448,
+            "composite_score": 0.5668621332225646,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 646.3102416992188,
+            "change_pct": 3.777796485638064,
+            "composite_score": 0.46285833196663795,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 410.3973693847656,
+            "change_pct": 3.2533410932588462,
+            "composite_score": 0.4161613414505234,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 841.1797485351562,
+            "change_pct": 0.7295753829026431,
+            "composite_score": 0.3902378142275104,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 68.67818450927734,
+            "change_pct": 1.787013831692174,
+            "composite_score": 0.3445412520731145,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T04:36:58.388111",
+    "trigger_mode": "morning",
+    "trade_date": "20241118",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 28.6,
+      "nifty_slope_pct": -0.97,
+      "nifty_rvol": 11.5,
+      "max_picks": 3
+    }
+  }
+}

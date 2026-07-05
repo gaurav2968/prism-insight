@@ -1,0 +1,219 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "POWERGRID",
+      "name": "POWERGRID",
+      "current_price": 280.0560302734375,
+      "change_rate": 4.733727135338073,
+      "volume": 52651170,
+      "trade_value": 14745277659.451904,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 266.0532287597656,
+      "target_price": 322.0644348144531,
+      "quality_score": 58.81666666666666,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-5.0%); Highly profitable (margin 34.1%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6352666666666666,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Electric",
+        "market_cap_cr": 275809.0,
+        "trailing_pe": 19.0,
+        "forward_pe": 14.7,
+        "price_to_book": 2.78,
+        "dividend_yield_pct": 401.0,
+        "revenue_growth_pct": -5.0,
+        "earnings_growth_pct": 9.6,
+        "operating_margin_pct": 49.5,
+        "profit_margin_pct": 34.1,
+        "roe_pct": 16.5,
+        "rsi_14": 43.5,
+        "sma_50": 305.36,
+        "sma_200": 285.37,
+        "pct_from_52w_high": -8.7,
+        "beta": 0.24,
+        "analyst_recommendation": "buy",
+        "target_mean": 322.96,
+        "target_upside_pct": 8.9,
+        "analyst_count": 24,
+        "debt_to_equity": 151.0,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 83.0,
+        "technical_score": 56.0,
+        "analyst_score": 67.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "KOTAKBANK",
+      "name": "KOTAKBANK",
+      "current_price": 415.79998779296875,
+      "change_rate": 1.861826398496759,
+      "volume": 35396945,
+      "trade_value": 14718049298.908386,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 395.0099884033203,
+      "target_price": 478.16998596191405,
+      "quality_score": 57.25833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-11.0%); Highly profitable (margin 26.0%); Death cross (50MA < 200MA)",
+      "final_score": 0.6290333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 389703.0,
+        "trailing_pe": 20.2,
+        "forward_pe": 14.0,
+        "price_to_book": 2.15,
+        "dividend_yield_pct": 13.0,
+        "revenue_growth_pct": -11.0,
+        "earnings_growth_pct": 9.8,
+        "operating_margin_pct": 35.1,
+        "profit_margin_pct": 26.0,
+        "roe_pct": 11.4,
+        "rsi_14": 57.4,
+        "sma_50": 373.5,
+        "sma_200": 407.06,
+        "pct_from_52w_high": -13.5,
+        "beta": 0.31,
+        "analyst_recommendation": "buy",
+        "target_mean": 461.12,
+        "target_upside_pct": 17.7,
+        "analyst_count": 36,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 45.0,
+        "analyst_score": 77.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 964.4000244140625,
+            "change_pct": 6.716832066737354,
+            "composite_score": 0.7750682076868239,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 932.0999755859375,
+            "change_pct": 10.444927081449224,
+            "composite_score": 0.7663163032486628,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIPORTS",
+            "name": "ADANIPORTS",
+            "price": 1530.800048828125,
+            "change_pct": 9.101281124950464,
+            "composite_score": 0.764133528998005,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 661.5499877929688,
+            "change_pct": 8.744968248875363,
+            "composite_score": 0.696511569964941,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 280.0560302734375,
+            "change_pct": 4.733727135338073,
+            "composite_score": 0.5301913911498096,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "ADANIPORTS",
+            "name": "ADANIPORTS",
+            "price": 1530.800048828125,
+            "change_pct": 9.101281124950464,
+            "composite_score": 0.5327074829126403,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 280.0560302734375,
+            "change_pct": 4.733727135338073,
+            "composite_score": 0.46626180178641474,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 661.5499877929688,
+            "change_pct": 8.744968248875363,
+            "composite_score": 0.40123708540753333,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 932.0999755859375,
+            "change_pct": 10.444927081449224,
+            "composite_score": 0.39652537810547517,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 415.79998779296875,
+            "change_pct": 1.861826398496759,
+            "composite_score": 0.38232476371503976,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T04:19:00.650574",
+    "trigger_mode": "morning",
+    "trade_date": "20260203",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

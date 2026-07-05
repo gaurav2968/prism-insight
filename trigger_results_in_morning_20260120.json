@@ -1,0 +1,152 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFCBANK",
+      "current_price": 931.2000122070312,
+      "change_rate": 0.3556404468307435,
+      "volume": 36022727,
+      "trade_value": 33544363822.130554,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999995,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 884.6400115966796,
+      "target_price": 1070.8800140380858,
+      "quality_score": 56.075,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-1.8%); Highly profitable (margin 26.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.8243000000000001,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 1183370.0,
+        "trailing_pe": 17.1,
+        "forward_pe": 12.2,
+        "price_to_book": 2.09,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": -1.8,
+        "earnings_growth_pct": 7.5,
+        "operating_margin_pct": 40.5,
+        "profit_margin_pct": 26.8,
+        "roe_pct": 13.8,
+        "rsi_14": 44.1,
+        "sma_50": 787.54,
+        "sma_200": 920.93,
+        "pct_from_52w_high": -24.7,
+        "beta": 0.48,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1041.08,
+        "target_upside_pct": 35.4,
+        "analyst_count": 39,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICIBANK",
+      "current_price": 1375.800048828125,
+      "change_rate": -0.3476696249958554,
+      "volume": 15012785,
+      "trade_value": 20654590336.046143,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1307.0100463867186,
+      "target_price": 1582.1700561523437,
+      "quality_score": 62.73333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (66.9%); Highly profitable (margin 24.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.6509333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 896872.0,
+        "trailing_pe": 16.7,
+        "forward_pe": 13.8,
+        "price_to_book": 2.47,
+        "dividend_yield_pct": 88.0,
+        "revenue_growth_pct": 66.9,
+        "earnings_growth_pct": 8.4,
+        "operating_margin_pct": 33.3,
+        "profit_margin_pct": 24.9,
+        "roe_pct": 16.4,
+        "rsi_14": 39.7,
+        "sma_50": 1278.92,
+        "sma_200": 1357.86,
+        "pct_from_52w_high": -16.6,
+        "beta": 0.28,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1669.8,
+        "target_upside_pct": 33.5,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 75.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 931.2000122070312,
+            "change_pct": 0.3556404468307435,
+            "composite_score": 0.6768284667389849,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ICICIBANK",
+            "name": "ICICIBANK",
+            "price": 1375.800048828125,
+            "change_pct": -0.3476696249958554,
+            "composite_score": 0.5754869057460407,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T04:04:09.221135",
+    "trigger_mode": "morning",
+    "trade_date": "20260120",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

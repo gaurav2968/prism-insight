@@ -1,0 +1,345 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "APOLLOTYRE",
+      "name": "APOLLOTYRE",
+      "current_price": 474.1952209472656,
+      "change_rate": 2.9635017120241125,
+      "volume": 15576619,
+      "trade_value": 7386358288.316376,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 450.4854598999023,
+      "target_price": 545.3245040893554,
+      "quality_score": 53.391666666666666,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Oversold (RSI 27); Death cross (50MA < 200MA); Down 31% from 52W high",
+      "final_score": 0.8135666666666668,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "market_cap_cr": 23526.0,
+        "trailing_pe": 17.2,
+        "forward_pe": 11.3,
+        "price_to_book": 1.52,
+        "dividend_yield_pct": 227.0,
+        "revenue_growth_pct": 14.2,
+        "earnings_growth_pct": 242.6,
+        "operating_margin_pct": 9.2,
+        "profit_margin_pct": 4.8,
+        "roe_pct": 8.7,
+        "rsi_14": 27.0,
+        "sma_50": 418.33,
+        "sma_200": 474.43,
+        "pct_from_52w_high": -31.2,
+        "beta": 0.19,
+        "analyst_recommendation": "buy",
+        "target_mean": 510.83,
+        "target_upside_pct": 37.4,
+        "analyst_count": 23,
+        "debt_to_equity": 22.0,
+        "valuation_score": 78.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 29.0,
+        "analyst_score": 77.0,
+        "risk_score": 78.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "LICHSGFIN",
+      "name": "LICHSGFIN",
+      "current_price": 633.381103515625,
+      "change_rate": 3.510295604312848,
+      "volume": 12146190,
+      "trade_value": 7693167225.710449,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 601.7120483398437,
+      "target_price": 728.3882690429687,
+      "quality_score": 56.3,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Highly profitable (margin 65.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.7815495470249024,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Mortgage Finance",
+        "market_cap_cr": 29868.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 4.8,
+        "price_to_book": 0.78,
+        "dividend_yield_pct": 183.0,
+        "revenue_growth_pct": 4.4,
+        "earnings_growth_pct": 8.6,
+        "operating_margin_pct": 81.5,
+        "profit_margin_pct": 65.8,
+        "roe_pct": 14.4,
+        "rsi_14": 47.1,
+        "sma_50": 530.07,
+        "sma_200": 544.21,
+        "pct_from_52w_high": -16.0,
+        "beta": 0.32,
+        "analyst_recommendation": "hold",
+        "target_mean": 613.35,
+        "target_upside_pct": 13.0,
+        "analyst_count": 23,
+        "debt_to_equity": 642.5,
+        "valuation_score": 83.0,
+        "growth_score": 50.0,
+        "profitability_score": 77.0,
+        "technical_score": 45.0,
+        "analyst_score": 62.0,
+        "risk_score": 50.0
+      }
+    },
+    {
+      "ticker": "ENGINERSIN",
+      "name": "ENGINERSIN",
+      "current_price": 244.33058166503906,
+      "change_rate": 2.6044931972283467,
+      "volume": 15006873,
+      "trade_value": 3666638009.0633698,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 232.1140525817871,
+      "target_price": 280.9801689147949,
+      "quality_score": 65.525,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (58.3%); Highly profitable (margin 19.3%); Golden cross (50MA > 200MA)",
+      "final_score": 0.753767590591564,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 13770.0,
+        "trailing_pe": 17.8,
+        "forward_pe": 20.8,
+        "price_to_book": 5.07,
+        "dividend_yield_pct": 126.0,
+        "revenue_growth_pct": 58.3,
+        "earnings_growth_pct": 218.6,
+        "operating_margin_pct": 28.3,
+        "profit_margin_pct": 19.3,
+        "roe_pct": null,
+        "rsi_14": 47.7,
+        "sma_50": 221.31,
+        "sma_200": 203.46,
+        "pct_from_52w_high": -8.2,
+        "beta": 1.03,
+        "analyst_recommendation": "none",
+        "target_mean": 247.0,
+        "target_upside_pct": 0.8,
+        "analyst_count": 5,
+        "debt_to_equity": 0.7,
+        "valuation_score": 50.0,
+        "growth_score": 90.0,
+        "profitability_score": 80.0,
+        "technical_score": 67.0,
+        "analyst_score": 50.0,
+        "risk_score": 72.0
+      }
+    },
+    {
+      "ticker": "HUDCO",
+      "name": "HUDCO",
+      "current_price": 222.6476593017578,
+      "change_rate": 2.2643254951254015,
+      "volume": 29076077,
+      "trade_value": 6473720485.727676,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.99999999999999,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 211.5152763366699,
+      "target_price": 256.04480819702144,
+      "quality_score": 54.36666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.0); Strong revenue growth (16.1%); Highly profitable (margin 61.5%)",
+      "final_score": 0.6657601064906669,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 40460.0,
+        "trailing_pe": 10.0,
+        "forward_pe": 8.1,
+        "price_to_book": 2.24,
+        "dividend_yield_pct": 251.0,
+        "revenue_growth_pct": 16.1,
+        "earnings_growth_pct": -3.0,
+        "operating_margin_pct": 66.3,
+        "profit_margin_pct": 61.5,
+        "roe_pct": null,
+        "rsi_14": 42.8,
+        "sma_50": 192.45,
+        "sma_200": 210.13,
+        "pct_from_52w_high": -20.3,
+        "beta": 0.98,
+        "analyst_recommendation": "none",
+        "target_mean": 225.0,
+        "target_upside_pct": 11.3,
+        "analyst_count": 1,
+        "debt_to_equity": 705.8,
+        "valuation_score": 77.0,
+        "growth_score": 45.0,
+        "profitability_score": 90.0,
+        "technical_score": 45.0,
+        "analyst_score": 52.0,
+        "risk_score": 38.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "APOLLOTYRE",
+            "name": "APOLLOTYRE",
+            "price": 474.1952209472656,
+            "change_pct": 2.9635017120241125,
+            "composite_score": 0.9923621587859107,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1326.5556640625,
+            "change_pct": 2.687228786514219,
+            "composite_score": 0.962500725708815,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 222.6476593017578,
+            "change_pct": 2.2643254951254015,
+            "composite_score": 0.5068425963434986,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 492.2954406738281,
+            "change_pct": 2.3453569739367772,
+            "composite_score": 0.4331749293477824,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "APOLLOTYRE",
+            "name": "APOLLOTYRE",
+            "price": 474.1952209472656,
+            "change_pct": 2.9635017120241125,
+            "composite_score": 0.90560852261053,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LICHSGFIN",
+            "name": "LICHSGFIN",
+            "price": 633.381103515625,
+            "change_pct": 3.510295604312848,
+            "composite_score": 0.7907847412347693,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 244.33058166503906,
+            "change_pct": 2.6044931972283467,
+            "composite_score": 0.6206369805988092,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 220.2853546142578,
+            "change_pct": -0.8712667305157521,
+            "composite_score": 0.5175525578925909,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 222.6476593017578,
+            "change_pct": 2.2643254951254015,
+            "composite_score": 0.5065400201861575,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1326.5556640625,
+            "change_pct": 2.687228786514219,
+            "composite_score": 0.45307818065396877,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RELIANCE",
+            "name": "RELIANCE",
+            "price": 1414.8778076171875,
+            "change_pct": 0.6407549125266869,
+            "composite_score": 0.44897089747073315,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ITC",
+            "name": "ITC",
+            "price": 386.231689453125,
+            "change_pct": 0.8531852882952822,
+            "composite_score": 0.38328722927377107,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 720.3875122070312,
+            "change_pct": 1.5119854339414278,
+            "composite_score": 0.3795027273681886,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T01:51:46.145444",
+    "trigger_mode": "morning",
+    "trade_date": "20240516",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 53.3,
+      "nifty_slope_pct": 0.69,
+      "nifty_rvol": 10.3,
+      "max_picks": 4
+    }
+  }
+}

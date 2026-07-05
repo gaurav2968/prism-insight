@@ -1,0 +1,313 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "HINDCOPPER",
+      "name": "HINDCOPPER",
+      "current_price": 242.21063232421875,
+      "change_rate": 2.4020509419611553,
+      "volume": 11368150,
+      "trade_value": 2753486799.8565674,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999995,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 230.1001007080078,
+      "target_price": 278.54222717285154,
+      "quality_score": 67.48333333333335,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 60.1); Strong revenue growth (62.5%); Highly profitable (margin 29.2%)",
+      "final_score": 0.6699333333333335,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "market_cap_cr": 55072.0,
+        "trailing_pe": 60.1,
+        "forward_pe": 28.6,
+        "price_to_book": 18.57,
+        "dividend_yield_pct": 42.0,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 136.6,
+        "operating_margin_pct": 49.9,
+        "profit_margin_pct": 29.2,
+        "roe_pct": 30.6,
+        "rsi_14": 53.7,
+        "sma_50": 527.26,
+        "sma_200": 436.69,
+        "pct_from_52w_high": -25.1,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 715.0,
+        "target_upside_pct": 25.5,
+        "analyst_count": 1,
+        "debt_to_equity": 3.3,
+        "valuation_score": 38.0,
+        "growth_score": 90.0,
+        "profitability_score": 90.0,
+        "technical_score": 65.0,
+        "analyst_score": 70.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "BALKRISIND",
+      "name": "BALKRISIND",
+      "current_price": 2476.063232421875,
+      "change_rate": -6.3228305815658175,
+      "volume": 5053005,
+      "trade_value": 12511559893.743896,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 2352.2600708007812,
+      "target_price": 2847.4727172851562,
+      "quality_score": 48.575,
+      "quality_signal": "SELL",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Hold; Target ₹2,303 (+8% upside)",
+      "final_score": 0.7943000000000001,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "market_cap_cr": 41138.0,
+        "trailing_pe": 33.1,
+        "forward_pe": 21.4,
+        "price_to_book": 3.76,
+        "dividend_yield_pct": 75.0,
+        "revenue_growth_pct": 6.9,
+        "earnings_growth_pct": -15.0,
+        "operating_margin_pct": 16.4,
+        "profit_margin_pct": 12.3,
+        "roe_pct": null,
+        "rsi_14": 42.8,
+        "sma_50": 2191.24,
+        "sma_200": 2333.45,
+        "pct_from_52w_high": -24.0,
+        "beta": 0.32,
+        "analyst_recommendation": "hold",
+        "target_mean": 2303.18,
+        "target_upside_pct": 8.2,
+        "analyst_count": 17,
+        "debt_to_equity": 35.3,
+        "valuation_score": 58.0,
+        "growth_score": 28.0,
+        "profitability_score": 72.0,
+        "technical_score": 39.0,
+        "analyst_score": 53.0,
+        "risk_score": 78.0
+      }
+    },
+    {
+      "ticker": "HUDCO",
+      "name": "HUDCO",
+      "current_price": 231.8006134033203,
+      "change_rate": 4.600929223867541,
+      "volume": 23865027,
+      "trade_value": 5531927897.486801,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 220.2105827331543,
+      "target_price": 266.57070541381836,
+      "quality_score": 54.36666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.0); Strong revenue growth (16.1%); Highly profitable (margin 61.5%)",
+      "final_score": 0.6643672356594432,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 40460.0,
+        "trailing_pe": 10.0,
+        "forward_pe": 8.1,
+        "price_to_book": 2.24,
+        "dividend_yield_pct": 251.0,
+        "revenue_growth_pct": 16.1,
+        "earnings_growth_pct": -3.0,
+        "operating_margin_pct": 66.3,
+        "profit_margin_pct": 61.5,
+        "roe_pct": null,
+        "rsi_14": 43.8,
+        "sma_50": 192.45,
+        "sma_200": 210.13,
+        "pct_from_52w_high": -20.3,
+        "beta": 0.98,
+        "analyst_recommendation": "none",
+        "target_mean": 225.0,
+        "target_upside_pct": 11.3,
+        "analyst_count": 1,
+        "debt_to_equity": 705.8,
+        "valuation_score": 77.0,
+        "growth_score": 45.0,
+        "profitability_score": 90.0,
+        "technical_score": 45.0,
+        "analyst_score": 52.0,
+        "risk_score": 38.0
+      }
+    },
+    {
+      "ticker": "CONCOR",
+      "name": "CONCOR",
+      "current_price": 583.80322265625,
+      "change_rate": 2.9823768834460878,
+      "volume": 5064575,
+      "trade_value": 2956715206.3842773,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 554.6130615234375,
+      "target_price": 671.3737060546874,
+      "quality_score": 51.75,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Hold; Target ₹566 (+12% upside)",
+      "final_score": 0.6142256832400892,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Railroads",
+        "market_cap_cr": 38507.0,
+        "trailing_pe": 30.1,
+        "forward_pe": 23.5,
+        "price_to_book": 3.01,
+        "dividend_yield_pct": 271.0,
+        "revenue_growth_pct": 4.5,
+        "earnings_growth_pct": -8.9,
+        "operating_margin_pct": 15.6,
+        "profit_margin_pct": 14.0,
+        "roe_pct": null,
+        "rsi_14": 48.9,
+        "sma_50": 481.86,
+        "sma_200": 511.39,
+        "pct_from_52w_high": -22.5,
+        "beta": 0.37,
+        "analyst_recommendation": "hold",
+        "target_mean": 566.41,
+        "target_upside_pct": 12.0,
+        "analyst_count": 17,
+        "debt_to_equity": 7.0,
+        "valuation_score": 58.0,
+        "growth_score": 28.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 58.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 242.21063232421875,
+            "change_pct": 2.4020509419611553,
+            "composite_score": 0.44999999999999996,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "BEML",
+            "name": "BEML",
+            "price": 2136.1875,
+            "change_pct": 15.110678841718581,
+            "composite_score": 1.1320629141022869,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BALKRISIND",
+            "name": "BALKRISIND",
+            "price": 2476.063232421875,
+            "change_pct": -6.3228305815658175,
+            "composite_score": 0.6109763178329386,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "FINPIPE",
+            "name": "FINPIPE",
+            "price": 219.81985473632812,
+            "change_pct": 6.963049333067723,
+            "composite_score": 0.5640894239233529,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 231.8006134033203,
+            "change_pct": 4.600929223867541,
+            "composite_score": 0.3391323213045746,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 408.6243591308594,
+            "change_pct": 3.361338569870244,
+            "composite_score": 0.29354281294074736,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CONCOR",
+            "name": "CONCOR",
+            "price": 583.80322265625,
+            "change_pct": 2.9823768834460878,
+            "composite_score": 0.2686854265391203,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 126.20819854736328,
+            "change_pct": 1.4850717379874836,
+            "composite_score": 0.25913167664741327,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 242.21063232421875,
+            "change_pct": 2.4020509419611553,
+            "composite_score": 0.25585547285012733,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:43:24.552289",
+    "trigger_mode": "morning",
+    "trade_date": "20250526",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 61.4,
+      "nifty_slope_pct": 3.22,
+      "nifty_rvol": 17.6,
+      "max_picks": 4
+    }
+  }
+}

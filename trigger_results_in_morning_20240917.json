@@ -1,0 +1,203 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "NUVOCO",
+      "name": "NUVOCO",
+      "current_price": 365.3500061035156,
+      "change_rate": 4.147667849730326,
+      "volume": 10140003,
+      "trade_value": 3704650157.9396667,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999994,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 347.0825057983398,
+      "target_price": 420.15250701904296,
+      "quality_score": 50.03333333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Down 33% from 52W high; Analyst: None",
+      "final_score": 0.8001333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Building Materials",
+        "market_cap_cr": 11354.0,
+        "trailing_pe": 31.5,
+        "forward_pe": 20.9,
+        "price_to_book": 1.11,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 8.7,
+        "earnings_growth_pct": -14.9,
+        "operating_margin_pct": 10.9,
+        "profit_margin_pct": 3.2,
+        "roe_pct": 3.7,
+        "rsi_14": 51.6,
+        "sma_50": 301.04,
+        "sma_200": 365.43,
+        "pct_from_52w_high": -33.4,
+        "beta": 0.27,
+        "analyst_recommendation": "none",
+        "target_mean": 398.67,
+        "target_upside_pct": 25.4,
+        "analyst_count": 18,
+        "debt_to_equity": 48.1,
+        "valuation_score": 65.0,
+        "growth_score": 38.0,
+        "profitability_score": 37.0,
+        "technical_score": 43.0,
+        "analyst_score": 70.0,
+        "risk_score": 78.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "IIFL",
+      "name": "IIFL",
+      "current_price": 511.9122619628906,
+      "change_rate": 1.7862412241188075,
+      "volume": 6346918,
+      "trade_value": 3249065149.872986,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999956,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 486.31664886474607,
+      "target_price": 588.6991012573242,
+      "quality_score": 56.69166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 11.9); Revenue declining (-14.1%); Highly profitable (margin 21.0%)",
+      "final_score": 0.6267666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 19595.0,
+        "trailing_pe": 11.9,
+        "forward_pe": 6.9,
+        "price_to_book": 1.41,
+        "dividend_yield_pct": 88.0,
+        "revenue_growth_pct": -14.1,
+        "earnings_growth_pct": 183.1,
+        "operating_margin_pct": 39.8,
+        "profit_margin_pct": 21.0,
+        "roe_pct": 12.3,
+        "rsi_14": 49.6,
+        "sma_50": 456.06,
+        "sma_200": 504.6,
+        "pct_from_52w_high": -31.7,
+        "beta": 0.25,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 617.5,
+        "target_upside_pct": 34.0,
+        "analyst_count": 4,
+        "debt_to_equity": 446.2,
+        "valuation_score": 83.0,
+        "growth_score": 52.0,
+        "profitability_score": 77.0,
+        "technical_score": 41.0,
+        "analyst_score": 75.0,
+        "risk_score": 50.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "NUVOCO",
+            "name": "NUVOCO",
+            "price": 365.3500061035156,
+            "change_pct": 4.147667849730326,
+            "composite_score": 0.7142808295007447,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IIFL",
+            "name": "IIFL",
+            "price": 511.9122619628906,
+            "change_pct": 1.7862412241188075,
+            "composite_score": 0.36206683428244624,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "NUVOCO",
+            "name": "NUVOCO",
+            "price": 365.3500061035156,
+            "change_pct": 4.147667849730326,
+            "composite_score": 0.8418209508778184,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HSCL",
+            "name": "HSCL",
+            "price": 639.8402709960938,
+            "change_pct": 7.980797953100118,
+            "composite_score": 0.5964460121279818,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 153.2204132080078,
+            "change_pct": 2.680125906067006,
+            "composite_score": 0.4156759647109711,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IIFL",
+            "name": "IIFL",
+            "price": 511.9122619628906,
+            "change_pct": 1.7862412241188075,
+            "composite_score": 0.4046723728321042,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 1954.4000244140625,
+            "change_pct": 1.2222899828628662,
+            "composite_score": 0.3911300632622585,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:46:50.324472",
+    "trigger_mode": "morning",
+    "trade_date": "20240917",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 64.7,
+      "nifty_slope_pct": 2.28,
+      "nifty_rvol": 8.8,
+      "max_picks": 5
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 259.95001220703125,
+      "change_rate": 2.0011795100542753,
+      "volume": 75700800,
+      "trade_value": 19678423884.08203,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 246.95251159667967,
+      "target_price": 298.9425140380859,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 633.9); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8185333333333334,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 227282.0,
+        "trailing_pe": 633.9,
+        "forward_pe": 60.9,
+        "price_to_book": 7.31,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 49.5,
+        "sma_50": 241.42,
+        "sma_200": 288.59,
+        "pct_from_52w_high": -32.9,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.66,
+        "target_upside_pct": 40.2,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "name": "BAJFINANCE",
+      "current_price": 727.2276611328125,
+      "change_rate": 0.997257920045597,
+      "volume": 18428270,
+      "trade_value": 13401547690.823975,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 690.8662780761719,
+      "target_price": 836.3118103027343,
+      "quality_score": 58.24166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (26.8%); Highly profitable (margin 43.4%); Death cross (50MA < 200MA)",
+      "final_score": 0.6329666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 574252.0,
+        "trailing_pe": 30.3,
+        "forward_pe": 18.7,
+        "price_to_book": 5.04,
+        "dividend_yield_pct": 59.0,
+        "revenue_growth_pct": 26.8,
+        "earnings_growth_pct": 21.4,
+        "operating_margin_pct": 60.6,
+        "profit_margin_pct": 43.4,
+        "roe_pct": 17.9,
+        "rsi_14": 49.0,
+        "sma_50": 894.77,
+        "sma_200": 964.93,
+        "pct_from_52w_high": -16.2,
+        "beta": 0.41,
+        "analyst_recommendation": "buy",
+        "target_mean": 1061.86,
+        "target_upside_pct": 15.0,
+        "analyst_count": 35,
+        "debt_to_equity": 313.4,
+        "valuation_score": 52.0,
+        "growth_score": 82.0,
+        "profitability_score": 83.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 50.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "MARICO",
+            "name": "MARICO",
+            "price": 655.2044677734375,
+            "change_pct": 3.3157291849729083,
+            "composite_score": 0.6791469612249669,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 259.95001220703125,
+            "change_pct": 2.0011795100542753,
+            "composite_score": 0.5855933318289982,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 727.2276611328125,
+            "change_pct": 0.997257920045597,
+            "composite_score": 0.5505932137893524,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:38:22.149083",
+    "trigger_mode": "morning",
+    "trade_date": "20240906",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 51.7,
+      "nifty_slope_pct": 2.75,
+      "nifty_rvol": 9.3,
+      "max_picks": 5
+    }
+  }
+}

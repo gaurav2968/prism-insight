@@ -1,0 +1,65 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 324.130615234375,
+            "change_pct": 5.017138149522815,
+            "composite_score": 1.135984794089004,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 324.130615234375,
+            "change_pct": 5.017138149522815,
+            "composite_score": 0.6937371620052118,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T01:41:33.789649",
+    "trigger_mode": "morning",
+    "trade_date": "20240506",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 51.8,
+      "nifty_slope_pct": 1.38,
+      "nifty_rvol": 9.9,
+      "max_picks": 5
+    }
+  }
+}

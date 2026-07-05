@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "run_time": "2026-05-19T22:24:27.401955",
+    "trigger_mode": "morning",
+    "trade_date": "20250505",
+    "regime": "bull_weak",
+    "nifty_rsi": 66.8,
+    "nifty_slope_pct": 0.63,
+    "nifty_rvol": 19.9,
+    "message": "No picks — bull_weak. Capital preservation mode."
+  },
+  "screening_summary": {
+    "total_tickers_scanned": 0,
+    "triggers": {}
+  }
+}

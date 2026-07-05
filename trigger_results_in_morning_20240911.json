@@ -1,0 +1,185 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 271.75,
+      "change_rate": 1.5128829317484713,
+      "volume": 121883700,
+      "trade_value": 33121895475.0,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 258.16249999999997,
+      "target_price": 312.5125,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 633.9); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8185333333333334,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 227282.0,
+        "trailing_pe": 633.9,
+        "forward_pe": 60.9,
+        "price_to_book": 7.31,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 49.5,
+        "sma_50": 241.42,
+        "sma_200": 288.59,
+        "pct_from_52w_high": -32.9,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.66,
+        "target_upside_pct": 40.2,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC",
+      "current_price": 468.9305114746094,
+      "change_rate": 0.14602917754993333,
+      "volume": 15497555,
+      "trade_value": 7267276392.75589,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 445.4839859008789,
+      "target_price": 539.2700881958008,
+      "quality_score": 54.325,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 43.9%); Death cross (50MA < 200MA); Down 30% from 52W high",
+      "final_score": 0.6173000000000001,
+      "metrics": {
+        "sector": "Consumer Defensive",
+        "industry": "Tobacco",
+        "market_cap_cr": 388789.0,
+        "trailing_pe": 19.1,
+        "forward_pe": 18.5,
+        "price_to_book": 5.47,
+        "dividend_yield_pct": 463.0,
+        "revenue_growth_pct": 6.7,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 32.2,
+        "profit_margin_pct": 43.9,
+        "roe_pct": null,
+        "rsi_14": 54.3,
+        "sma_50": 302.78,
+        "sma_200": 360.55,
+        "pct_from_52w_high": -30.1,
+        "beta": -0.02,
+        "analyst_recommendation": "none",
+        "target_mean": 359.19,
+        "target_upside_pct": 15.8,
+        "analyst_count": 32,
+        "debt_to_equity": 0.5,
+        "valuation_score": 60.0,
+        "growth_score": 28.0,
+        "profitability_score": 90.0,
+        "technical_score": 41.0,
+        "analyst_score": 75.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "BERGEPAINT",
+            "name": "BERGEPAINT",
+            "price": 613.8800048828125,
+            "change_pct": 2.7004562792386055,
+            "composite_score": 0.44999999999999996,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 271.75,
+            "change_pct": 1.5128829317484713,
+            "composite_score": 0.9183762005454713,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 23.81999969482422,
+            "change_pct": 3.6553532172357253,
+            "composite_score": 0.739570278762922,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BERGEPAINT",
+            "name": "BERGEPAINT",
+            "price": 613.8800048828125,
+            "change_pct": 2.7004562792386055,
+            "composite_score": 0.6877197670252152,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ITC",
+            "name": "ITC",
+            "price": 468.9305114746094,
+            "change_pct": 0.14602917754993333,
+            "composite_score": 0.44973910663807826,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:42:29.148176",
+    "trigger_mode": "morning",
+    "trade_date": "20240911",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 52.9,
+      "nifty_slope_pct": 2.53,
+      "nifty_rvol": 8.3,
+      "max_picks": 5
+    }
+  }
+}

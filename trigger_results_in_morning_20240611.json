@@ -1,0 +1,361 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "ONGC",
+      "name": "ONGC",
+      "current_price": 246.43402099609375,
+      "change_rate": 5.556619453560199,
+      "volume": 47270206,
+      "trade_value": 11648986937.893677,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 234.11231994628906,
+      "target_price": 283.3991241455078,
+      "quality_score": 64.24166666666666,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 9.8); Golden cross (50MA > 200MA); Trading near 52-week high",
+      "final_score": 0.8569666666666668,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Integrated",
+        "market_cap_cr": 373005.0,
+        "trailing_pe": 9.8,
+        "forward_pe": 7.0,
+        "price_to_book": 1.01,
+        "dividend_yield_pct": 622.0,
+        "revenue_growth_pct": 0.8,
+        "earnings_growth_pct": 16.2,
+        "operating_margin_pct": 9.5,
+        "profit_margin_pct": 5.8,
+        "roe_pct": null,
+        "rsi_14": 58.2,
+        "sma_50": 283.02,
+        "sma_200": 256.59,
+        "pct_from_52w_high": -3.6,
+        "beta": 0.19,
+        "analyst_recommendation": "buy",
+        "target_mean": 307.93,
+        "target_upside_pct": 3.9,
+        "analyst_count": 30,
+        "debt_to_equity": 43.8,
+        "valuation_score": 83.0,
+        "growth_score": 58.0,
+        "profitability_score": 52.0,
+        "technical_score": 67.0,
+        "analyst_score": 62.0,
+        "risk_score": 78.0
+      }
+    },
+    {
+      "ticker": "PETRONET",
+      "name": "PETRONET",
+      "current_price": 295.5122375488281,
+      "change_rate": 4.128808004739235,
+      "volume": 10540526,
+      "trade_value": 3114854423.201599,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 280.7366256713867,
+      "target_price": 339.83907318115234,
+      "quality_score": 56.91666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.2); Revenue declining (-23.3%); Death cross (50MA < 200MA)",
+      "final_score": 0.7188058265735325,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 39773.0,
+        "trailing_pe": 10.2,
+        "forward_pe": 9.4,
+        "price_to_book": 1.88,
+        "dividend_yield_pct": 377.0,
+        "revenue_growth_pct": -23.3,
+        "earnings_growth_pct": 25.3,
+        "operating_margin_pct": 17.5,
+        "profit_margin_pct": 9.0,
+        "roe_pct": 18.6,
+        "rsi_14": 40.3,
+        "sma_50": 270.16,
+        "sma_200": 278.87,
+        "pct_from_52w_high": -18.8,
+        "beta": 0.5,
+        "analyst_recommendation": "buy",
+        "target_mean": 314.61,
+        "target_upside_pct": 18.7,
+        "analyst_count": 31,
+        "debt_to_equity": 10.5,
+        "valuation_score": 78.0,
+        "growth_score": 45.0,
+        "profitability_score": 65.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "RVNL",
+      "name": "RVNL",
+      "current_price": 384.6655578613281,
+      "change_rate": 4.131557459256026,
+      "volume": 43435702,
+      "trade_value": 16708218540.928406,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999942,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 365.4322799682617,
+      "target_price": 442.3653915405273,
+      "quality_score": 41.300000000000004,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 49.3); Death cross (50MA < 200MA); Down 39% from 52W high",
+      "final_score": 0.6567803858237032,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 56619.0,
+        "trailing_pe": 49.3,
+        "forward_pe": 38.2,
+        "price_to_book": 5.95,
+        "dividend_yield_pct": 98.0,
+        "revenue_growth_pct": 2.6,
+        "earnings_growth_pct": 4.0,
+        "operating_margin_pct": 4.5,
+        "profit_margin_pct": 5.7,
+        "roe_pct": null,
+        "rsi_14": 38.9,
+        "sma_50": 281.34,
+        "sma_200": 316.39,
+        "pct_from_52w_high": -39.4,
+        "beta": 1.01,
+        "analyst_recommendation": "none",
+        "target_mean": 240.33,
+        "target_upside_pct": -11.5,
+        "analyst_count": 3,
+        "debt_to_equity": 52.1,
+        "valuation_score": 45.0,
+        "growth_score": 40.0,
+        "profitability_score": 42.0,
+        "technical_score": 39.0,
+        "analyst_score": 32.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "IRB",
+      "name": "IRB",
+      "current_price": 32.725425720214844,
+      "change_rate": -5.758257355174616,
+      "volume": 1807991128,
+      "trade_value": 59167279362.17145,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.638835933429559,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 31.0891544342041,
+      "target_price": 38.67954847258973,
+      "quality_score": 50.625,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-16.3%); Earnings collapsing (-96.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8025000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Infrastructure Operations",
+        "market_cap_cr": 24410.0,
+        "trailing_pe": 32.1,
+        "forward_pe": 21.6,
+        "price_to_book": 1.21,
+        "dividend_yield_pct": 69.0,
+        "revenue_growth_pct": -16.3,
+        "earnings_growth_pct": -96.5,
+        "operating_margin_pct": 23.6,
+        "profit_margin_pct": 11.6,
+        "roe_pct": null,
+        "rsi_14": 33.5,
+        "sma_50": 21.26,
+        "sma_200": 21.26,
+        "pct_from_52w_high": -25.5,
+        "beta": -0.09,
+        "analyst_recommendation": "none",
+        "target_mean": 28.5,
+        "target_upside_pct": 41.0,
+        "analyst_count": 5,
+        "debt_to_equity": 102.3,
+        "valuation_score": 65.0,
+        "growth_score": 15.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 72.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 102.68605041503906,
+            "change_pct": 9.527134345367164,
+            "composite_score": 0.8193270327654988,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 28.68000030517578,
+            "change_pct": 9.969326645228985,
+            "composite_score": 0.8079058752438951,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 246.43402099609375,
+            "change_pct": 5.556619453560199,
+            "composite_score": 0.558305908148792,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 384.6655578613281,
+            "change_pct": 4.131557459256026,
+            "composite_score": 0.3435198250614152,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PETRONET",
+            "name": "PETRONET",
+            "price": 295.5122375488281,
+            "change_pct": 4.128808004739235,
+            "composite_score": 0.3426457287352649,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 170.21397399902344,
+            "change_pct": 1.8438382848311503,
+            "composite_score": 0.1620933137410647,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 32.725425720214844,
+            "change_pct": -5.758257355174616,
+            "composite_score": 1.0201197149594643,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 102.68605041503906,
+            "change_pct": 9.527134345367164,
+            "composite_score": 0.6053555106938971,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 107.28321075439453,
+            "change_pct": 9.352440723660564,
+            "composite_score": 0.5216001714342119,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 28.68000030517578,
+            "change_pct": 9.969326645228985,
+            "composite_score": 0.4926341281246027,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 90.94999694824219,
+            "change_pct": 4.624406567299939,
+            "composite_score": 0.4027999498458782,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 237.28237915039062,
+            "change_pct": 7.184127758508661,
+            "composite_score": 0.39129262039133905,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRCTC",
+            "name": "IRCTC",
+            "price": 992.3864135742188,
+            "change_pct": 4.310256449407027,
+            "composite_score": 0.3549593008069798,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 246.43402099609375,
+            "change_pct": 5.556619453560199,
+            "composite_score": 0.3352636438185834,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 197.76441955566406,
+            "change_pct": 2.2480596977010636,
+            "composite_score": 0.3156803436920601,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:14:32.474848",
+    "trigger_mode": "morning",
+    "trade_date": "20240611",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 58.8,
+      "nifty_slope_pct": 1.01,
+      "nifty_rvol": 29.2,
+      "max_picks": 4
+    }
+  }
+}

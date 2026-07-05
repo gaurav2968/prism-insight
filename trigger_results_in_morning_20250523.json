@@ -1,0 +1,337 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "ITC",
+      "name": "ITC",
+      "current_price": 419.61248779296875,
+      "change_rate": 2.393805015812741,
+      "volume": 18536884,
+      "trade_value": 7778308011.169678,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 398.63186340332027,
+      "target_price": 482.554360961914,
+      "quality_score": 54.325,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 43.9%); Death cross (50MA < 200MA); Down 30% from 52W high",
+      "final_score": 0.8173000000000001,
+      "metrics": {
+        "sector": "Consumer Defensive",
+        "industry": "Tobacco",
+        "market_cap_cr": 388789.0,
+        "trailing_pe": 19.1,
+        "forward_pe": 18.5,
+        "price_to_book": 5.47,
+        "dividend_yield_pct": 463.0,
+        "revenue_growth_pct": 6.7,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 32.2,
+        "profit_margin_pct": 43.9,
+        "roe_pct": null,
+        "rsi_14": 54.5,
+        "sma_50": 302.78,
+        "sma_200": 360.55,
+        "pct_from_52w_high": -30.1,
+        "beta": -0.02,
+        "analyst_recommendation": "none",
+        "target_mean": 359.19,
+        "target_upside_pct": 15.8,
+        "analyst_count": 32,
+        "debt_to_equity": 0.5,
+        "valuation_score": 60.0,
+        "growth_score": 28.0,
+        "profitability_score": 90.0,
+        "technical_score": 41.0,
+        "analyst_score": 75.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RAMCOCEM",
+      "name": "RAMCOCEM",
+      "current_price": 1004.366943359375,
+      "change_rate": 1.8525971206910914,
+      "volume": 5090134,
+      "trade_value": 5112362326.869629,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 954.1485961914062,
+      "target_price": 1155.0219848632812,
+      "quality_score": 50.21666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 37.2); Death cross (50MA < 200MA); Down 25% from 52W high",
+      "final_score": 0.8008666666666667,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Building Materials",
+        "market_cap_cr": 21423.0,
+        "trailing_pe": 37.2,
+        "forward_pe": 34.2,
+        "price_to_book": 2.84,
+        "dividend_yield_pct": 22.0,
+        "revenue_growth_pct": 6.2,
+        "earnings_growth_pct": 114.0,
+        "operating_margin_pct": 4.5,
+        "profit_margin_pct": 6.5,
+        "roe_pct": null,
+        "rsi_14": 37.6,
+        "sma_50": 955.08,
+        "sma_200": 1035.5,
+        "pct_from_52w_high": -25.3,
+        "beta": 0.12,
+        "analyst_recommendation": "hold",
+        "target_mean": 1027.62,
+        "target_upside_pct": 13.3,
+        "analyst_count": 32,
+        "debt_to_equity": 62.2,
+        "valuation_score": 53.0,
+        "growth_score": 65.0,
+        "profitability_score": 42.0,
+        "technical_score": 42.0,
+        "analyst_score": 57.0,
+        "risk_score": 68.0
+      }
+    },
+    {
+      "ticker": "HINDCOPPER",
+      "name": "HINDCOPPER",
+      "current_price": 236.52908325195312,
+      "change_rate": 5.153224836510948,
+      "volume": 17732588,
+      "trade_value": 4194272783.324585,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 224.70262908935547,
+      "target_price": 272.0084457397461,
+      "quality_score": 67.48333333333335,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 60.1); Strong revenue growth (62.5%); Highly profitable (margin 29.2%)",
+      "final_score": 0.762279346861621,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "market_cap_cr": 55072.0,
+        "trailing_pe": 60.1,
+        "forward_pe": 28.6,
+        "price_to_book": 18.57,
+        "dividend_yield_pct": 42.0,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 136.6,
+        "operating_margin_pct": 49.9,
+        "profit_margin_pct": 29.2,
+        "roe_pct": 30.6,
+        "rsi_14": 53.7,
+        "sma_50": 527.26,
+        "sma_200": 436.69,
+        "pct_from_52w_high": -25.1,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 715.0,
+        "target_upside_pct": 25.5,
+        "analyst_count": 1,
+        "debt_to_equity": 3.3,
+        "valuation_score": 38.0,
+        "growth_score": 90.0,
+        "profitability_score": 90.0,
+        "technical_score": 65.0,
+        "analyst_score": 70.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "MFSL",
+      "name": "MFSL",
+      "current_price": 1470.0,
+      "change_rate": 3.9603960396039604,
+      "volume": 5351992,
+      "trade_value": 7867428240.0,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1396.5,
+      "target_price": 1690.4999999999998,
+      "quality_score": 45.233333333333334,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 674.1); Revenue declining (-40.2%); Death cross (50MA < 200MA)",
+      "final_score": 0.7305335082620585,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Insurance - Life",
+        "market_cap_cr": 55566.0,
+        "trailing_pe": 674.1,
+        "forward_pe": 102.3,
+        "price_to_book": 20.3,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": -40.2,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 4.6,
+        "profit_margin_pct": 0.2,
+        "roe_pct": 1.6,
+        "rsi_14": 47.7,
+        "sma_50": 1618.57,
+        "sma_200": 1643.21,
+        "pct_from_52w_high": -14.5,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 2065.6,
+        "target_upside_pct": 27.7,
+        "analyst_count": 25,
+        "debt_to_equity": 12.7,
+        "valuation_score": 38.0,
+        "growth_score": 15.0,
+        "profitability_score": 30.0,
+        "technical_score": 45.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "ITC",
+            "name": "ITC",
+            "price": 419.61248779296875,
+            "change_pct": 2.393805015812741,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 69.38209533691406,
+            "change_pct": 1.8260852721033554,
+            "composite_score": 0.08685731916186701,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 51.900001525878906,
+            "change_pct": 16.393813295079706,
+            "composite_score": 1.15,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RAMCOCEM",
+            "name": "RAMCOCEM",
+            "price": 1004.366943359375,
+            "change_pct": 1.8525971206910914,
+            "composite_score": 0.5410790793829288,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "FINPIPE",
+            "name": "FINPIPE",
+            "price": 205.5100860595703,
+            "change_pct": 6.753857551865545,
+            "composite_score": 0.5065766753861713,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 86.97528839111328,
+            "change_pct": 3.076920712140608,
+            "composite_score": 0.48578114958209073,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "MFSL",
+            "name": "MFSL",
+            "price": 1470.0,
+            "change_pct": 3.9603960396039604,
+            "composite_score": 0.47393890990118626,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SUNPHARMA",
+            "name": "SUNPHARMA",
+            "price": 1667.2459716796875,
+            "change_pct": -2.0422333380956394,
+            "composite_score": 0.4091059675075569,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 236.52908325195312,
+            "change_pct": 5.153224836510948,
+            "composite_score": 0.39766773049680926,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCLIFE",
+            "name": "HDFCLIFE",
+            "price": 778.2488403320312,
+            "change_pct": 3.2480033944116906,
+            "composite_score": 0.2934748125508717,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ITC",
+            "name": "ITC",
+            "price": 419.61248779296875,
+            "change_pct": 2.393805015812741,
+            "composite_score": 0.28985475853146864,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CONCOR",
+            "name": "CONCOR",
+            "price": 566.8961791992188,
+            "change_pct": -2.3104541183365312,
+            "composite_score": 0.2746489106797887,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:41:59.866754",
+    "trigger_mode": "morning",
+    "trade_date": "20250523",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 59.3,
+      "nifty_slope_pct": 3.05,
+      "nifty_rvol": 17.9,
+      "max_picks": 4
+    }
+  }
+}

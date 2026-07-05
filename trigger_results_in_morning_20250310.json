@@ -1,0 +1,137 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "INDUSINDBK",
+      "name": "INDUSINDBK",
+      "current_price": 900.5,
+      "change_rate": -3.8697624766479852,
+      "volume": 16014401,
+      "trade_value": 14420968100.5,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.6157701016796153,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 855.4749999999999,
+      "target_price": 1063.300048828125,
+      "quality_score": 63.666666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 78.4); Strong revenue growth (272.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6546666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 69749.0,
+        "trailing_pe": 78.4,
+        "forward_pe": 12.2,
+        "price_to_book": 1.06,
+        "dividend_yield_pct": 17.0,
+        "revenue_growth_pct": 272.7,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 17.7,
+        "profit_margin_pct": 5.2,
+        "roe_pct": 1.4,
+        "rsi_14": 51.4,
+        "sma_50": 850.22,
+        "sma_200": 837.13,
+        "pct_from_52w_high": -7.6,
+        "beta": 0.56,
+        "analyst_recommendation": "hold",
+        "target_mean": 877.33,
+        "target_upside_pct": -2.0,
+        "analyst_count": 36,
+        "debt_to_equity": null,
+        "valuation_score": 58.0,
+        "growth_score": 90.0,
+        "profitability_score": 50.0,
+        "technical_score": 67.0,
+        "analyst_score": 52.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "INDUSINDBK",
+            "name": "INDUSINDBK",
+            "price": 900.5,
+            "change_pct": -3.8697624766479852,
+            "composite_score": 0.9398873361361649,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIENSOL",
+            "name": "ADANIENSOL",
+            "price": 759.0999755859375,
+            "change_pct": 1.5382558019730783,
+            "composite_score": 0.7000067590619575,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 262.7136535644531,
+            "change_pct": 3.0383663047848333,
+            "composite_score": 0.642567155727056,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "JSWENERGY",
+            "name": "JSWENERGY",
+            "price": 503.36083984375,
+            "change_pct": 2.7760855226980787,
+            "composite_score": 0.5909155221374406,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1652.5440673828125,
+            "change_pct": 0.9163669770646603,
+            "composite_score": 0.541485946166477,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:41:17.353666",
+    "trigger_mode": "morning",
+    "trade_date": "20250310",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 39.3,
+      "nifty_slope_pct": -2.64,
+      "nifty_rvol": 10.5,
+      "max_picks": 3
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "M&M",
+      "name": "M&M",
+      "current_price": 2755.71044921875,
+      "change_rate": 2.533964848788748,
+      "volume": 4916248,
+      "trade_value": 13547755984.550781,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 2617.9249267578125,
+      "target_price": 3169.067016601562,
+      "quality_score": 60.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (30.9%); Death cross (50MA < 200MA); Analyst: Strong Buy",
+      "final_score": 0.6431666666666667,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "market_cap_cr": 371312.0,
+        "trailing_pe": 20.3,
+        "forward_pe": 19.3,
+        "price_to_book": 3.71,
+        "dividend_yield_pct": 107.0,
+        "revenue_growth_pct": 30.9,
+        "earnings_growth_pct": 44.8,
+        "operating_margin_pct": 16.4,
+        "profit_margin_pct": 8.5,
+        "roe_pct": 18.8,
+        "rsi_14": 44.7,
+        "sma_50": 3128.49,
+        "sma_200": 3445.85,
+        "pct_from_52w_high": -19.5,
+        "beta": 0.38,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 4143.65,
+        "target_upside_pct": 34.0,
+        "analyst_count": 34,
+        "debt_to_equity": 125.1,
+        "valuation_score": 67.0,
+        "growth_score": 90.0,
+        "profitability_score": 65.0,
+        "technical_score": 44.0,
+        "analyst_score": 85.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "TATAINVEST",
+            "name": "TATAINVEST",
+            "price": 614.31396484375,
+            "change_pct": 7.157735843914069,
+            "composite_score": 0.95,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "M&M",
+            "name": "M&M",
+            "price": 2755.71044921875,
+            "change_pct": 2.533964848788748,
+            "composite_score": 0.35,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "TATAINVEST",
+            "name": "TATAINVEST",
+            "price": 614.31396484375,
+            "change_pct": 7.157735843914069,
+            "composite_score": 0.9506748618611248,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CREDITACC",
+            "name": "CREDITACC",
+            "price": 866.4500122070312,
+            "change_pct": 1.5172832111343,
+            "composite_score": 0.6975054942477573,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CHAMBLFERT",
+            "name": "CHAMBLFERT",
+            "price": 552.9385375976562,
+            "change_pct": 4.899132076398026,
+            "composite_score": 0.5407568467786029,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 829.9564819335938,
+            "change_pct": 0.3130447022080662,
+            "composite_score": 0.4553619823266029,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "M&M",
+            "name": "M&M",
+            "price": 2755.71044921875,
+            "change_pct": 2.533964848788748,
+            "composite_score": 0.4395180502997854,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 840.6500244140625,
+            "change_pct": 0.5502107156579324,
+            "composite_score": 0.3194263092338574,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:30:42.029376",
+    "trigger_mode": "morning",
+    "trade_date": "20250225",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 29.6,
+      "nifty_slope_pct": -1.93,
+      "nifty_rvol": 10.1,
+      "max_picks": 3
+    }
+  }
+}

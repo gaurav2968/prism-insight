@@ -1,0 +1,217 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 13,
+        "top_candidates": [
+          {
+            "ticker": "ADANIENSOL",
+            "name": "ADANIENSOL",
+            "price": 771.2999877929688,
+            "change_pct": 11.985479171392923,
+            "composite_score": 0.7880578018154304,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BIOCON",
+            "name": "BIOCON",
+            "price": 387.13238525390625,
+            "change_pct": 6.147313653077865,
+            "composite_score": 0.5764089854473579,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 72.19999694824219,
+            "change_pct": 3.586800730933245,
+            "composite_score": 0.5453300456468229,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "JSWENERGY",
+            "name": "JSWENERGY",
+            "price": 545.6934814453125,
+            "change_pct": 5.813602012728439,
+            "composite_score": 0.5133188340362856,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 104.56939697265625,
+            "change_pct": 5.784793812145417,
+            "composite_score": 0.4903650603375609,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 586.5982055664062,
+            "change_pct": 4.81597323746785,
+            "composite_score": 0.41153663730787815,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 443.3641052246094,
+            "change_pct": 6.580865388071845,
+            "composite_score": 0.3912034487090308,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 340.29998779296875,
+            "change_pct": 6.177843305138456,
+            "composite_score": 0.3835364659979771,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 89.9955062866211,
+            "change_pct": 5.30953889511989,
+            "composite_score": 0.37371041280858286,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 132.17202758789062,
+            "change_pct": 5.535652442484491,
+            "composite_score": 0.36977703367021186,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 729.0016479492188,
+            "change_pct": 2.573782029179171,
+            "composite_score": 0.2660385283509271,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 61.7379264831543,
+            "change_pct": 4.399118735173134,
+            "composite_score": 0.23028994924002497,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 97.92958068847656,
+            "change_pct": 5.372303553843219,
+            "composite_score": 0.20492480307802485,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 1006.8499755859375,
+            "change_pct": 13.160997537053948,
+            "composite_score": 0.9717669983874707,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIENSOL",
+            "name": "ADANIENSOL",
+            "price": 771.2999877929688,
+            "change_pct": 11.985479171392923,
+            "composite_score": 0.8081371425351274,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BIOCON",
+            "name": "BIOCON",
+            "price": 387.13238525390625,
+            "change_pct": 6.147313653077865,
+            "composite_score": 0.7976789417520159,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 637.4717407226562,
+            "change_pct": 4.072517989396584,
+            "composite_score": 0.5709755224086137,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 443.3641052246094,
+            "change_pct": 6.580865388071845,
+            "composite_score": 0.5598923009327803,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BANDHANBNK",
+            "name": "BANDHANBNK",
+            "price": 146.60076904296875,
+            "change_pct": 7.459869320697138,
+            "composite_score": 0.525476259874976,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "JSWENERGY",
+            "name": "JSWENERGY",
+            "price": 545.6934814453125,
+            "change_pct": 5.813602012728439,
+            "composite_score": 0.4885204634206114,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 812.3198852539062,
+            "change_pct": 0.9657521848774813,
+            "composite_score": 0.4752286333574033,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T20:52:30.024548",
+    "trigger_mode": "morning",
+    "trade_date": "20250114",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 34.9,
+      "nifty_slope_pct": -1.6,
+      "nifty_rvol": 13.6,
+      "max_picks": 3
+    }
+  }
+}

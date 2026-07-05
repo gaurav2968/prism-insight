@@ -1,0 +1,329 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "GMRAIRPORT",
+      "name": "GMRAIRPORT",
+      "current_price": 89.8499984741211,
+      "change_rate": 4.964953359531748,
+      "volume": 85283123,
+      "trade_value": 7662688471.418282,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999994,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 85.35749855041503,
+      "target_price": 103.32749824523925,
+      "quality_score": 57.59166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (50.5%); Earnings collapsing (-45.5%); Net loss (margin -2.7%)",
+      "final_score": 0.8303666666666667,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Airports & Air Services",
+        "market_cap_cr": 99476.0,
+        "trailing_pe": null,
+        "forward_pe": 177.1,
+        "price_to_book": -31.96,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 50.5,
+        "earnings_growth_pct": -45.5,
+        "operating_margin_pct": 31.3,
+        "profit_margin_pct": -2.7,
+        "roe_pct": null,
+        "rsi_14": 46.4,
+        "sma_50": 93.89,
+        "sma_200": 95.27,
+        "pct_from_52w_high": -14.6,
+        "beta": 0.64,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 112.71,
+        "target_upside_pct": 19.6,
+        "analyst_count": 7,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 50.0,
+        "technical_score": 45.0,
+        "analyst_score": 73.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "COALINDIA",
+      "name": "COALINDIA",
+      "current_price": 393.18359375,
+      "change_rate": 4.517085965153941,
+      "volume": 35665854,
+      "trade_value": 14023228649.882812,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 373.5244140625,
+      "target_price": 452.16113281249994,
+      "quality_score": 66.14166666666668,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 9.1); Strong revenue growth (16.2%); Highly profitable (margin 18.5%)",
+      "final_score": 0.8645666666666668,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Thermal Coal",
+        "market_cap_cr": 281606.0,
+        "trailing_pe": 9.1,
+        "forward_pe": 8.0,
+        "price_to_book": 2.36,
+        "dividend_yield_pct": 476.0,
+        "revenue_growth_pct": 16.2,
+        "earnings_growth_pct": 12.9,
+        "operating_margin_pct": 20.9,
+        "profit_margin_pct": 18.5,
+        "roe_pct": 28.1,
+        "rsi_14": 52.4,
+        "sma_50": 455.11,
+        "sma_200": 413.38,
+        "pct_from_52w_high": -7.0,
+        "beta": 0.0,
+        "analyst_recommendation": "hold",
+        "target_mean": 450.81,
+        "target_upside_pct": -1.3,
+        "analyst_count": 26,
+        "debt_to_equity": 11.6,
+        "valuation_score": 72.0,
+        "growth_score": 68.0,
+        "profitability_score": 78.0,
+        "technical_score": 65.0,
+        "analyst_score": 57.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "NBCC",
+      "name": "NBCC",
+      "current_price": 81.58222198486328,
+      "change_rate": -6.571532794100622,
+      "volume": 86484798,
+      "trade_value": 7055621988.75206,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 8.432478208531567,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 77.50311088562012,
+      "target_price": 115.97923743941051,
+      "quality_score": 51.449999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 38.5); Death cross (50MA < 200MA); Down 29% from 52W high",
+      "final_score": 0.7253858654647436,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 25132.0,
+        "trailing_pe": 38.5,
+        "forward_pe": 34.5,
+        "price_to_book": 9.38,
+        "dividend_yield_pct": 74.0,
+        "revenue_growth_pct": 9.5,
+        "earnings_growth_pct": 39.2,
+        "operating_margin_pct": 6.6,
+        "profit_margin_pct": 5.0,
+        "roe_pct": null,
+        "rsi_14": 47.2,
+        "sma_50": 88.9,
+        "sma_200": 102.72,
+        "pct_from_52w_high": -28.8,
+        "beta": 0.67,
+        "analyst_recommendation": "none",
+        "target_mean": 124.5,
+        "target_upside_pct": 33.8,
+        "analyst_count": 2,
+        "debt_to_equity": 0.0,
+        "valuation_score": 40.0,
+        "growth_score": 75.0,
+        "profitability_score": 32.0,
+        "technical_score": 44.0,
+        "analyst_score": 68.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "UPL",
+      "name": "UPL",
+      "current_price": 473.93426513671875,
+      "change_rate": 4.515706216088492,
+      "volume": 7706461,
+      "trade_value": 3652355930.8397827,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 450.2375518798828,
+      "target_price": 545.0244049072265,
+      "quality_score": 56.41666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (17.7%); Death cross (50MA < 200MA); Analyst: Buy",
+      "final_score": 0.6957382316709577,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Agricultural Inputs",
+        "market_cap_cr": 53532.0,
+        "trailing_pe": 28.4,
+        "forward_pe": 12.4,
+        "price_to_book": 1.54,
+        "dividend_yield_pct": 94.0,
+        "revenue_growth_pct": 17.7,
+        "earnings_growth_pct": 33.2,
+        "operating_margin_pct": 14.9,
+        "profit_margin_pct": 3.7,
+        "roe_pct": 5.6,
+        "rsi_14": 47.3,
+        "sma_50": 630.29,
+        "sma_200": 697.18,
+        "pct_from_52w_high": -22.0,
+        "beta": 0.58,
+        "analyst_recommendation": "buy",
+        "target_mean": 776.22,
+        "target_upside_pct": 22.6,
+        "analyst_count": 18,
+        "debt_to_equity": 57.1,
+        "valuation_score": 72.0,
+        "growth_score": 82.0,
+        "profitability_score": 37.0,
+        "technical_score": 44.0,
+        "analyst_score": 73.0,
+        "risk_score": 62.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 89.8499984741211,
+            "change_pct": 4.964953359531748,
+            "composite_score": 0.9556908368843067,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 393.18359375,
+            "change_pct": 4.517085965153941,
+            "composite_score": 0.9496767331575732,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 96.44219207763672,
+            "change_pct": 2.8176521189713477,
+            "composite_score": 0.2928796322121232,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 148.23684692382812,
+            "change_pct": 15.41933448053488,
+            "composite_score": 0.8860404372060638,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 232.31797790527344,
+            "change_pct": 12.9356712392986,
+            "composite_score": 0.5159226715606597,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 242.7127227783203,
+            "change_pct": 7.012194465599039,
+            "composite_score": 0.449958909898754,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 393.18359375,
+            "change_pct": 4.517085965153941,
+            "composite_score": 0.42008106555345814,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 81.58222198486328,
+            "change_pct": -6.571532794100622,
+            "composite_score": 0.39056991681116116,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 89.8499984741211,
+            "change_pct": 4.964953359531748,
+            "composite_score": 0.3898781945006363,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UPL",
+            "name": "UPL",
+            "price": 473.93426513671875,
+            "change_pct": 4.515706216088492,
+            "composite_score": 0.3723986849225863,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 248.3982391357422,
+            "change_pct": 4.0879800609731145,
+            "composite_score": 0.34668315133637917,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:22:01.472755",
+    "trigger_mode": "morning",
+    "trade_date": "20240213",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 53.2,
+      "nifty_slope_pct": 4.05,
+      "nifty_rvol": 15.4,
+      "max_picks": 4
+    }
+  }
+}

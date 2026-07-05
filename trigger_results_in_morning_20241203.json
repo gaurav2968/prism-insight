@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "run_time": "2026-05-20T04:49:57.060738",
+    "trigger_mode": "morning",
+    "trade_date": "20241203",
+    "regime": "correction",
+    "nifty_rsi": 55.7,
+    "nifty_slope_pct": -1.87,
+    "nifty_rvol": 16.0,
+    "message": "No picks — correction. Capital preservation mode."
+  },
+  "screening_summary": {
+    "total_tickers_scanned": 0,
+    "triggers": {}
+  }
+}

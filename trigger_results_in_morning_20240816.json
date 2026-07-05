@@ -1,0 +1,417 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "HINDCOPPER",
+      "name": "HINDCOPPER",
+      "current_price": 310.9435119628906,
+      "change_rate": 5.1230504409206015,
+      "volume": 14292228,
+      "trade_value": 4444075568.09436,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 295.3963363647461,
+      "target_price": 357.5850387573242,
+      "quality_score": 67.48333333333335,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 60.1); Strong revenue growth (62.5%); Highly profitable (margin 29.2%)",
+      "final_score": 0.8699333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "market_cap_cr": 55072.0,
+        "trailing_pe": 60.1,
+        "forward_pe": 28.6,
+        "price_to_book": 18.57,
+        "dividend_yield_pct": 42.0,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 136.6,
+        "operating_margin_pct": 49.9,
+        "profit_margin_pct": 29.2,
+        "roe_pct": 30.6,
+        "rsi_14": 57.4,
+        "sma_50": 527.26,
+        "sma_200": 436.69,
+        "pct_from_52w_high": -25.1,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 715.0,
+        "target_upside_pct": 25.5,
+        "analyst_count": 1,
+        "debt_to_equity": 3.3,
+        "valuation_score": 38.0,
+        "growth_score": 90.0,
+        "profitability_score": 90.0,
+        "technical_score": 65.0,
+        "analyst_score": 70.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "NMDC",
+      "name": "NMDC",
+      "current_price": 66.59705352783203,
+      "change_rate": 3.0861814468447735,
+      "volume": 45608541,
+      "trade_value": 3037394446.303322,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 63.26720085144043,
+      "target_price": 76.58661155700683,
+      "quality_score": 63.291666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 11.3); Strong revenue growth (15.9%); Highly profitable (margin 24.9%)",
+      "final_score": 0.741259512774495,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 78265.0,
+        "trailing_pe": 11.3,
+        "forward_pe": 9.7,
+        "price_to_book": 2.41,
+        "dividend_yield_pct": 388.0,
+        "revenue_growth_pct": 15.9,
+        "earnings_growth_pct": -6.5,
+        "operating_margin_pct": 26.8,
+        "profit_margin_pct": 24.9,
+        "roe_pct": null,
+        "rsi_14": 55.8,
+        "sma_50": 84.35,
+        "sma_200": 79.1,
+        "pct_from_52w_high": -5.5,
+        "beta": 0.68,
+        "analyst_recommendation": "none",
+        "target_mean": 81.39,
+        "target_upside_pct": -8.6,
+        "analyst_count": 18,
+        "debt_to_equity": 11.2,
+        "valuation_score": 72.0,
+        "growth_score": 45.0,
+        "profitability_score": 90.0,
+        "technical_score": 67.0,
+        "analyst_score": 42.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFCBANK",
+      "current_price": 805.1666259765625,
+      "change_rate": 1.5113841094556328,
+      "volume": 27849246,
+      "trade_value": 22423283437.81128,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 764.9082946777344,
+      "target_price": 925.9416198730468,
+      "quality_score": 56.075,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-1.8%); Highly profitable (margin 26.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.7250587602027614,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 1173824.0,
+        "trailing_pe": 17.0,
+        "forward_pe": 12.1,
+        "price_to_book": 2.08,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": -1.8,
+        "earnings_growth_pct": 7.5,
+        "operating_margin_pct": 40.5,
+        "profit_margin_pct": 26.8,
+        "roe_pct": 13.8,
+        "rsi_14": 44.6,
+        "sma_50": 786.1,
+        "sma_200": 919.85,
+        "pct_from_52w_high": -25.3,
+        "beta": 0.48,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1039.79,
+        "target_upside_pct": 36.4,
+        "analyst_count": 39,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "DLF",
+      "name": "DLF",
+      "current_price": 860.605224609375,
+      "change_rate": 5.507213583072879,
+      "volume": 8826463,
+      "trade_value": 7596100172.621338,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 817.5749633789062,
+      "target_price": 989.6960083007812,
+      "quality_score": 51.56666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-42.0%); Highly profitable (margin 53.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.8062666666666668,
+      "metrics": {
+        "sector": "Real Estate",
+        "industry": "Real Estate - Development",
+        "market_cap_cr": 142925.0,
+        "trailing_pe": 32.4,
+        "forward_pe": 21.6,
+        "price_to_book": 3.15,
+        "dividend_yield_pct": 105.0,
+        "revenue_growth_pct": -42.0,
+        "earnings_growth_pct": -1.1,
+        "operating_margin_pct": 20.0,
+        "profit_margin_pct": 53.9,
+        "roe_pct": 10.0,
+        "rsi_14": 46.0,
+        "sma_50": 565.97,
+        "sma_200": 671.67,
+        "pct_from_52w_high": -34.9,
+        "beta": 0.34,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 821.91,
+        "target_upside_pct": 42.3,
+        "analyst_count": 22,
+        "debt_to_equity": 0.7,
+        "valuation_score": 58.0,
+        "growth_score": 15.0,
+        "profitability_score": 72.0,
+        "technical_score": 41.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 13,
+        "top_candidates": [
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 310.9435119628906,
+            "change_pct": 5.1230504409206015,
+            "composite_score": 0.8566587610372856,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DLF",
+            "name": "DLF",
+            "price": 860.605224609375,
+            "change_pct": 5.507213583072879,
+            "composite_score": 0.7713217281716285,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WIPRO",
+            "name": "WIPRO",
+            "price": 241.966552734375,
+            "change_pct": 4.26133950355425,
+            "composite_score": 0.6497580671490224,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 805.1666259765625,
+            "change_pct": 1.5113841094556328,
+            "composite_score": 0.6254904167604451,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 66.59705352783203,
+            "change_pct": 3.0861814468447735,
+            "composite_score": 0.5959869724659106,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1785.1904296875,
+            "change_pct": 1.9580393253217674,
+            "composite_score": 0.5774775179899906,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 629.5333251953125,
+            "change_pct": 2.0436078906878232,
+            "composite_score": 0.5512005110637733,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 95.87000274658203,
+            "change_pct": 3.3861741356376798,
+            "composite_score": 0.4362062342344312,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 119.87471008300781,
+            "change_pct": 5.281638211022296,
+            "composite_score": 0.4210672683298093,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 125.7149429321289,
+            "change_pct": 2.435519282593058,
+            "composite_score": 0.41560663619185684,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 454.9287414550781,
+            "change_pct": 2.521507907655779,
+            "composite_score": 0.40223599050162095,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 71.72523498535156,
+            "change_pct": 1.9263415794491763,
+            "composite_score": 0.399935505963573,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 146.11257934570312,
+            "change_pct": 2.2918589296909944,
+            "composite_score": 0.3907872246696543,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "DLF",
+            "name": "DLF",
+            "price": 860.605224609375,
+            "change_pct": 5.507213583072879,
+            "composite_score": 0.7099088367727995,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 310.9435119628906,
+            "change_pct": 5.1230504409206015,
+            "composite_score": 0.7063903024063044,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 216.08999633789062,
+            "change_pct": 6.202386121528863,
+            "composite_score": 0.647050728040346,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 563.7119140625,
+            "change_pct": 2.9868319536681383,
+            "composite_score": 0.5600484828425183,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WIPRO",
+            "name": "WIPRO",
+            "price": 241.966552734375,
+            "change_pct": 4.26133950355425,
+            "composite_score": 0.5475026935423275,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 119.87471008300781,
+            "change_pct": 5.281638211022296,
+            "composite_score": 0.49542473277756416,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 66.59705352783203,
+            "change_pct": 3.0861814468447735,
+            "composite_score": 0.4855371391394402,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1471.25048828125,
+            "change_pct": 0.8051964279994008,
+            "composite_score": 0.46974790578454206,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 805.1666259765625,
+            "change_pct": 1.5113841094556328,
+            "composite_score": 0.32582790194919214,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:18:27.491109",
+    "trigger_mode": "morning",
+    "trade_date": "20240816",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 55.0,
+      "nifty_slope_pct": 3.41,
+      "nifty_rvol": 15.8,
+      "max_picks": 4
+    }
+  }
+}

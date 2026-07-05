@@ -1,0 +1,361 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "DABUR",
+      "name": "DABUR",
+      "current_price": 540.88671875,
+      "change_rate": 2.7427632796294072,
+      "volume": 11117689,
+      "trade_value": 6013410323.292969,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999996,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 513.8423828125,
+      "target_price": 622.0197265625,
+      "quality_score": 54.208333333333336,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 42.4); Death cross (50MA < 200MA); Analyst: Buy",
+      "final_score": 0.8168333333333334,
+      "metrics": {
+        "sector": "Consumer Defensive",
+        "industry": "Household & Personal Products",
+        "market_cap_cr": 80313.0,
+        "trailing_pe": 42.4,
+        "forward_pe": 34.3,
+        "price_to_book": 7.03,
+        "dividend_yield_pct": 181.0,
+        "revenue_growth_pct": 7.3,
+        "earnings_growth_pct": 15.2,
+        "operating_margin_pct": 11.2,
+        "profit_margin_pct": 14.4,
+        "roe_pct": 16.2,
+        "rsi_14": 49.4,
+        "sma_50": 444.76,
+        "sma_200": 494.92,
+        "pct_from_52w_high": -21.5,
+        "beta": 0.41,
+        "analyst_recommendation": "buy",
+        "target_mean": 527.11,
+        "target_upside_pct": 16.4,
+        "analyst_count": 37,
+        "debt_to_equity": 10.9,
+        "valuation_score": 45.0,
+        "growth_score": 58.0,
+        "profitability_score": 65.0,
+        "technical_score": 44.0,
+        "analyst_score": 72.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "J&KBANK",
+      "name": "J&KBANK",
+      "current_price": 133.7179412841797,
+      "change_rate": 3.458543275531566,
+      "volume": 10434169,
+      "trade_value": 1395235597.691208,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 127.0320442199707,
+      "target_price": 153.77563247680663,
+      "quality_score": 67.45,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.2); Highly profitable (margin 34.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.7831671758276937,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 14681.0,
+        "trailing_pe": 6.2,
+        "forward_pe": 5.7,
+        "price_to_book": 1.03,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": null,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 23.3,
+        "profit_margin_pct": 34.7,
+        "roe_pct": 15.4,
+        "rsi_14": 47.5,
+        "sma_50": 125.01,
+        "sma_200": 109.66,
+        "pct_from_52w_high": -8.1,
+        "beta": 0.49,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 198.0,
+        "target_upside_pct": 48.5,
+        "analyst_count": 1,
+        "debt_to_equity": null,
+        "valuation_score": 78.0,
+        "growth_score": 50.0,
+        "profitability_score": 78.0,
+        "technical_score": 67.0,
+        "analyst_score": 75.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "UCOBANK",
+      "name": "UCOBANK",
+      "current_price": 47.22210693359375,
+      "change_rate": 5.161300242714714,
+      "volume": 96347496,
+      "trade_value": 4549731758.895996,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 44.861001586914064,
+      "target_price": 54.30542297363281,
+      "quality_score": 51.741666666666674,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 11.2); Revenue declining (-12.6%); Highly profitable (margin 23.9%)",
+      "final_score": 0.7802099351725021,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 31060.0,
+        "trailing_pe": 11.2,
+        "forward_pe": 17.7,
+        "price_to_book": 0.94,
+        "dividend_yield_pct": 178.0,
+        "revenue_growth_pct": -12.6,
+        "earnings_growth_pct": 14.9,
+        "operating_margin_pct": 41.6,
+        "profit_margin_pct": 23.9,
+        "roe_pct": 8.6,
+        "rsi_14": 37.5,
+        "sma_50": 25.57,
+        "sma_200": 28.72,
+        "pct_from_52w_high": -29.4,
+        "beta": 0.83,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 42.0,
+        "analyst_score": 50.0,
+        "risk_score": 60.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "INDUSTOWER",
+      "name": "INDUSTOWER",
+      "current_price": 219.0,
+      "change_rate": -1.329126825322784,
+      "volume": 179433641,
+      "trade_value": 39295967379.0,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 208.04999999999998,
+      "target_price": 251.85,
+      "quality_score": 61.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 22.0%); Golden cross (50MA > 200MA); Analyst: Hold",
+      "final_score": 0.8471666666666667,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 113584.0,
+        "trailing_pe": 15.9,
+        "forward_pe": 13.8,
+        "price_to_book": 2.86,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 4.8,
+        "earnings_growth_pct": 0.8,
+        "operating_margin_pct": 32.4,
+        "profit_margin_pct": 22.0,
+        "roe_pct": 19.8,
+        "rsi_14": 59.0,
+        "sma_50": 421.01,
+        "sma_200": 403.1,
+        "pct_from_52w_high": -10.6,
+        "beta": 0.02,
+        "analyst_recommendation": "hold",
+        "target_mean": 452.8,
+        "target_upside_pct": 5.1,
+        "analyst_count": 25,
+        "debt_to_equity": 53.3,
+        "valuation_score": 67.0,
+        "growth_score": 40.0,
+        "profitability_score": 83.0,
+        "technical_score": 65.0,
+        "analyst_score": 62.0,
+        "risk_score": 68.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "GODREJCP",
+            "name": "GODREJCP",
+            "price": 1204.2279052734375,
+            "change_pct": 7.760709809029912,
+            "composite_score": 0.9201293795271395,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 92.8948745727539,
+            "change_pct": 9.424481360280673,
+            "composite_score": 0.6332290713912986,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DABUR",
+            "name": "DABUR",
+            "price": 540.88671875,
+            "change_pct": 2.7427632796294072,
+            "composite_score": 0.4790772506901133,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 47.22210693359375,
+            "change_pct": 5.161300242714714,
+            "composite_score": 0.44164425992707546,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "J&KBANK",
+            "name": "J&KBANK",
+            "price": 133.7179412841797,
+            "change_pct": 3.458543275531566,
+            "composite_score": 0.357876882561253,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 134.8137664794922,
+            "change_pct": 1.9054073739927428,
+            "composite_score": 0.1992748333343041,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 193.63558959960938,
+            "change_pct": 19.466162822880833,
+            "composite_score": 1.0424801727029487,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 219.0,
+            "change_pct": -1.329126825322784,
+            "composite_score": 0.8290337659992563,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 92.8948745727539,
+            "change_pct": 9.424481360280673,
+            "composite_score": 0.7746030907141832,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GODREJCP",
+            "name": "GODREJCP",
+            "price": 1204.2279052734375,
+            "change_pct": 7.760709809029912,
+            "composite_score": 0.45705159677540885,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DABUR",
+            "name": "DABUR",
+            "price": 540.88671875,
+            "change_pct": 2.7427632796294072,
+            "composite_score": 0.4258652001397777,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 114.15470123291016,
+            "change_pct": 3.8898625402948994,
+            "composite_score": 0.4028462067621692,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 47.22210693359375,
+            "change_pct": 5.161300242714714,
+            "composite_score": 0.3931225199510888,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 57.39610290527344,
+            "change_pct": 3.5652255613867894,
+            "composite_score": 0.3551111551731609,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 263.8536376953125,
+            "change_pct": 2.302819068746164,
+            "composite_score": 0.33668911331739504,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:10:00.225035",
+    "trigger_mode": "morning",
+    "trade_date": "20240201",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 54.8,
+      "nifty_slope_pct": 4.53,
+      "nifty_rvol": 15.5,
+      "max_picks": 4
+    }
+  }
+}

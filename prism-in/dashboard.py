@@ -122,11 +122,15 @@ def inject_css(t):
 
 @st.cache_resource
 def get_db():
+    if not DB_PATH.exists():
+        return None
     conn = sqlite3.connect(str(DB_PATH), check_same_thread=False)
     conn.row_factory = sqlite3.Row
     return conn
 
 def query_df(conn, sql, params=()):
+    if conn is None:
+        return pd.DataFrame()
     cur = conn.cursor()
     cur.execute(sql, params)
     rows = cur.fetchall()
@@ -756,6 +760,9 @@ def main():
 
     inject_css(t)
     conn = get_db()
+    db_available = conn is not None
+    if not db_available:
+        st.info("ℹ️ Running in read-only mode — Portfolio & Trades tabs require local SQLite DB.", icon="📂")
 
     # ── Navigation Tabs ──
     tab_dashboard, tab_trades, tab_watchlist = st.tabs(["💼 Dashboard", "📜 Trades", "🔍 Watchlist"])

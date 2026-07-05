@@ -1,0 +1,330 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 982.9598999023438,
+      "change_rate": 3.765423404516609,
+      "volume": 21781371,
+      "trade_value": 21410214257.895813,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 933.8119049072266,
+      "target_price": 1130.4038848876953,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.8561666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.8,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "ABCAPITAL",
+      "name": "ABCAPITAL",
+      "current_price": 169.00999450683594,
+      "change_rate": 2.368254548015461,
+      "volume": 7603826,
+      "trade_value": 1285122590.4909363,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 160.55949478149412,
+      "target_price": 194.36149368286132,
+      "quality_score": 62.85,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹411 (+17% upside)",
+      "final_score": 0.6514,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Financial Conglomerates",
+        "market_cap_cr": 92043.0,
+        "trailing_pe": 24.6,
+        "forward_pe": 14.3,
+        "price_to_book": 2.67,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 7.7,
+        "earnings_growth_pct": 30.1,
+        "operating_margin_pct": 13.7,
+        "profit_margin_pct": 11.6,
+        "roe_pct": 11.2,
+        "rsi_14": 53.0,
+        "sma_50": 331.42,
+        "sma_200": 326.88,
+        "pct_from_52w_high": -6.6,
+        "beta": 0.71,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 411.42,
+        "target_upside_pct": 17.1,
+        "analyst_count": 12,
+        "debt_to_equity": 491.7,
+        "valuation_score": 65.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 67.0,
+        "analyst_score": 77.0,
+        "risk_score": 45.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RBLBANK",
+      "name": "RBLBANK",
+      "current_price": 154.99636840820312,
+      "change_rate": 3.755087607407032,
+      "volume": 12519433,
+      "trade_value": 1940466649.5298157,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 147.24654998779297,
+      "target_price": 178.24582366943358,
+      "quality_score": 66.25833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (40.8%); Golden cross (50MA > 200MA); Analyst: Buy",
+      "final_score": 0.6650333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 20024.0,
+        "trailing_pe": 23.0,
+        "forward_pe": 17.1,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 33.0,
+        "revenue_growth_pct": 40.8,
+        "earnings_growth_pct": 367.9,
+        "operating_margin_pct": 14.0,
+        "profit_margin_pct": 9.1,
+        "roe_pct": null,
+        "rsi_14": 47.6,
+        "sma_50": 314.99,
+        "sma_200": 302.58,
+        "pct_from_52w_high": -7.5,
+        "beta": 0.64,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.89,
+        "target_upside_pct": 7.2,
+        "analyst_count": 18,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 90.0,
+        "profitability_score": 52.0,
+        "technical_score": 65.0,
+        "analyst_score": 63.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "BAJAJHFL",
+            "name": "BAJAJHFL",
+            "price": 111.16000366210938,
+            "change_pct": 5.125785802760017,
+            "composite_score": 0.8535215248692882,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 106.94712829589844,
+            "change_pct": 4.716353278243187,
+            "composite_score": 0.8158325930809713,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "DLF",
+            "name": "DLF",
+            "price": 721.4728393554688,
+            "change_pct": 3.246191181099831,
+            "composite_score": 0.7156941896205713,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 824.0611572265625,
+            "change_pct": 2.4910995828746705,
+            "composite_score": 0.669313227465668,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 982.9598999023438,
+            "change_pct": 3.765423404516609,
+            "composite_score": 0.6564834727790763,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 96.9701156616211,
+            "change_pct": 4.470731951296676,
+            "composite_score": 0.6374384328485906,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 755.9951171875,
+            "change_pct": 4.264988894371695,
+            "composite_score": 0.6303129600758548,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "J&KBANK",
+            "name": "J&KBANK",
+            "price": 93.7677993774414,
+            "change_pct": 7.563495531597386,
+            "composite_score": 0.5808866863741345,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 58.079898834228516,
+            "change_pct": 2.714615049998273,
+            "composite_score": 0.5484851238601067,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 169.00999450683594,
+            "change_pct": 2.368254548015461,
+            "composite_score": 0.473641156102543,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 7,
+        "top_candidates": [
+          {
+            "ticker": "J&KBANK",
+            "name": "J&KBANK",
+            "price": 93.7677993774414,
+            "change_pct": 7.563495531597386,
+            "composite_score": 0.7752268205642278,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 982.9598999023438,
+            "change_pct": 3.765423404516609,
+            "composite_score": 0.6693791898839342,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJAJHFL",
+            "name": "BAJAJHFL",
+            "price": 111.16000366210938,
+            "change_pct": 5.125785802760017,
+            "composite_score": 0.6572979875284715,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 755.9951171875,
+            "change_pct": 4.264988894371695,
+            "composite_score": 0.639123525800401,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "name": "IDFCFIRSTB",
+            "price": 58.079898834228516,
+            "change_pct": 2.714615049998273,
+            "composite_score": 0.5937242034680895,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 824.0611572265625,
+            "change_pct": 2.4910995828746705,
+            "composite_score": 0.5618527294301299,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 154.99636840820312,
+            "change_pct": 3.755087607407032,
+            "composite_score": 0.5558425302278351,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:05:56.052519",
+    "trigger_mode": "morning",
+    "trade_date": "20250128",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 37.7,
+      "nifty_slope_pct": -1.44,
+      "nifty_rvol": 13.5,
+      "max_picks": 3
+    }
+  }
+}

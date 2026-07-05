@@ -1,0 +1,393 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "HINDCOPPER",
+      "name": "HINDCOPPER",
+      "current_price": 395.32757568359375,
+      "change_rate": 3.95883343530652,
+      "volume": 23674398,
+      "trade_value": 9359142367.10852,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999942,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 375.561196899414,
+      "target_price": 454.6267120361328,
+      "quality_score": 67.48333333333335,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 60.1); Strong revenue growth (62.5%); Highly profitable (margin 29.2%)",
+      "final_score": 0.8434562649334985,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "market_cap_cr": 55072.0,
+        "trailing_pe": 60.1,
+        "forward_pe": 28.6,
+        "price_to_book": 18.57,
+        "dividend_yield_pct": 42.0,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 136.6,
+        "operating_margin_pct": 49.9,
+        "profit_margin_pct": 29.2,
+        "roe_pct": 30.6,
+        "rsi_14": 57.4,
+        "sma_50": 527.26,
+        "sma_200": 436.69,
+        "pct_from_52w_high": -25.1,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 715.0,
+        "target_upside_pct": 25.5,
+        "analyst_count": 1,
+        "debt_to_equity": 3.3,
+        "valuation_score": 38.0,
+        "growth_score": 90.0,
+        "profitability_score": 90.0,
+        "technical_score": 65.0,
+        "analyst_score": 70.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "HINDALCO",
+      "name": "HINDALCO",
+      "current_price": 684.6258544921875,
+      "change_rate": 5.820424779442314,
+      "volume": 15976672,
+      "trade_value": 10938042719.941406,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 650.3945617675781,
+      "target_price": 787.3197326660155,
+      "quality_score": 59.51666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.5); Earnings collapsing (-45.1%); Golden cross (50MA > 200MA)",
+      "final_score": 0.8380666666666667,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Aluminum",
+        "market_cap_cr": 234416.0,
+        "trailing_pe": 14.5,
+        "forward_pe": 11.9,
+        "price_to_book": 1.73,
+        "dividend_yield_pct": 47.0,
+        "revenue_growth_pct": 13.9,
+        "earnings_growth_pct": -45.1,
+        "operating_margin_pct": 8.7,
+        "profit_margin_pct": 6.1,
+        "roe_pct": null,
+        "rsi_14": 54.9,
+        "sma_50": 981.44,
+        "sma_200": 871.44,
+        "pct_from_52w_high": -5.1,
+        "beta": 0.82,
+        "analyst_recommendation": "hold",
+        "target_mean": 1005.27,
+        "target_upside_pct": -4.1,
+        "analyst_count": 26,
+        "debt_to_equity": 57.6,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 52.0,
+        "technical_score": 67.0,
+        "analyst_score": 57.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFCBANK",
+      "current_price": 719.6721801757812,
+      "change_rate": -0.36200091465671475,
+      "volume": 43769978,
+      "trade_value": 31500035493.50598,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999994,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 683.6885711669921,
+      "target_price": 827.6230072021484,
+      "quality_score": 56.075,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-1.8%); Highly profitable (margin 26.8%); Death cross (50MA < 200MA)",
+      "final_score": 0.8243000000000001,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 1173824.0,
+        "trailing_pe": 17.0,
+        "forward_pe": 12.1,
+        "price_to_book": 2.08,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": -1.8,
+        "earnings_growth_pct": 7.5,
+        "operating_margin_pct": 40.5,
+        "profit_margin_pct": 26.8,
+        "roe_pct": 13.8,
+        "rsi_14": 44.6,
+        "sma_50": 786.1,
+        "sma_200": 919.85,
+        "pct_from_52w_high": -25.3,
+        "beta": 0.48,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1039.79,
+        "target_upside_pct": 36.4,
+        "analyst_count": 39,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 85.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "TATASTEEL",
+      "name": "TATASTEEL",
+      "current_price": 167.01181030273438,
+      "change_rate": 4.182853692259982,
+      "volume": 84833644,
+      "trade_value": 14168220459.0177,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 158.66121978759764,
+      "target_price": 192.0635818481445,
+      "quality_score": 62.10833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Buy; Target ₹223 (+6% upside)",
+      "final_score": 0.6665369387829162,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 261023.0,
+        "trailing_pe": 28.5,
+        "forward_pe": 11.1,
+        "price_to_book": 2.75,
+        "dividend_yield_pct": 191.0,
+        "revenue_growth_pct": 12.5,
+        "earnings_growth_pct": 125.4,
+        "operating_margin_pct": 10.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 11.2,
+        "rsi_14": 47.5,
+        "sma_50": 204.08,
+        "sma_200": 184.78,
+        "pct_from_52w_high": -6.7,
+        "beta": 0.79,
+        "analyst_recommendation": "buy",
+        "target_mean": 222.68,
+        "target_upside_pct": 6.4,
+        "analyst_count": 34,
+        "debt_to_equity": 89.0,
+        "valuation_score": 65.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 65.0,
+        "analyst_score": 67.0,
+        "risk_score": 62.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 417.5393981933594,
+            "change_pct": 11.080989426306258,
+            "composite_score": 0.919943326617449,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 173.3535614013672,
+            "change_pct": 6.183433816411033,
+            "composite_score": 0.7796330078466435,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 255.97132873535156,
+            "change_pct": 11.754974861798013,
+            "composite_score": 0.5519023331410016,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 684.6258544921875,
+            "change_pct": 5.820424779442314,
+            "composite_score": 0.4853737087904031,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 395.32757568359375,
+            "change_pct": 3.95883343530652,
+            "composite_score": 0.47118082051254184,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 63.22727966308594,
+            "change_pct": 7.452915672098549,
+            "composite_score": 0.4483593000076196,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 54.905540466308594,
+            "change_pct": 7.102277124341752,
+            "composite_score": 0.4305355328019268,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 170.86375427246094,
+            "change_pct": 4.463756126130513,
+            "composite_score": 0.4245964672079401,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 97.55110168457031,
+            "change_pct": 4.532680825946161,
+            "composite_score": 0.3912524382477185,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 262.31158447265625,
+            "change_pct": 3.745954621269993,
+            "composite_score": 0.3781647983209211,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 337.5948791503906,
+            "change_pct": 17.520634589450975,
+            "composite_score": 0.771229879969343,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 255.97132873535156,
+            "change_pct": 11.754974861798013,
+            "composite_score": 0.4844915890202014,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 173.3535614013672,
+            "change_pct": 6.183433816411033,
+            "composite_score": 0.443213633578049,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 719.6721801757812,
+            "change_pct": -0.36200091465671475,
+            "composite_score": 0.38060621623473473,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 417.5393981933594,
+            "change_pct": 11.080989426306258,
+            "composite_score": 0.3606478204834854,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 167.01181030273438,
+            "change_pct": 4.182853692259982,
+            "composite_score": 0.328763319186403,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 170.86375427246094,
+            "change_pct": 4.463756126130513,
+            "composite_score": 0.3260473854290219,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 431.3868408203125,
+            "change_pct": 4.338115013347399,
+            "composite_score": 0.3238525947686397,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 97.55110168457031,
+            "change_pct": 4.532680825946161,
+            "composite_score": 0.3236035503199223,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T01:56:21.505137",
+    "trigger_mode": "morning",
+    "trade_date": "20240521",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 56.9,
+      "nifty_slope_pct": 0.7,
+      "nifty_rvol": 9.8,
+      "max_picks": 4
+    }
+  }
+}

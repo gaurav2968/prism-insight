@@ -1,0 +1,177 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RBLBANK",
+      "name": "RBLBANK",
+      "current_price": 332.54998779296875,
+      "change_rate": 2.0718232820466898,
+      "volume": 20881527,
+      "trade_value": 6944151548.948547,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 315.9224884033203,
+      "target_price": 382.43248596191404,
+      "quality_score": 66.25833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (40.8%); Golden cross (50MA > 200MA); Analyst: Buy",
+      "final_score": 0.8650333333333335,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 20145.0,
+        "trailing_pe": 23.1,
+        "forward_pe": 17.2,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 33.0,
+        "revenue_growth_pct": 40.8,
+        "earnings_growth_pct": 367.9,
+        "operating_margin_pct": 14.0,
+        "profit_margin_pct": 9.1,
+        "roe_pct": null,
+        "rsi_14": 57.0,
+        "sma_50": 314.43,
+        "sma_200": 302.22,
+        "pct_from_52w_high": -6.9,
+        "beta": 0.64,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.89,
+        "target_upside_pct": 6.5,
+        "analyst_count": 18,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 90.0,
+        "profitability_score": 52.0,
+        "technical_score": 65.0,
+        "analyst_score": 63.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "HSCL",
+      "name": "HSCL",
+      "current_price": 473.20001220703125,
+      "change_rate": 0.4564323256086055,
+      "volume": 3909516,
+      "trade_value": 1849983018.923584,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 449.5400115966797,
+      "target_price": 544.1800140380859,
+      "quality_score": 61.525000000000006,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 36.7); Highly profitable (margin 16.1%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6461000000000001,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Specialty Chemicals",
+        "market_cap_cr": 27825.0,
+        "trailing_pe": 36.7,
+        "forward_pe": 26.8,
+        "price_to_book": 5.91,
+        "dividend_yield_pct": 13.0,
+        "revenue_growth_pct": 13.5,
+        "earnings_growth_pct": 27.8,
+        "operating_margin_pct": 20.3,
+        "profit_margin_pct": 16.1,
+        "roe_pct": 17.7,
+        "rsi_14": 58.9,
+        "sma_50": 508.52,
+        "sma_200": 474.75,
+        "pct_from_52w_high": -15.7,
+        "beta": 0.38,
+        "analyst_recommendation": "none",
+        "target_mean": 550.0,
+        "target_upside_pct": -0.3,
+        "analyst_count": 1,
+        "debt_to_equity": 16.1,
+        "valuation_score": 52.0,
+        "growth_score": 68.0,
+        "profitability_score": 72.0,
+        "technical_score": 65.0,
+        "analyst_score": 45.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 274.6499938964844,
+            "change_pct": 3.798181240040123,
+            "composite_score": 0.9690286555358195,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "TATAINVEST",
+            "name": "TATAINVEST",
+            "price": 692.2999877929688,
+            "change_pct": 7.499998104498252,
+            "composite_score": 1.0055580556954151,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 332.54998779296875,
+            "change_pct": 2.0718232820466898,
+            "composite_score": 0.49274310105987884,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 274.6499938964844,
+            "change_pct": 3.798181240040123,
+            "composite_score": 0.35593448270352085,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HSCL",
+            "name": "HSCL",
+            "price": 473.20001220703125,
+            "change_pct": 0.4564323256086055,
+            "composite_score": 0.28337907790427197,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T04:38:27.407035",
+    "trigger_mode": "morning",
+    "trade_date": "20260219",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

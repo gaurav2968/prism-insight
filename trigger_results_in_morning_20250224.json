@@ -1,0 +1,121 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "M&M",
+      "name": "M&M",
+      "current_price": 2687.607421875,
+      "change_rate": 1.4928664651395895,
+      "volume": 6167313,
+      "trade_value": 16575316191.826172,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.2836268908063535,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 2553.22705078125,
+      "target_price": 3128.8624219949743,
+      "quality_score": 60.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (30.9%); Death cross (50MA < 200MA); Analyst: Strong Buy",
+      "final_score": 0.6431666666666667,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "market_cap_cr": 371312.0,
+        "trailing_pe": 20.3,
+        "forward_pe": 19.3,
+        "price_to_book": 3.71,
+        "dividend_yield_pct": 107.0,
+        "revenue_growth_pct": 30.9,
+        "earnings_growth_pct": 44.8,
+        "operating_margin_pct": 16.4,
+        "profit_margin_pct": 8.5,
+        "roe_pct": 18.8,
+        "rsi_14": 44.7,
+        "sma_50": 3128.49,
+        "sma_200": 3445.85,
+        "pct_from_52w_high": -19.5,
+        "beta": 0.38,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 4143.65,
+        "target_upside_pct": 34.0,
+        "analyst_count": 34,
+        "debt_to_equity": 125.1,
+        "valuation_score": 67.0,
+        "growth_score": 90.0,
+        "profitability_score": 65.0,
+        "technical_score": 44.0,
+        "analyst_score": 85.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "M&M",
+            "name": "M&M",
+            "price": 2687.607421875,
+            "change_pct": 1.4928664651395895,
+            "composite_score": 0.8294214079710134,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 222.69000244140625,
+            "change_pct": -3.3295703024063332,
+            "composite_score": 0.42916172465505265,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IGL",
+            "name": "IGL",
+            "price": 192.58941650390625,
+            "change_pct": -1.8520330091527752,
+            "composite_score": 0.3780500836225276,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:29:16.917183",
+    "trigger_mode": "morning",
+    "trade_date": "20250224",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 29.7,
+      "nifty_slope_pct": -1.8,
+      "nifty_rvol": 10.7,
+      "max_picks": 3
+    }
+  }
+}

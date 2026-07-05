@@ -1,0 +1,153 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "INDUSINDBK",
+      "name": "INDUSINDBK",
+      "current_price": 963.5,
+      "change_rate": 1.0593638900045876,
+      "volume": 8165774,
+      "trade_value": 7867723249.0,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 915.3249999999999,
+      "target_price": 1108.0249999999999,
+      "quality_score": 63.666666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 78.4); Strong revenue growth (272.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6546666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 69749.0,
+        "trailing_pe": 78.4,
+        "forward_pe": 12.2,
+        "price_to_book": 1.06,
+        "dividend_yield_pct": 17.0,
+        "revenue_growth_pct": 272.7,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 17.7,
+        "profit_margin_pct": 5.2,
+        "roe_pct": 1.4,
+        "rsi_14": 50.6,
+        "sma_50": 850.22,
+        "sma_200": 837.13,
+        "pct_from_52w_high": -7.6,
+        "beta": 0.56,
+        "analyst_recommendation": "hold",
+        "target_mean": 877.33,
+        "target_upside_pct": -2.0,
+        "analyst_count": 36,
+        "debt_to_equity": null,
+        "valuation_score": 58.0,
+        "growth_score": 90.0,
+        "profitability_score": 50.0,
+        "technical_score": 67.0,
+        "analyst_score": 52.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 7,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 282.1000061035156,
+            "change_pct": 4.00000225014401,
+            "composite_score": 0.8660756388472403,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDHOTEL",
+            "name": "INDHOTEL",
+            "price": 887.0416259765625,
+            "change_pct": 3.3755611904888414,
+            "composite_score": 0.7840782633618607,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIENT",
+            "name": "ADANIENT",
+            "price": 2591.065673828125,
+            "change_pct": 7.568629827865949,
+            "composite_score": 0.6654210701166984,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TECHM",
+            "name": "TECHM",
+            "price": 1691.8978271484375,
+            "change_pct": 1.7059563250818361,
+            "composite_score": 0.5817238217421049,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSINDBK",
+            "name": "INDUSINDBK",
+            "price": 963.5,
+            "change_pct": 1.0593638900045876,
+            "composite_score": 0.504068859749169,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BIOCON",
+            "name": "BIOCON",
+            "price": 367.20904541015625,
+            "change_pct": 4.297268606829909,
+            "composite_score": 0.45778895242331374,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 149.52845764160156,
+            "change_pct": 4.876212961010801,
+            "composite_score": 0.452791279151615,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T05:12:01.081930",
+    "trigger_mode": "morning",
+    "trade_date": "20241230",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 37.4,
+      "nifty_slope_pct": -1.9,
+      "nifty_rvol": 10.9,
+      "max_picks": 3
+    }
+  }
+}

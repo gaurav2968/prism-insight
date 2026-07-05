@@ -1,0 +1,129 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "J&KBANK",
+      "name": "J&KBANK",
+      "current_price": 99.93995666503906,
+      "change_rate": 3.9009999674003857,
+      "volume": 14202540,
+      "trade_value": 1419401232.133484,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 94.94295883178711,
+      "target_price": 114.93095016479491,
+      "quality_score": 67.45,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.2); Highly profitable (margin 34.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6698,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 14681.0,
+        "trailing_pe": 6.2,
+        "forward_pe": 5.7,
+        "price_to_book": 1.03,
+        "dividend_yield_pct": 169.0,
+        "revenue_growth_pct": null,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 23.3,
+        "profit_margin_pct": 34.7,
+        "roe_pct": 15.4,
+        "rsi_14": 47.5,
+        "sma_50": 125.01,
+        "sma_200": 109.66,
+        "pct_from_52w_high": -8.1,
+        "beta": 0.49,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 198.0,
+        "target_upside_pct": 48.5,
+        "analyst_count": 1,
+        "debt_to_equity": null,
+        "valuation_score": 78.0,
+        "growth_score": 50.0,
+        "profitability_score": 78.0,
+        "technical_score": 67.0,
+        "analyst_score": 75.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "J&KBANK",
+            "name": "J&KBANK",
+            "price": 99.93995666503906,
+            "change_pct": 3.9009999674003857,
+            "composite_score": 0.8206855482006855,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NIACL",
+            "name": "NIACL",
+            "price": 204.7506103515625,
+            "change_pct": 4.343219960065313,
+            "composite_score": 0.5710344807870275,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 740.6382446289062,
+            "change_pct": 4.2104497481952174,
+            "composite_score": 0.5307958035740272,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 272.07647705078125,
+            "change_pct": 1.2328733680980375,
+            "composite_score": 0.39799527161155224,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T05:09:28.376956",
+    "trigger_mode": "morning",
+    "trade_date": "20241226",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 38.8,
+      "nifty_slope_pct": -1.91,
+      "nifty_rvol": 12.3,
+      "max_picks": 3
+    }
+  }
+}

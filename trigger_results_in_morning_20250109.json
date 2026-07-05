@@ -1,0 +1,105 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "SRF",
+            "name": "SRF",
+            "price": 2662.219482421875,
+            "change_pct": 13.736979302478202,
+            "composite_score": 0.15,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "SRF",
+            "name": "SRF",
+            "price": 2662.219482421875,
+            "change_pct": 13.736979302478202,
+            "composite_score": 1.0626353807431228,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IGL",
+            "name": "IGL",
+            "price": 204.35894775390625,
+            "change_pct": 2.957420118230385,
+            "composite_score": 0.6679545650088515,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 238.55764770507812,
+            "change_pct": 5.198768980168151,
+            "composite_score": 0.37521567648675,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 357.627685546875,
+            "change_pct": 1.218439588528856,
+            "composite_score": 0.3153438182719489,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 584.960205078125,
+            "change_pct": 0.4431914648333106,
+            "composite_score": 0.289709529630918,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ITC",
+            "name": "ITC",
+            "price": 426.15802001953125,
+            "change_pct": 0.12234641846346837,
+            "composite_score": 0.19978578636146688,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T20:48:23.420347",
+    "trigger_mode": "morning",
+    "trade_date": "20250109",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 39.5,
+      "nifty_slope_pct": -1.56,
+      "nifty_rvol": 13.4,
+      "max_picks": 3
+    }
+  }
+}

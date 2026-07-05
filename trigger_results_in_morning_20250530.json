@@ -1,0 +1,329 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "ENGINERSIN",
+      "name": "ENGINERSIN",
+      "current_price": 224.38807678222656,
+      "change_rate": 5.576005154777952,
+      "volume": 44023320,
+      "trade_value": 9878308108.36853,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.99999999999999,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 213.1686729431152,
+      "target_price": 258.0462882995605,
+      "quality_score": 65.525,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (58.3%); Highly profitable (margin 19.3%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6621000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 13770.0,
+        "trailing_pe": 17.8,
+        "forward_pe": 20.8,
+        "price_to_book": 5.07,
+        "dividend_yield_pct": 126.0,
+        "revenue_growth_pct": 58.3,
+        "earnings_growth_pct": 218.6,
+        "operating_margin_pct": 28.3,
+        "profit_margin_pct": 19.3,
+        "roe_pct": null,
+        "rsi_14": 52.4,
+        "sma_50": 221.31,
+        "sma_200": 203.46,
+        "pct_from_52w_high": -8.2,
+        "beta": 1.03,
+        "analyst_recommendation": "none",
+        "target_mean": 247.0,
+        "target_upside_pct": 0.8,
+        "analyst_count": 5,
+        "debt_to_equity": 0.7,
+        "valuation_score": 50.0,
+        "growth_score": 90.0,
+        "profitability_score": 80.0,
+        "technical_score": 67.0,
+        "analyst_score": 50.0,
+        "risk_score": 72.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 238.30999755859375,
+      "change_rate": 4.352586878283008,
+      "volume": 467574000,
+      "trade_value": 111427558798.46191,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 226.39449768066405,
+      "target_price": 274.0564971923828,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 633.9); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8185333333333334,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 227282.0,
+        "trailing_pe": 633.9,
+        "forward_pe": 60.9,
+        "price_to_book": 7.31,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 49.5,
+        "sma_50": 241.42,
+        "sma_200": 288.59,
+        "pct_from_52w_high": -32.9,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.97,
+        "target_upside_pct": 40.4,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "UNIONBANK",
+      "name": "UNIONBANK",
+      "current_price": 141.98036193847656,
+      "change_rate": 4.0252200781282665,
+      "volume": 31496993,
+      "trade_value": 4471954466.113663,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 134.88134384155273,
+      "target_price": 163.27741622924805,
+      "quality_score": 59.733333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.2); Highly profitable (margin 35.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6389333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 121344.0,
+        "trailing_pe": 6.2,
+        "forward_pe": 6.2,
+        "price_to_book": 0.93,
+        "dividend_yield_pct": 299.0,
+        "revenue_growth_pct": null,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": -887.7,
+        "profit_margin_pct": 35.7,
+        "roe_pct": 15.7,
+        "rsi_14": 34.3,
+        "sma_50": 174.94,
+        "sma_200": 160.04,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.94,
+        "analyst_recommendation": "buy",
+        "target_mean": 195.2,
+        "target_upside_pct": 22.8,
+        "analyst_count": 15,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 50.0,
+        "profitability_score": 57.0,
+        "technical_score": 57.0,
+        "analyst_score": 68.0,
+        "risk_score": 60.0
+      }
+    },
+    {
+      "ticker": "CANBK",
+      "name": "CANBK",
+      "current_price": 110.79043579101562,
+      "change_rate": 3.639476387238666,
+      "volume": 70759040,
+      "trade_value": 7839424877.753906,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 105.25091400146484,
+      "target_price": 127.40900115966797,
+      "quality_score": 57.43333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Strong revenue growth (20.9%); Highly profitable (margin 32.0%)",
+      "final_score": 0.6349951308939856,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 114426.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 5.5,
+        "price_to_book": 0.97,
+        "dividend_yield_pct": 336.0,
+        "revenue_growth_pct": 20.9,
+        "earnings_growth_pct": -9.8,
+        "operating_margin_pct": 41.7,
+        "profit_margin_pct": 32.0,
+        "roe_pct": 17.6,
+        "rsi_14": 35.4,
+        "sma_50": 135.14,
+        "sma_200": 136.69,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.56,
+        "analyst_recommendation": "buy",
+        "target_mean": 151.6,
+        "target_upside_pct": 20.2,
+        "analyst_count": 20,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 45.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 77.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 224.38807678222656,
+            "change_pct": 5.576005154777952,
+            "composite_score": 1.0235024539245,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 122.5628662109375,
+            "change_pct": 6.161795404062926,
+            "composite_score": 0.6326649420350208,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 58.099998474121094,
+            "change_pct": 11.260048096450038,
+            "composite_score": 0.8031581589331963,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 238.30999755859375,
+            "change_pct": 4.352586878283008,
+            "composite_score": 0.6841708599777443,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 224.38807678222656,
+            "change_pct": 5.576005154777952,
+            "composite_score": 0.5529179369707533,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 122.5628662109375,
+            "change_pct": 6.161795404062926,
+            "composite_score": 0.4285998324764052,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 32.50718307495117,
+            "change_pct": 5.658558921647161,
+            "composite_score": 0.35716284080754773,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 110.79043579101562,
+            "change_pct": 3.639476387238666,
+            "composite_score": 0.32547679453311973,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 37.53155517578125,
+            "change_pct": 3.8676825818572507,
+            "composite_score": 0.32010392736800625,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 102.84001922607422,
+            "change_pct": 3.430749965086853,
+            "composite_score": 0.316346364720562,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 141.98036193847656,
+            "change_pct": 4.0252200781282665,
+            "composite_score": 0.31578493369156335,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:49:05.287072",
+    "trigger_mode": "morning",
+    "trade_date": "20250530",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 55.5,
+      "nifty_slope_pct": 3.64,
+      "nifty_rvol": 17.6,
+      "max_picks": 4
+    }
+  }
+}

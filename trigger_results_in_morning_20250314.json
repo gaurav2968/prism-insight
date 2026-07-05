@@ -1,0 +1,122 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "ENGINERSIN",
+      "name": "ENGINERSIN",
+      "current_price": 157.8969268798828,
+      "change_rate": 3.4531253233555943,
+      "volume": 10931576,
+      "trade_value": 1726062256.3538818,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 150.00208053588867,
+      "target_price": 181.58146591186522,
+      "quality_score": 65.525,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (58.3%); Highly profitable (margin 19.3%); Golden cross (50MA > 200MA)",
+      "final_score": 0.6621000000000001,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 13770.0,
+        "trailing_pe": 17.8,
+        "forward_pe": 20.8,
+        "price_to_book": 5.07,
+        "dividend_yield_pct": 126.0,
+        "revenue_growth_pct": 58.3,
+        "earnings_growth_pct": 218.6,
+        "operating_margin_pct": 28.3,
+        "profit_margin_pct": 19.3,
+        "roe_pct": null,
+        "rsi_14": 52.4,
+        "sma_50": 221.31,
+        "sma_200": 203.46,
+        "pct_from_52w_high": -8.2,
+        "beta": 1.03,
+        "analyst_recommendation": "none",
+        "target_mean": 247.0,
+        "target_upside_pct": 0.8,
+        "analyst_count": 5,
+        "debt_to_equity": 0.7,
+        "valuation_score": 50.0,
+        "growth_score": 90.0,
+        "profitability_score": 80.0,
+        "technical_score": 67.0,
+        "analyst_score": 50.0,
+        "risk_score": 72.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 157.8969268798828,
+            "change_pct": 3.4531253233555943,
+            "composite_score": 0.8154059519262612,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 157.8969268798828,
+            "change_pct": 3.4531253233555943,
+            "composite_score": 0.7777606240035938,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 396.5627746582031,
+            "change_pct": 0.1286188796518876,
+            "composite_score": 0.45852425583670325,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:46:04.876799",
+    "trigger_mode": "morning",
+    "trade_date": "20250314",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 38.0,
+      "nifty_slope_pct": -2.69,
+      "nifty_rvol": 9.6,
+      "max_picks": 3
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "BANDHANBNK",
+      "name": "BANDHANBNK",
+      "current_price": 138.11827087402344,
+      "change_rate": 2.1173768060907707,
+      "volume": 18633977,
+      "trade_value": 2573692682.7463226,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 131.21235733032225,
+      "target_price": 158.83601150512695,
+      "quality_score": 66.55000000000001,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (119.3%); Golden cross (50MA > 200MA); Analyst: None",
+      "final_score": 0.8662000000000001,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 30804.0,
+        "trailing_pe": 25.2,
+        "forward_pe": 8.8,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 79.0,
+        "revenue_growth_pct": 119.3,
+        "earnings_growth_pct": 68.0,
+        "operating_margin_pct": 26.4,
+        "profit_margin_pct": 13.0,
+        "roe_pct": 4.9,
+        "rsi_14": 52.5,
+        "sma_50": 174.01,
+        "sma_200": 162.55,
+        "pct_from_52w_high": -10.1,
+        "beta": 0.8,
+        "analyst_recommendation": "none",
+        "target_mean": 188.67,
+        "target_upside_pct": -1.3,
+        "analyst_count": 24,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 90.0,
+        "profitability_score": 62.0,
+        "technical_score": 67.0,
+        "analyst_score": 60.0,
+        "risk_score": 60.0
+      }
+    },
+    {
+      "ticker": "TATASTEEL",
+      "name": "TATASTEEL",
+      "current_price": 137.5522003173828,
+      "change_rate": 1.9704482533362366,
+      "volume": 41987785,
+      "trade_value": 5775512213.203201,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 130.67459030151366,
+      "target_price": 158.1850303649902,
+      "quality_score": 62.10833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Buy; Target ₹223 (+6% upside)",
+      "final_score": 0.6484333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 261023.0,
+        "trailing_pe": 28.5,
+        "forward_pe": 11.1,
+        "price_to_book": 2.75,
+        "dividend_yield_pct": 191.0,
+        "revenue_growth_pct": 12.5,
+        "earnings_growth_pct": 125.4,
+        "operating_margin_pct": 10.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 11.2,
+        "rsi_14": 47.0,
+        "sma_50": 204.08,
+        "sma_200": 184.78,
+        "pct_from_52w_high": -6.7,
+        "beta": 0.79,
+        "analyst_recommendation": "buy",
+        "target_mean": 222.68,
+        "target_upside_pct": 6.4,
+        "analyst_count": 34,
+        "debt_to_equity": 89.0,
+        "valuation_score": 65.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 65.0,
+        "analyst_score": 67.0,
+        "risk_score": 62.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "JSWENERGY",
+            "name": "JSWENERGY",
+            "price": 494.645263671875,
+            "change_pct": 5.986558173534302,
+            "composite_score": 0.15,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 7,
+        "top_candidates": [
+          {
+            "ticker": "JSWENERGY",
+            "name": "JSWENERGY",
+            "price": 494.645263671875,
+            "change_pct": 5.986558173534302,
+            "composite_score": 1.053480342340594,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 111.36424255371094,
+            "change_pct": 2.658421210318214,
+            "composite_score": 0.6736378487232492,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BANDHANBNK",
+            "name": "BANDHANBNK",
+            "price": 138.11827087402344,
+            "change_pct": 2.1173768060907707,
+            "composite_score": 0.6425698786032976,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 648.7920532226562,
+            "change_pct": 2.3090105251202973,
+            "composite_score": 0.48006357364873276,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 137.5522003173828,
+            "change_pct": 1.9704482533362366,
+            "composite_score": 0.479050787093946,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 409.2192077636719,
+            "change_pct": 1.0842058366571257,
+            "composite_score": 0.4638448200800914,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 183.44891357421875,
+            "change_pct": 0.6046988994786299,
+            "composite_score": 0.4393956146546424,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:28:02.851323",
+    "trigger_mode": "morning",
+    "trade_date": "20250221",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 34.9,
+      "nifty_slope_pct": -1.67,
+      "nifty_rvol": 10.3,
+      "max_picks": 3
+    }
+  }
+}

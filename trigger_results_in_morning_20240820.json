@@ -1,0 +1,345 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "BPCL",
+      "name": "BPCL",
+      "current_price": 321.59515380859375,
+      "change_rate": 1.6288635952231678,
+      "volume": 22888866,
+      "trade_value": 7360948381.774292,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 305.51539611816406,
+      "target_price": 369.83442687988276,
+      "quality_score": 54.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.0); Death cross (50MA < 200MA); Down 27% from 52W high",
+      "final_score": 0.8161666666666668,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 122388.0,
+        "trailing_pe": 5.0,
+        "forward_pe": 6.8,
+        "price_to_book": 1.3,
+        "dividend_yield_pct": 712.0,
+        "revenue_growth_pct": 5.2,
+        "earnings_growth_pct": 88.8,
+        "operating_margin_pct": 8.2,
+        "profit_margin_pct": 5.5,
+        "roe_pct": null,
+        "rsi_14": 36.5,
+        "sma_50": 298.14,
+        "sma_200": 338.49,
+        "pct_from_52w_high": -26.9,
+        "beta": 0.96,
+        "analyst_recommendation": "buy",
+        "target_mean": 368.9,
+        "target_upside_pct": 28.8,
+        "analyst_count": 31,
+        "debt_to_equity": 56.4,
+        "valuation_score": 68.0,
+        "growth_score": 65.0,
+        "profitability_score": 52.0,
+        "technical_score": 42.0,
+        "analyst_score": 72.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RBLBANK",
+      "name": "RBLBANK",
+      "current_price": 217.9275360107422,
+      "change_rate": 4.861441712214973,
+      "volume": 17968387,
+      "trade_value": 3915806304.997452,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 207.03115921020506,
+      "target_price": 250.6166664123535,
+      "quality_score": 66.25833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (40.8%); Golden cross (50MA > 200MA); Analyst: Buy",
+      "final_score": 0.8650333333333335,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 20024.0,
+        "trailing_pe": 23.0,
+        "forward_pe": 17.1,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 33.0,
+        "revenue_growth_pct": 40.8,
+        "earnings_growth_pct": 367.9,
+        "operating_margin_pct": 14.0,
+        "profit_margin_pct": 9.1,
+        "roe_pct": null,
+        "rsi_14": 48.8,
+        "sma_50": 314.99,
+        "sma_200": 302.58,
+        "pct_from_52w_high": -7.5,
+        "beta": 0.64,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.89,
+        "target_upside_pct": 7.2,
+        "analyst_count": 18,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 90.0,
+        "profitability_score": 52.0,
+        "technical_score": 65.0,
+        "analyst_score": 63.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "UJJIVANSFB",
+      "name": "UJJIVANSFB",
+      "current_price": 43.38999938964844,
+      "change_rate": 5.085973425908492,
+      "volume": 29953758,
+      "trade_value": 1299693541.337677,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 41.220499420166014,
+      "target_price": 49.8984992980957,
+      "quality_score": 66.51666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (44.4%); Highly profitable (margin 16.6%); Golden cross (50MA > 200MA)",
+      "final_score": 0.819738902925867,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 10525.0,
+        "trailing_pe": 15.4,
+        "forward_pe": 8.0,
+        "price_to_book": 1.65,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 44.4,
+        "earnings_growth_pct": 234.0,
+        "operating_margin_pct": 29.5,
+        "profit_margin_pct": 16.6,
+        "roe_pct": 10.7,
+        "rsi_14": 37.1,
+        "sma_50": 56.38,
+        "sma_200": 53.83,
+        "pct_from_52w_high": -20.4,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 73.71,
+        "target_upside_pct": 36.2,
+        "analyst_count": 17,
+        "debt_to_equity": null,
+        "valuation_score": 78.0,
+        "growth_score": 90.0,
+        "profitability_score": 70.0,
+        "technical_score": 57.0,
+        "analyst_score": 82.0,
+        "risk_score": 50.0
+      }
+    },
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 263.1199951171875,
+      "change_rate": 0.36235329778284575,
+      "volume": 132396500,
+      "trade_value": 34836166433.532715,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 249.9639953613281,
+      "target_price": 302.5879943847656,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 633.9); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.8113716118851341,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 227282.0,
+        "trailing_pe": 633.9,
+        "forward_pe": 60.9,
+        "price_to_book": 7.31,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 49.5,
+        "sma_50": 241.42,
+        "sma_200": 288.59,
+        "pct_from_52w_high": -32.9,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.66,
+        "target_upside_pct": 40.2,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 321.59515380859375,
+            "change_pct": 1.6288635952231678,
+            "composite_score": 0.9002179394919347,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 121.44597625732422,
+            "change_pct": 4.467922390559055,
+            "composite_score": 0.6490484408344043,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 161.53367614746094,
+            "change_pct": 1.2641141735616364,
+            "composite_score": 0.3625339991932633,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CESC",
+            "name": "CESC",
+            "price": 166.1441650390625,
+            "change_pct": 1.7837639157329062,
+            "composite_score": 0.2258063671309114,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 217.9275360107422,
+            "change_pct": 4.861441712214973,
+            "composite_score": 0.831624980827148,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 263.1199951171875,
+            "change_pct": 0.36235329778284575,
+            "composite_score": 0.8180366419032176,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UJJIVANSFB",
+            "name": "UJJIVANSFB",
+            "price": 43.38999938964844,
+            "change_pct": 5.085973425908492,
+            "composite_score": 0.7437246959792866,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 140.41464233398438,
+            "change_pct": 2.3629472991026486,
+            "composite_score": 0.5717165251997425,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 121.44597625732422,
+            "change_pct": 4.467922390559055,
+            "composite_score": 0.541250090664149,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDALCO",
+            "name": "HINDALCO",
+            "price": 668.001220703125,
+            "change_pct": 2.1325097433634825,
+            "composite_score": 0.5338655870829875,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "MOTHERSON",
+            "name": "MOTHERSON",
+            "price": 125.1793441772461,
+            "change_pct": 1.8159375895717689,
+            "composite_score": 0.4953999692607781,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 382.3884582519531,
+            "change_pct": 2.362210835304586,
+            "composite_score": 0.48279820132590645,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCLIFE",
+            "name": "HDFCLIFE",
+            "price": 708.6412353515625,
+            "change_pct": 3.631325131938197,
+            "composite_score": 0.45215367571664467,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:21:44.389307",
+    "trigger_mode": "morning",
+    "trade_date": "20240820",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 58.2,
+      "nifty_slope_pct": 3.35,
+      "nifty_rvol": 15.5,
+      "max_picks": 4
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "BHARTIARTL",
+      "name": "BHARTIARTL",
+      "current_price": 1843.9000244140625,
+      "change_rate": 0.49048993842996785,
+      "volume": 24490425,
+      "trade_value": 45157895255.41077,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999925,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1751.7050231933592,
+      "target_price": 2120.4850280761716,
+      "quality_score": 53.541666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 43.7); Strong revenue growth (15.7%); Earnings collapsing (-34.0%)",
+      "final_score": 0.8141666666666667,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "market_cap_cr": 1180588.0,
+        "trailing_pe": 43.7,
+        "forward_pe": 23.2,
+        "price_to_book": 7.6,
+        "dividend_yield_pct": 84.0,
+        "revenue_growth_pct": 15.7,
+        "earnings_growth_pct": -34.0,
+        "operating_margin_pct": 32.2,
+        "profit_margin_pct": 12.7,
+        "roe_pct": 19.4,
+        "rsi_14": 59.2,
+        "sma_50": 1830.88,
+        "sma_200": 1960.17,
+        "pct_from_52w_high": -10.9,
+        "beta": 0.04,
+        "analyst_recommendation": "buy",
+        "target_mean": 2292.13,
+        "target_upside_pct": 18.3,
+        "analyst_count": 31,
+        "debt_to_equity": 99.7,
+        "valuation_score": 45.0,
+        "growth_score": 45.0,
+        "profitability_score": 77.0,
+        "technical_score": 45.0,
+        "analyst_score": 77.0,
+        "risk_score": 68.0
+      }
+    },
+    {
+      "ticker": "HINDCOPPER",
+      "name": "HINDCOPPER",
+      "current_price": 493.45001220703125,
+      "change_rate": 2.6844292460205215,
+      "volume": 17474064,
+      "trade_value": 8622577094.106445,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 468.7775115966797,
+      "target_price": 567.4675140380859,
+      "quality_score": 65.55833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 85.0); Strong revenue growth (62.5%); Highly profitable (margin 29.2%)",
+      "final_score": 0.6622333333333335,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "market_cap_cr": 56199.0,
+        "trailing_pe": 85.0,
+        "forward_pe": 29.2,
+        "price_to_book": 18.95,
+        "dividend_yield_pct": 43.0,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 136.6,
+        "operating_margin_pct": 49.9,
+        "profit_margin_pct": 29.2,
+        "roe_pct": 30.6,
+        "rsi_14": 54.7,
+        "sma_50": 526.45,
+        "sma_200": 434.98,
+        "pct_from_52w_high": -23.5,
+        "beta": null,
+        "analyst_recommendation": "none",
+        "target_mean": 650.0,
+        "target_upside_pct": 11.8,
+        "analyst_count": 1,
+        "debt_to_equity": 3.3,
+        "valuation_score": 38.0,
+        "growth_score": 90.0,
+        "profitability_score": 90.0,
+        "technical_score": 65.0,
+        "analyst_score": 52.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "NAUKRI",
+      "name": "NAUKRI",
+      "current_price": 991.4000244140625,
+      "change_rate": -0.6613201989917334,
+      "volume": 10369509,
+      "trade_value": 10280331475.76184,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 941.8300231933594,
+      "target_price": 1140.1100280761718,
+      "quality_score": 56.41666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 44.5); Highly profitable (margin 42.6%); Death cross (50MA < 200MA)",
+      "final_score": 0.6430995842064782,
+      "metrics": {
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "market_cap_cr": 59977.0,
+        "trailing_pe": 44.5,
+        "forward_pe": 47.0,
+        "price_to_book": 1.23,
+        "dividend_yield_pct": 91.0,
+        "revenue_growth_pct": 13.4,
+        "earnings_growth_pct": 12.3,
+        "operating_margin_pct": 32.2,
+        "profit_margin_pct": 42.6,
+        "roe_pct": null,
+        "rsi_14": 34.2,
+        "sma_50": 987.84,
+        "sma_200": 1227.87,
+        "pct_from_52w_high": -40.3,
+        "beta": 0.32,
+        "analyst_recommendation": "buy",
+        "target_mean": 1392.2,
+        "target_upside_pct": 50.4,
+        "analyst_count": 20,
+        "debt_to_equity": 0.5,
+        "valuation_score": 43.0,
+        "growth_score": 60.0,
+        "profitability_score": 90.0,
+        "technical_score": 39.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "HEG",
+            "name": "HEG",
+            "price": 572.2999877929688,
+            "change_pct": 13.75471692505105,
+            "composite_score": 1.0570888866617156,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1843.9000244140625,
+            "change_pct": 0.49048993842996785,
+            "composite_score": 0.4061912206442245,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 281.95001220703125,
+            "change_pct": 4.348630447506041,
+            "composite_score": 0.3325057460633899,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NAUKRI",
+            "name": "NAUKRI",
+            "price": 991.4000244140625,
+            "change_pct": -0.6613201989917334,
+            "composite_score": 0.30281623600852636,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 493.45001220703125,
+            "change_pct": 2.6844292460205215,
+            "composite_score": 0.2929451926717497,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T05:21:03.570029",
+    "trigger_mode": "morning",
+    "trade_date": "20260327",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "ABCAPITAL",
+      "name": "ABCAPITAL",
+      "current_price": 255.11000061035156,
+      "change_rate": 2.5567841649654524,
+      "volume": 13086871,
+      "trade_value": 3338591668.797592,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 242.35450057983397,
+      "target_price": 293.37650070190426,
+      "quality_score": 62.85,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹411 (+17% upside)",
+      "final_score": 0.8514000000000002,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Financial Conglomerates",
+        "market_cap_cr": 92043.0,
+        "trailing_pe": 24.6,
+        "forward_pe": 14.3,
+        "price_to_book": 2.67,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 7.7,
+        "earnings_growth_pct": 30.1,
+        "operating_margin_pct": 13.7,
+        "profit_margin_pct": 11.6,
+        "roe_pct": 11.2,
+        "rsi_14": 53.0,
+        "sma_50": 331.42,
+        "sma_200": 326.88,
+        "pct_from_52w_high": -6.6,
+        "beta": 0.71,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 411.42,
+        "target_upside_pct": 17.1,
+        "analyst_count": 12,
+        "debt_to_equity": 491.7,
+        "valuation_score": 65.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 67.0,
+        "analyst_score": 77.0,
+        "risk_score": 45.0
+      }
+    },
+    {
+      "ticker": "INFY",
+      "name": "INFY",
+      "current_price": 1615.173583984375,
+      "change_rate": 0.9914972217133786,
+      "volume": 7622083,
+      "trade_value": 12310987116.536377,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999916,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1534.414904785156,
+      "target_price": 1857.449621582031,
+      "quality_score": 54.400000000000006,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 16.4%); Strong ROE (31.4%); Death cross (50MA < 200MA)",
+      "final_score": 0.6176,
+      "metrics": {
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "market_cap_cr": 484386.0,
+        "trailing_pe": 15.6,
+        "forward_pe": 14.6,
+        "price_to_book": 5.24,
+        "dividend_yield_pct": 438.0,
+        "revenue_growth_pct": 6.6,
+        "earnings_growth_pct": 11.8,
+        "operating_margin_pct": 20.9,
+        "profit_margin_pct": 16.4,
+        "roe_pct": 31.4,
+        "rsi_14": 50.6,
+        "sma_50": 1239.25,
+        "sma_200": 1448.41,
+        "pct_from_52w_high": -30.7,
+        "beta": 0.13,
+        "analyst_recommendation": "buy",
+        "target_mean": 1463.2,
+        "target_upside_pct": 22.2,
+        "analyst_count": 40,
+        "debt_to_equity": 9.8,
+        "valuation_score": 60.0,
+        "growth_score": 50.0,
+        "profitability_score": 78.0,
+        "technical_score": 36.0,
+        "analyst_score": 77.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 255.11000061035156,
+            "change_pct": 2.5567841649654524,
+            "composite_score": 0.635574523157882,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1615.173583984375,
+            "change_pct": 0.9914972217133786,
+            "composite_score": 0.5225893004658155,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T23:05:57.045740",
+    "trigger_mode": "morning",
+    "trade_date": "20250617",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 53.3,
+      "nifty_slope_pct": 3.25,
+      "nifty_rvol": 9.8,
+      "max_picks": 5
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "HINDCOPPER",
+      "name": "HINDCOPPER",
+      "current_price": 387.2556457519531,
+      "change_rate": 2.6785725845082275,
+      "volume": 29035791,
+      "trade_value": 11244273993.623749,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 367.89286346435546,
+      "target_price": 445.34399261474607,
+      "quality_score": 67.48333333333335,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 60.1); Strong revenue growth (62.5%); Highly profitable (margin 29.2%)",
+      "final_score": 0.8699333333333334,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "market_cap_cr": 55072.0,
+        "trailing_pe": 60.1,
+        "forward_pe": 28.6,
+        "price_to_book": 18.57,
+        "dividend_yield_pct": 42.0,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 136.6,
+        "operating_margin_pct": 49.9,
+        "profit_margin_pct": 29.2,
+        "roe_pct": 30.6,
+        "rsi_14": 57.4,
+        "sma_50": 527.26,
+        "sma_200": 436.69,
+        "pct_from_52w_high": -25.1,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 715.0,
+        "target_upside_pct": 25.5,
+        "analyst_count": 1,
+        "debt_to_equity": 3.3,
+        "valuation_score": 38.0,
+        "growth_score": 90.0,
+        "profitability_score": 90.0,
+        "technical_score": 65.0,
+        "analyst_score": 70.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "VEDL",
+      "name": "VEDL",
+      "current_price": 336.7403869628906,
+      "change_rate": 4.06771323121578,
+      "volume": 24602811,
+      "trade_value": 8284760096.514862,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 319.90336761474606,
+      "target_price": 387.2514450073242,
+      "quality_score": 58.05000000000001,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-41.3%); Highly profitable (margin 22.7%); Strong ROE (20.4%)",
+      "final_score": 0.6322000000000001,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Other Industrial Metals & Mining",
+        "market_cap_cr": 131846.0,
+        "trailing_pe": 18.8,
+        "forward_pe": 13.5,
+        "price_to_book": 3.28,
+        "dividend_yield_pct": 1040.0,
+        "revenue_growth_pct": -41.3,
+        "earnings_growth_pct": 92.2,
+        "operating_margin_pct": 26.2,
+        "profit_margin_pct": 22.7,
+        "roe_pct": 20.4,
+        "rsi_14": 28.8,
+        "sma_50": 606.82,
+        "sma_200": 566.97,
+        "pct_from_52w_high": -57.5,
+        "beta": 0.11,
+        "analyst_recommendation": "buy",
+        "target_mean": 308.25,
+        "target_upside_pct": -8.7,
+        "analyst_count": 4,
+        "debt_to_equity": 48.0,
+        "valuation_score": 72.0,
+        "growth_score": 52.0,
+        "profitability_score": 83.0,
+        "technical_score": 50.0,
+        "analyst_score": 48.0,
+        "risk_score": 78.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "IRFC",
+      "name": "IRFC",
+      "current_price": 152.6805877685547,
+      "change_rate": 5.191364112352281,
+      "volume": 131170998,
+      "trade_value": 20027265072.82791,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 145.04655838012695,
+      "target_price": 175.5826759338379,
+      "quality_score": 43.45833333333333,
+      "quality_signal": "SELL",
+      "quality_reasons": "Highly profitable (margin 25.8%); Death cross (50MA < 200MA); Down 35% from 52W high",
+      "final_score": 0.5738333333333333,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 127052.0,
+        "trailing_pe": 18.1,
+        "forward_pe": 13.3,
+        "price_to_book": 2.24,
+        "dividend_yield_pct": 297.0,
+        "revenue_growth_pct": 0.5,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 96.3,
+        "profit_margin_pct": 25.8,
+        "roe_pct": 12.8,
+        "rsi_14": 38.4,
+        "sma_50": 99.21,
+        "sma_200": 114.55,
+        "pct_from_52w_high": -34.7,
+        "beta": null,
+        "analyst_recommendation": "sell",
+        "target_mean": 60.0,
+        "target_upside_pct": -38.3,
+        "analyst_count": 1,
+        "debt_to_equity": 773.3,
+        "valuation_score": 72.0,
+        "growth_score": 28.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 27.0,
+        "risk_score": 15.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 4,
+        "top_candidates": [
+          {
+            "ticker": "TECHM",
+            "name": "TECHM",
+            "price": 1209.32373046875,
+            "change_pct": 7.430897907799968,
+            "composite_score": 1.0276524805169918,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ZENSARTECH",
+            "name": "ZENSARTECH",
+            "price": 603.6583862304688,
+            "change_pct": 8.012871547720067,
+            "composite_score": 0.7422380283679225,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 387.2556457519531,
+            "change_pct": 2.6785725845082275,
+            "composite_score": 0.36974554892275574,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 336.7403869628906,
+            "change_pct": 4.06771323121578,
+            "composite_score": 0.2921749875895149,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "ZENSARTECH",
+            "name": "ZENSARTECH",
+            "price": 603.6583862304688,
+            "change_pct": 8.012871547720067,
+            "composite_score": 0.8967947023040878,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 216.24835205078125,
+            "change_pct": 12.336868591949077,
+            "composite_score": 0.8501911490393473,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TECHM",
+            "name": "TECHM",
+            "price": 1209.32373046875,
+            "change_pct": 7.430897907799968,
+            "composite_score": 0.6009694248950836,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 227.7437744140625,
+            "change_pct": 6.665168750670881,
+            "composite_score": 0.5470544785436601,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BIOCON",
+            "name": "BIOCON",
+            "price": 305.5674133300781,
+            "change_pct": 5.05743578358122,
+            "composite_score": 0.5192741307400018,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 90.75,
+            "change_pct": 6.576627567551052,
+            "composite_score": 0.4828386195492379,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 152.6805877685547,
+            "change_pct": 5.191364112352281,
+            "composite_score": 0.45883273630892496,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 242.5510711669922,
+            "change_pct": 7.187167986561269,
+            "composite_score": 0.4205909563355189,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T01:33:20.037509",
+    "trigger_mode": "morning",
+    "trade_date": "20240426",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 53.3,
+      "nifty_slope_pct": 1.28,
+      "nifty_rvol": 9.7,
+      "max_picks": 5
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RPOWER",
+      "name": "RPOWER",
+      "current_price": 32.84000015258789,
+      "change_rate": 4.987210459392347,
+      "volume": 79351737,
+      "trade_value": 2605911055.188114,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 31.198000144958495,
+      "target_price": 37.76600017547607,
+      "quality_score": 47.35,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 39.3); Earnings collapsing (-38.1%); Death cross (50MA < 200MA)",
+      "final_score": 0.7894000000000001,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "market_cap_cr": 11212.0,
+        "trailing_pe": 39.3,
+        "forward_pe": 6.0,
+        "price_to_book": 0.68,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 1.1,
+        "earnings_growth_pct": -38.1,
+        "operating_margin_pct": 21.1,
+        "profit_margin_pct": 3.7,
+        "roe_pct": null,
+        "rsi_14": 44.3,
+        "sma_50": 25.58,
+        "sma_200": 34.89,
+        "pct_from_52w_high": -64.6,
+        "beta": 1.01,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": 92.2,
+        "valuation_score": 70.0,
+        "growth_score": 28.0,
+        "profitability_score": 52.0,
+        "technical_score": 43.0,
+        "analyst_score": 50.0,
+        "risk_score": 55.0
+      }
+    },
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 1165.104248046875,
+      "change_rate": -0.333338345625981,
+      "volume": 17347076,
+      "trade_value": 20211151938.791992,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1106.849035644531,
+      "target_price": 1339.8698852539062,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.6561666666666668,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.7,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "GRANULES",
+            "name": "GRANULES",
+            "price": 628.1795654296875,
+            "change_pct": 6.987013545916625,
+            "composite_score": 0.5892859511940773,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 7,
+        "top_candidates": [
+          {
+            "ticker": "TORNTPOWER",
+            "name": "TORNTPOWER",
+            "price": 1820.663330078125,
+            "change_pct": 16.55842232563955,
+            "composite_score": 1.071292254041873,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GRANULES",
+            "name": "GRANULES",
+            "price": 628.1795654296875,
+            "change_pct": 6.987013545916625,
+            "composite_score": 0.710919942329289,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 26.510000228881836,
+            "change_pct": 3.111634278090402,
+            "composite_score": 0.5219603167445465,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 32.84000015258789,
+            "change_pct": 4.987210459392347,
+            "composite_score": 0.4420908326391795,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 1847.199951171875,
+            "change_pct": 0.8076799039852119,
+            "composite_score": 0.41344534234827535,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 1165.104248046875,
+            "change_pct": -0.333338345625981,
+            "composite_score": 0.3826630683942848,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CROMPTON",
+            "name": "CROMPTON",
+            "price": 447.41705322265625,
+            "change_pct": 1.3357189670738585,
+            "composite_score": 0.3738706543155472,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:03:18.630293",
+    "trigger_mode": "morning",
+    "trade_date": "20240731",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 72.3,
+      "nifty_slope_pct": 3.81,
+      "nifty_rvol": 8.7,
+      "max_picks": 5
+    }
+  }
+}

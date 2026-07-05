@@ -1,0 +1,217 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 1132.981689453125,
+      "change_rate": 0.6881571958717078,
+      "volume": 19225966,
+      "trade_value": 21782667440.04834,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 1076.3326049804687,
+      "target_price": 1302.9289428710936,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.8561666666666667,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.7,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "M&M",
+      "name": "M&M",
+      "current_price": 2925.44677734375,
+      "change_rate": 3.58460659109935,
+      "volume": 5230405,
+      "trade_value": 15301271451.452637,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 2779.1744384765625,
+      "target_price": 3364.263793945312,
+      "quality_score": 60.791666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (30.9%); Death cross (50MA < 200MA); Analyst: Strong Buy",
+      "final_score": 0.6431666666666667,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "market_cap_cr": 371312.0,
+        "trailing_pe": 20.3,
+        "forward_pe": 19.3,
+        "price_to_book": 3.71,
+        "dividend_yield_pct": 107.0,
+        "revenue_growth_pct": 30.9,
+        "earnings_growth_pct": 44.8,
+        "operating_margin_pct": 16.4,
+        "profit_margin_pct": 8.5,
+        "roe_pct": 18.8,
+        "rsi_14": 44.1,
+        "sma_50": 3128.49,
+        "sma_200": 3445.85,
+        "pct_from_52w_high": -19.5,
+        "beta": 0.38,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 4143.65,
+        "target_upside_pct": 34.0,
+        "analyst_count": 34,
+        "debt_to_equity": 125.1,
+        "valuation_score": 67.0,
+        "growth_score": 90.0,
+        "profitability_score": 65.0,
+        "technical_score": 44.0,
+        "analyst_score": 85.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 80.52999877929688,
+            "change_pct": 3.2303506910122683,
+            "composite_score": 0.8731069495280348,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 141.56204223632812,
+            "change_pct": 4.9822792946118195,
+            "composite_score": 0.697347864417279,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 481.0289001464844,
+            "change_pct": 3.1137734970730793,
+            "composite_score": 0.6844668888980261,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 859.507080078125,
+            "change_pct": 2.1787651895904836,
+            "composite_score": 0.7094738228224199,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 1132.981689453125,
+            "change_pct": 0.6881571958717078,
+            "composite_score": 0.674957810972776,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "M&M",
+            "name": "M&M",
+            "price": 2925.44677734375,
+            "change_pct": 3.58460659109935,
+            "composite_score": 0.5940875352665742,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 80.52999877929688,
+            "change_pct": 3.2303506910122683,
+            "composite_score": 0.5763060708447291,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 141.56204223632812,
+            "change_pct": 4.9822792946118195,
+            "composite_score": 0.5548913378863294,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 481.0289001464844,
+            "change_pct": 3.1137734970730793,
+            "composite_score": 0.48694494116164766,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T04:38:17.839146",
+    "trigger_mode": "morning",
+    "trade_date": "20241119",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 30.8,
+      "nifty_slope_pct": -1.13,
+      "nifty_rvol": 11.7,
+      "max_picks": 3
+    }
+  }
+}

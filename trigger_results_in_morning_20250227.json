@@ -1,0 +1,219 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "ABCAPITAL",
+      "name": "ABCAPITAL",
+      "current_price": 157.6699981689453,
+      "change_rate": 3.5123362575337262,
+      "volume": 10317835,
+      "trade_value": 1626813025.5574799,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 149.78649826049804,
+      "target_price": 181.3204978942871,
+      "quality_score": 62.85,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹411 (+17% upside)",
+      "final_score": 0.6514,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Financial Conglomerates",
+        "market_cap_cr": 92043.0,
+        "trailing_pe": 24.6,
+        "forward_pe": 14.3,
+        "price_to_book": 2.67,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 7.7,
+        "earnings_growth_pct": 30.1,
+        "operating_margin_pct": 13.7,
+        "profit_margin_pct": 11.6,
+        "roe_pct": 11.2,
+        "rsi_14": 53.0,
+        "sma_50": 331.42,
+        "sma_200": 326.88,
+        "pct_from_52w_high": -6.6,
+        "beta": 0.71,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 411.42,
+        "target_upside_pct": 17.1,
+        "analyst_count": 12,
+        "debt_to_equity": 491.7,
+        "valuation_score": 65.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 67.0,
+        "analyst_score": 77.0,
+        "risk_score": 45.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "AXISBANK",
+      "name": "AXISBANK",
+      "current_price": 1015.8318481445312,
+      "change_rate": 0.7531520113595419,
+      "volume": 9777690,
+      "trade_value": 9932488903.284302,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 965.0402557373046,
+      "target_price": 1168.2066253662108,
+      "quality_score": 64.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.7); Revenue declining (-11.2%); Highly profitable (margin 35.4%)",
+      "final_score": 0.6561666666666668,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 385030.0,
+        "trailing_pe": 14.7,
+        "forward_pe": 9.8,
+        "price_to_book": 1.79,
+        "dividend_yield_pct": 8.0,
+        "revenue_growth_pct": -11.2,
+        "earnings_growth_pct": 6.4,
+        "operating_margin_pct": 39.2,
+        "profit_margin_pct": 35.4,
+        "roe_pct": 13.2,
+        "rsi_14": 37.8,
+        "sma_50": 1270.23,
+        "sma_200": 1241.76,
+        "pct_from_52w_high": -12.7,
+        "beta": 0.45,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1580.7,
+        "target_upside_pct": 27.7,
+        "analyst_count": 40,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 38.0,
+        "profitability_score": 77.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "CREDITACC",
+            "name": "CREDITACC",
+            "price": 971.4500122070312,
+            "change_pct": 12.118414048208368,
+            "composite_score": 0.6646400234174276,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LTF",
+            "name": "LTF",
+            "price": 137.28909301757812,
+            "change_pct": 4.49472182715578,
+            "composite_score": 0.49406429887158754,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 157.6699981689453,
+            "change_pct": 3.5123362575337262,
+            "composite_score": 0.47868670253559065,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "CREDITACC",
+            "name": "CREDITACC",
+            "price": 971.4500122070312,
+            "change_pct": 12.118414048208368,
+            "composite_score": 1.1493430993300788,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 839.0091552734375,
+            "change_pct": 1.09074072398992,
+            "composite_score": 0.4437970733230505,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "AXISBANK",
+            "name": "AXISBANK",
+            "price": 1015.8318481445312,
+            "change_pct": 0.7531520113595419,
+            "composite_score": 0.29697223534658923,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "LTF",
+            "name": "LTF",
+            "price": 137.28909301757812,
+            "change_pct": 4.49472182715578,
+            "composite_score": 0.29482752205981555,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "name": "BAJFINANCE",
+            "price": 865.2012329101562,
+            "change_pct": 2.5515968016797808,
+            "composite_score": 0.2775201100834841,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSTOWER",
+            "name": "INDUSTOWER",
+            "price": 338.25,
+            "change_pct": 2.005426349240912,
+            "composite_score": 0.2633602216671673,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:32:04.866161",
+    "trigger_mode": "morning",
+    "trade_date": "20250227",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 29.6,
+      "nifty_slope_pct": -2.05,
+      "nifty_rvol": 9.9,
+      "max_picks": 3
+    }
+  }
+}

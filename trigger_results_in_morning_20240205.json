@@ -1,0 +1,385 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "NMDC",
+      "name": "NMDC",
+      "current_price": 72.13764190673828,
+      "change_rate": 2.5047754922388763,
+      "volume": 94601658,
+      "trade_value": 6824340528.587723,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 68.53075981140137,
+      "target_price": 82.95828819274902,
+      "quality_score": 63.291666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 11.3); Strong revenue growth (15.9%); Highly profitable (margin 24.9%)",
+      "final_score": 0.8531666666666669,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 78265.0,
+        "trailing_pe": 11.3,
+        "forward_pe": 9.7,
+        "price_to_book": 2.41,
+        "dividend_yield_pct": 388.0,
+        "revenue_growth_pct": 15.9,
+        "earnings_growth_pct": -6.5,
+        "operating_margin_pct": 26.8,
+        "profit_margin_pct": 24.9,
+        "roe_pct": null,
+        "rsi_14": 55.8,
+        "sma_50": 84.35,
+        "sma_200": 79.1,
+        "pct_from_52w_high": -5.5,
+        "beta": 0.68,
+        "analyst_recommendation": "none",
+        "target_mean": 81.39,
+        "target_upside_pct": -8.6,
+        "analyst_count": 18,
+        "debt_to_equity": 11.2,
+        "valuation_score": 72.0,
+        "growth_score": 45.0,
+        "profitability_score": 90.0,
+        "technical_score": 67.0,
+        "analyst_score": 42.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "BPCL",
+      "name": "BPCL",
+      "current_price": 256.2964172363281,
+      "change_rate": 2.937233179160138,
+      "volume": 45025890,
+      "trade_value": 11539974289.877014,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999991,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 243.4815963745117,
+      "target_price": 294.7408798217773,
+      "quality_score": 54.04166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.0); Death cross (50MA < 200MA); Down 27% from 52W high",
+      "final_score": 0.7951651624066474,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 122388.0,
+        "trailing_pe": 5.0,
+        "forward_pe": 6.8,
+        "price_to_book": 1.3,
+        "dividend_yield_pct": 712.0,
+        "revenue_growth_pct": 5.2,
+        "earnings_growth_pct": 88.8,
+        "operating_margin_pct": 8.2,
+        "profit_margin_pct": 5.5,
+        "roe_pct": null,
+        "rsi_14": 36.5,
+        "sma_50": 298.14,
+        "sma_200": 338.49,
+        "pct_from_52w_high": -26.9,
+        "beta": 0.96,
+        "analyst_recommendation": "buy",
+        "target_mean": 368.9,
+        "target_upside_pct": 28.8,
+        "analyst_count": 31,
+        "debt_to_equity": 56.4,
+        "valuation_score": 68.0,
+        "growth_score": 65.0,
+        "profitability_score": 52.0,
+        "technical_score": 42.0,
+        "analyst_score": 72.0,
+        "risk_score": 55.0
+      }
+    },
+    {
+      "ticker": "HINDPETRO",
+      "name": "HINDPETRO",
+      "current_price": 308.7388000488281,
+      "change_rate": 3.999188710451562,
+      "volume": 27456336,
+      "trade_value": 8476836230.377441,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999964,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 293.3018600463867,
+      "target_price": 355.0496200561523,
+      "quality_score": 54.28333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 4.4); Strong ROE (30.9%); Death cross (50MA < 200MA)",
+      "final_score": 0.7905272775803689,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 78942.0,
+        "trailing_pe": 4.4,
+        "forward_pe": 6.5,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 968.0,
+        "revenue_growth_pct": 4.9,
+        "earnings_growth_pct": 77.5,
+        "operating_margin_pct": 8.1,
+        "profit_margin_pct": 4.1,
+        "roe_pct": 30.9,
+        "rsi_14": 42.5,
+        "sma_50": 361.72,
+        "sma_200": 422.08,
+        "pct_from_52w_high": -27.0,
+        "beta": 0.98,
+        "analyst_recommendation": "hold",
+        "target_mean": 402.52,
+        "target_upside_pct": 8.5,
+        "analyst_count": 31,
+        "debt_to_equity": 85.4,
+        "valuation_score": 68.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 44.0,
+        "analyst_score": 62.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "CENTRALBK",
+      "name": "CENTRALBK",
+      "current_price": 62.504398345947266,
+      "change_rate": 4.512479509111668,
+      "volume": 155196600,
+      "trade_value": 9700470108.33664,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 59.3791784286499,
+      "target_price": 71.88005809783935,
+      "quality_score": 56.90833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.8); Strong revenue growth (44.8%); Earnings collapsing (-35.4%)",
+      "final_score": 0.8276333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 30811.0,
+        "trailing_pe": 6.8,
+        "forward_pe": null,
+        "price_to_book": 0.79,
+        "dividend_yield_pct": 411.0,
+        "revenue_growth_pct": 44.8,
+        "earnings_growth_pct": -35.4,
+        "operating_margin_pct": 34.4,
+        "profit_margin_pct": 24.4,
+        "roe_pct": 11.9,
+        "rsi_14": 39.7,
+        "sma_50": 35.08,
+        "sma_200": 36.87,
+        "pct_from_52w_high": -17.4,
+        "beta": 0.52,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 77.0,
+        "technical_score": 42.0,
+        "analyst_score": 50.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 156.60003662109375,
+            "change_pct": 6.783302502331444,
+            "composite_score": 0.9435411234051837,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 55.7684326171875,
+            "change_pct": 14.243319384149974,
+            "composite_score": 0.6589562415105699,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 131.56109619140625,
+            "change_pct": 5.455959141446396,
+            "composite_score": 0.5867990800955782,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 72.13764190673828,
+            "change_pct": 2.5047754922388763,
+            "composite_score": 0.5342809929659715,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 256.2964172363281,
+            "change_pct": 2.937233179160138,
+            "composite_score": 0.49405333376508387,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 308.7388000488281,
+            "change_pct": 3.999188710451562,
+            "composite_score": 0.4833180081121863,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 163.6113739013672,
+            "change_pct": 2.079832672789431,
+            "composite_score": 0.4116455779027979,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 264.509521484375,
+            "change_pct": 3.4826863800924266,
+            "composite_score": 0.40325161965105827,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 233.46774291992188,
+            "change_pct": 2.2157382477275673,
+            "composite_score": 0.3095673865053883,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRB",
+            "name": "IRB",
+            "price": 34.5676383972168,
+            "change_pct": 4.943814629389645,
+            "composite_score": 0.15118787065597386,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 55.7684326171875,
+            "change_pct": 14.243319384149974,
+            "composite_score": 0.874857040973226,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 62.504398345947266,
+            "change_pct": 4.512479509111668,
+            "composite_score": 0.6630638516144766,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 131.56109619140625,
+            "change_pct": 5.455959141446396,
+            "composite_score": 0.6485503267549825,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 156.60003662109375,
+            "change_pct": 6.783302502331444,
+            "composite_score": 0.5626490904204245,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NLCINDIA",
+            "name": "NLCINDIA",
+            "price": 264.509521484375,
+            "change_pct": 3.4826863800924266,
+            "composite_score": 0.5062672297953195,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "J&KBANK",
+            "name": "J&KBANK",
+            "price": 139.53384399414062,
+            "change_pct": 4.574918985654769,
+            "composite_score": 0.5028069077568462,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 382.6662902832031,
+            "change_pct": 4.871373502718255,
+            "composite_score": 0.47069671776371425,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 256.2964172363281,
+            "change_pct": 2.937233179160138,
+            "composite_score": 0.45710241487812364,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:13:15.132489",
+    "trigger_mode": "morning",
+    "trade_date": "20240205",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 55.8,
+      "nifty_slope_pct": 4.53,
+      "nifty_rvol": 15.4,
+      "max_picks": 4
+    }
+  }
+}

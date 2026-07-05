@@ -1,0 +1,88 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 5,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 216.4499969482422,
+            "change_pct": 0.8855716007731879,
+            "composite_score": 0.9060879789167317,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WIPRO",
+            "name": "WIPRO",
+            "price": 289.75054931640625,
+            "change_pct": 3.603161820709402,
+            "composite_score": 0.5097467825905726,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 821.9152221679688,
+            "change_pct": 1.4399739783524057,
+            "composite_score": 0.4713490562489203,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1803.0887451171875,
+            "change_pct": 3.096020848551921,
+            "composite_score": 0.4596714201665685,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDHOTEL",
+            "name": "INDHOTEL",
+            "price": 770.4843139648438,
+            "change_pct": 1.6308284429117057,
+            "composite_score": 0.40529257539744235,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:00:38.679144",
+    "trigger_mode": "morning",
+    "trade_date": "20250122",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 39.2,
+      "nifty_slope_pct": -1.6,
+      "nifty_rvol": 13.0,
+      "max_picks": 3
+    }
+  }
+}

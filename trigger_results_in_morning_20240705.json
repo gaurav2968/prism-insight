@@ -1,0 +1,272 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "IRFC",
+      "name": "IRFC",
+      "current_price": 181.83526611328125,
+      "change_rate": 5.9137843964657115,
+      "volume": 224563674,
+      "trade_value": 40833595421.16614,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999994,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 172.74350280761718,
+      "target_price": 209.11055603027341,
+      "quality_score": 43.45833333333333,
+      "quality_signal": "SELL",
+      "quality_reasons": "Highly profitable (margin 25.8%); Death cross (50MA < 200MA); Down 35% from 52W high",
+      "final_score": 0.7738333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 127052.0,
+        "trailing_pe": 18.1,
+        "forward_pe": 13.3,
+        "price_to_book": 2.24,
+        "dividend_yield_pct": 297.0,
+        "revenue_growth_pct": 0.5,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 96.3,
+        "profit_margin_pct": 25.8,
+        "roe_pct": 12.8,
+        "rsi_14": 38.4,
+        "sma_50": 99.21,
+        "sma_200": 114.55,
+        "pct_from_52w_high": -34.7,
+        "beta": null,
+        "analyst_recommendation": "sell",
+        "target_mean": 60.0,
+        "target_upside_pct": -38.3,
+        "analyst_count": 1,
+        "debt_to_equity": 773.3,
+        "valuation_score": 72.0,
+        "growth_score": 28.0,
+        "profitability_score": 77.0,
+        "technical_score": 39.0,
+        "analyst_score": 27.0,
+        "risk_score": 15.0
+      }
+    },
+    {
+      "ticker": "CASTROLIND",
+      "name": "CASTROLIND",
+      "current_price": 229.69723510742188,
+      "change_rate": 1.1024908180614448,
+      "volume": 33053968,
+      "trade_value": 7592405058.929199,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 218.21237335205078,
+      "target_price": 264.15182037353514,
+      "quality_score": 54.75833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 16.4%); Death cross (50MA < 200MA); Analyst: None",
+      "final_score": 0.6190333333333333,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 18103.0,
+        "trailing_pe": 18.9,
+        "forward_pe": 16.3,
+        "price_to_book": 9.53,
+        "dividend_yield_pct": 480.0,
+        "revenue_growth_pct": 8.7,
+        "earnings_growth_pct": 3.8,
+        "operating_margin_pct": 19.5,
+        "profit_margin_pct": 16.4,
+        "roe_pct": null,
+        "rsi_14": 48.4,
+        "sma_50": 181.8,
+        "sma_200": 190.27,
+        "pct_from_52w_high": -21.3,
+        "beta": 0.35,
+        "analyst_recommendation": "none",
+        "target_mean": 218.8,
+        "target_upside_pct": 19.5,
+        "analyst_count": 5,
+        "debt_to_equity": 3.3,
+        "valuation_score": 53.0,
+        "growth_score": 50.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 65.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "NBCC",
+      "name": "NBCC",
+      "current_price": 123.6915054321289,
+      "change_rate": 1.0338643224764286,
+      "volume": 117370177,
+      "trade_value": 14517693885.965431,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999998,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 117.50693016052246,
+      "target_price": 142.24523124694824,
+      "quality_score": 51.449999999999996,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 38.5); Death cross (50MA < 200MA); Down 29% from 52W high",
+      "final_score": 0.6158729584734149,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "market_cap_cr": 25132.0,
+        "trailing_pe": 38.5,
+        "forward_pe": 34.5,
+        "price_to_book": 9.38,
+        "dividend_yield_pct": 74.0,
+        "revenue_growth_pct": 9.5,
+        "earnings_growth_pct": 39.2,
+        "operating_margin_pct": 6.6,
+        "profit_margin_pct": 5.0,
+        "roe_pct": null,
+        "rsi_14": 47.2,
+        "sma_50": 88.9,
+        "sma_200": 102.72,
+        "pct_from_52w_high": -28.8,
+        "beta": 0.67,
+        "analyst_recommendation": "none",
+        "target_mean": 124.5,
+        "target_upside_pct": 33.8,
+        "analyst_count": 2,
+        "debt_to_equity": 0.0,
+        "valuation_score": 40.0,
+        "growth_score": 75.0,
+        "profitability_score": 32.0,
+        "technical_score": 44.0,
+        "analyst_score": 68.0,
+        "risk_score": 80.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "NIACL",
+            "name": "NIACL",
+            "price": 269.2616271972656,
+            "change_pct": 7.0356519226388,
+            "composite_score": 0.8,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 485.07965087890625,
+            "change_pct": 17.265673599135006,
+            "composite_score": 1.0032484216714002,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BEML",
+            "name": "BEML",
+            "price": 2500.3154296875,
+            "change_pct": 8.68757315454219,
+            "composite_score": 0.9511908131361076,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "YESBANK",
+            "name": "YESBANK",
+            "price": 26.639999389648438,
+            "change_pct": 11.231726684833863,
+            "composite_score": 0.6982798363138767,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 181.83526611328125,
+            "change_pct": 5.9137843964657115,
+            "composite_score": 0.607702577073689,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NIACL",
+            "name": "NIACL",
+            "price": 269.2616271972656,
+            "change_pct": 7.0356519226388,
+            "composite_score": 0.5048216202369744,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CGPOWER",
+            "name": "CGPOWER",
+            "price": 768.9691772460938,
+            "change_pct": 6.871495646392415,
+            "composite_score": 0.3849417508225712,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 130.012451171875,
+            "change_pct": 4.271320209169309,
+            "composite_score": 0.3715010954285547,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 123.6915054321289,
+            "change_pct": 1.0338643224764286,
+            "composite_score": 0.3706134821154473,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 229.69723510742188,
+            "change_pct": 1.1024908180614448,
+            "composite_score": 0.35803923998110854,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T02:39:11.801780",
+    "trigger_mode": "morning",
+    "trade_date": "20240705",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_strong",
+      "nifty_rsi": 72.4,
+      "nifty_slope_pct": 2.47,
+      "nifty_rvol": 7.9,
+      "max_picks": 5
+    }
+  }
+}

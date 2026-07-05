@@ -96,8 +96,8 @@ tests/*.log
 *.cookies
 youtube_cookies.txt
 
-# Generated trigger results
-trigger_results_*.json
+# Generated trigger results (kept for Streamlit Cloud watchlist display)
+# trigger_results_*.json
 
 # SQLite MCP server data files (keep Dockerfile, README, pyproject.toml, src/)
 sqlite/stock_tracking_db

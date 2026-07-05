@@ -1,0 +1,361 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "CANBK",
+      "name": "CANBK",
+      "current_price": 107.0090560913086,
+      "change_rate": 3.096983658420412,
+      "volume": 116284190,
+      "trade_value": 12443461410.242386,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999947,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 101.65860328674316,
+      "target_price": 123.06041450500487,
+      "quality_score": 57.43333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.3); Strong revenue growth (20.9%); Highly profitable (margin 32.0%)",
+      "final_score": 0.8297333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 114426.0,
+        "trailing_pe": 5.3,
+        "forward_pe": 5.5,
+        "price_to_book": 0.97,
+        "dividend_yield_pct": 336.0,
+        "revenue_growth_pct": 20.9,
+        "earnings_growth_pct": -9.8,
+        "operating_margin_pct": 41.7,
+        "profit_margin_pct": 32.0,
+        "roe_pct": 17.6,
+        "rsi_14": 32.4,
+        "sma_50": 135.14,
+        "sma_200": 136.69,
+        "pct_from_52w_high": -22.6,
+        "beta": 0.56,
+        "analyst_recommendation": "buy",
+        "target_mean": 151.6,
+        "target_upside_pct": 20.2,
+        "analyst_count": 20,
+        "debt_to_equity": null,
+        "valuation_score": 73.0,
+        "growth_score": 45.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 77.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "ETERNAL",
+      "name": "ETERNAL",
+      "current_price": 144.10000610351562,
+      "change_rate": 2.6353364443585625,
+      "volume": 184839600,
+      "trade_value": 26635387488.171387,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999996,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 136.89500579833984,
+      "target_price": 165.71500701904296,
+      "quality_score": 54.63333333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 633.9); Strong revenue growth (196.5%); Death cross (50MA < 200MA)",
+      "final_score": 0.7601448020221339,
+      "metrics": {
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap_cr": 227282.0,
+        "trailing_pe": 633.9,
+        "forward_pe": 60.9,
+        "price_to_book": 7.31,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 196.5,
+        "earnings_growth_pct": 375.0,
+        "operating_margin_pct": 0.1,
+        "profit_margin_pct": 0.7,
+        "roe_pct": 1.2,
+        "rsi_14": 49.5,
+        "sma_50": 241.42,
+        "sma_200": 288.59,
+        "pct_from_52w_high": -32.9,
+        "beta": 0.28,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.66,
+        "target_upside_pct": 40.2,
+        "analyst_count": 32,
+        "debt_to_equity": 14.8,
+        "valuation_score": 45.0,
+        "growth_score": 90.0,
+        "profitability_score": 30.0,
+        "technical_score": 41.0,
+        "analyst_score": 82.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "POWERGRID",
+      "name": "POWERGRID",
+      "current_price": 254.22622680664062,
+      "change_rate": 3.078942179606641,
+      "volume": 69776717,
+      "trade_value": 17739071481.864777,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 241.5149154663086,
+      "target_price": 292.3601608276367,
+      "quality_score": 58.56666666666666,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.8); Revenue declining (-5.0%); Highly profitable (margin 34.1%)",
+      "final_score": 0.7147617783370653,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Electric",
+        "market_cap_cr": 277716.0,
+        "trailing_pe": 14.8,
+        "forward_pe": 15.0,
+        "price_to_book": 2.8,
+        "dividend_yield_pct": 413.0,
+        "revenue_growth_pct": -5.0,
+        "earnings_growth_pct": 9.6,
+        "operating_margin_pct": 49.5,
+        "profit_margin_pct": 34.1,
+        "roe_pct": 16.5,
+        "rsi_14": 34.0,
+        "sma_50": 305.39,
+        "sma_200": 285.43,
+        "pct_from_52w_high": -8.1,
+        "beta": 0.24,
+        "analyst_recommendation": "buy",
+        "target_mean": 329.0,
+        "target_upside_pct": 10.2,
+        "analyst_count": 25,
+        "debt_to_equity": 151.0,
+        "valuation_score": 62.0,
+        "growth_score": 38.0,
+        "profitability_score": 83.0,
+        "technical_score": 59.0,
+        "analyst_score": 67.0,
+        "risk_score": 58.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "SBIN",
+      "name": "SBIN",
+      "current_price": 662.527099609375,
+      "change_rate": 3.5986715892092818,
+      "volume": 74222434,
+      "trade_value": 49174373923.96826,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999933,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 629.4007446289062,
+      "target_price": 761.9061645507812,
+      "quality_score": 62.825,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.4); Highly profitable (margin 22.3%); Oversold (RSI 30)",
+      "final_score": 0.8513000000000002,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 875801.0,
+        "trailing_pe": 10.4,
+        "forward_pe": 9.1,
+        "price_to_book": 1.48,
+        "dividend_yield_pct": 185.0,
+        "revenue_growth_pct": 3.8,
+        "earnings_growth_pct": -3.1,
+        "operating_margin_pct": 26.8,
+        "profit_margin_pct": 22.3,
+        "roe_pct": 15.5,
+        "rsi_14": 29.7,
+        "sma_50": 1050.41,
+        "sma_200": 988.05,
+        "pct_from_52w_high": -23.2,
+        "beta": 0.47,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 1195.0,
+        "target_upside_pct": 25.9,
+        "analyst_count": 38,
+        "debt_to_equity": null,
+        "valuation_score": 78.0,
+        "growth_score": 28.0,
+        "profitability_score": 83.0,
+        "technical_score": 59.0,
+        "analyst_score": 80.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 7,
+        "top_candidates": [
+          {
+            "ticker": "TRENT",
+            "name": "TRENT",
+            "price": 3835.99267578125,
+            "change_pct": 6.498959426865983,
+            "composite_score": 1.000126356300513,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 107.0090560913086,
+            "change_pct": 3.096983658420412,
+            "composite_score": 0.7151648431466229,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 144.10000610351562,
+            "change_pct": 2.6353364443585625,
+            "composite_score": 0.6258091948092589,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NIACL",
+            "name": "NIACL",
+            "price": 299.3106994628906,
+            "change_pct": 11.563134187597761,
+            "composite_score": 0.5559169087105921,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 254.22622680664062,
+            "change_pct": 3.078942179606641,
+            "composite_score": 0.5322789829207195,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UNIONBANK",
+            "name": "UNIONBANK",
+            "price": 140.830810546875,
+            "change_pct": 1.9093100368020124,
+            "composite_score": 0.40909224179580006,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 106.76460266113281,
+            "change_pct": 1.1814803369320122,
+            "composite_score": 0.3662784800282869,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "TRENT",
+            "name": "TRENT",
+            "price": 3835.99267578125,
+            "change_pct": 6.498959426865983,
+            "composite_score": 0.8274400905753374,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NIACL",
+            "name": "NIACL",
+            "price": 299.3106994628906,
+            "change_pct": 11.563134187597761,
+            "composite_score": 0.8235201905763102,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SBIN",
+            "name": "SBIN",
+            "price": 662.527099609375,
+            "change_pct": 3.5986715892092818,
+            "composite_score": 0.629999660869413,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 106.76460266113281,
+            "change_pct": 1.1814803369320122,
+            "composite_score": 0.6284517072175847,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 144.10000610351562,
+            "change_pct": 2.6353364443585625,
+            "composite_score": 0.5453550123311071,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 254.22622680664062,
+            "change_pct": 3.078942179606641,
+            "composite_score": 0.48218455128484583,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 107.0090560913086,
+            "change_pct": 3.096983658420412,
+            "composite_score": 0.4652675642103903,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 173.20980834960938,
+            "change_pct": 3.1912113261744013,
+            "composite_score": 0.44539199919353634,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:17:57.328123",
+    "trigger_mode": "morning",
+    "trade_date": "20240208",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 53.1,
+      "nifty_slope_pct": 4.36,
+      "nifty_rvol": 15.6,
+      "max_picks": 4
+    }
+  }
+}

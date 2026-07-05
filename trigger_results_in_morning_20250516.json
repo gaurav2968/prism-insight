@@ -1,0 +1,337 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "GMRAIRPORT",
+      "name": "GMRAIRPORT",
+      "current_price": 91.06999969482422,
+      "change_rate": 2.1651338550490347,
+      "volume": 17512752,
+      "trade_value": 1594886319.2955322,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 86.51649971008301,
+      "target_price": 104.73049964904784,
+      "quality_score": 57.59166666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (50.5%); Earnings collapsing (-45.5%); Net loss (margin -2.7%)",
+      "final_score": 0.6303666666666667,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Airports & Air Services",
+        "market_cap_cr": 99476.0,
+        "trailing_pe": null,
+        "forward_pe": 177.1,
+        "price_to_book": -31.96,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 50.5,
+        "earnings_growth_pct": -45.5,
+        "operating_margin_pct": 31.3,
+        "profit_margin_pct": -2.7,
+        "roe_pct": null,
+        "rsi_14": 44.6,
+        "sma_50": 93.89,
+        "sma_200": 95.27,
+        "pct_from_52w_high": -14.6,
+        "beta": 0.64,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 112.71,
+        "target_upside_pct": 19.6,
+        "analyst_count": 7,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 50.0,
+        "technical_score": 45.0,
+        "analyst_score": 73.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "CONCOR",
+      "name": "CONCOR",
+      "current_price": 574.4453735351562,
+      "change_rate": 5.83121700052906,
+      "volume": 13631936,
+      "trade_value": 7830802567.527344,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999996,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 545.7231048583984,
+      "target_price": 660.6121795654296,
+      "quality_score": 51.75,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Hold; Target ₹566 (+12% upside)",
+      "final_score": 0.807,
+      "metrics": {
+        "sector": "Industrials",
+        "industry": "Railroads",
+        "market_cap_cr": 38507.0,
+        "trailing_pe": 30.1,
+        "forward_pe": 23.5,
+        "price_to_book": 3.01,
+        "dividend_yield_pct": 271.0,
+        "revenue_growth_pct": 4.5,
+        "earnings_growth_pct": -8.9,
+        "operating_margin_pct": 15.6,
+        "profit_margin_pct": 14.0,
+        "roe_pct": null,
+        "rsi_14": 48.9,
+        "sma_50": 481.86,
+        "sma_200": 511.39,
+        "pct_from_52w_high": -22.5,
+        "beta": 0.37,
+        "analyst_recommendation": "hold",
+        "target_mean": 566.41,
+        "target_upside_pct": 12.0,
+        "analyst_count": 17,
+        "debt_to_equity": 7.0,
+        "valuation_score": 58.0,
+        "growth_score": 28.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 58.0,
+        "risk_score": 85.0
+      }
+    },
+    {
+      "ticker": "INDUSINDBK",
+      "name": "INDUSINDBK",
+      "current_price": 780.2000122070312,
+      "change_rate": -0.03843533542200512,
+      "volume": 27168178,
+      "trade_value": 21196612807.242798,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999991,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 741.1900115966796,
+      "target_price": 897.2300140380859,
+      "quality_score": 63.666666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Expensive valuation (PE 78.4); Strong revenue growth (272.7%); Golden cross (50MA > 200MA)",
+      "final_score": 0.7902315932793988,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 69749.0,
+        "trailing_pe": 78.4,
+        "forward_pe": 12.2,
+        "price_to_book": 1.06,
+        "dividend_yield_pct": 17.0,
+        "revenue_growth_pct": 272.7,
+        "earnings_growth_pct": null,
+        "operating_margin_pct": 17.7,
+        "profit_margin_pct": 5.2,
+        "roe_pct": 1.4,
+        "rsi_14": 51.4,
+        "sma_50": 850.22,
+        "sma_200": 837.13,
+        "pct_from_52w_high": -7.6,
+        "beta": 0.56,
+        "analyst_recommendation": "hold",
+        "target_mean": 877.33,
+        "target_upside_pct": -2.0,
+        "analyst_count": 36,
+        "debt_to_equity": null,
+        "valuation_score": 58.0,
+        "growth_score": 90.0,
+        "profitability_score": 50.0,
+        "technical_score": 67.0,
+        "analyst_score": 52.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "HUDCO",
+      "name": "HUDCO",
+      "current_price": 227.51991271972656,
+      "change_rate": 5.475376974284039,
+      "volume": 17343569,
+      "trade_value": 3946007305.1285553,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 216.14391708374023,
+      "target_price": 261.64789962768555,
+      "quality_score": 54.36666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 10.0); Strong revenue growth (16.1%); Highly profitable (margin 61.5%)",
+      "final_score": 0.6331797652814537,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 40460.0,
+        "trailing_pe": 10.0,
+        "forward_pe": 8.1,
+        "price_to_book": 2.24,
+        "dividend_yield_pct": 251.0,
+        "revenue_growth_pct": 16.1,
+        "earnings_growth_pct": -3.0,
+        "operating_margin_pct": 66.3,
+        "profit_margin_pct": 61.5,
+        "roe_pct": null,
+        "rsi_14": 43.8,
+        "sma_50": 192.45,
+        "sma_200": 210.13,
+        "pct_from_52w_high": -20.3,
+        "beta": 0.98,
+        "analyst_recommendation": "none",
+        "target_mean": 225.0,
+        "target_upside_pct": 11.3,
+        "analyst_count": 1,
+        "debt_to_equity": 705.8,
+        "valuation_score": 77.0,
+        "growth_score": 45.0,
+        "profitability_score": 90.0,
+        "technical_score": 45.0,
+        "analyst_score": 52.0,
+        "risk_score": 38.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "CROMPTON",
+            "name": "CROMPTON",
+            "price": 348.1507263183594,
+            "change_pct": 7.284666634441715,
+            "composite_score": 0.8914141986513153,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 406.19476318359375,
+            "change_pct": 8.86379068613635,
+            "composite_score": 0.6530672060011481,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 91.06999969482422,
+            "change_pct": 2.1651338550490347,
+            "composite_score": 0.27534703084389023,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 406.19476318359375,
+            "change_pct": 8.86379068613635,
+            "composite_score": 0.7653797634275868,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CROMPTON",
+            "name": "CROMPTON",
+            "price": 348.1507263183594,
+            "change_pct": 7.284666634441715,
+            "composite_score": 0.7134912444071287,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CONCOR",
+            "name": "CONCOR",
+            "price": 574.4453735351562,
+            "change_pct": 5.83121700052906,
+            "composite_score": 0.6504342110805083,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDUSINDBK",
+            "name": "INDUSINDBK",
+            "price": 780.2000122070312,
+            "change_pct": -0.03843533542200512,
+            "composite_score": 0.5664173992851863,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IRFC",
+            "name": "IRFC",
+            "price": 136.00234985351562,
+            "change_pct": 6.426599790109247,
+            "composite_score": 0.48308654241902105,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 45.06999969482422,
+            "change_pct": 1.7381500474598293,
+            "composite_score": 0.4164565191758425,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HUDCO",
+            "name": "HUDCO",
+            "price": 227.51991271972656,
+            "change_pct": 5.475376974284039,
+            "composite_score": 0.41014275029536507,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 110.36221313476562,
+            "change_pct": 4.08546387890756,
+            "composite_score": 0.38965446061645925,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 1020.0999755859375,
+            "change_pct": 5.393113943092963,
+            "composite_score": 0.3590670580487333,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T22:34:57.237368",
+    "trigger_mode": "morning",
+    "trade_date": "20250516",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 65.3,
+      "nifty_slope_pct": 2.2,
+      "nifty_rvol": 18.0,
+      "max_picks": 4
+    }
+  }
+}

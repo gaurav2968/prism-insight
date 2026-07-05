@@ -1,0 +1,145 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 2,
+        "top_candidates": [
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 256.0320129394531,
+            "change_pct": 4.094486420666491,
+            "composite_score": 0.6499999999999999,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 333.4545593261719,
+            "change_pct": 3.0967310831015222,
+            "composite_score": 0.5,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "IIFL",
+            "name": "IIFL",
+            "price": 311.39593505859375,
+            "change_pct": 10.61354623307366,
+            "composite_score": 0.9853757509038069,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "name": "ADANIGREEN",
+            "price": 848.7000122070312,
+            "change_pct": 10.428732767822675,
+            "composite_score": 0.7135612841603305,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RVNL",
+            "name": "RVNL",
+            "price": 333.4545593261719,
+            "change_pct": 3.0967310831015222,
+            "composite_score": 0.5931546832983342,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 142.7705078125,
+            "change_pct": 4.851439669347212,
+            "composite_score": 0.46307800158361356,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 400.5809631347656,
+            "change_pct": 5.457906496695522,
+            "composite_score": 0.4446392232494256,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 155.07106018066406,
+            "change_pct": 7.191622825919801,
+            "composite_score": 0.44007575719051817,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 314.5422058105469,
+            "change_pct": 3.473969822548829,
+            "composite_score": 0.43633028639757176,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 111.1370849609375,
+            "change_pct": 4.523496899266468,
+            "composite_score": 0.4200502792595848,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INFY",
+            "name": "INFY",
+            "price": 1662.30517578125,
+            "change_pct": 1.374159319283023,
+            "composite_score": 0.41820328736403545,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IGL",
+            "name": "IGL",
+            "price": 177.63397216796875,
+            "change_pct": 0.957986567461238,
+            "composite_score": 0.3887073752379643,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-19T21:37:38.929786",
+    "trigger_mode": "morning",
+    "trade_date": "20250305",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 33.6,
+      "nifty_slope_pct": -2.45,
+      "nifty_rvol": 9.6,
+      "max_picks": 3
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "VEDL",
+      "name": "VEDL",
+      "current_price": 379.22967529296875,
+      "change_rate": 4.445503100350774,
+      "volume": 15297435,
+      "trade_value": 5801241307.865295,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999997,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 360.2681915283203,
+      "target_price": 436.11412658691404,
+      "quality_score": 58.05000000000001,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Revenue declining (-41.3%); Highly profitable (margin 22.7%); Strong ROE (20.4%)",
+      "final_score": 0.8322000000000002,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Other Industrial Metals & Mining",
+        "market_cap_cr": 131846.0,
+        "trailing_pe": 18.8,
+        "forward_pe": 13.5,
+        "price_to_book": 3.28,
+        "dividend_yield_pct": 1040.0,
+        "revenue_growth_pct": -41.3,
+        "earnings_growth_pct": 92.2,
+        "operating_margin_pct": 26.2,
+        "profit_margin_pct": 22.7,
+        "roe_pct": 20.4,
+        "rsi_14": 28.8,
+        "sma_50": 606.82,
+        "sma_200": 566.97,
+        "pct_from_52w_high": -57.5,
+        "beta": 0.11,
+        "analyst_recommendation": "buy",
+        "target_mean": 308.25,
+        "target_upside_pct": -8.7,
+        "analyst_count": 4,
+        "debt_to_equity": 48.0,
+        "valuation_score": 72.0,
+        "growth_score": 52.0,
+        "profitability_score": 83.0,
+        "technical_score": 50.0,
+        "analyst_score": 48.0,
+        "risk_score": 78.0
+      }
+    },
+    {
+      "ticker": "RECLTD",
+      "name": "RECLTD",
+      "current_price": 542.361328125,
+      "change_rate": 4.421263607976068,
+      "volume": 13508638,
+      "trade_value": 7326562846.839844,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999996,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 515.24326171875,
+      "target_price": 623.71552734375,
+      "quality_score": 52.61666666666667,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 5.4); Revenue declining (-14.4%); Earnings collapsing (-21.9%)",
+      "final_score": 0.8031091877529783,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "market_cap_cr": 88016.0,
+        "trailing_pe": 5.4,
+        "forward_pe": 4.7,
+        "price_to_book": 1.05,
+        "dividend_yield_pct": 695.0,
+        "revenue_growth_pct": -14.4,
+        "earnings_growth_pct": -21.9,
+        "operating_margin_pct": 90.2,
+        "profit_margin_pct": 70.6,
+        "roe_pct": 20.0,
+        "rsi_14": 35.2,
+        "sma_50": 345.64,
+        "sma_200": 359.72,
+        "pct_from_52w_high": -22.0,
+        "beta": 0.41,
+        "analyst_recommendation": "buy",
+        "target_mean": 440.77,
+        "target_upside_pct": 31.9,
+        "analyst_count": 13,
+        "debt_to_equity": 607.5,
+        "valuation_score": 78.0,
+        "growth_score": 15.0,
+        "profitability_score": 83.0,
+        "technical_score": 42.0,
+        "analyst_score": 78.0,
+        "risk_score": 50.0
+      }
+    },
+    {
+      "ticker": "TATASTEEL",
+      "name": "TATASTEEL",
+      "current_price": 150.35366821289062,
+      "change_rate": 2.354971523448748,
+      "volume": 32029697,
+      "trade_value": 4815782435.697418,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999996,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 142.8359848022461,
+      "target_price": 172.9067184448242,
+      "quality_score": 62.10833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Buy; Target ₹223 (+6% upside)",
+      "final_score": 0.7141947820983603,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 261023.0,
+        "trailing_pe": 28.5,
+        "forward_pe": 11.1,
+        "price_to_book": 2.75,
+        "dividend_yield_pct": 191.0,
+        "revenue_growth_pct": 12.5,
+        "earnings_growth_pct": 125.4,
+        "operating_margin_pct": 10.4,
+        "profit_margin_pct": 4.7,
+        "roe_pct": 11.2,
+        "rsi_14": 47.5,
+        "sma_50": 204.08,
+        "sma_200": 184.78,
+        "pct_from_52w_high": -6.7,
+        "beta": 0.79,
+        "analyst_recommendation": "buy",
+        "target_mean": 222.68,
+        "target_upside_pct": 6.4,
+        "analyst_count": 34,
+        "debt_to_equity": 89.0,
+        "valuation_score": 65.0,
+        "growth_score": 75.0,
+        "profitability_score": 45.0,
+        "technical_score": 65.0,
+        "analyst_score": 67.0,
+        "risk_score": 62.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RPOWER",
+      "name": "RPOWER",
+      "current_price": 31.860000610351562,
+      "change_rate": 2.2464722925779776,
+      "volume": 109772125,
+      "trade_value": 3497339969.499588,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999956,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 30.267000579833983,
+      "target_price": 36.639000701904294,
+      "quality_score": 47.35,
+      "quality_signal": "SELL",
+      "quality_reasons": "Expensive valuation (PE 39.3); Earnings collapsing (-38.1%); Death cross (50MA < 200MA)",
+      "final_score": 0.7894000000000001,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "market_cap_cr": 11212.0,
+        "trailing_pe": 39.3,
+        "forward_pe": 6.0,
+        "price_to_book": 0.68,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 1.1,
+        "earnings_growth_pct": -38.1,
+        "operating_margin_pct": 21.1,
+        "profit_margin_pct": 3.7,
+        "roe_pct": null,
+        "rsi_14": 44.3,
+        "sma_50": 25.58,
+        "sma_200": 34.89,
+        "pct_from_52w_high": -64.6,
+        "beta": 1.01,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": 92.2,
+        "valuation_score": 70.0,
+        "growth_score": 28.0,
+        "profitability_score": 52.0,
+        "technical_score": 43.0,
+        "analyst_score": 50.0,
+        "risk_score": 55.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 13,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 265.6700134277344,
+            "change_pct": 6.660515286141806,
+            "composite_score": 0.9533080808328285,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CAMS",
+            "name": "CAMS",
+            "price": 803.2451782226562,
+            "change_pct": 6.54097073589412,
+            "composite_score": 0.6385191890523408,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 137.5323486328125,
+            "change_pct": 11.524461631775214,
+            "composite_score": 0.6150900117322798,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 296.47760009765625,
+            "change_pct": 7.513893560008326,
+            "composite_score": 0.6015326211976937,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 467.3027648925781,
+            "change_pct": 6.3851027562026985,
+            "composite_score": 0.488406747659624,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 138.79800415039062,
+            "change_pct": 4.554853715991068,
+            "composite_score": 0.4746529337780514,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "VEDL",
+            "name": "VEDL",
+            "price": 379.22967529296875,
+            "change_pct": 4.445503100350774,
+            "composite_score": 0.44967075460612926,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RECLTD",
+            "name": "RECLTD",
+            "price": 542.361328125,
+            "change_pct": 4.421263607976068,
+            "composite_score": 0.44678198142093367,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 161.52427673339844,
+            "change_pct": 3.119560925861867,
+            "composite_score": 0.39971276543406636,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATASTEEL",
+            "name": "TATASTEEL",
+            "price": 150.35366821289062,
+            "change_pct": 2.354971523448748,
+            "composite_score": 0.39696455839731193,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 234.74925231933594,
+            "change_pct": 7.342142194999049,
+            "composite_score": 0.38077833694848745,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 371.8606872558594,
+            "change_pct": 2.7446740929285864,
+            "composite_score": 0.3763813723437808,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 96.9800033569336,
+            "change_pct": 5.3100306368792465,
+            "composite_score": 0.3711445850014534,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 137.5323486328125,
+            "change_pct": 11.524461631775214,
+            "composite_score": 1.035852365416758,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 265.6700134277344,
+            "change_pct": 6.660515286141806,
+            "composite_score": 0.6614107087609387,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CAMS",
+            "name": "CAMS",
+            "price": 803.2451782226562,
+            "change_pct": 6.54097073589412,
+            "composite_score": 0.6275273024486266,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RPOWER",
+            "name": "RPOWER",
+            "price": 31.860000610351562,
+            "change_pct": 2.2464722925779776,
+            "composite_score": 0.6257240526650183,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ONGC",
+            "name": "ONGC",
+            "price": 296.47760009765625,
+            "change_pct": 7.513893560008326,
+            "composite_score": 0.612049998491459,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 467.3027648925781,
+            "change_pct": 6.3851027562026985,
+            "composite_score": 0.4607139309124749,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 371.8606872558594,
+            "change_pct": 2.7446740929285864,
+            "composite_score": 0.3928552707149202,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 800.9238891601562,
+            "change_pct": 1.3927037452677666,
+            "composite_score": 0.3419083574402172,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:10:15.075987",
+    "trigger_mode": "morning",
+    "trade_date": "20240807",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 48.9,
+      "nifty_slope_pct": 3.62,
+      "nifty_rvol": 14.4,
+      "max_picks": 4
+    }
+  }
+}

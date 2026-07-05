@@ -1,0 +1,186 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "IGL",
+      "name": "IGL",
+      "current_price": 193.56858825683594,
+      "change_rate": 1.8584982522832165,
+      "volume": 19868568,
+      "trade_value": 3845930658.4449463,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999942,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 183.89015884399413,
+      "target_price": 222.6038764953613,
+      "quality_score": 60.416666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 14.2); Death cross (50MA < 200MA); Down 31% from 52W high",
+      "final_score": 0.6416666666666667,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Gas",
+        "market_cap_cr": 22029.0,
+        "trailing_pe": 14.2,
+        "forward_pe": 10.7,
+        "price_to_book": 1.96,
+        "dividend_yield_pct": 313.0,
+        "revenue_growth_pct": 8.2,
+        "earnings_growth_pct": 20.6,
+        "operating_margin_pct": 8.3,
+        "profit_margin_pct": 10.4,
+        "roe_pct": null,
+        "rsi_14": 34.4,
+        "sma_50": 158.54,
+        "sma_200": 186.42,
+        "pct_from_52w_high": -31.3,
+        "beta": 0.54,
+        "analyst_recommendation": "buy",
+        "target_mean": 203.9,
+        "target_upside_pct": 29.6,
+        "analyst_count": 30,
+        "debt_to_equity": 0.9,
+        "valuation_score": 83.0,
+        "growth_score": 68.0,
+        "profitability_score": 62.0,
+        "technical_score": 44.0,
+        "analyst_score": 77.0,
+        "risk_score": 80.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "TATAINVEST",
+            "name": "TATAINVEST",
+            "price": 677.212158203125,
+            "change_pct": 4.158728734210891,
+            "composite_score": 0.15,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 10,
+        "top_candidates": [
+          {
+            "ticker": "AMBER",
+            "name": "AMBER",
+            "price": 7249.89990234375,
+            "change_pct": 4.9523742338929315,
+            "composite_score": 0.8565322561664483,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATAINVEST",
+            "name": "TATAINVEST",
+            "price": 677.212158203125,
+            "change_pct": 4.158728734210891,
+            "composite_score": 0.6683402294024386,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "FINCABLES",
+            "name": "FINCABLES",
+            "price": 1258.24169921875,
+            "change_pct": 10.246944215079342,
+            "composite_score": 0.5395775473240912,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "TATACHEM",
+            "name": "TATACHEM",
+            "price": 1055.3714599609375,
+            "change_pct": 3.2245543401166454,
+            "composite_score": 0.32944316159893405,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDCOPPER",
+            "name": "HINDCOPPER",
+            "price": 278.76324462890625,
+            "change_pct": 3.5417938337496193,
+            "composite_score": 0.2649257891082406,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BIOCON",
+            "name": "BIOCON",
+            "price": 344.0400085449219,
+            "change_pct": 4.5364941083197525,
+            "composite_score": 0.2608804686121736,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IGL",
+            "name": "IGL",
+            "price": 193.56858825683594,
+            "change_pct": 1.8584982522832165,
+            "composite_score": 0.25804885439581293,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 162.71829223632812,
+            "change_pct": 5.354493728862723,
+            "composite_score": 0.25263407261316195,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 184.01400756835938,
+            "change_pct": 2.1085712732618043,
+            "composite_score": 0.24587960807980117,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 114.15631103515625,
+            "change_pct": 1.5275308183334098,
+            "composite_score": 0.2240586844632933,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T05:08:12.183695",
+    "trigger_mode": "morning",
+    "trade_date": "20241224",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 38.2,
+      "nifty_slope_pct": -1.89,
+      "nifty_rvol": 12.3,
+      "max_picks": 3
+    }
+  }
+}

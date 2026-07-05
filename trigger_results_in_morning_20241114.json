@@ -1,0 +1,105 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 269.6600036621094,
+            "change_pct": 4.357589021513594,
+            "composite_score": 0.15,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 6,
+        "top_candidates": [
+          {
+            "ticker": "ETERNAL",
+            "name": "ETERNAL",
+            "price": 269.6600036621094,
+            "change_pct": 4.357589021513594,
+            "composite_score": 0.9874985085187201,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 126.70831298828125,
+            "change_pct": 5.128417751959173,
+            "composite_score": 0.9442591915896666,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "INDHOTEL",
+            "name": "INDHOTEL",
+            "price": 739.1763916015625,
+            "change_pct": 3.808721990329776,
+            "composite_score": 0.6806875367829647,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "MOTHERSON",
+            "name": "MOTHERSON",
+            "price": 109.22724914550781,
+            "change_pct": 3.421095784527254,
+            "composite_score": 0.6682767701195712,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HDFCBANK",
+            "name": "HDFCBANK",
+            "price": 835.087158203125,
+            "change_pct": 0.6780317535256267,
+            "composite_score": 0.46045313279855693,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "name": "BHARTIARTL",
+            "price": 1537.6453857421875,
+            "change_pct": 0.003223249313174,
+            "composite_score": 0.4235649091793292,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T04:35:36.495346",
+    "trigger_mode": "morning",
+    "trade_date": "20241114",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 29.7,
+      "nifty_slope_pct": -0.79,
+      "nifty_rvol": 11.8,
+      "max_picks": 3
+    }
+  }
+}

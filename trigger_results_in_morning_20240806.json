@@ -1,0 +1,114 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "CESC",
+      "name": "CESC",
+      "current_price": 163.43911743164062,
+      "change_rate": 2.0406907310857187,
+      "volume": 7581263,
+      "trade_value": 1239074933.737152,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 155.26716156005858,
+      "target_price": 187.9549850463867,
+      "quality_score": 61.82500000000001,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹215 (+19% upside)",
+      "final_score": 0.6473000000000001,
+      "metrics": {
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Electric",
+        "market_cap_cr": 24001.0,
+        "trailing_pe": 15.6,
+        "forward_pe": 12.7,
+        "price_to_book": 1.89,
+        "dividend_yield_pct": 340.0,
+        "revenue_growth_pct": 5.6,
+        "earnings_growth_pct": 17.8,
+        "operating_margin_pct": 12.3,
+        "profit_margin_pct": 8.1,
+        "roe_pct": 12.5,
+        "rsi_14": 48.1,
+        "sma_50": 167.76,
+        "sma_200": 164.94,
+        "pct_from_52w_high": -11.5,
+        "beta": null,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 215.17,
+        "target_upside_pct": 18.8,
+        "analyst_count": 12,
+        "debt_to_equity": 164.3,
+        "valuation_score": 78.0,
+        "growth_score": 58.0,
+        "profitability_score": 52.0,
+        "technical_score": 67.0,
+        "analyst_score": 77.0,
+        "risk_score": 30.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "CESC",
+            "name": "CESC",
+            "price": 163.43911743164062,
+            "change_pct": 2.0406907310857187,
+            "composite_score": 0.35089593212423464,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 1,
+        "top_candidates": [
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 177.95608520507812,
+            "change_pct": 3.3218567002844632,
+            "composite_score": 0.9703456149995019,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:08:39.328943",
+    "trigger_mode": "morning",
+    "trade_date": "20240806",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 40.9,
+      "nifty_slope_pct": 3.67,
+      "nifty_rvol": 13.7,
+      "max_picks": 4
+    }
+  }
+}

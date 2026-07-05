@@ -1,0 +1,425 @@
+{
+  "Gap Up Momentum Top": [
+    {
+      "ticker": "PNB",
+      "name": "PNB",
+      "current_price": 120.44593811035156,
+      "change_rate": 5.511150052949092,
+      "volume": 167566465,
+      "trade_value": 20182700072.76039,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 114.42364120483398,
+      "target_price": 138.5128288269043,
+      "quality_score": 58.15833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.3); Strong revenue growth (15.2%); Highly profitable (margin 31.2%)",
+      "final_score": 0.8326333333333334,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 116424.0,
+        "trailing_pe": 6.3,
+        "forward_pe": 6.1,
+        "price_to_book": 0.78,
+        "dividend_yield_pct": 302.0,
+        "revenue_growth_pct": 15.2,
+        "earnings_growth_pct": 1.9,
+        "operating_margin_pct": 29.4,
+        "profit_margin_pct": 31.2,
+        "roe_pct": 13.0,
+        "rsi_14": 30.2,
+        "sma_50": 109.2,
+        "sma_200": 116.1,
+        "pct_from_52w_high": -25.0,
+        "beta": 0.6,
+        "analyst_recommendation": "hold",
+        "target_mean": 119.71,
+        "target_upside_pct": 18.2,
+        "analyst_count": 17,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 58.0,
+        "profitability_score": 77.0,
+        "technical_score": 42.0,
+        "analyst_score": 63.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "NMDC",
+      "name": "NMDC",
+      "current_price": 70.37491607666016,
+      "change_rate": 4.503107331671331,
+      "volume": 116794920,
+      "trade_value": 8219432693.180237,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999992,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 66.85617027282714,
+      "target_price": 80.93115348815917,
+      "quality_score": 63.291666666666664,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 11.3); Strong revenue growth (15.9%); Highly profitable (margin 24.9%)",
+      "final_score": 0.7327191528796658,
+      "metrics": {
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "market_cap_cr": 78265.0,
+        "trailing_pe": 11.3,
+        "forward_pe": 9.7,
+        "price_to_book": 2.41,
+        "dividend_yield_pct": 388.0,
+        "revenue_growth_pct": 15.9,
+        "earnings_growth_pct": -6.5,
+        "operating_margin_pct": 26.8,
+        "profit_margin_pct": 24.9,
+        "roe_pct": null,
+        "rsi_14": 55.8,
+        "sma_50": 84.35,
+        "sma_200": 79.1,
+        "pct_from_52w_high": -5.5,
+        "beta": 0.68,
+        "analyst_recommendation": "none",
+        "target_mean": 81.39,
+        "target_upside_pct": -8.6,
+        "analyst_count": 18,
+        "debt_to_equity": 11.2,
+        "valuation_score": 72.0,
+        "growth_score": 45.0,
+        "profitability_score": 90.0,
+        "technical_score": 67.0,
+        "analyst_score": 42.0,
+        "risk_score": 80.0
+      }
+    },
+    {
+      "ticker": "CENTRALBK",
+      "name": "CENTRALBK",
+      "current_price": 59.8056755065918,
+      "change_rate": 4.198146702216211,
+      "volume": 87281980,
+      "trade_value": 5219957773.452835,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.999999999999993,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 56.8153917312622,
+      "target_price": 68.77652683258056,
+      "quality_score": 56.90833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Attractively valued (PE 6.8); Strong revenue growth (44.8%); Earnings collapsing (-35.4%)",
+      "final_score": 0.6857950758817649,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 30811.0,
+        "trailing_pe": 6.8,
+        "forward_pe": null,
+        "price_to_book": 0.79,
+        "dividend_yield_pct": 411.0,
+        "revenue_growth_pct": 44.8,
+        "earnings_growth_pct": -35.4,
+        "operating_margin_pct": 34.4,
+        "profit_margin_pct": 24.4,
+        "roe_pct": 11.9,
+        "rsi_14": 39.7,
+        "sma_50": 35.08,
+        "sma_200": 36.87,
+        "pct_from_52w_high": -17.4,
+        "beta": 0.52,
+        "analyst_recommendation": "none",
+        "target_mean": null,
+        "target_upside_pct": null,
+        "analyst_count": 0,
+        "debt_to_equity": null,
+        "valuation_score": 90.0,
+        "growth_score": 52.0,
+        "profitability_score": 77.0,
+        "technical_score": 42.0,
+        "analyst_score": 50.0,
+        "risk_score": 75.0
+      }
+    }
+  ],
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "CASTROLIND",
+      "name": "CASTROLIND",
+      "current_price": 175.2776641845703,
+      "change_rate": 4.668954616834257,
+      "volume": 28691987,
+      "trade_value": 5029064462.174057,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 166.5137809753418,
+      "target_price": 201.56931381225584,
+      "quality_score": 54.75833333333333,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Highly profitable (margin 16.4%); Death cross (50MA < 200MA); Analyst: None",
+      "final_score": 0.8190333333333334,
+      "metrics": {
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "market_cap_cr": 18103.0,
+        "trailing_pe": 18.9,
+        "forward_pe": 16.3,
+        "price_to_book": 9.53,
+        "dividend_yield_pct": 480.0,
+        "revenue_growth_pct": 8.7,
+        "earnings_growth_pct": 3.8,
+        "operating_margin_pct": 19.5,
+        "profit_margin_pct": 16.4,
+        "roe_pct": null,
+        "rsi_14": 48.4,
+        "sma_50": 181.8,
+        "sma_200": 190.27,
+        "pct_from_52w_high": -21.3,
+        "beta": 0.35,
+        "analyst_recommendation": "none",
+        "target_mean": 218.8,
+        "target_upside_pct": 19.5,
+        "analyst_count": 5,
+        "debt_to_equity": 3.3,
+        "valuation_score": 53.0,
+        "growth_score": 50.0,
+        "profitability_score": 72.0,
+        "technical_score": 45.0,
+        "analyst_score": 65.0,
+        "risk_score": 85.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 283,
+    "prev_snapshot_count": 283,
+    "baseline_count": 283,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 14,
+        "top_candidates": [
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 248.98318481445312,
+            "change_pct": 9.814124352567328,
+            "composite_score": 0.8283749447980365,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 120.44593811035156,
+            "change_pct": 5.511150052949092,
+            "composite_score": 0.7897893043736559,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 175.2776641845703,
+            "change_pct": 4.668954616834257,
+            "composite_score": 0.7328490967994962,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 146.65216064453125,
+            "change_pct": 8.781294725446243,
+            "composite_score": 0.6715525641263383,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 180.35000610351562,
+            "change_pct": 8.091099494251411,
+            "composite_score": 0.586732185716687,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 249.0818328857422,
+            "change_pct": 10.320823843878024,
+            "composite_score": 0.5847778601698551,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 124.7545394897461,
+            "change_pct": 7.544010675066132,
+            "composite_score": 0.5714386372532196,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NMDC",
+            "name": "NMDC",
+            "price": 70.37491607666016,
+            "change_pct": 4.503107331671331,
+            "composite_score": 0.5665423419287783,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CENTRALBK",
+            "name": "CENTRALBK",
+            "price": 59.8056755065918,
+            "change_pct": 4.198146702216211,
+            "composite_score": 0.5268950433054413,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HINDPETRO",
+            "name": "HINDPETRO",
+            "price": 296.8665466308594,
+            "change_pct": 4.948481213708509,
+            "composite_score": 0.5056233573547777,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UCOBANK",
+            "name": "UCOBANK",
+            "price": 48.815486907958984,
+            "change_pct": 3.3742246541560084,
+            "composite_score": 0.4646786581373674,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "COALINDIA",
+            "name": "COALINDIA",
+            "price": 364.89111328125,
+            "change_pct": 3.221043337162297,
+            "composite_score": 0.46430344288752734,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GAIL",
+            "name": "GAIL",
+            "price": 160.2778778076172,
+            "change_pct": 2.417963754822184,
+            "composite_score": 0.425160980192427,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CANBK",
+            "name": "CANBK",
+            "price": 96.6888198852539,
+            "change_pct": 2.5623186088191705,
+            "composite_score": 0.41909346279793525,
+            "volume_surge_ratio": 0
+          }
+        ]
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 9,
+        "top_candidates": [
+          {
+            "ticker": "NBCC",
+            "name": "NBCC",
+            "price": 110.60163116455078,
+            "change_pct": 19.0610792650015,
+            "composite_score": 1.1058503722243855,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ENGINERSIN",
+            "name": "ENGINERSIN",
+            "price": 249.0818328857422,
+            "change_pct": 10.320823843878024,
+            "composite_score": 0.8249279267929622,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "BPCL",
+            "name": "BPCL",
+            "price": 248.98318481445312,
+            "change_pct": 9.814124352567328,
+            "composite_score": 0.6725968858381467,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 180.35000610351562,
+            "change_pct": 8.091099494251411,
+            "composite_score": 0.6209279539295876,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "SAIL",
+            "name": "SAIL",
+            "price": 124.7545394897461,
+            "change_pct": 7.544010675066132,
+            "composite_score": 0.5869221979126795,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "IOC",
+            "name": "IOC",
+            "price": 146.65216064453125,
+            "change_pct": 8.781294725446243,
+            "composite_score": 0.5614583408796705,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 175.2776641845703,
+            "change_pct": 4.668954616834257,
+            "composite_score": 0.5432502898638356,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "PNB",
+            "name": "PNB",
+            "price": 120.44593811035156,
+            "change_pct": 5.511150052949092,
+            "composite_score": 0.5103024697032701,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "GMRAIRPORT",
+            "name": "GMRAIRPORT",
+            "price": 85.19999694824219,
+            "change_pct": 7.711755488992597,
+            "composite_score": 0.47718144621097613,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T00:11:36.893282",
+    "trigger_mode": "morning",
+    "trade_date": "20240202",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 57.9,
+      "nifty_slope_pct": 4.55,
+      "nifty_rvol": 15.4,
+      "max_picks": 4
+    }
+  }
+}

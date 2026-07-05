@@ -1,0 +1,255 @@
+{
+  "Value-to-Cap Ratio Top": [
+    {
+      "ticker": "RBLBANK",
+      "name": "RBLBANK",
+      "current_price": 227.2735595703125,
+      "change_rate": 4.288592314056918,
+      "volume": 20495628,
+      "trade_value": 4658114331.188965,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 3.0,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 215.90988159179688,
+      "target_price": 261.3645935058594,
+      "quality_score": 66.25833333333334,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Strong revenue growth (40.8%); Golden cross (50MA > 200MA); Analyst: Buy",
+      "final_score": 0.8650333333333335,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 20024.0,
+        "trailing_pe": 23.0,
+        "forward_pe": 17.1,
+        "price_to_book": 1.2,
+        "dividend_yield_pct": 33.0,
+        "revenue_growth_pct": 40.8,
+        "earnings_growth_pct": 367.9,
+        "operating_margin_pct": 14.0,
+        "profit_margin_pct": 9.1,
+        "roe_pct": null,
+        "rsi_14": 48.8,
+        "sma_50": 314.99,
+        "sma_200": 302.58,
+        "pct_from_52w_high": -7.5,
+        "beta": 0.64,
+        "analyst_recommendation": "buy",
+        "target_mean": 346.89,
+        "target_upside_pct": 7.2,
+        "analyst_count": 18,
+        "debt_to_equity": null,
+        "valuation_score": 72.0,
+        "growth_score": 90.0,
+        "profitability_score": 52.0,
+        "technical_score": 65.0,
+        "analyst_score": 63.0,
+        "risk_score": 75.0
+      }
+    },
+    {
+      "ticker": "ABCAPITAL",
+      "name": "ABCAPITAL",
+      "current_price": 222.2100067138672,
+      "change_rate": 1.8797882224759563,
+      "volume": 7888008,
+      "trade_value": 1752794310.639038,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999973,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 211.09950637817383,
+      "target_price": 255.54150772094724,
+      "quality_score": 62.85,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Golden cross (50MA > 200MA); Analyst: Strong Buy; Target ₹411 (+17% upside)",
+      "final_score": 0.6723757778822868,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Financial Conglomerates",
+        "market_cap_cr": 92043.0,
+        "trailing_pe": 24.6,
+        "forward_pe": 14.3,
+        "price_to_book": 2.67,
+        "dividend_yield_pct": null,
+        "revenue_growth_pct": 7.7,
+        "earnings_growth_pct": 30.1,
+        "operating_margin_pct": 13.7,
+        "profit_margin_pct": 11.6,
+        "roe_pct": 11.2,
+        "rsi_14": 52.4,
+        "sma_50": 331.42,
+        "sma_200": 326.88,
+        "pct_from_52w_high": -6.6,
+        "beta": 0.71,
+        "analyst_recommendation": "strong_buy",
+        "target_mean": 411.42,
+        "target_upside_pct": 17.1,
+        "analyst_count": 12,
+        "debt_to_equity": 491.7,
+        "valuation_score": 65.0,
+        "growth_score": 65.0,
+        "profitability_score": 58.0,
+        "technical_score": 67.0,
+        "analyst_score": 77.0,
+        "risk_score": 45.0
+      }
+    },
+    {
+      "ticker": "NIACL",
+      "name": "NIACL",
+      "current_price": 268.8289794921875,
+      "change_rate": 5.641426558151703,
+      "volume": 6417749,
+      "trade_value": 1725276914.3070068,
+      "agent_fit_score": 1.0,
+      "risk_reward_ratio": 2.9999999999999956,
+      "stop_loss_pct": 5.0,
+      "stop_loss_price": 255.3875305175781,
+      "target_price": 309.1533264160156,
+      "quality_score": 51.85,
+      "quality_signal": "HOLD",
+      "quality_reasons": "Death cross (50MA < 200MA); Analyst: Hold",
+      "final_score": 0.6074,
+      "metrics": {
+        "sector": "Financial Services",
+        "industry": "Insurance - Diversified",
+        "market_cap_cr": 27121.0,
+        "trailing_pe": 19.2,
+        "forward_pe": 8.5,
+        "price_to_book": 0.7,
+        "dividend_yield_pct": 92.0,
+        "revenue_growth_pct": 13.9,
+        "earnings_growth_pct": 61.0,
+        "operating_margin_pct": -9.2,
+        "profit_margin_pct": 2.8,
+        "roe_pct": 3.4,
+        "rsi_14": 54.8,
+        "sma_50": 148.07,
+        "sma_200": 165.66,
+        "pct_from_52w_high": -23.4,
+        "beta": null,
+        "analyst_recommendation": "hold",
+        "target_mean": 170.33,
+        "target_upside_pct": 3.5,
+        "analyst_count": 3,
+        "debt_to_equity": null,
+        "valuation_score": 83.0,
+        "growth_score": 75.0,
+        "profitability_score": 22.0,
+        "technical_score": 45.0,
+        "analyst_score": 47.0,
+        "risk_score": 50.0
+      }
+    }
+  ],
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 284,
+    "prev_snapshot_count": 284,
+    "baseline_count": 284,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 8,
+        "top_candidates": [
+          {
+            "ticker": "CASTROLIND",
+            "name": "CASTROLIND",
+            "price": 246.35595703125,
+            "change_pct": 7.1001161404437,
+            "composite_score": 0.8292270680283517,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "CESC",
+            "name": "CESC",
+            "price": 176.3444366455078,
+            "change_pct": 6.1394100744056255,
+            "composite_score": 0.8004610266240114,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "HFCL",
+            "name": "HFCL",
+            "price": 146.21913146972656,
+            "change_pct": 4.133820404524389,
+            "composite_score": 0.7309487100977534,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "RBLBANK",
+            "name": "RBLBANK",
+            "price": 227.2735595703125,
+            "change_pct": 4.288592314056918,
+            "composite_score": 0.5363155740030778,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "WELSPUNLIV",
+            "name": "WELSPUNLIV",
+            "price": 191.5826873779297,
+            "change_pct": 4.38247048386484,
+            "composite_score": 0.4101044741249382,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "name": "KOTAKBANK",
+            "price": 362.17242431640625,
+            "change_pct": 0.4042849842807203,
+            "composite_score": 0.3212456707167845,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "ABCAPITAL",
+            "name": "ABCAPITAL",
+            "price": 222.2100067138672,
+            "change_pct": 1.8797882224759563,
+            "composite_score": 0.2890392463813465,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "NIACL",
+            "name": "NIACL",
+            "price": 268.8289794921875,
+            "change_pct": 5.641426558151703,
+            "composite_score": 0.26006655619235897,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T03:23:09.826986",
+    "trigger_mode": "morning",
+    "trade_date": "20240821",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 6.0,
+      "max_entry_rsi": 60.0,
+      "min_quality": 40
+    },
+    "regime": {
+      "type": "bull_medium",
+      "nifty_rsi": 59.6,
+      "nifty_slope_pct": 3.25,
+      "nifty_rvol": 15.5,
+      "max_picks": 4
+    }
+  }
+}

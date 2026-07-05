@@ -1,0 +1,72 @@
+{
+  "screening_summary": {
+    "total_tickers_scanned": 288,
+    "snapshot_count": 286,
+    "prev_snapshot_count": 286,
+    "baseline_count": 286,
+    "market_cap_count": 50,
+    "triggers": {
+      "Gap Up Momentum Top": {
+        "candidate_count": 0,
+        "top_candidates": []
+      },
+      "Value-to-Cap Ratio Top": {
+        "candidate_count": 3,
+        "top_candidates": [
+          {
+            "ticker": "INDHOTEL",
+            "name": "INDHOTEL",
+            "price": 784.4931030273438,
+            "change_pct": 4.350127901240822,
+            "composite_score": 0.6586213800162036,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "UPL",
+            "name": "UPL",
+            "price": 528.2651977539062,
+            "change_pct": 1.6367979565302349,
+            "composite_score": 0.5867341070850075,
+            "volume_surge_ratio": 0
+          },
+          {
+            "ticker": "POWERGRID",
+            "name": "POWERGRID",
+            "price": 311.93756103515625,
+            "change_pct": 3.443910235002228,
+            "composite_score": 0.4377693215938693,
+            "volume_surge_ratio": 0
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "run_time": "2026-05-20T04:40:49.895616",
+    "trigger_mode": "morning",
+    "trade_date": "20241121",
+    "selection_mode": "hybrid_3factor",
+    "scoring_weights": {
+      "momentum_signal": 0.2,
+      "agent_fit_rr": 0.4,
+      "quality_fundamental_technical": 0.4
+    },
+    "quality_gate_min": 40,
+    "lookback_days": 10,
+    "market": "IN",
+    "min_market_cap_inr": 100000000000,
+    "min_trading_value_inr": 1000000000,
+    "filters": {
+      "max_trigger_change_pct": 4.0,
+      "max_entry_rsi": 55.0,
+      "min_quality": 60
+    },
+    "regime": {
+      "type": "bear_bottom",
+      "nifty_rsi": 28.3,
+      "nifty_slope_pct": -1.26,
+      "nifty_rvol": 11.2,
+      "max_picks": 3
+    }
+  }
+}
