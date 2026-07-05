@@ -952,10 +952,16 @@ def main():
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     with tab_watchlist:
         # Sidebar-like controls inside the tab
-        wl_col1, wl_col2 = st.columns([1, 3])
+        wl_col1, wl_col2, wl_col3 = st.columns([1, 1, 2])
         with wl_col1:
             days_back = st.selectbox("Show last", [7, 14, 30, 60, 90, 180, 365], index=2,
                                      format_func=lambda d: f"{d} days")
+        with wl_col2:
+            load_charts = st.checkbox("Load charts", value=False,
+                                      help="Fetch 30-day forward price charts on demand. Disabled by default for faster cloud startup.")
+
+        if not load_charts:
+            st.caption("Charts are off by default to keep cloud startup fast. Enable 'Load charts' when you want price history.")
 
         trigger_days = load_trigger_jsons(days_back=days_back)
 
@@ -1042,13 +1048,14 @@ def main():
                         with cols[i % n_cols]:
                             st.markdown(watchlist_card(stock, t, was_entered=was_entered, filters=day_filters), unsafe_allow_html=True)
                             # Mini price chart
-                            s_ticker = stock.get("ticker", "")
-                            s_tp = float(stock.get("target_price", 0) or 0)
-                            s_sl = float(stock.get("stop_loss_price", 0) or 0)
-                            s_entry = float(stock.get("current_price", 0) or 0)
-                            chart = mini_stock_chart(s_ticker, dt, s_tp, s_sl, s_entry, t)
-                            if chart:
-                                st.plotly_chart(chart, use_container_width=True, key=f"wl_{day['date_str']}_{s_ticker}_{i}")
+                            if load_charts:
+                                s_ticker = stock.get("ticker", "")
+                                s_tp = float(stock.get("target_price", 0) or 0)
+                                s_sl = float(stock.get("stop_loss_price", 0) or 0)
+                                s_entry = float(stock.get("current_price", 0) or 0)
+                                chart = mini_stock_chart(s_ticker, dt, s_tp, s_sl, s_entry, t)
+                                if chart:
+                                    st.plotly_chart(chart, use_container_width=True, key=f"wl_{day['date_str']}_{s_ticker}_{i}")
 
     # Footer
     st.markdown(f"""<div style="text-align:center;padding:16px 0;margin-top:16px;border-top:1px solid {t['border']};
