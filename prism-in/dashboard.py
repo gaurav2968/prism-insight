@@ -10,7 +10,12 @@ import json
 import glob
 from html import escape as _esc
 import pandas as pd
-import plotly.graph_objects as go
+try:
+    import plotly.graph_objects as go
+    PLOTLY_AVAILABLE = True
+except ModuleNotFoundError:
+    go = None
+    PLOTLY_AVAILABLE = False
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -162,6 +167,8 @@ def fetch_stock_history_range(ticker, start_date, end_date):
 
 def mini_stock_chart(ticker, trigger_date, target_price, stop_loss, entry_price, t):
     """30-day forward chart from trigger date with entry price, TP, SL lines."""
+    if not PLOTLY_AVAILABLE:
+        return None
     start = trigger_date - timedelta(days=5)   # few days before for context
     end = trigger_date + timedelta(days=35)     # 30 trading days forward
     today = datetime.now()
@@ -763,6 +770,8 @@ def main():
     db_available = conn is not None
     if not db_available:
         st.info("ℹ️ Running in read-only mode — Portfolio & Trades tabs require local SQLite DB.", icon="📂")
+    if not PLOTLY_AVAILABLE:
+        st.warning("Plotly is not installed in this environment. Interactive charts are disabled until the dependency is installed.")
 
     # ── Navigation Tabs ──
     tab_dashboard, tab_trades, tab_watchlist = st.tabs(["💼 Dashboard", "📜 Trades", "🔍 Watchlist"])
@@ -816,25 +825,26 @@ def main():
             colors = [pnl_color(v) for v in pnls]
             pnl_vals = sorted_pos["current_price"] - sorted_pos["entry_price"]
 
-            fig = go.Figure(go.Bar(
-                y=sorted_pos["ticker"], x=pnls, orientation="h",
-                marker_color=colors,
-                text=[f" {v:+.2f}% (₹{pv:+,.0f}) " for v, pv in zip(pnls, pnl_vals)],
-                textposition="outside", textfont=dict(size=11, color=t["chart_text"]),
-                hovertemplate="<b>%{y}</b><br>P&L: %{x:.2f}%<extra></extra>",
-                customdata=pnl_vals,
-            ))
-            fig.add_vline(x=0, line_dash="solid", line_color=t["border"], line_width=1)
-            fig.update_layout(
-                title=dict(text="P&L by Position", font=dict(color=t["text"], size=14)),
-                height=max(200, len(sorted_pos) * 55 + 60),
-                margin=dict(l=10, r=80, t=45, b=20),
-                paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-                font=dict(color=t["chart_text"]),
-                xaxis=dict(gridcolor=t["grid"], zerolinecolor=t["border"], title="Return %"),
-                yaxis=dict(gridcolor="rgba(0,0,0,0)"),
-            )
-            st.plotly_chart(fig, use_container_width=True)
+            if PLOTLY_AVAILABLE:
+                fig = go.Figure(go.Bar(
+                    y=sorted_pos["ticker"], x=pnls, orientation="h",
+                    marker_color=colors,
+                    text=[f" {v:+.2f}% (₹{pv:+,.0f}) " for v, pv in zip(pnls, pnl_vals)],
+                    textposition="outside", textfont=dict(size=11, color=t["chart_text"]),
+                    hovertemplate="<b>%{y}</b><br>P&L: %{x:.2f}%<extra></extra>",
+                    customdata=pnl_vals,
+                ))
+                fig.add_vline(x=0, line_dash="solid", line_color=t["border"], line_width=1)
+                fig.update_layout(
+                    title=dict(text="P&L by Position", font=dict(color=t["text"], size=14)),
+                    height=max(200, len(sorted_pos) * 55 + 60),
+                    margin=dict(l=10, r=80, t=45, b=20),
+                    paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color=t["chart_text"]),
+                    xaxis=dict(gridcolor=t["grid"], zerolinecolor=t["border"], title="Return %"),
+                    yaxis=dict(gridcolor="rgba(0,0,0,0)"),
+                )
+                st.plotly_chart(fig, use_container_width=True)
 
             # Full positions table
             with st.expander("📋 Full Positions Table"):
@@ -894,21 +904,22 @@ def main():
             c5.metric("Avg Hold", f"{avg_days:.0f} days")
 
             # Return distribution chart
-            fig = go.Figure(go.Histogram(
-                x=closed_pos["return_pct"], nbinsx=15,
-                marker=dict(color=t["purple"], line=dict(color=t["blue"], width=1)),
-            ))
-            fig.add_vline(x=0, line_dash="dash", line_color=t["text3"], line_width=1)
-            fig.update_layout(
-                title=dict(text="Return Distribution", font=dict(color=t["text"], size=14)),
-                height=280, margin=dict(l=50, r=20, t=45, b=30),
-                paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-                font=dict(color=t["chart_text"]),
-                yaxis=dict(gridcolor=t["grid"], title="# Trades"),
-                xaxis=dict(gridcolor=t["grid"], title="Return %"),
-                bargap=0.05,
-            )
-            st.plotly_chart(fig, use_container_width=True)
+            if PLOTLY_AVAILABLE:
+                fig = go.Figure(go.Histogram(
+                    x=closed_pos["return_pct"], nbinsx=15,
+                    marker=dict(color=t["purple"], line=dict(color=t["blue"], width=1)),
+                ))
+                fig.add_vline(x=0, line_dash="dash", line_color=t["text3"], line_width=1)
+                fig.update_layout(
+                    title=dict(text="Return Distribution", font=dict(color=t["text"], size=14)),
+                    height=280, margin=dict(l=50, r=20, t=45, b=30),
+                    paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color=t["chart_text"]),
+                    yaxis=dict(gridcolor=t["grid"], title="# Trades"),
+                    xaxis=dict(gridcolor=t["grid"], title="Return %"),
+                    bargap=0.05,
+                )
+                st.plotly_chart(fig, use_container_width=True)
 
             st.divider()
 

@@ -1,0 +1,6 @@
+streamlit>=1.10.0
+pandas~=2.2.3
+numpy~=2.2.3
+plotly>=5.0.0
+yfinance
+holidays~=0.68
