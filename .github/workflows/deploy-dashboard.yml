@@ -41,8 +41,15 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "AlphaPulse Dashboard Bot"
-          git add static-dashboard/data/dashboard-data.json
-          # Also update the docs folder for GitHub Pages
+          mkdir -p docs data
+          cp static-dashboard/index.html ./index.html
+          cp static-dashboard/app.js ./app.js
+          cp static-dashboard/styles.css ./styles.css
+          cp static-dashboard/.nojekyll ./.nojekyll
+          cp static-dashboard/data/dashboard-data.json ./data/dashboard-data.json
           cp -r static-dashboard/* docs/
+          rm -f docs/README.md
+          git add static-dashboard/data/dashboard-data.json
+          git add index.html app.js styles.css .nojekyll data/dashboard-data.json
           git add docs/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: refresh AlphaPulse dashboard snapshot" && git push)
