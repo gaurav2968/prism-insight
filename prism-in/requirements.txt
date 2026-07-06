@@ -4,3 +4,5 @@ numpy~=2.2.3
 plotly>=5.0.0
 yfinance
 holidays~=0.68
+python-dateutil~=2.9.0.post0
+requests~=2.32.3
