@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlphaPulse Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow" id="brandName">AlphaPulse</p>
+          <h1>Portfolio Dashboard</h1>
+          <p class="subhead">Open positions, historical trades, and daily trigger review without the Streamlit runtime overhead.</p>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-chip">
+            <span>Updated</span>
+            <strong id="generatedAt">-</strong>
+          </div>
+          <div class="hero-chip emphasis">
+            <span>Realized P&amp;L</span>
+            <strong id="heroPnl">-</strong>
+          </div>
+        </div>
+      </header>
+
+      <nav class="tabs" id="tabs">
+        <button class="tab-button active" data-tab-target="overview">Overview</button>
+        <button class="tab-button" data-tab-target="trades">Trades</button>
+        <button class="tab-button" data-tab-target="watchlist">Watchlist</button>
+      </nav>
+
+      <section class="tab-panel active" data-tab-panel="overview">
+        <section class="stats" id="stats"></section>
+
+        <section class="insight-grid">
+          <section class="panel compact">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Portfolio</p>
+                <h2>Capital Snapshot</h2>
+              </div>
+            </div>
+            <div class="mini-grid" id="capitalSummary"></div>
+            <p class="muted capital-note" id="capitalNote"></p>
+          </section>
+
+          <section class="panel compact">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Trade Performance</p>
+                <h2>Exit Breakdown</h2>
+              </div>
+            </div>
+            <div class="reason-list" id="exitReasons"></div>
+          </section>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Methodology</p>
+              <h2>Regime Criteria & Algo Terms</h2>
+            </div>
+          </div>
+          <div id="regimeGuide" class="regime-guide"></div>
+        </section>
+
+        <section class="panel compact">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Connect</p>
+              <h2>Contact & Suggestions</h2>
+            </div>
+          </div>
+          <div id="connectLinks" class="connect-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Open Positions</p>
+              <h2>Current Holdings</h2>
+            </div>
+          </div>
+          <div class="grid cards" id="openPositions"></div>
+        </section>
+      </section>
+
+      <section class="panel tab-panel" data-tab-panel="trades">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Historical Trades</p>
+            <h2>Closed Positions</h2>
+          </div>
+        </div>
+        <div class="trade-table-wrap">
+          <table class="trade-table" id="tradeTable">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>Buy Date</th>
+                <th>Sell Date</th>
+                <th>Buy</th>
+                <th>Sell</th>
+                <th>Qty</th>
+                <th>Return</th>
+                <th>Gross P&amp;L</th>
+                <th>Net P&amp;L</th>
+                <th>Tax/Fees</th>
+                <th>Exit</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="grid cards spaced-top" id="recentTrades"></div>
+      </section>
+
+      <section class="panel tab-panel" data-tab-panel="watchlist">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Watchlist</p>
+            <h2>Daily Trigger Review</h2>
+          </div>
+        </div>
+        <div id="watchlist"></div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
