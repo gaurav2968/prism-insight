@@ -116,4 +116,4 @@ id_ed25519*
 
 # Local development files
 .vscode/
-*.local
+*.local.venv

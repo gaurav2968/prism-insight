@@ -1,7 +1,4 @@
-# Root requirements - kept minimal for Streamlit Cloud dashboard
-# Heavy AI/trading dependencies (mcp-agent, playwright, anthropic, openai, telegram)
-# are NOT needed for the dashboard and would cause very slow cold starts.
-# Dashboard-specific deps are in prism-in/requirements.txt
+# Auto-generated for Streamlit Cloud - dashboard only
 streamlit>=1.10.0
 pandas~=2.2.3
 numpy~=2.2.3
@@ -10,30 +7,3 @@ yfinance
 holidays~=0.68
 python-dateutil~=2.9.0.post0
 requests~=2.32.3
-
-PyPDF2
-html2text
-
-scipy
-
-
-cryptography>=42.0.8,<45.0.0
-
-APScheduler==3.11.0
-
-upstash-redis>=1.0.0
-google-cloud-pubsub>=2.18.0
-
-# YouTube Event Fund Crawler
-yt-dlp>=2024.0.0  # YouTube video/audio downloader
-feedparser>=6.0.0  # RSS feed parser
-pydub>=0.25.1  # Audio file manipulation (for splitting large files)
-
-# Stock Market Data (India / NSE)
-yfinance>=0.2.0  # Yahoo Finance data (NSE prices, volumes, fundamentals)
-pandas-market-calendars>=4.0.0  # Market holidays
-pytz>=2024.1  # Timezone support
-lxml>=4.9.0  # HTML/XML parsing for pandas read_html
-
-# Firebase Bridge (PRISM-Mobile)
-firebase-admin>=6.0.0

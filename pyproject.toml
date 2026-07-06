@@ -1,0 +1,73 @@
+[project]
+name = "prism-insight"
+version = "3.0.0"
+description = "AI-powered India NSE stock analysis and trading dashboard"
+requires-python = ">=3.10"
+dependencies = [
+    # Dashboard & visualization
+    "streamlit>=1.10.0",
+    "plotly>=5.0.0",
+
+    # Data
+    "pandas~=2.2.3",
+    "numpy~=2.2.3",
+    "yfinance",
+    "holidays~=0.68",
+    "python-dateutil~=2.9.0.post0",
+    "requests~=2.32.3",
+
+    # AI agents
+    "mcp-agent>=0.2.6",
+    "openai~=1.64.0",
+    "anthropic~=0.64.0",
+    "aiohttp~=3.11.13",
+    "tenacity",
+
+    # Telegram
+    "python-telegram-bot>=20.0",
+    "python-telegram-bot[job-queue]>=20.0",
+
+    # Storage & DB
+    "aiosqlite>=0.17.0",
+    "python-dotenv>=1.0.0",
+
+    # Reporting
+    "markdown>=3.3.0",
+    "Pillow>=10.0.0",
+    "reportlab>=4.0.0",
+    "PyYAML>=6.0.1",
+
+    # Utilities
+    "ujson>=5.8.0",
+    "json-repair>=0.1.0",
+    "email-validator",
+    "DateTime~=5.5",
+    "matplotlib~=3.10.1",
+    "seaborn~=0.13.2",
+    "mplfinance~=0.12.10b0",
+    "firebase-admin",
+]
+
+[project.optional-dependencies]
+dashboard = [
+    # Minimal set for Streamlit Cloud (no AI/telegram heavy deps)
+    "streamlit>=1.10.0",
+    "plotly>=5.0.0",
+    "pandas~=2.2.3",
+    "numpy~=2.2.3",
+    "yfinance",
+    "holidays~=0.68",
+    "python-dateutil~=2.9.0.post0",
+    "requests~=2.32.3",
+]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "ruff",
+]
+
