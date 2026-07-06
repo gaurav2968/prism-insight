@@ -293,8 +293,7 @@ Free under AGPL-3.0 for personal use, non-commercial projects, and open-source d
 ### For Commercial SaaS Use
 Separate commercial license required for SaaS companies.
 
-📧 **Contact**: dragon1086@naver.com
-📄 **Details**: [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md)
+ **Details**: [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md)
 
 ---
 
@@ -339,4 +338,7 @@ Achieved **250+ Stars in 10 weeks** since launch!
 
 **⭐ If this project helped you, please give us a Star!**
 
-📞 **Contact**: [GitHub Issues](https://github.com/dragon1086/prism-insight/issues) | [Telegram](https://t.me/stock_ai_agent) | [Discussions](https://github.com/dragon1086/prism-insight/discussions)
+📞 **Contact**: 
+- 💼 [LinkedIn](https://www.linkedin.com/in/kumar-gaurav-908942150/)
+- 🐙 [GitHub](https://github.com/gaurav2968/)
+- 📧 rockstar.gs139@gmail.com
