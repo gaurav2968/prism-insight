@@ -10,8 +10,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   refresh-dashboard:
@@ -44,29 +42,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "AlphaPulse Dashboard Bot"
           git add static-dashboard/data/dashboard-data.json
+          # Also update the docs folder for GitHub Pages
+          cp -r static-dashboard/* docs/
+          git add docs/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: refresh AlphaPulse dashboard snapshot" && git push)
-
-  deploy-pages:
-    needs: refresh-dashboard
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "static-dashboard"
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
