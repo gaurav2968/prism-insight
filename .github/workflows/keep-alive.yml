@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Ping Streamlit app
         run: |
-          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "${{ secrets.STREAMLIT_APP_URL }}" --max-time 30)
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://prism-insight-ocl76ibeikwahyqxicbwhf.streamlit.app/" --max-time 30)
           echo "HTTP status: $STATUS"
           if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
             echo "App is alive ✓"
